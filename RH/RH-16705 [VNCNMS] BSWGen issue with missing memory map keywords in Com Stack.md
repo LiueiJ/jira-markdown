@@ -4,10 +4,10 @@ jira_url: "https://rtahotline.etas.com/jira/browse/RH-16705"
 server: rtahotline
 kind: hotline
 type: Support
-status: Closed
+status: Waiting for Level 2
 priority: High
 project: RH
-assignee: xiao.bai@cn.bosch.com
+assignee: phuong.nguyenle@vn.bosch.com
 reporter: xiao.bai@cn.bosch.com
 tags: [VNCNMS]
 components: [Drivers/Transceivers for Can-Lin-Fr]
@@ -15,14 +15,14 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-07-20T10:28:37.000+0200"
-updated: "2026-08-18T14:27:05.000+0200"
-synced-at: "2026-09-06T06:58:38.472Z"
+updated: "2026-09-06T15:05:21.000+0200"
+synced-at: "2026-09-06T13:55:59.206Z"
 jira-orphaned: false
 ---
 
 # RH-16705 [VNCNMS] BSWGen issue with missing memory map keywords in Com Stack
 
-> [!jira] Closed · High · [[Xiao_BAI|Xiao BAI]] · 更新于 2026-08-18T14:27:05.000+0200
+> [!jira] Waiting for Level 2 · High · [[Phuong_Nguyen_Le|Phuong Nguyen Le]] · 更新于 2026-09-06T15:05:21.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-16705)
 
 > 标签：#jira/comp/drivers/transceivers-for-can-lin-fr #jira/label/vncnms
@@ -62,6 +62,17 @@ Attached is the reference file.
 - is mentioned in: [[RH-16775 [VNCNMS][VCTC] Avoid Using Static Variables Inside Functions]]
 
 ## 评论
+
+> [!note]+ 2026-09-06 15:05 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Cuong_Phan_Manh|Cuong Phan Manh]] ,
+>
+> I have checked these codes based on RTA CAR 12.11, but there are still issues that have not been fixed. Could you please provide the specific fix version and the plan/timeline?
+>
+> For example, the function shown in the picture below does not contain any section-related code at all.
+>
+> ![[RH-16705-image-2026-09-06-21-04-16-636.png]]
+
+-------
 
 > [!note]+ 2026-08-18 14:27 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
