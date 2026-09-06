@@ -43,7 +43,7 @@ SORT status ASC
 - [[RH-16738 [CNMS][VCTC]SchM code definition and references are inconsistent]] — Closed
 - [[RH-16704 [CNMS][VCTC]Remove KeyM Background Event]] — Closed
 - [[RH-16737 [VNCNMS]The TCP and UDP Events are configured within the same Event Group.]] — Closed
-- [[RH-16705 [VNCNMS] BSWGen issue with missing memory map keywords in Com Stack]] — Closed
+- [[RH-16705 [VNCNMS] BSWGen issue with missing memory map keywords in Com Stack]] — Waiting for Level 2
 - [[RH-16701 [CNMS][VCTC]BlankCheck takes too long, causing memacc to remain busy]] — Closed
 - [[RH-16658 [CNMS][VCTC]Some host code sections for HSM are missing the memory section]] — Waiting for Level 3
 - [[RH-16646 [VNCNMS][VCTC]Questions on Protocol Disable Enable Implementation Options]] — Closed
