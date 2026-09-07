@@ -7,7 +7,7 @@ type: Support
 status: Waiting for Level 2
 priority: High
 project: RH
-assignee: phuong.nguyenle@vn.bosch.com
+assignee: cuong.phanmanh@vn.bosch.com
 reporter: xiao.bai@cn.bosch.com
 tags: [VNCNMS]
 components: [Drivers/Transceivers for Can-Lin-Fr]
@@ -15,14 +15,14 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-07-20T10:28:37.000+0200"
-updated: "2026-09-06T15:05:21.000+0200"
-synced-at: "2026-09-06T13:55:59.206Z"
+updated: "2026-09-07T08:24:00.000+0200"
+synced-at: "2026-09-07T07:10:44.613Z"
 jira-orphaned: false
 ---
 
 # RH-16705 [VNCNMS] BSWGen issue with missing memory map keywords in Com Stack
 
-> [!jira] Waiting for Level 2 · High · [[Phuong_Nguyen_Le|Phuong Nguyen Le]] · 更新于 2026-09-06T15:05:21.000+0200
+> [!jira] Waiting for Level 2 · High · [[Cuong_Phan_Manh|Cuong Phan Manh]] · 更新于 2026-09-07T08:24:00.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-16705)
 
 > 标签：#jira/comp/drivers/transceivers-for-can-lin-fr #jira/label/vncnms

@@ -15,14 +15,14 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-08-25T11:22:50.000+0200"
-updated: "2026-09-04T13:25:02.000+0200"
-synced-at: "2026-09-06T06:58:38.472Z"
+updated: "2026-09-07T08:55:22.000+0200"
+synced-at: "2026-09-07T07:10:44.613Z"
 jira-orphaned: false
 ---
 
 # RH-17023 [VCTC] RTA-CAR 12.11 Migration RTA-CAR Toolchain Issues
 
-> [!jira] Waiting for Level 3 · Critical · [[Annamalai_Rajasekar|Annamalai Rajasekar]] · 更新于 2026-09-04T13:25:02.000+0200
+> [!jira] Waiting for Level 3 · Critical · [[Annamalai_Rajasekar|Annamalai Rajasekar]] · 更新于 2026-09-07T08:55:22.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17023)
 
 > 标签：#jira/comp/generic-importers #jira/comp/isolar-a/b #jira/label/isolar-ab
@@ -104,6 +104,17 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 - mentions: [[RH-16347 RTE code gen Error parsing input file ]]
 
 ## 评论
+
+> [!note]+ 2026-09-07 08:55 · [[Jie_LIU|Jie LIU]]
+> [[M_S_Karthik|M S Karthik]] , thanks for the feedback. 
+>
+> Yes, it is required in CW38 to have one version for our ETAS internal testing.
+>
+> And in CW39, we need one version to deliver to customer as VCTC PR7 release with other bugfix as a whole.
+>
+> cc. [[Phuong_Nguyen_Le|Phuong Nguyen Le]]  [[Lan_Tran|Lan Tran]] 
+
+-------
 
 > [!note]+ 2026-09-04 13:24 · [[M_S_Karthik|M S Karthik]]
 > [[Jie_LIU|Jie LIU]], Thanks for asking.

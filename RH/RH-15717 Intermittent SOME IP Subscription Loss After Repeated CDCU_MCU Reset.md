@@ -4,10 +4,10 @@ jira_url: "https://rtahotline.etas.com/jira/browse/RH-15717"
 server: rtahotline
 kind: hotline
 type: Analysis Request
-status: Closed
+status: Waiting for Level 2
 priority: Critical
 project: RH
-assignee: jie.liu8@etas.com
+assignee: james.butterfield@etas.com
 reporter: jie.liu8@etas.com
 tags: []
 components: [Communication-Eth]
@@ -15,14 +15,14 @@ fix-versions: [RTA-CAR 12.13.0]
 epic: null
 parent: null
 created: "2026-04-09T16:08:43.000+0200"
-updated: "2026-06-23T11:39:13.000+0200"
-synced-at: "2026-09-06T06:58:38.472Z"
+updated: "2026-09-07T08:47:13.000+0200"
+synced-at: "2026-09-07T07:10:44.613Z"
 jira-orphaned: false
 ---
 
 # RH-15717 Intermittent SOME/IP Subscription Loss After Repeated CDCU_MCU Reset
 
-> [!jira] Closed · Critical · [[Jie_LIU|Jie LIU]] · 更新于 2026-06-23T11:39:13.000+0200
+> [!jira] Waiting for Level 2 · Critical · [[James_Butterfield|James Butterfield]] · 更新于 2026-09-07T08:47:13.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-15717)
 
 > 标签：#jira/comp/communication-eth
