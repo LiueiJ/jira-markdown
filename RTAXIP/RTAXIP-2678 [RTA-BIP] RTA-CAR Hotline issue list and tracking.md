@@ -4,7 +4,7 @@ jira_url: "https://jira.etas-dev.com/browse/RTAXIP-2678"
 server: etas
 kind: motivation
 type: Story
-status: Closed
+status: In Progress
 priority: Medium
 project: RTAXIP
 assignee: puy1hc
@@ -15,14 +15,14 @@ fix-versions: []
 epic: null
 parent: null
 created: "2025-11-04T11:54:39.000+0000"
-updated: "2026-08-27T06:45:16.000+0000"
-synced-at: "2026-09-06T06:57:27.567Z"
+updated: "2026-09-07T08:08:03.000+0000"
+synced-at: "2026-09-07T08:10:44.636Z"
 jira-orphaned: false
 ---
 
 # RTAXIP-2678 [RTA-BIP] RTA-CAR Hotline issue list and tracking
 
-> [!jira] Closed · Medium · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Nguyen Le Phuong (MS/ETA-Hub-CN)]] · 更新于 2026-08-27T06:45:16.000+0000
+> [!jira] In Progress · Medium · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Nguyen Le Phuong (MS/ETA-Hub-CN)]] · 更新于 2026-09-07T08:08:03.000+0000
 > [在 Jira 中打开](https://jira.etas-dev.com/browse/RTAXIP-2678)
 
 > 标签：#jira/label/rta-bip-rh
