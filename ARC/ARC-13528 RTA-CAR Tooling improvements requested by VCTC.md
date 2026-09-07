@@ -17,7 +17,7 @@ parent: "[[ARC-9902 VCTC : VW CEA2.0 (CDCU,LDCU,RDCU & RearDCU)]]"
 created: "2025-10-30T08:37:24.000+0000"
 updated: "2026-06-01T08:55:17.000+0000"
 synced-at: "2026-09-07T09:18:38.885Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-13528 RTA-CAR Tooling improvements requested by VCTC

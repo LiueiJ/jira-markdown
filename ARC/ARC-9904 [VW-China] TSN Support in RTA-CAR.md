@@ -17,7 +17,7 @@ parent: "[[ARC-9902 VCTC : VW CEA2.0 (CDCU,LDCU,RDCU & RearDCU)]]"
 created: "2025-03-28T05:27:33.000+0000"
 updated: "2026-01-21T04:56:53.000+0000"
 synced-at: "2026-09-07T09:18:38.885Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-9904 [VW-China] TSN Support in RTA-CAR

@@ -17,7 +17,7 @@ parent: "[[ARC-9902 VCTC : VW CEA2.0 (CDCU,LDCU,RDCU & RearDCU)]]"
 created: "2025-09-04T07:22:04.000+0000"
 updated: "2026-08-31T05:02:39.000+0000"
 synced-at: "2026-09-07T09:18:38.885Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-12575 Server-Client support for TLS 1.3 (Incl. PSK feature)

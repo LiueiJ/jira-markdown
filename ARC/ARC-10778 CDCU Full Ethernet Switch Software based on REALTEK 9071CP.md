@@ -17,7 +17,7 @@ parent: "[[ARC-9902 VCTC : VW CEA2.0 (CDCU,LDCU,RDCU & RearDCU)]]"
 created: "2025-05-09T05:08:51.000+0000"
 updated: "2026-05-11T20:54:39.000+0000"
 synced-at: "2026-09-07T09:18:38.885Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-10778 CDCU Full Ethernet Switch Software based on REALTEK 9071CP

@@ -17,7 +17,7 @@ parent: "[[ARC-9902 VCTC : VW CEA2.0 (CDCU,LDCU,RDCU & RearDCU)]]"
 created: "2025-08-14T12:20:10.000+0000"
 updated: "2026-06-09T09:35:10.000+0000"
 synced-at: "2026-09-07T09:18:38.885Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-12437 CycurHSM3 shall support CSS

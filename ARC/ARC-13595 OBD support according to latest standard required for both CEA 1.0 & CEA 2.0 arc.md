@@ -17,7 +17,7 @@ parent: "[[ARC-9902 VCTC : VW CEA2.0 (CDCU,LDCU,RDCU & RearDCU)]]"
 created: "2025-11-12T05:31:59.000+0000"
 updated: "2026-01-15T02:13:21.000+0000"
 synced-at: "2026-09-07T09:18:38.885Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-13595 OBD support according to latest standard required for both CEA 1.0 & CEA 2.0 architecture

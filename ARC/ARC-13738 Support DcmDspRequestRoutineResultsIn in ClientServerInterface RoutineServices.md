@@ -17,7 +17,7 @@ parent: "[[ARC-9902 VCTC : VW CEA2.0 (CDCU,LDCU,RDCU & RearDCU)]]"
 created: "2025-11-27T06:32:50.000+0000"
 updated: "2026-02-24T07:25:01.000+0000"
 synced-at: "2026-09-07T09:18:38.885Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-13738 Support DcmDspRequestRoutineResultsIn in ClientServerInterface RoutineServices

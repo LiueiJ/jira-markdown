@@ -17,7 +17,7 @@ parent: "[[ARC-9902 VCTC : VW CEA2.0 (CDCU,LDCU,RDCU & RearDCU)]]"
 created: "2025-09-16T08:58:29.000+0000"
 updated: "2026-04-22T15:17:46.000+0000"
 synced-at: "2026-09-07T09:18:38.885Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-12713 Transceiver drivers support for  TLIN1022 ; DP83TC812S ; RTL9000BS
