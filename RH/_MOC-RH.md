@@ -121,4 +121,4 @@ SORT status ASC
 - [[RH-17116 [VNCNMS][VCTC]Triggering of TCP messages in the SD module]] — Waiting for Level 3
 - [[RH-17137 [VNCNMS][Cariad] BSWGen issue with missing memory map keywords in Lin Stack]] — Waiting for Customer
 - [[RH-17139 [VNCNMS] BSWGen issue with missing memory map keywords in Mfl]] — Investigation Required
-- [[RH-17140 Logic issues related to E2E signal groups in the RTE]] — Investigation Required
+- [[RH-17140 Logic issues related to E2E signal groups in the RTE]] — Waiting for Customer
