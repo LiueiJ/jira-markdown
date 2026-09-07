@@ -16,7 +16,7 @@ epic: null
 parent: null
 created: "2026-07-07T03:27:07.000+0000"
 updated: "2026-08-11T14:23:11.000+0000"
-synced-at: "2026-09-07T19:18:50.924Z"
+synced-at: "2026-09-07T20:18:50.944Z"
 jira-orphaned: false
 ---
 
