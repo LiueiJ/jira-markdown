@@ -4,10 +4,10 @@ jira_url: "https://rtahotline.etas.com/jira/browse/RH-17140"
 server: rtahotline
 kind: hotline
 type: Support
-status: Investigation Required
+status: Waiting for Customer
 priority: Critical
 project: RH
-assignee: phong.tangdieu@etas.com
+assignee: junsheng.zhang@bosch.com
 reporter: junsheng.zhang@bosch.com
 tags: []
 components: []
@@ -15,14 +15,14 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-09-07T15:16:48.000+0200"
-updated: "2026-09-07T17:19:41.000+0200"
-synced-at: "2026-09-07T16:18:50.895Z"
+updated: "2026-09-07T18:25:44.000+0200"
+synced-at: "2026-09-07T17:18:50.909Z"
 jira-orphaned: false
 ---
 
 # RH-17140 Logic issues related to E2E signal groups in the RTE
 
-> [!jira] Investigation Required · Critical · [[Phong_Tang_Dieu|Phong Tang Dieu]] · 更新于 2026-09-07T17:19:41.000+0200
+> [!jira] Waiting for Customer · Critical · [[Junsheng_ZHANG|Junsheng ZHANG]] · 更新于 2026-09-07T18:25:44.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17140)
 
 ## 描述
@@ -58,6 +58,14 @@ Hi Hotline,
  ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
+
+> [!note]+ 2026-09-07 18:25 · [[Phong_Tang_Dieu|Phong Tang Dieu]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Could you please describe more detailed about the use case? 
+> And could you share the project as well? It would be helpful to analyze the issue. From my side, I could find any similar generated code even for E2E and E2EXf.
+> Thanks,
+
+-------
 
 > [!note]+ 2026-09-07 15:21 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Junsheng ZHANG. Your issue is set to "Critical" priority.
