@@ -15,14 +15,14 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-09-04T03:49:54.000+0000"
-updated: "2026-09-04T12:33:05.000+0000"
-synced-at: "2026-09-06T06:57:27.567Z"
+updated: "2026-09-07T02:43:51.000+0000"
+synced-at: "2026-09-07T03:10:44.518Z"
 jira-orphaned: false
 ---
 
 # RTAXIP-4125 RIP/FBL BHAP TC49X+HighTec + IFX EVB
 
-> [!jira] Open · Medium · [[Nguyen_Quoc_Su_(MSETA-Hub-CN)|Nguyen Quoc Su (MS/ETA-Hub-CN)]] · 更新于 2026-09-04T12:33:05.000+0000
+> [!jira] Open · Medium · [[Nguyen_Quoc_Su_(MSETA-Hub-CN)|Nguyen Quoc Su (MS/ETA-Hub-CN)]] · 更新于 2026-09-07T02:43:51.000+0000
 > [在 Jira 中打开](https://jira.etas-dev.com/browse/RTAXIP-4125)
 
 > 标签：#jira/label/xip-local-accq
@@ -37,7 +37,7 @@ jira-orphaned: false
 
 **Phase**: acquisition &#91;x&#93;, Initial phase &#91;o&#93;
 
-**Motivation** ($): 
+**Motivation** ($): 1M CNY
 
 **SOR** link (Version):  <TBD>
 
