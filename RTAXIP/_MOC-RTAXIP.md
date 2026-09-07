@@ -21,7 +21,7 @@ SORT status ASC
 - [[RTAXIP-2658 [RTA-BIP-UC][IpduM] IpduM_InitValues CodeGen to confirm - Bug Checking]] — Open
 - [[RTAXIP-2659 [RTA-BIP-UC] LIN Com Stack Integration in BIP]] — In Progress
 - [[RTAXIP-2661 [RTA-BIP-UC] Improve Requirements, Test Specification, and Test Results for Eth-]] — Closed
-- [[RTAXIP-2678 [RTA-BIP] RTA-CAR Hotline issue list and tracking]] — Closed
+- [[RTAXIP-2678 [RTA-BIP] RTA-CAR Hotline issue list and tracking]] — In Progress
 - [[RTAXIP-2680 [RTA-BIP][Corba] Improve SrcFix apply for folder has same name in RTA-CAR config]] — Open
 - [[RTAXIP-2698 [RTA-BIP-UC] Improvement points for multi-core WdgM use case]] — Closed
 - [[RTAXIP-2743 [RTA-BIP-RH] Check the resolution of RH-14332 - RTA-RTE gen error with DoIP_BSWM]] — Closed
