@@ -4,10 +4,10 @@ jira_url: "https://rtahotline.etas.com/jira/browse/RH-16960"
 server: rtahotline
 kind: hotline
 type: Support
-status: Waiting for Level 3
+status: Solution Proposed
 priority: High
 project: RH
-assignee: gunjanpradip.mantala@in.bosch.com
+assignee: junsheng.zhang@bosch.com
 reporter: junsheng.zhang@bosch.com
 tags: [VNCNMS]
 components: [Diagnostic-EventStateMgmt]
@@ -15,14 +15,14 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-08-18T11:40:56.000+0200"
-updated: "2026-09-07T09:46:46.000+0200"
-synced-at: "2026-09-07T08:10:44.633Z"
+updated: "2026-09-07T16:36:19.000+0200"
+synced-at: "2026-09-07T15:18:36.873Z"
 jira-orphaned: false
 ---
 
 # RH-16960 [VNCNMS][VCTC]Multicore issues in DEM
 
-> [!jira] Waiting for Level 3 · High · [[Gunjan_Pradip_Mantala|Gunjan Pradip Mantala]] · 更新于 2026-09-07T09:46:46.000+0200
+> [!jira] Solution Proposed · High · [[Junsheng_ZHANG|Junsheng ZHANG]] · 更新于 2026-09-07T16:36:19.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-16960)
 
 > 标签：#jira/comp/diagnostic-eventstatemgmt #jira/label/vncnms
@@ -68,6 +68,17 @@ Because we found that after configuring cross-core, the “from-core” side onl
  ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
+
+> [!note]+ 2026-09-07 16:36 · [[Sagar_Subbaramaiah|Sagar Subbaramaiah]]
+> Hi [[Jie_LIU|Jie LIU]] 
+>
+> There is no +explicit+ specification in AR that the API Dem_SetEventAvailable() API can only be called once at the very beginning. We can check with our representiative in the AR-workgroup to see if such a constraint can be added to a future version of AR SWS. In any case, considering that the API itself is intended for variant handling, we did not expect it to be called during normal operation. But if the customer claims that the variant switch can happen at any time, it would be interesting to collect more details of their use-case. So, could you please get some more details on this?
+>
+> Having said that, please note that updating the function `Dem_RepIUMPRDenRelease()` to include the line `Dem_EvtIsAvailable(rba_DemObdBasic_Ratio_GetEvent(RatioID)` within the critical section makes no difference in the end, as the availability status of the event is accessed **only once** within `Dem_RepIUMPRDenRelease()` and that access is a *read-access*. Only if it were a write-access or if there were multiple read accesses, an exclusive area would have made sense e.g., by ensuring that the different reads do not return different results.
+>
+> In short, we still do not see any need to include `Dem_EvtIsAvailable(rba_DemObdBasic_Ratio_GetEvent(RatioID)` within the exclusive area. Nevertheless, we understand that the customer has not noticed any data consistency issues in real life but is only concerned due to the theoretical risk. Buf from our perspective, even this theoretical concern is not warranted. However, if the customer has any concrete situation (however theoretical it may be) that we might have missed, where the usage of exclusive area brings any real difference/benefit, please let us know.
+
+-------
 
 > [!note]+ 2026-09-07 09:46 · [[Darren_Buttle|Darren Buttle]]
 > [[Gunjan_Pradip_Mantala|Gunjan Pradip Mantala]] - just speaking with the ETCN team and they have a customer meeting on Wednesday and they need to provide some feedback on this issue. Can you make sure that they have something by End of Business on Tuesday 8/Sept/26 Thanks!
