@@ -52,7 +52,7 @@ SORT status ASC
 - [[RH-15475 Question About Placing Fee Module Section in Cache Region]] — Closed
 - [[RH-15517 When Mem_write returns E_NOT_OK, Memacc do not terminate current job]] — Closed
 - [[RH-15554 [CNMS][VCTC] RTA-SWCL Product Certification Issues]] — Closed
-- [[RH-15717 Intermittent SOME IP Subscription Loss After Repeated CDCU_MCU Reset]] — Waiting for Level 2
+- [[RH-15717 Intermittent SOME IP Subscription Loss After Repeated CDCU_MCU Reset]] — Waiting for Customer
 - [[RH-15727 [CARIAD] OBD Related Questions]] — Closed
 - [[RH-15741 [CNMS][VCTC]Rips Issues caused by version upgrades]] — Closed
 - [[RH-15864 [VW Cariad CEA2.0] Usage Question for Eth Time Sync Phc Feature]] — Closed
