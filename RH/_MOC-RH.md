@@ -101,7 +101,7 @@ SORT status ASC
 - [[RH-16863 [VNCNMS][VCTC]AliveTimeout configuration is not taking effect]] — Closed
 - [[RH-16903 Xcp_SetControlMode接口使用问题]] — Closed
 - [[RH-16912 [VNCNMS][VCTC]Macro definition of DOIP_NACK_OUT_OF_MEMORY]] — Closed
-- [[RH-16960 [VNCNMS][VCTC]Multicore issues in DEM]] — Waiting for Level 3
+- [[RH-16960 [VNCNMS][VCTC]Multicore issues in DEM]] — Solution Proposed
 - [[RH-16976 [VNCNMS][VCTC] OBD Cross-Core Implementation and NoOBD Configuration Follow-Up I]] — Closed
 - [[RH-16985 [VNCNMS][VCTC] OBDonUDS & OBDclassic Test Issues]] — Solution Proposed
 - [[RH-17005 Issues caused by the HSM version update to 3.0.7]] — Waiting for Customer
