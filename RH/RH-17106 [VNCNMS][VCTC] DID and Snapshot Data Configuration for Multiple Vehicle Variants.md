@@ -15,14 +15,14 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-09-02T10:21:32.000+0200"
-updated: "2026-09-04T09:35:12.000+0200"
-synced-at: "2026-09-06T06:58:38.472Z"
+updated: "2026-09-07T14:49:27.000+0200"
+synced-at: "2026-09-07T13:18:36.829Z"
 jira-orphaned: false
 ---
 
 # RH-17106 [VNCNMS][VCTC] DID and Snapshot Data Configuration for Multiple Vehicle Variants
 
-> [!jira] Solution Proposed · Low · [[Jiaqi_JI|Jiaqi JI]] · 更新于 2026-09-04T09:35:12.000+0200
+> [!jira] Solution Proposed · Low · [[Jiaqi_JI|Jiaqi JI]] · 更新于 2026-09-07T14:49:27.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17106)
 
 > 标签：#jira/label/vncnms
@@ -84,6 +84,11 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
  **ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
+
+> [!note]+ 2026-09-07 14:49 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> [^PBS for BIP.pdf]
+
+-------
 
 > [!note]+ 2026-09-04 09:35 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > After today's meeting, the customer confirmed that they would like to support multiple variants with a single software implementation. Post-Build Selectable (PBS) was identified as the most suitable approach for this use case, and it was introduced during the meeting.
