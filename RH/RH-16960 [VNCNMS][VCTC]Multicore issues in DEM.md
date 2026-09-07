@@ -5,7 +5,7 @@ server: rtahotline
 kind: hotline
 type: Support
 status: Waiting for Level 3
-priority: Critical
+priority: High
 project: RH
 assignee: gunjanpradip.mantala@in.bosch.com
 reporter: junsheng.zhang@bosch.com
@@ -15,14 +15,14 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-08-18T11:40:56.000+0200"
-updated: "2026-09-04T10:35:01.000+0200"
-synced-at: "2026-09-06T06:58:38.472Z"
+updated: "2026-09-07T09:46:46.000+0200"
+synced-at: "2026-09-07T08:10:44.633Z"
 jira-orphaned: false
 ---
 
 # RH-16960 [VNCNMS][VCTC]Multicore issues in DEM
 
-> [!jira] Waiting for Level 3 · Critical · [[Gunjan_Pradip_Mantala|Gunjan Pradip Mantala]] · 更新于 2026-09-04T10:35:01.000+0200
+> [!jira] Waiting for Level 3 · High · [[Gunjan_Pradip_Mantala|Gunjan Pradip Mantala]] · 更新于 2026-09-07T09:46:46.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-16960)
 
 > 标签：#jira/comp/diagnostic-eventstatemgmt #jira/label/vncnms
@@ -68,6 +68,11 @@ Because we found that after configuring cross-core, the “from-core” side onl
  ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
+
+> [!note]+ 2026-09-07 09:46 · [[Darren_Buttle|Darren Buttle]]
+> [[Gunjan_Pradip_Mantala|Gunjan Pradip Mantala]] - just speaking with the ETCN team and they have a customer meeting on Wednesday and they need to provide some feedback on this issue. Can you make sure that they have something by End of Business on Tuesday 8/Sept/26 Thanks!
+
+-------
 
 > [!note]+ 2026-09-04 10:35 · [[Jie_LIU|Jie LIU]]
 > hello, [[Vihitha_Jain_(vihitha.jain@bosch.com)|Vihitha Jain]] 

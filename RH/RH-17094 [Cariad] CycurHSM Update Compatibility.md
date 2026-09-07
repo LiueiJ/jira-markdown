@@ -4,26 +4,28 @@ jira_url: "https://rtahotline.etas.com/jira/browse/RH-17094"
 server: rtahotline
 kind: hotline
 type: Support
-status: Investigation Required
+status: Closed
 priority: Critical
 project: RH
-assignee: lukas.riemenschneider@etas.com
+assignee: steven.tang@etas.com
 reporter: steven.tang@etas.com
 tags: []
-components: []
+components: [CycurHSM3]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-09-02T04:19:31.000+0200"
-updated: "2026-09-02T10:07:00.000+0200"
-synced-at: "2026-09-06T06:58:38.472Z"
+updated: "2026-09-07T09:20:29.000+0200"
+synced-at: "2026-09-07T08:10:44.633Z"
 jira-orphaned: false
 ---
 
 # RH-17094 [Cariad] CycurHSM Update Compatibility
 
-> [!jira] Investigation Required · Critical · [[Lukas_Riemenschneider|Lukas Riemenschneider]] · 更新于 2026-09-02T10:07:00.000+0200
+> [!jira] Closed · Critical · [[Steven.Tang|Steven.Tang]] · 更新于 2026-09-07T09:20:29.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17094)
+
+> 标签：#jira/comp/cycurhsm3
 
 ## 描述
 
@@ -58,6 +60,17 @@ This compatibility question is currently affecting the customer's HSM validation
   ** ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
+
+> [!note]+ 2026-09-07 09:14 · [[Sathish_Kumar_Madanmohan|Sathish Kumar Madanmohan]]
+> The issue is addressed and customer has done the stress testing and the feedback is positive. 
+>
+> THe next step is ensure the solution is of production quality. 
+>
+> [[Sandra_Weigl|Sandra Weigl]]  next step is to release this in production quality.  Customer expected date : E.09 / or 1st Week of Oct-2026
+>
+> [[Steven.Tang|Steven.Tang]] [[Jie_LIU|Jie LIU]]  [[Jiaqi_JI|Jiaqi JI]]  fyi
+
+-------
 
 > [!note]+ 2026-09-02 07:36 · [[Steven_TANG|Steven TANG]]
 > we meet the CycurHSM 3.0.7.b1 could not be updated to the new released Hotfix package CycurHSM3.0.7.b3 problem. detail you can see the following: 
