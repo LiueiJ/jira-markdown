@@ -5,7 +5,7 @@ server: rtahotline
 kind: hotline
 type: Support
 status: Waiting for Level 3
-priority: Critical
+priority: High
 project: RH
 assignee: jens.jung@etas.com
 reporter: dong.liu5@etas.com
@@ -15,14 +15,14 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-07-14T12:47:31.000+0200"
-updated: "2026-08-27T12:04:00.000+0200"
-synced-at: "2026-09-06T06:58:38.472Z"
+updated: "2026-09-07T09:58:48.000+0200"
+synced-at: "2026-09-07T08:10:44.633Z"
 jira-orphaned: false
 ---
 
 # RH-16639 Ethernet Time Synchronization Deviation Issue
 
-> [!jira] Waiting for Level 3 · Critical · [[Jens_Jung|Jens Jung]] · 更新于 2026-08-27T12:04:00.000+0200
+> [!jira] Waiting for Level 3 · High · [[Jens_Jung|Jens Jung]] · 更新于 2026-09-07T09:58:48.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-16639)
 
 > 标签：#jira/comp/communication-timeservices

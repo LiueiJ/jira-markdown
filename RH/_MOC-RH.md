@@ -52,7 +52,7 @@ SORT status ASC
 - [[RH-15475 Question About Placing Fee Module Section in Cache Region]] — Closed
 - [[RH-15517 When Mem_write returns E_NOT_OK, Memacc do not terminate current job]] — Closed
 - [[RH-15554 [CNMS][VCTC] RTA-SWCL Product Certification Issues]] — Closed
-- [[RH-15717 Intermittent SOME IP Subscription Loss After Repeated CDCU_MCU Reset]] — Closed
+- [[RH-15717 Intermittent SOME IP Subscription Loss After Repeated CDCU_MCU Reset]] — Waiting for Level 2
 - [[RH-15727 [CARIAD] OBD Related Questions]] — Closed
 - [[RH-15741 [CNMS][VCTC]Rips Issues caused by version upgrades]] — Closed
 - [[RH-15864 [VW Cariad CEA2.0] Usage Question for Eth Time Sync Phc Feature]] — Closed
@@ -113,7 +113,7 @@ SORT status ASC
 - [[RH-17071 [VNCNMS][VCTC]A local variable in Rte_COMCbk is not initialized]] — Solution Proposed
 - [[RH-17072 Os generate error]] — Closed
 - [[RH-17085 The RTE generated section name is incorrect.]] — Waiting for Customer
-- [[RH-17094 [Cariad] CycurHSM Update Compatibility]] — Investigation Required
+- [[RH-17094 [Cariad] CycurHSM Update Compatibility]] — Closed
 - [[RH-17095 [Cariad] HWCSP Function Failure After HSM Reboot]] — Investigation Required
 - [[RH-17096 [Cariad] HWCSP Initialization Sequence]] — Investigation Required
 - [[RH-17106 [VNCNMS][VCTC] DID and Snapshot Data Configuration for Multiple Vehicle Variants]] — Solution Proposed
