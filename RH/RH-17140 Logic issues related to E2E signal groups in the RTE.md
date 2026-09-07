@@ -7,7 +7,7 @@ type: Support
 status: Investigation Required
 priority: Critical
 project: RH
-assignee: ""
+assignee: phong.tangdieu@etas.com
 reporter: junsheng.zhang@bosch.com
 tags: []
 components: []
@@ -15,14 +15,14 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-09-07T15:16:48.000+0200"
-updated: "2026-09-07T15:21:06.000+0200"
-synced-at: "2026-09-07T14:18:36.861Z"
+updated: "2026-09-07T17:19:41.000+0200"
+synced-at: "2026-09-07T16:18:50.895Z"
 jira-orphaned: false
 ---
 
 # RH-17140 Logic issues related to E2E signal groups in the RTE
 
-> [!jira] Investigation Required · Critical ·  · 更新于 2026-09-07T15:21:06.000+0200
+> [!jira] Investigation Required · Critical · [[Phong_Tang_Dieu|Phong Tang Dieu]] · 更新于 2026-09-07T17:19:41.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17140)
 
 ## 描述
