@@ -4,10 +4,10 @@ jira_url: "https://rtahotline.etas.com/jira/browse/RH-16705"
 server: rtahotline
 kind: hotline
 type: Support
-status: Waiting for Level 2
+status: Solution Proposed
 priority: High
 project: RH
-assignee: cuong.phanmanh@vn.bosch.com
+assignee: xiao.bai@cn.bosch.com
 reporter: xiao.bai@cn.bosch.com
 tags: [VNCNMS]
 components: [Drivers/Transceivers for Can-Lin-Fr]
@@ -15,14 +15,14 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-07-20T10:28:37.000+0200"
-updated: "2026-09-07T08:24:00.000+0200"
-synced-at: "2026-09-07T07:10:44.613Z"
+updated: "2026-09-07T12:35:57.000+0200"
+synced-at: "2026-09-07T11:18:36.755Z"
 jira-orphaned: false
 ---
 
 # RH-16705 [VNCNMS] BSWGen issue with missing memory map keywords in Com Stack
 
-> [!jira] Waiting for Level 2 · High · [[Cuong_Phan_Manh|Cuong Phan Manh]] · 更新于 2026-09-07T08:24:00.000+0200
+> [!jira] Solution Proposed · High · [[Xiao_BAI|Xiao BAI]] · 更新于 2026-09-07T12:35:57.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-16705)
 
 > 标签：#jira/comp/drivers/transceivers-for-can-lin-fr #jira/label/vncnms
@@ -59,9 +59,15 @@ Attached is the reference file.
 
 ## 关联
 
+- mentions: [[RH-17137 [VNCNMS][Cariad] BSWGen issue with missing memory map keywords in Lin Stack]]
 - is mentioned in: [[RH-16775 [VNCNMS][VCTC] Avoid Using Static Variables Inside Functions]]
 
 ## 评论
+
+> [!note]+ 2026-09-07 12:35 · [[Cuong_Phan_Manh|Cuong Phan Manh]]
+> Hello [[Junsheng_ZHANG|Junsheng ZHANG]] , It seems that this issue is related to the Lin Stack. Therefore, I would like to create a new ticket RH-17137 for this issue and close the current one, which will make it easier for us to provide support and track the issue in the future.
+
+-------
 
 > [!note]+ 2026-09-06 15:05 · [[Junsheng_ZHANG|Junsheng ZHANG]]
 > Hi [[Cuong_Phan_Manh|Cuong Phan Manh]] ,
