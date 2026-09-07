@@ -11,18 +11,18 @@ assignee: eei1sgh
 reporter: aiu2sgh
 tags: [XIP-Local-Accq]
 components: []
-fix-versions: [Huaxu_RTA_BIP_cdels_TC397TK_1290]
+fix-versions: [RBCD_BIP_S32G399_GHS]
 epic: null
 parent: null
 created: "2026-08-25T07:49:55.000+0000"
-updated: "2026-08-25T07:51:22.000+0000"
-synced-at: "2026-09-06T06:57:27.567Z"
+updated: "2026-09-07T11:37:44.000+0000"
+synced-at: "2026-09-07T12:18:36.791Z"
 jira-orphaned: false
 ---
 
 # RTAXIP-4089 [RTA-BIP][RBCD-Accq] S32G399 Customer Board RTA-CAR 12.11.0
 
-> [!jira] Open · Medium · [[JI_Jiaqi_(ETAS-ECMXSF-CN)|JI Jiaqi (ETAS-ECM/XSF-CN)]] · 更新于 2026-08-25T07:51:22.000+0000
+> [!jira] Open · Medium · [[JI_Jiaqi_(ETAS-ECMXSF-CN)|JI Jiaqi (ETAS-ECM/XSF-CN)]] · 更新于 2026-09-07T11:37:44.000+0000
 > [在 Jira 中打开](https://jira.etas-dev.com/browse/RTAXIP-4089)
 
 > 标签：#jira/label/xip-local-accq
