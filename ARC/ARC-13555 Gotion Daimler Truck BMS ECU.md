@@ -17,7 +17,7 @@ parent: null
 created: "2025-11-05T06:17:45.000+0000"
 updated: "2026-09-03T06:59:51.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-13555 Gotion Daimler Truck BMS ECU

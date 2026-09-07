@@ -17,7 +17,7 @@ parent: null
 created: "2025-11-17T08:33:14.000+0000"
 updated: "2026-01-21T13:52:41.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-13612 PATAC Cadillac Platform L243

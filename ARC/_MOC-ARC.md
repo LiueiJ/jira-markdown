@@ -19,6 +19,9 @@ SORT status ASC
 - [[ARC-1038 BAIC, Various projects]] — Accepted
 - [[ARC-106 Geely Zeekr Opportunity]] — Canceled
 - [[ARC-1062 CTM Xpeng]] — Canceled
+- [[ARC-10627 LDF Importer enhancement to complete LinTpConfig]] — Satisfied
+- [[ARC-10778 CDCU Full Ethernet Switch Software based on REALTEK 9071CP]] — New
+- [[ARC-10779 CryptoDriver & CycurHSM3.x shall support HW-CSP APIs for devices with Host sided]] — Analyzed
 - [[ARC-11448 【Carizon】DCM Specific Cause Code]] — Canceled
 - [[ARC-11744 Vofonturbo Suspension ECU for Geely]] — New
 - [[ARC-11745 MAXUS Zone ECU]] — New
@@ -29,21 +32,31 @@ SORT status ASC
 - [[ARC-12355 Magna ADAS ECU]] — Canceled
 - [[ARC-12356 TBD]] — New
 - [[ARC-12404 HESAI - Request for DOIP & TCP - SACK]] — New
+- [[ARC-12437 CycurHSM3 shall support CSS]] — New
+- [[ARC-12575 Server-Client support for TLS 1.3 (Incl. PSK feature)]] — On Hold
 - [[ARC-12588 HVR Solutions for BYD]] — New
 - [[ARC-12589 HVR Solutions for Changan]] — New
 - [[ARC-12617 [RTA-CCM] Charging solutions for BYD]] — New
 - [[ARC-12638 Whaleintech (Jiongyi) TTA8 Lite AUTOSAR]] — New
+- [[ARC-12713 Transceiver drivers support for TLIN1022 ; DP83TC812S ; RTL9000BS]] — Analyzed
 - [[ARC-12748 Qualcomm Partner Activities]] — Accepted
+- [[ARC-12799 CEA 2.0 BswM Multicore usecase support in RTA-CAR]] — Analyzed
 - [[ARC-13246 VinFast ADAS ECU]] — New
 - [[ARC-133 MCAL - Renesas RH850 P1x-C CAN, FlexRay & Fee MCAL driver support]] — Canceled
+- [[ARC-13331 RTE Support for Implicit+Transformer Feature]] — Satisfied
 - [[ARC-13421 DHU Central Gateway]] — New
 - [[ARC-13494 Enhance RTA-CAR to enable COBRA use-cases]] — New
+- [[ARC-13516 RTA-CAR Document Improvement for VW Cariad]] — On Hold
+- [[ARC-13528 RTA-CAR Tooling improvements requested by VCTC]] — New
 - [[ARC-13540 Nissan ZCU_L, ZCU_R and ZCU_T propjects]] — Accepted
 - [[ARC-13555 Gotion Daimler Truck BMS ECU]] — New
 - [[ARC-13556 PATAC Cadillac Platform project based on GM VIP24 for SunWoda]] — Accepted
+- [[ARC-13595 OBD support according to latest standard required for both CEA 1.0 & CEA 2.0 arc]] — On Hold
 - [[ARC-13612 PATAC Cadillac Platform L243]] — New
 - [[ARC-13728 G-Pulse requires AUTOSAR CP lite solutions (RTA-CAR Nano)]] — New
 - [[ARC-13729 Chery - EEA Architecture requirements]] — Canceled
+- [[ARC-13738 Support DcmDspRequestRoutineResultsIn in ClientServerInterface RoutineServices]] — Analyzed
+- [[ARC-13749 WdgM Callout Support After GSS or MSS Expired]] — Analyzed
 - [[ARC-13785 Neusoft SmartGo Cockpit ADAS solution based on QC8797]] — New
 - [[ARC-14183 Hesai - BMW LIDAR Project]] — New
 - [[ARC-14384 PATAC - CADILLAC Project based on VIP24 for CAEA]] — Accepted
@@ -192,4 +205,5 @@ SORT status ASC
 - [[ARC-9725 ECarX VW SmartCabin MCU]] — Accepted
 - [[ARC-9872 XPeng Realtek RTL9072Dx AR CP SW Integration]] — New
 - [[ARC-9902 VCTC VW CEA2.0 (CDCU,LDCU,RDCU & RearDCU)]] — Accepted
+- [[ARC-9904 [VW-China] TSN Support in RTA-CAR]] — Analyzed
 - [[ARC-9948 Veoneer HSM & OS C-Core CCFC Global license]] — New

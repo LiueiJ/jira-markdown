@@ -17,7 +17,7 @@ parent: null
 created: "2025-07-09T10:22:37.000+0000"
 updated: "2025-07-09T21:19:58.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-11744 Vofonturbo Suspension ECU for Geely

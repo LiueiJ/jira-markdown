@@ -17,7 +17,7 @@ parent: null
 created: "2022-08-02T12:42:04.000+0000"
 updated: "2026-07-02T07:35:43.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-49 FreeTech Geely ADAS ECU project

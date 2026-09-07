@@ -17,7 +17,7 @@ parent: null
 created: "2025-11-05T08:39:50.000+0000"
 updated: "2026-06-03T06:43:13.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-13556 PATAC Cadillac Platform project based on GM VIP24 for SunWoda

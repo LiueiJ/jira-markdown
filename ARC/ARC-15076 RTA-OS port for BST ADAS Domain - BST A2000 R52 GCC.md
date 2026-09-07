@@ -17,7 +17,7 @@ parent: null
 created: "2026-02-28T03:13:27.000+0000"
 updated: "2026-06-18T08:53:02.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-15076 RTA-OS port for BST ADAS Domain - BST A2000 R52 GCC

@@ -17,7 +17,7 @@ parent: null
 created: "2026-03-11T15:19:48.000+0000"
 updated: "2026-06-19T08:24:11.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-15278 RTA-OS port for Envision BMS - NXP S32K364 - M7 GHS

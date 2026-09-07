@@ -17,7 +17,7 @@ parent: null
 created: "2026-02-01T14:55:00.000+0000"
 updated: "2026-06-19T08:19:09.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-14748 RTA-OS Base Port for Mx-based devices with the IAR compiler

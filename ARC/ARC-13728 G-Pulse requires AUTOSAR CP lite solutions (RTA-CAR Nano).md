@@ -17,7 +17,7 @@ parent: null
 created: "2025-11-26T05:33:01.000+0000"
 updated: "2026-09-03T16:24:20.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-13728 G-Pulse requires AUTOSAR CP lite solutions (RTA-CAR Nano)

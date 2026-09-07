@@ -17,7 +17,7 @@ parent: null
 created: "2026-03-31T00:06:43.000+0000"
 updated: "2026-09-03T06:27:52.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-15590 BTL-Geely BaseTech 3.5 ADCU

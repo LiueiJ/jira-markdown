@@ -17,7 +17,7 @@ parent: null
 created: "2025-09-08T04:02:53.000+0000"
 updated: "2026-06-05T02:58:30.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-12589 HVR Solutions for Changan

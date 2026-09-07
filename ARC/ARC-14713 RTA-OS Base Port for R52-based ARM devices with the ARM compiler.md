@@ -17,7 +17,7 @@ parent: null
 created: "2026-01-30T16:51:51.000+0000"
 updated: "2026-06-18T08:57:05.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-14713 RTA-OS Base Port for R52-based ARM devices with the ARM compiler

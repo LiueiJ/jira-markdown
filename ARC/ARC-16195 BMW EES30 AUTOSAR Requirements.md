@@ -17,7 +17,7 @@ parent: null
 created: "2026-05-07T07:30:16.000+0000"
 updated: "2026-06-18T08:50:19.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-16195 BMW EES30 AUTOSAR Requirements

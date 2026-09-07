@@ -17,7 +17,7 @@ parent: null
 created: "2025-03-31T10:18:59.000+0000"
 updated: "2026-08-11T15:30:54.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-9948 Veoneer HSM & OS C-Core CCFC Global license

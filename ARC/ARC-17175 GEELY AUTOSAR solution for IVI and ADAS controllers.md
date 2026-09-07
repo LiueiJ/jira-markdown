@@ -17,7 +17,7 @@ parent: null
 created: "2026-07-21T02:07:57.000+0000"
 updated: "2026-08-28T06:43:02.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-17175 GEELY AUTOSAR solution for IVI and ADAS controllers

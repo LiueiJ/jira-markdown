@@ -17,7 +17,7 @@ parent: null
 created: "2025-03-10T18:21:54.000+0000"
 updated: "2025-12-28T01:04:15.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-9505 Luxshare Radar ECU

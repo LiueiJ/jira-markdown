@@ -17,7 +17,7 @@ parent: null
 created: "2026-06-08T07:23:53.000+0000"
 updated: "2026-09-04T08:43:44.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-16527 Keboda Motor Control Unit

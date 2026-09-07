@@ -17,7 +17,7 @@ parent: null
 created: "2026-02-03T07:43:38.000+0000"
 updated: "2026-06-16T14:26:35.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-14782 Delta GM Project

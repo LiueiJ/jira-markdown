@@ -17,7 +17,7 @@ parent: null
 created: "2026-08-31T06:41:44.000+0000"
 updated: "2026-09-03T16:12:35.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-17453 Renault Next Gen SW

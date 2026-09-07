@@ -17,7 +17,7 @@ parent: null
 created: "2026-08-06T07:15:49.000+0000"
 updated: "2026-08-26T09:56:45.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-17324 XPeng Ethernet Switch

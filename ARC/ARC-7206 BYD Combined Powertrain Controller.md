@@ -17,7 +17,7 @@ parent: null
 created: "2024-10-09T07:11:52.000+0000"
 updated: "2026-04-22T12:36:50.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-7206 BYD Combined Powertrain Controller

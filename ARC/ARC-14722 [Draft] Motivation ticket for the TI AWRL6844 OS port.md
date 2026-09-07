@@ -17,7 +17,7 @@ parent: null
 created: "2026-01-30T17:08:08.000+0000"
 updated: "2026-09-03T17:05:12.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-14722 [Draft] Motivation ticket for the TI AWRL6844 OS port

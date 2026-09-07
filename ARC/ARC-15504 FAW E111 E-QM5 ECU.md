@@ -17,7 +17,7 @@ parent: null
 created: "2026-03-26T07:44:36.000+0000"
 updated: "2026-06-19T08:25:57.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-15504 FAW E111 E-QM5 ECU

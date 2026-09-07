@@ -17,7 +17,7 @@ parent: null
 created: "2025-09-09T08:16:50.000+0000"
 updated: "2025-12-27T23:58:28.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-12617 [RTA-CCM] Charging solutions for BYD

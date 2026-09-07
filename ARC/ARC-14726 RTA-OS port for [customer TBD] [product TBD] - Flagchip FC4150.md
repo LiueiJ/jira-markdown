@@ -17,7 +17,7 @@ parent: null
 created: "2026-01-30T17:12:19.000+0000"
 updated: "2026-09-03T17:04:22.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-14726 RTA-OS port for [customer TBD] [product TBD] - Flagchip FC4150

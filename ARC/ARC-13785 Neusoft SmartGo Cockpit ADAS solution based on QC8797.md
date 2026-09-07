@@ -17,7 +17,7 @@ parent: null
 created: "2025-12-03T01:25:59.000+0000"
 updated: "2026-07-09T01:22:59.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-13785 Neusoft SmartGo Cockpit ADAS solution based on QC8797

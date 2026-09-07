@@ -17,7 +17,7 @@ parent: null
 created: "2025-10-17T09:11:13.000+0000"
 updated: "2026-06-19T09:33:15.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-13421 DHU Central Gateway

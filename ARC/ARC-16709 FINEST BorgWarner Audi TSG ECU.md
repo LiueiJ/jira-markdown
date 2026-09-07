@@ -17,7 +17,7 @@ parent: null
 created: "2026-06-23T03:54:01.000+0000"
 updated: "2026-09-03T15:42:32.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-16709 FINEST/BorgWarner Audi TSG ECU

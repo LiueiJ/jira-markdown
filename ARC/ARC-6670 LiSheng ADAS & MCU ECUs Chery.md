@@ -17,7 +17,7 @@ parent: null
 created: "2024-09-03T11:52:03.000+0000"
 updated: "2025-05-23T09:28:03.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-6670 LiSheng : ADAS & MCU ECUs : Chery

@@ -17,7 +17,7 @@ parent: null
 created: "2026-07-08T06:27:11.000+0000"
 updated: "2026-07-15T11:52:16.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-16918 RTA-OS port for Bosch XC Radar ECU - TI AWR2644

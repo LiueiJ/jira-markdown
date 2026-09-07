@@ -17,7 +17,7 @@ parent: null
 created: "2026-03-03T11:03:13.000+0000"
 updated: "2026-06-18T08:52:51.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-15108 RTA-OS port for Ecarx IVI Domain - SemiDrive E3620B R52 GHS

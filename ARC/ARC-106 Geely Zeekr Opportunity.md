@@ -17,7 +17,7 @@ parent: null
 created: "2022-08-15T07:53:24.000+0000"
 updated: "2024-10-14T23:21:17.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-106 Geely/Zeekr Opportunity

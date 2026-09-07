@@ -17,7 +17,7 @@ parent: null
 created: "2026-09-01T14:20:27.000+0000"
 updated: "2026-09-04T11:57:03.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-17468 [VCTC_Security] Immobilizer Requirements on CEA2.0&CEA1.X

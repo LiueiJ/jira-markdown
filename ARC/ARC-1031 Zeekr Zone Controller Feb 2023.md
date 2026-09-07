@@ -17,7 +17,7 @@ parent: null
 created: "2023-02-16T10:09:24.000+0000"
 updated: "2026-06-18T08:41:27.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-1031 Zeekr Zone Controller Feb 2023

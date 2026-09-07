@@ -17,7 +17,7 @@ parent: null
 created: "2025-01-24T15:36:25.000+0000"
 updated: "2026-03-19T10:21:37.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-9062 BYD ADAS Controller

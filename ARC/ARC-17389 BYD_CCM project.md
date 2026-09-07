@@ -17,7 +17,7 @@ parent: null
 created: "2026-08-21T07:08:31.000+0000"
 updated: "2026-09-04T14:51:29.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-17389 BYD_CCM project

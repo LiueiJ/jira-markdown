@@ -17,7 +17,7 @@ parent: null
 created: "2026-02-24T10:06:25.000+0000"
 updated: "2026-09-03T16:55:20.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-15005 XC Radar Platform

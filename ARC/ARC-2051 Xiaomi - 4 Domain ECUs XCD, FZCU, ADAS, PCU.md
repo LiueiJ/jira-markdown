@@ -17,7 +17,7 @@ parent: null
 created: "2023-09-12T12:25:23.000+0000"
 updated: "2025-06-25T23:42:32.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-2051 Xiaomi - 4 Domain ECUs: XCD, FZCU, ADAS, PCU

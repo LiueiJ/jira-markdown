@@ -17,7 +17,7 @@ parent: null
 created: "2026-01-30T17:03:59.000+0000"
 updated: "2026-08-11T15:36:14.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-14719 RTA-OS port for Veoneer Airbag - C*Core CCFC3008PCS-A GHS

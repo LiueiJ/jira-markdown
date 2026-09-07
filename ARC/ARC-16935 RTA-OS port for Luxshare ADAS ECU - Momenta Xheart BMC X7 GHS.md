@@ -17,7 +17,7 @@ parent: null
 created: "2026-07-09T06:00:20.000+0000"
 updated: "2026-09-03T16:09:44.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-16935 RTA-OS port for Luxshare ADAS ECU - Momenta Xheart BMC X7 GHS

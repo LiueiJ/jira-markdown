@@ -17,7 +17,7 @@ parent: null
 created: "2023-02-27T08:03:30.000+0000"
 updated: "2025-06-18T22:29:28.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-1062 CTM Xpeng

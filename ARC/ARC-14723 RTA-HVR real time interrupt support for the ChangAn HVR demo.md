@@ -17,7 +17,7 @@ parent: null
 created: "2026-01-30T17:09:19.000+0000"
 updated: "2026-06-18T08:55:44.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-14723 RTA-HVR real time interrupt support for the ChangAn HVR demo

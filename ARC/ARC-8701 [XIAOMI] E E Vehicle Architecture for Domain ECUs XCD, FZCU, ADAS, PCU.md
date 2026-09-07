@@ -17,7 +17,7 @@ parent: null
 created: "2025-01-16T06:02:13.000+0000"
 updated: "2026-09-03T17:07:50.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-8701 [XIAOMI] E/E Vehicle Architecture for Domain ECUs: XCD, FZCU, ADAS, PCU

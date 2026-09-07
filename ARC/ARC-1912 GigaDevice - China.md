@@ -17,7 +17,7 @@ parent: null
 created: "2023-07-26T12:29:34.000+0000"
 updated: "2026-09-03T16:02:42.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-1912 GigaDevice - China

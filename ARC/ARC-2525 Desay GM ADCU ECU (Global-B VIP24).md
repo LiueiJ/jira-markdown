@@ -17,7 +17,7 @@ parent: null
 created: "2024-01-19T09:56:31.000+0000"
 updated: "2026-09-03T07:40:41.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-2525 Desay GM ADCU ECU (Global-B / VIP24)

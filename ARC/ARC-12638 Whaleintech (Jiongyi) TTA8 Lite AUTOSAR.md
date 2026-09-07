@@ -17,7 +17,7 @@ parent: null
 created: "2025-09-10T11:46:57.000+0000"
 updated: "2026-06-19T09:34:53.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-12638 Whaleintech (Jiongyi) : TTA8 Lite AUTOSAR

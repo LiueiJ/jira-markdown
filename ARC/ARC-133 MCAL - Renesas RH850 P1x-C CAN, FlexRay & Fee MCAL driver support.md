@@ -17,7 +17,7 @@ parent: null
 created: "2022-09-08T13:59:51.000+0000"
 updated: "2025-07-13T18:58:24.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-133 MCAL - Renesas RH850/P1x-C CAN, FlexRay & Fee MCAL driver support

@@ -17,7 +17,7 @@ parent: null
 created: "2026-01-30T16:49:19.000+0000"
 updated: "2026-08-11T15:35:21.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-14711 RTA-OS port for Hesai Lidar - SemiDirve E3116 Host Core IAR Compiler

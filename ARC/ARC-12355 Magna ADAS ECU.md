@@ -17,7 +17,7 @@ parent: null
 created: "2025-08-05T07:23:36.000+0000"
 updated: "2026-09-03T07:12:56.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-12355 Magna ADAS ECU

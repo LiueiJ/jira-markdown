@@ -17,7 +17,7 @@ parent: null
 created: "2024-02-21T16:00:43.000+0000"
 updated: "2025-01-28T07:58:55.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-2923 Gotion BMS ECU Virtualization

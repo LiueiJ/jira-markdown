@@ -17,7 +17,7 @@ parent: null
 created: "2025-03-27T10:23:46.000+0000"
 updated: "2026-08-11T15:30:31.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-9872 XPeng Realtek RTL9072Dx AR CP SW Integration

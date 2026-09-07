@@ -17,7 +17,7 @@ parent: null
 created: "2026-05-11T06:48:52.000+0000"
 updated: "2026-09-03T16:36:18.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-16215 SmartxTruck (JAC) - RTA-CAR product for Ubuntu 24.04

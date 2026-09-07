@@ -17,7 +17,7 @@ parent: null
 created: "2025-03-17T09:14:10.000+0000"
 updated: "2025-09-04T00:09:13.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-9582 HYCET EVCC ECU for GMW

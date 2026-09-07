@@ -17,7 +17,7 @@ parent: null
 created: "2024-10-18T07:09:15.000+0000"
 updated: "2026-01-15T16:54:43.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-7685 ENVISON - BMS Ford FNV2

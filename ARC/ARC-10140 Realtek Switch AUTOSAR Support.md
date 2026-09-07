@@ -17,7 +17,7 @@ parent: null
 created: "2025-04-07T07:00:48.000+0000"
 updated: "2026-08-11T15:31:07.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-10140 Realtek Switch AUTOSAR Support

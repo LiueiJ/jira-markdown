@@ -17,7 +17,7 @@ parent: null
 created: "2026-07-22T09:10:43.000+0000"
 updated: "2026-08-18T02:29:36.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-17190 TRX Tier1 - Streaming Media & Rearview Mirror Project  for RTA-Nano

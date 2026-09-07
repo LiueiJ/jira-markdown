@@ -17,7 +17,7 @@ parent: null
 created: "2024-10-23T08:25:24.000+0000"
 updated: "2026-09-03T07:38:45.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-7738 Desay ADAS ECU for GM/PATAC

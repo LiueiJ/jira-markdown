@@ -17,7 +17,7 @@ parent: null
 created: "2026-04-28T01:53:33.000+0000"
 updated: "2026-08-11T14:16:35.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-16120 Hesai - GAC CP Project - CP requirements

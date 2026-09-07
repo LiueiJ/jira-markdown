@@ -17,7 +17,7 @@ parent: null
 created: "2024-01-19T11:01:28.000+0000"
 updated: "2024-10-15T00:08:30.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-2531 HESAI GM VIP24 Lidar Project

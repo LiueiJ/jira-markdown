@@ -17,7 +17,7 @@ parent: null
 created: "2022-11-01T11:31:51.000+0000"
 updated: "2026-02-04T14:17:09.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-191 East China JV Tire 1

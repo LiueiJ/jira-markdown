@@ -17,7 +17,7 @@ parent: null
 created: "2026-03-12T03:59:47.000+0000"
 updated: "2026-09-03T16:53:53.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-15291 XPeng ZCU

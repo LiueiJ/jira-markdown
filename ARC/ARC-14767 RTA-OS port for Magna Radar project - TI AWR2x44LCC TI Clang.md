@@ -17,7 +17,7 @@ parent: null
 created: "2026-02-02T09:29:06.000+0000"
 updated: "2026-06-19T08:19:37.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-14767 RTA-OS port for Magna Radar project - TI AWR2x44LCC  TI Clang

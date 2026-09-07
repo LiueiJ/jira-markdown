@@ -17,7 +17,7 @@ parent: null
 created: "2026-01-30T17:06:51.000+0000"
 updated: "2026-08-11T15:36:41.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-14721 RTA-OS port for CCore MCU - C*Core CCFC3010L (Lite) GHS

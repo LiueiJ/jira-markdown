@@ -17,7 +17,7 @@ parent: null
 created: "2025-09-08T03:55:27.000+0000"
 updated: "2025-12-28T00:06:31.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-12588 HVR Solutions for BYD

@@ -17,7 +17,7 @@ parent: null
 created: "2026-04-08T12:11:28.000+0000"
 updated: "2026-06-19T09:26:46.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-15755 Keboda - SGM PATAC Project - gPTP requirement

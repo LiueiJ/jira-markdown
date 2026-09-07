@@ -17,7 +17,7 @@ parent: null
 created: "2026-01-21T14:47:59.000+0000"
 updated: "2026-06-16T13:56:53.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-14617 Enable Volkwagen China Technology Company (VCTC) to configure and generate CycurHSM3

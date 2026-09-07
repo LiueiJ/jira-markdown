@@ -17,7 +17,7 @@ parent: null
 created: "2026-08-24T11:16:00.000+0000"
 updated: "2026-08-31T02:37:25.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-17397 RTA-OS port for Magna Motor Control ECU - TI MSPM0Gx51x  M0 TI Compiler

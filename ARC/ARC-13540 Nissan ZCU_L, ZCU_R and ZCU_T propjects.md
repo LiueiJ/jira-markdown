@@ -17,7 +17,7 @@ parent: null
 created: "2025-10-31T14:38:20.000+0000"
 updated: "2026-06-19T09:00:11.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-13540 Nissan ZCU_L, ZCU_R and ZCU_T propjects

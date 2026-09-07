@@ -17,7 +17,7 @@ parent: null
 created: "2026-08-18T05:50:12.000+0000"
 updated: "2026-09-03T16:57:26.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-17373 RTA-OS port for Horizon ADAS ECU - J7x GHS or HighTec

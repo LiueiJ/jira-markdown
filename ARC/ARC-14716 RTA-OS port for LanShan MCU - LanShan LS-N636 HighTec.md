@@ -17,7 +17,7 @@ parent: null
 created: "2026-01-30T16:59:53.000+0000"
 updated: "2026-09-03T16:22:32.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-14716 RTA-OS port for LanShan MCU - LanShan LS-N636 HighTec

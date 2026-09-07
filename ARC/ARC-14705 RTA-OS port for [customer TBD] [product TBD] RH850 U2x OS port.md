@@ -17,7 +17,7 @@ parent: null
 created: "2026-01-30T16:39:43.000+0000"
 updated: "2026-06-19T09:28:45.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-14705 RTA-OS port for [customer TBD] [product TBD] RH850/U2x OS port

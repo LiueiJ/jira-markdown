@@ -17,7 +17,7 @@ parent: null
 created: "2026-03-11T08:37:33.000+0000"
 updated: "2026-09-03T15:59:14.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-15263 ECARX IVI ECU

@@ -17,7 +17,7 @@ parent: null
 created: "2025-03-06T08:17:55.000+0000"
 updated: "2025-08-26T06:59:36.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-9474 [ETCN] GAC EEA3.0 Platform (9 ECUs: CCU, IDC-[M|S], ADC-[M|S], ZCU-[F|L|R|T])

@@ -17,7 +17,7 @@ parent: null
 created: "2026-05-18T05:04:08.000+0000"
 updated: "2026-09-03T06:50:49.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-16271 LeapMotor BDC (Body Domain Controller)

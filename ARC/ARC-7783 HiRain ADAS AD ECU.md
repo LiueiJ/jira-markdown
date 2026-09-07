@@ -17,7 +17,7 @@ parent: null
 created: "2024-10-30T09:24:41.000+0000"
 updated: "2026-04-08T15:11:05.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-7783 HiRain ADAS/AD ECU

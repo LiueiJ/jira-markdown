@@ -17,7 +17,7 @@ parent: null
 created: "2025-03-20T05:23:42.000+0000"
 updated: "2026-07-02T13:04:15.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-9667 HESAI Customized RTA-CAR for Xiaomi Spec

@@ -17,7 +17,7 @@ parent: null
 created: "2026-07-29T07:35:51.000+0000"
 updated: "2026-08-18T06:04:32.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-17242 RTA-OS port for Keboda TBD ECU - R-CAR U5L2 GHS

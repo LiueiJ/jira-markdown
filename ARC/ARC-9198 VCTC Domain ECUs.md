@@ -17,7 +17,7 @@ parent: null
 created: "2025-02-10T13:52:13.000+0000"
 updated: "2026-09-03T06:36:44.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-9198 VCTC Domain ECUs

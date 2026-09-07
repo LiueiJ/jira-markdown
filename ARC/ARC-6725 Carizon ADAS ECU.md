@@ -17,7 +17,7 @@ parent: null
 created: "2024-09-09T09:35:07.000+0000"
 updated: "2025-08-26T06:58:52.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-6725 Carizon ADAS ECU

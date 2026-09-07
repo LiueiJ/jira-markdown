@@ -17,7 +17,7 @@ parent: null
 created: "2025-07-16T08:28:28.000+0000"
 updated: "2026-04-28T16:43:51.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-12128 [Horizon Robotics] Continental J6B CP Project for Porsche

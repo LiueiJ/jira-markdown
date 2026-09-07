@@ -17,7 +17,7 @@ parent: null
 created: "2025-08-11T03:15:24.000+0000"
 updated: "2026-05-11T20:50:32.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-12404 HESAI - Request for DOIP  & TCP - SACK

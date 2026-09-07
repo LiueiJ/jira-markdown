@@ -17,7 +17,7 @@ parent: null
 created: "2025-07-25T03:58:12.000+0000"
 updated: "2026-09-03T07:12:17.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-12271 Magna - Tier1  CP Project - ADAS ECU

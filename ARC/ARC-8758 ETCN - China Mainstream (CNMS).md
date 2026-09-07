@@ -17,7 +17,7 @@ parent: null
 created: "2025-01-17T08:50:35.000+0000"
 updated: "2025-07-13T19:58:16.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-8758 ETCN - China Mainstream (CNMS)

@@ -17,7 +17,7 @@ parent: null
 created: "2025-11-26T06:35:22.000+0000"
 updated: "2026-03-26T07:59:40.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-13729 Chery - EEA Architecture requirements

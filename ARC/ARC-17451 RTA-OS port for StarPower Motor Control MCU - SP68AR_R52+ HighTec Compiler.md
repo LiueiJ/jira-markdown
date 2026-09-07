@@ -17,7 +17,7 @@ parent: null
 created: "2026-08-31T02:23:08.000+0000"
 updated: "2026-09-01T08:29:38.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-17451 RTA-OS port for StarPower Motor Control MCU - SP68AR_R52+ HighTec Compiler

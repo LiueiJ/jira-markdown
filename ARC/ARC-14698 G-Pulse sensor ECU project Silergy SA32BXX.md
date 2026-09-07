@@ -17,7 +17,7 @@ parent: null
 created: "2026-01-30T16:22:06.000+0000"
 updated: "2026-08-28T06:45:35.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-14698 G-Pulse sensor ECU project / Silergy SA32BXX

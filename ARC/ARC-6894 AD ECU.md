@@ -17,7 +17,7 @@ parent: null
 created: "2024-09-23T12:35:03.000+0000"
 updated: "2025-07-09T07:31:22.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-6894 AD ECU

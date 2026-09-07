@@ -17,7 +17,7 @@ parent: null
 created: "2026-04-02T07:00:45.000+0000"
 updated: "2026-09-03T07:37:21.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-15631 CARIAD : CEA 3.0 Platform : VW

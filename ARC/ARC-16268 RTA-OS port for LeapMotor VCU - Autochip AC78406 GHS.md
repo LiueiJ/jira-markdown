@@ -17,7 +17,7 @@ parent: null
 created: "2026-05-18T02:35:14.000+0000"
 updated: "2026-08-28T06:54:30.000+0000"
 synced-at: "2026-09-06T06:58:54.667Z"
-jira-orphaned: false
+jira-orphaned: true
 ---
 
 # ARC-16268  RTA-OS port for LeapMotor VCU - Autochip AC78406 GHS
