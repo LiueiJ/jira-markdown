@@ -90,7 +90,7 @@ SORT status ASC
 - [[RH-16658 [CNMS][VCTC]Some host code sections for HSM are missing the memory section]] — Waiting for Level 3
 - [[RH-16701 [CNMS][VCTC]BlankCheck takes too long, causing memacc to remain busy]] — Closed
 - [[RH-16704 [CNMS][VCTC]Remove KeyM Background Event]] — Closed
-- [[RH-16705 [VNCNMS] BSWGen issue with missing memory map keywords in Com Stack]] — Waiting for Level 2
+- [[RH-16705 [VNCNMS] BSWGen issue with missing memory map keywords in Com Stack]] — Solution Proposed
 - [[RH-16737 [VNCNMS]The TCP and UDP Events are configured within the same Event Group.]] — Closed
 - [[RH-16738 [CNMS][VCTC]SchM code definition and references are inconsistent]] — Closed
 - [[RH-16761 [VNCNMS][VCTC]Priority issue in DCM]] — Closed
@@ -119,4 +119,4 @@ SORT status ASC
 - [[RH-17106 [VNCNMS][VCTC] DID and Snapshot Data Configuration for Multiple Vehicle Variants]] — Solution Proposed
 - [[RH-17113 Lin’s E2E issue]] — Waiting for Customer
 - [[RH-17116 [VNCNMS][VCTC]Triggering of TCP messages in the SD module]] — Waiting for Level 3
-- [[RH-17137 [VNCNMS][Cariad] BSWGen issue with missing memory map keywords in Lin Stack]] — Waiting for Level 3
+- [[RH-17137 [VNCNMS][Cariad] BSWGen issue with missing memory map keywords in Lin Stack]] — Waiting for Customer
