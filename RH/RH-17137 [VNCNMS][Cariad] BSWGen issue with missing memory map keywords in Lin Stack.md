@@ -4,10 +4,10 @@ jira_url: "https://rtahotline.etas.com/jira/browse/RH-17137"
 server: rtahotline
 kind: hotline
 type: Support
-status: Waiting for Level 3
+status: Waiting for Customer
 priority: High
 project: RH
-assignee: nusrin.haneef@in.bosch.com
+assignee: cuong.phanmanh@vn.bosch.com
 reporter: cuong.phanmanh@vn.bosch.com
 tags: [VNCNMS]
 components: [Communication-Can-Lin-Fr]
@@ -15,14 +15,14 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-09-07T12:32:01.000+0200"
-updated: "2026-09-07T12:56:37.000+0200"
-synced-at: "2026-09-07T11:18:36.755Z"
+updated: "2026-09-07T13:35:12.000+0200"
+synced-at: "2026-09-07T12:18:36.788Z"
 jira-orphaned: false
 ---
 
 # RH-17137 [VNCNMS][Cariad] BSWGen issue with missing memory map keywords in Lin Stack
 
-> [!jira] Waiting for Level 3 · High · [[Haneef_Nusrin|Haneef Nusrin]] · 更新于 2026-09-07T12:56:37.000+0200
+> [!jira] Waiting for Customer · High · [[Cuong_Phan_Manh|Cuong Phan Manh]] · 更新于 2026-09-07T13:35:12.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17137)
 
 > 标签：#jira/comp/communication-can-lin-fr #jira/label/vncnms
@@ -81,6 +81,11 @@ Managing Directors: Sawaiker Girish Vinayak (BGSV/GM)
 - is mentioned in: [[RH-16705 [VNCNMS] BSWGen issue with missing memory map keywords in Com Stack]]
 
 ## 评论
+
+> [!note]+ 2026-09-07 13:35 · [[Muhammed_Anas_K_K|Muhammed Anas K K]]
+> Hello [[Junsheng_ZHANG|Junsheng ZHANG]] , The hotline ticket content is not clear. Could you please provide more details on the issue, expected behavior, and the specific analysis/action required?
+
+-------
 
 > [!note]+ 2026-09-07 12:56 · [[Cuong_Phan_Manh|Cuong Phan Manh]]
 > Hello [[Junsheng_ZHANG|Junsheng ZHANG]], I created this ticket to discuss and analyze your question in here. Thank you so much
