@@ -118,4 +118,4 @@ SORT status ASC
 - [[RH-17096 [Cariad] HWCSP Initialization Sequence]] — Investigation Required
 - [[RH-17106 [VNCNMS][VCTC] DID and Snapshot Data Configuration for Multiple Vehicle Variants]] — Solution Proposed
 - [[RH-17113 Lin’s E2E issue]] — Waiting for Customer
-- [[RH-17116 [VNCNMS][VCTC]Triggering of TCP messages in the SD module]] — Waiting for Level 2
+- [[RH-17116 [VNCNMS][VCTC]Triggering of TCP messages in the SD module]] — Waiting for Level 3

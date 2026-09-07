@@ -15,14 +15,14 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-07-23T08:09:46.000+0200"
-updated: "2026-08-14T14:26:36.000+0200"
-synced-at: "2026-09-06T06:58:38.472Z"
+updated: "2026-09-07T06:14:13.000+0200"
+synced-at: "2026-09-07T05:10:44.641Z"
 jira-orphaned: false
 ---
 
 # RH-16737 [VNCNMS]The TCP and UDP Events are configured within the same Event Group.
 
-> [!jira] Closed · Critical · [[Dong_LIU|Dong LIU]] · 更新于 2026-08-14T14:26:36.000+0200
+> [!jira] Closed · Critical · [[Dong_LIU|Dong LIU]] · 更新于 2026-09-07T06:14:13.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-16737)
 
 > 标签：#jira/comp/communication-eth #jira/label/vncnms
@@ -51,6 +51,10 @@ Best regards,
  Bosch (China) Investment Ltd. | 333 Fuquan (N.) Road | Shanghai 200335 |  P.R. CHINA 
 
  [Dong.LIU5@etas.com!mail_small.gif!](mailto:Dong.LIU5@etas.com)
+
+## 关联
+
+- is mentioned in: [[RH-17116 [VNCNMS][VCTC]Triggering of TCP messages in the SD module]]
 
 ## 评论
 

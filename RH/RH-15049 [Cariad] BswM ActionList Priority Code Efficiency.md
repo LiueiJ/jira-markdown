@@ -15,14 +15,14 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-02-04T04:40:35.000+0100"
-updated: "2026-08-26T06:53:23.000+0200"
-synced-at: "2026-09-06T06:58:38.472Z"
+updated: "2026-09-07T06:44:34.000+0200"
+synced-at: "2026-09-07T05:10:44.641Z"
 jira-orphaned: false
 ---
 
 # RH-15049 [Cariad] BswM ActionList Priority Code Efficiency
 
-> [!jira] Waiting for Level 3 · High · [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]] · 更新于 2026-08-26T06:53:23.000+0200
+> [!jira] Waiting for Level 3 · High · [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]] · 更新于 2026-09-07T06:44:34.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-15049)
 
 > 标签：#jira/comp/system-infralib-infrastructure
@@ -58,6 +58,17 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
+
+> [!note]+ 2026-09-07 06:44 · [[Sathish_Kumar_Madanmohan|Sathish Kumar Madanmohan]]
+> [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]] [[Thomas_Chippy|Thomas Chippy]]  
+>
+> dear both, I trust you are aware of the problem . Customer has proposed a solution for performance improvement which you can find it in [^RH-15049_Runtime_Optimized_Code.c] . customer is wondering if there is any reason why ETAS cannot implement the change in the product ? 
+>
+> [[Vihitha_Jain_(vihitha.jain@bosch.com)|Vihitha Jain]]  to me this change should be applied . our original code is not performant. If you take a look into the for loop you shall know it. This ticket has been ongoing for months now.  
+>
+> could you please check on that.  Thanks 
+
+-------
 
 > [!note]+ 2026-08-26 06:53 · [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]]
 > Hi [[Max_Sinclair|Max Sinclair]] ,
