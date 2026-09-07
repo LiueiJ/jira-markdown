@@ -4,10 +4,10 @@ jira_url: "https://rtahotline.etas.com/jira/browse/RH-15717"
 server: rtahotline
 kind: hotline
 type: Analysis Request
-status: Waiting for Level 2
+status: Waiting for Customer
 priority: Critical
 project: RH
-assignee: james.butterfield@etas.com
+assignee: jie.liu8@etas.com
 reporter: jie.liu8@etas.com
 tags: []
 components: [Communication-Eth]
@@ -15,14 +15,14 @@ fix-versions: [RTA-CAR 12.13.0]
 epic: null
 parent: null
 created: "2026-04-09T16:08:43.000+0200"
-updated: "2026-09-07T08:47:13.000+0200"
-synced-at: "2026-09-07T07:10:44.613Z"
+updated: "2026-09-07T10:39:29.000+0200"
+synced-at: "2026-09-07T09:10:50.719Z"
 jira-orphaned: false
 ---
 
 # RH-15717 Intermittent SOME/IP Subscription Loss After Repeated CDCU_MCU Reset
 
-> [!jira] Waiting for Level 2 · Critical · [[James_Butterfield|James Butterfield]] · 更新于 2026-09-07T08:47:13.000+0200
+> [!jira] Waiting for Customer · Critical · [[Jie_LIU|Jie LIU]] · 更新于 2026-09-07T10:39:29.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-15717)
 
 > 标签：#jira/comp/communication-eth
@@ -187,6 +187,17 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 - is blocked by: [[RHC-674 VW CEA1.0 SOA issues on Production Line]]
 
 ## 评论
+
+> [!note]+ 2026-09-07 10:39 · [[James_Butterfield|James Butterfield]]
+> Hi [[Jiaqi_JI|Jiaqi JI]],
+>
+> I see you have reopened this ticket, could you please clarify whether this was a mistake?
+> If not, please outline any outstanding points you feel are preventing this ticket from being closed.
+>
+> Best Regards,
+> James
+
+-------
 
 > [!note]+ 2026-06-23 11:39 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.

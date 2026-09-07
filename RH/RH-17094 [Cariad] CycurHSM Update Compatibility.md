@@ -15,14 +15,14 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-09-02T04:19:31.000+0200"
-updated: "2026-09-07T09:20:29.000+0200"
-synced-at: "2026-09-07T08:10:44.633Z"
+updated: "2026-09-07T10:57:44.000+0200"
+synced-at: "2026-09-07T09:10:50.719Z"
 jira-orphaned: false
 ---
 
 # RH-17094 [Cariad] CycurHSM Update Compatibility
 
-> [!jira] Closed · Critical · [[Steven.Tang|Steven.Tang]] · 更新于 2026-09-07T09:20:29.000+0200
+> [!jira] Closed · Critical · [[Steven.Tang|Steven.Tang]] · 更新于 2026-09-07T10:57:44.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17094)
 
 > 标签：#jira/comp/cycurhsm3
@@ -60,6 +60,21 @@ This compatibility question is currently affecting the customer's HSM validation
   ** ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
+
+> [!note]+ 2026-09-07 10:53 · [[Steven_TANG|Steven TANG]]
+> Let's update the current situation in this ticket:
+>
+> 1, CARIAD four-domain ECUs (CCU,LZCU,RZCU&TZCU) software to fix CycurHSM3.0.7.b1 Issue have passed pressure test and be release to their onsite engineer for ECU flash last Friday morning.
+>
+> 2, Their onsite engineer finished around 80 ECUs flash from 3.0.7.b1 to 3.0.7.b4 regular. They continue the remain around 240  3.0.7.b1 ECUs flash work from this Monday. This work will be done estimate by this Thursday.
+>
+> 3, CARIAD already update the ECU software with 3.0.7.b4 regular to their factory, then there will no further 3.0.7.b1 ECU be manufactured from last Friday.
+>
+> So close this ticket now. we will track the situation, any update will let all of you know.
+>
+> Thanks a lot for your support.
+
+-------
 
 > [!note]+ 2026-09-07 09:14 · [[Sathish_Kumar_Madanmohan|Sathish Kumar Madanmohan]]
 > The issue is addressed and customer has done the stress testing and the feedback is positive. 

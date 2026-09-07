@@ -15,14 +15,14 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-08-30T06:33:15.000+0200"
-updated: "2026-09-03T14:53:14.000+0200"
-synced-at: "2026-09-06T06:58:38.472Z"
+updated: "2026-09-07T11:06:40.000+0200"
+synced-at: "2026-09-07T09:10:50.719Z"
 jira-orphaned: false
 ---
 
 # RH-17069 [VCTC]Crypto causes certificate reading failure.
 
-> [!jira] Waiting for Level 3 · Critical · [[Elvan_Caliskan|Elvan Caliskan]] · 更新于 2026-09-03T14:53:14.000+0200
+> [!jira] Waiting for Level 3 · Critical · [[Elvan_Caliskan|Elvan Caliskan]] · 更新于 2026-09-07T11:06:40.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17069)
 
 > 标签：#jira/comp/sec-cryptoauhsm3
@@ -74,6 +74,15 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
+
+> [!note]+ 2026-09-07 11:06 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Elvan_Caliskan|Elvan Caliskan]] ,
+>
+> We only need to modify one line of code in this way; I think this would be better；
+>
+> ![[RH-17069-image-2026-09-07-17-05-33-717.png]]
+
+-------
 
 > [!note]+ 2026-09-03 14:52 · [[Christian_Fuerst|Christian Fuerst]]
 > Hi [[Elvan_Caliskan|Elvan Caliskan]] ,
