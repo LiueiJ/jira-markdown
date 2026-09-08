@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-09-07T14:49:47.000+0200"
-updated: "2026-09-08T06:09:53.000+0200"
-synced-at: "2026-09-08T05:48:25.121Z"
+updated: "2026-09-08T11:31:40.000+0200"
+synced-at: "2026-09-08T23:34:02.312Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-17139 [VNCNMS] BSWGen issue with missing memory map keywords in Mfl
 
-> [!jira] Waiting for Level 3 · High · [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]] · 更新于 2026-09-08T06:09:53.000+0200
+> [!jira] Waiting for Level 3 · High · [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]] · 更新于 2026-09-08T11:31:40.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17139)
 
 > 标签：#jira/comp/system-infralib-infrastructure #jira/label/vncnms
@@ -67,6 +67,11 @@ In the picture,  **Mfl** does not have any “ *START_SEC* ” before it and “
  ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
+
+> [!note]+ 2026-09-08 11:31 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]] , Cariad is asking to provide the fix on 25/Sep. Is it possible for you to provide the code drop in advance then our team can integrate to RTA-CAR then provide it to customer?
+
+-------
 
 > [!note]+ 2026-09-08 06:09 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]], this System-InfraLib-Infrastructure ticket requires an assignee. As the component lead for System-InfraLib-Infrastructure, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.

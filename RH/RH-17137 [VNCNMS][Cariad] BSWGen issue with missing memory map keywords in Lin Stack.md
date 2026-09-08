@@ -4,7 +4,7 @@ jira_url: "https://rtahotline.etas.com/jira/browse/RH-17137"
 server: rtahotline
 kind: hotline
 type: Support
-status: Waiting for Customer
+status: Waiting for Level 2
 priority: High
 project: RH
 assignee: cuong.phanmanh@vn.bosch.com
@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-09-07T12:32:01.000+0200"
-updated: "2026-09-08T05:34:19.000+0200"
-synced-at: "2026-09-08T05:48:25.121Z"
+updated: "2026-09-08T09:40:33.000+0200"
+synced-at: "2026-09-08T23:34:02.312Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-17137 [VNCNMS][Cariad] BSWGen issue with missing memory map keywords in Lin Stack
 
-> [!jira] Waiting for Customer · High · [[Cuong_Phan_Manh|Cuong Phan Manh]] · 更新于 2026-09-08T05:34:19.000+0200
+> [!jira] Waiting for Level 2 · High · [[Cuong_Phan_Manh|Cuong Phan Manh]] · 更新于 2026-09-08T09:40:33.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17137)
 
 > 标签：#jira/comp/communication-can-lin-fr #jira/label/vncnms
@@ -85,9 +85,15 @@ Managing Directors: Sawaiker Girish Vinayak (BGSV/GM)
 
 ## 关联
 
+- mentions: [[RH-16705 [VNCNMS] BSWGen issue with missing memory map keywords in Com Stack]]
 - is mentioned in: [[RH-16705 [VNCNMS] BSWGen issue with missing memory map keywords in Com Stack]]
 
 ## 评论
+
+> [!note]+ 2026-09-08 09:40 · [[Cuong_Phan_Manh|Cuong Phan Manh]]
+> Hello [[Muhammed_Anas_K_K|Muhammed Anas K K]] , I updated the Description for more detail, could you analyze the issue again? If you still not clear the information, you can contact me via MS Team or check the ticket **RH-16705** for more information, Thanks
+
+-------
 
 > [!note]+ 2026-09-07 13:35 · [[Muhammed_Anas_K_K|Muhammed Anas K K]]
 > Hello [[Junsheng_ZHANG|Junsheng ZHANG]] , The hotline ticket content is not clear. Could you please provide more details on the issue, expected behavior, and the specific analysis/action required?

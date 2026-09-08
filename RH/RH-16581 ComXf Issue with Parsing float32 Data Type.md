@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-07-08T11:25:03.000+0200"
-updated: "2026-09-04T04:29:20.000+0200"
-synced-at: "2026-09-08T01:46:06.261Z"
+updated: "2026-09-08T09:32:58.000+0200"
+synced-at: "2026-09-08T23:34:02.312Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-16581 ComXf Issue with Parsing float32 Data Type
 
-> [!jira] Waiting for Level 3 · Critical · [[K_Raj_Kumar|K Raj Kumar]] · 更新于 2026-09-04T04:29:20.000+0200
+> [!jira] Waiting for Level 3 · Critical · [[K_Raj_Kumar|K Raj Kumar]] · 更新于 2026-09-08T09:32:58.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-16581)
 
 > 标签：#jira/comp/generic-importers #jira/comp/rta-rte-plugins-transformers #jira/label/vncnms
@@ -123,6 +123,24 @@ Bosch (China) Investment Ltd. | 333 Fuquan (N.) Road | Shanghai 200335 | P.R. CH
 - is mentioned in: [[RH-16478 [VNCNMS][VCTC] E2E Signalgroup Issue]]
 
 ## 评论
+
+> [!note]+ 2026-09-08 09:22 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> HI [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]],
+>
+> My understanding so far.
+>  * Updating the data type policy of all `ISignals` in the `ISignalGroup` to `TRANSFORMING-I-SIGNAL` is only a workaround for RTA-RTE 12.11.0, and it is not the correct solution. Our use case of data transformation for ISignal Group does not require changing the data type policy of these ISignals. [[Junsheng_ZHANG|Junsheng ZHANG]] noticed that in {{{}RTA-RTE_12.11.2pr2{}}}, data conversion can be generated in RTE without updating the data type policy of the {{{}ISignals{}}}. 
+> Could you please help confirm this point?
+> If this understanding is correct, then when using `RTA-RTE_12.11.2pr2` or the upcoming official release, we will no longer need to update the data type policy for {{{}ISignals{}}}.
+>  * Manually updating `XfrmIsDataConversion` in `ComXf` is still required for RTA-RTE 12.11.0 or `RTA-RTE_12.11.2pr2`
+>
+> The permanent solution can be:
+>  * No update to the data type policy is required for `ISignals:` `ConfigGen` can remain consistent with the previous configuration.
+>  * [RTE-23093](https://jira.etas-dev.com/browse/RTE-23093) should be updated for the RTA-CAR 12.11.x Cariad version, if this is planned. In this case, it is not necessary to manually update {{{}XfrmIsDataConversion{}}}.
+>  * No ConfigGen version update is required.
+>
+> Could you help check and give your comment?
+
+-------
 
 > [!note]+ 2026-09-04 01:02 · [[Dang_Ho_Anh|Dang Ho Anh]]
 > Hi [[Duy_Pham|Duy Pham]] 

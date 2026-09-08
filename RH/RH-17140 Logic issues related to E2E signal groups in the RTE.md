@@ -4,27 +4,29 @@ jira_url: "https://rtahotline.etas.com/jira/browse/RH-17140"
 server: rtahotline
 kind: hotline
 type: Support
-status: Waiting for Customer
+status: Waiting for Level 2
 priority: Critical
 project: RH
-assignee: junsheng.zhang@bosch.com
+assignee: dang.hoanh@vn.bosch.com
 reporter: junsheng.zhang@bosch.com
-tags: []
+tags: [VNCNMS]
 components: []
 fix-versions: []
 epic: null
 parent: null
 created: "2026-09-07T15:16:48.000+0200"
-updated: "2026-09-07T18:25:44.000+0200"
-synced-at: "2026-09-08T01:46:06.261Z"
+updated: "2026-09-08T14:06:37.000+0200"
+synced-at: "2026-09-08T23:34:02.312Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-17140 Logic issues related to E2E signal groups in the RTE
 
-> [!jira] Waiting for Customer · Critical · [[Junsheng_ZHANG|Junsheng ZHANG]] · 更新于 2026-09-07T18:25:44.000+0200
+> [!jira] Waiting for Level 2 · Critical · [[Dang_Ho_Anh|Dang Ho Anh]] · 更新于 2026-09-08T14:06:37.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17140)
+
+> 标签：#jira/label/vncnms
 
 ## 描述
 
@@ -59,6 +61,19 @@ Hi Hotline,
  ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
+
+> [!note]+ 2026-09-08 10:31 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+
+-------
+
+> [!note]+ 2026-09-08 10:31 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> password ： ETAS
+>
+>
+> [^Gen.7z]
+
+-------
 
 > [!note]+ 2026-09-07 18:25 · [[Phong_Tang_Dieu|Phong Tang Dieu]]
 > Hi [[Junsheng_ZHANG|Junsheng ZHANG]]

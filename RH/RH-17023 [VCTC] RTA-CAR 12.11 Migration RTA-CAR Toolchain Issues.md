@@ -9,24 +9,24 @@ priority: Critical
 project: RH
 assignee: sisi.tao@bosch.com
 reporter: sisi.tao@bosch.com
-tags: [ISOLAR-AB]
+tags: [ISOLAR-AB, ISOLAR-B, Regional, VNCNMS]
 components: [Generic-Importers, ISOLAR-A/B]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-08-25T11:22:50.000+0200"
-updated: "2026-09-08T05:33:31.000+0200"
-synced-at: "2026-09-08T05:48:25.121Z"
+updated: "2026-09-08T09:11:15.000+0200"
+synced-at: "2026-09-08T23:34:02.312Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-17023 [VCTC] RTA-CAR 12.11 Migration RTA-CAR Toolchain Issues
 
-> [!jira] Waiting for Customer · Critical · [[Sisi_TAO|Sisi TAO]] · 更新于 2026-09-08T05:33:31.000+0200
+> [!jira] Waiting for Customer · Critical · [[Sisi_TAO|Sisi TAO]] · 更新于 2026-09-08T09:11:15.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17023)
 
-> 标签：#jira/comp/generic-importers #jira/comp/isolar-a/b #jira/label/isolar-ab
+> 标签：#jira/comp/generic-importers #jira/comp/isolar-a/b #jira/label/isolar-ab #jira/label/isolar-b #jira/label/regional #jira/label/vncnms
 
 ## 描述
 
@@ -101,10 +101,20 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 
 ## 关联
 
+- relates to: [[RH-16963 [VNCNMS][BIP] Tool Issue when using RTA-CAR 12.11.0]]
 - mentions: [[RH-17070 RTA CAR file parsing error]]
 - mentions: [[RH-16347 RTE code gen Error parsing input file ]]
 
 ## 评论
+
+> [!note]+ 2026-09-08 09:11 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> [[M_S_Karthik|M S Karthik]] : Which issues will be included in the patch?
+>
+> [[Jie_LIU|Jie LIU]] , as info from [[M_S_Karthik|M S Karthik]] , it's a standalone installation package so that it will be not integrated into VCTCPR7 plugin. Please note that next delivery will be VCTCPR7 plugin + ISOLAR-A/B installation package
+>
+> CC: a [[Lan_Tran|Lan Tran]] 
+
+-------
 
 > [!note]+ 2026-09-08 05:33 · [[Duy_Pham|Duy Pham]]
 > Hi [[Jie_LIU|Jie LIU]], would you please provide us log errors for ConfGen and project to preproduce the problems ?

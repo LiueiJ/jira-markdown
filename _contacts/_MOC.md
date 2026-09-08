@@ -189,8 +189,8 @@ SORT name ASC
 - [[Schran_Sven_(ETAS-ECMXPC-Fe3)|Schran Sven (ETAS-ECM/XPC-Fe3)]] — `ec82abt`
 - [[Scindia_Subash_(ETAS-ECMBUD)|Scindia Subash (ETAS-ECM/BUD)]] — `sbs1kor`
 - [[Shaker_Abdolrahman_Saleh|Shaker Abdolrahman Saleh]] — `shaker.abdolrahmansaleh@etas.com`
-- [[Shekaar_Karthi_Krishna_(Karthi.Krishna@etas.com)|Shekaar Karthi Krishna]] — `Karthi.Krishna@etas.com`
 - [[Shekaar_Karthi_Krishna|Shekaar Karthi Krishna]] — `karthi.krishna@etas.com`
+- [[Shekaar_Karthi_Krishna_(Karthi.Krishna@etas.com)|Shekaar Karthi Krishna]] — `Karthi.Krishna@etas.com`
 - [[Shekar_H_S_Vijay|Shekar H S Vijay]] — `vijayshekar.hs@in.bosch.com`
 - [[Shukla_Siddharth_(ETAS-ECMXPC-Fe1)_X|Shukla Siddharth (ETAS-ECM/XPC-Fe1) [X]]] — `ssh1lud`
 - [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] — `shweta.ganeshdixit@in.bosch.com`

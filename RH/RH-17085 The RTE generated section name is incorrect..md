@@ -5,7 +5,7 @@ server: rtahotline
 kind: hotline
 type: Support
 status: Waiting for Customer
-priority: High
+priority: Critical
 project: RH
 assignee: junsheng.zhang@bosch.com
 reporter: junsheng.zhang@bosch.com
@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-09-01T07:12:26.000+0200"
-updated: "2026-09-04T15:06:37.000+0200"
-synced-at: "2026-09-08T01:46:06.261Z"
+updated: "2026-09-08T11:44:40.000+0200"
+synced-at: "2026-09-08T23:34:02.312Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-17085 The RTE generated section name is incorrect.
 
-> [!jira] Waiting for Customer · High · [[Junsheng_ZHANG|Junsheng ZHANG]] · 更新于 2026-09-04T15:06:37.000+0200
+> [!jira] Waiting for Customer · Critical · [[Junsheng_ZHANG|Junsheng ZHANG]] · 更新于 2026-09-08T11:44:40.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17085)
 
 > 标签：#jira/comp/rta-rte
@@ -61,6 +61,16 @@ Hi hotline,
  ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
+
+> [!note]+ 2026-09-08 10:27 · [[Ngoc_Duong_Thi|Ngoc Duong Thi]]
+> [[Auges_Tchouante|Auges Tchouante]] , It has been planned in RTA-RTE 12.14.0 
+
+-------
+
+> [!note]+ 2026-09-08 10:07 · [[Auges_Tchouante|Auges Tchouante]]
+> [[Ngoc_Duong_Thi|Ngoc Duong Thi]] I had a discussion with the reporter and he's asking for  the timeline by when the issue will be fixed.
+
+-------
 
 > [!note]+ 2026-09-04 13:03 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
 > HI [[Shaker_Abdolrahman_Saleh|Shaker Abdolrahman Saleh]] Can we have call to see how memory sections are handled within this project? please invite me and [[Auges_Tchouante|Auges Tchouante]].

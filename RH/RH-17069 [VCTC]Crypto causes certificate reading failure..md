@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-08-30T06:33:15.000+0200"
-updated: "2026-09-07T11:06:40.000+0200"
-synced-at: "2026-09-08T01:46:06.261Z"
+updated: "2026-09-08T16:18:47.000+0200"
+synced-at: "2026-09-08T23:34:02.312Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-17069 [VCTC]Crypto causes certificate reading failure.
 
-> [!jira] Waiting for Level 3 · Critical · [[Elvan_Caliskan|Elvan Caliskan]] · 更新于 2026-09-07T11:06:40.000+0200
+> [!jira] Waiting for Level 3 · Critical · [[Elvan_Caliskan|Elvan Caliskan]] · 更新于 2026-09-08T16:18:47.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17069)
 
 > 标签：#jira/comp/sec-cryptoauhsm3
@@ -75,6 +75,12 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
+
+> [!note]+ 2026-09-08 16:18 · [[Rohith_Gowdara_Prakash|Rohith Gowdara Prakash]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]],
+> The earliest date we can provide this fix is October 2. Please let us know if this works for you.
+
+-------
 
 > [!note]+ 2026-09-07 11:06 · [[Junsheng_ZHANG|Junsheng ZHANG]]
 > Hi [[Elvan_Caliskan|Elvan Caliskan]] ,

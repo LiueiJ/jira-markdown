@@ -4,10 +4,10 @@ jira_url: "https://rtahotline.etas.com/jira/browse/RH-15717"
 server: rtahotline
 kind: hotline
 type: Analysis Request
-status: Waiting for Customer
+status: Waiting for Level 3
 priority: Critical
 project: RH
-assignee: jie.liu8@etas.com
+assignee: girish.chandran@etas.com
 reporter: jie.liu8@etas.com
 tags: []
 components: [Communication-Eth]
@@ -15,15 +15,15 @@ fix-versions: [RTA-CAR 12.13.0]
 epic: null
 parent: null
 created: "2026-04-09T16:08:43.000+0200"
-updated: "2026-09-07T10:39:29.000+0200"
-synced-at: "2026-09-08T01:46:06.261Z"
+updated: "2026-09-08T12:59:36.000+0200"
+synced-at: "2026-09-08T23:34:02.312Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-15717 Intermittent SOME/IP Subscription Loss After Repeated CDCU_MCU Reset
 
-> [!jira] Waiting for Customer · Critical · [[Jie_LIU|Jie LIU]] · 更新于 2026-09-07T10:39:29.000+0200
+> [!jira] Waiting for Level 3 · Critical · [[Girish_Chandran|Girish Chandran]] · 更新于 2026-09-08T12:59:36.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-15717)
 
 > 标签：#jira/comp/communication-eth
@@ -188,6 +188,48 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 - is blocked by: [[RHC-674 VW CEA1.0 SOA issues on Production Line]]
 
 ## 评论
+
+> [!note]+ 2026-09-08 12:58 · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]
+> [[Phuong_Nguyen_Le|Phuong Nguyen Le]]: We are currently discussing on the strategy to solve such kinds of misconfigurations. The configuration in the project is corrected by [[Jie_LIU|Jie LIU]] and this issue would not occur with the correct configuration. 
+>
+> What we are missing here is to catch the wrong configuration by the customer and this can be taken up as an improvement in the forward path of the product. I would want to understand the need for an urgent patch request here, since the customer already has a solution by changing his configuration. 
+>
+> [[Jie_LIU|Jie LIU]] : Can you please give a background of this request now?
+>
+> [[Prasad_Nandita|Prasad Nandita]] : FYI
+
+-------
+
+> [!note]+ 2026-09-08 12:50 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> [[Girish_Chandran|Girish Chandran]] , [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] : is it possible to provide code drop in CW37-38 then our team can integrate to provide the preview plugin to customer on 25/Sep
+
+-------
+
+> [!note]+ 2026-09-08 11:39 · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]
+> [[James_Butterfield|James Butterfield]] , [[Phuong_Nguyen_Le|Phuong Nguyen Le]] : The timeline for this topic was mentioned **tentative** as RTA-CAR 12.13.0 in [https://rtahotline.etas.com/jira/browse/RH-15717?focusedCommentId=688303&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-688303] and no patch on RTA-CAR 12.11 was discussed. 
+>
+> Adding [[Girish_Chandran|Girish Chandran]] here since, it was discussed that the the code generation tool shall check all parameters with *Symbolic Name = TRUE* for uniqueness instead of every module implementing a validation check for multiple parameters which makes the code bulky and unmaintainable. 
+>
+> [[Girish_Chandran|Girish Chandran]] : Was there any progress in this topic?
+
+-------
+
+> [!note]+ 2026-09-08 11:22 · [[James_Butterfield|James Butterfield]]
+> Hi [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] and [[Rajendran_Jothivel|Rajendran Jothivel]],
+>
+> Please could you share the status on releasing a patch to the customer for RTA-CAR 12.11.0? Is everything still going ahead as planned?
+>
+> Best Regards,
+> James
+
+-------
+
+> [!note]+ 2026-09-08 10:10 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> [[James_Butterfield|James Butterfield]] , Customer expect to provide fix on RTA-CAR 12.11 and provide patch plugin for them on 25-Sep. 
+>
+> Can you share your plan?
+
+-------
 
 > [!note]+ 2026-09-07 10:39 · [[James_Butterfield|James Butterfield]]
 > Hi [[Jiaqi_JI|Jiaqi JI]],

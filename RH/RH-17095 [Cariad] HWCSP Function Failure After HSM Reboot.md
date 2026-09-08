@@ -17,7 +17,7 @@ parent: null
 created: "2026-09-02T04:20:30.000+0200"
 updated: "2026-09-02T10:14:51.000+0200"
 synced-at: "2026-09-08T01:46:06.261Z"
-jira-orphaned: false
+jira-orphaned: true
 profile: Cariad
 ---
 

@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-07-20T10:28:37.000+0200"
-updated: "2026-09-07T12:35:57.000+0200"
-synced-at: "2026-09-08T01:46:06.261Z"
+updated: "2026-09-08T09:40:33.000+0200"
+synced-at: "2026-09-08T23:34:02.312Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-16705 [VNCNMS] BSWGen issue with missing memory map keywords in Com Stack
 
-> [!jira] Solution Proposed · High · [[Xiao_BAI|Xiao BAI]] · 更新于 2026-09-07T12:35:57.000+0200
+> [!jira] Solution Proposed · High · [[Xiao_BAI|Xiao BAI]] · 更新于 2026-09-08T09:40:33.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-16705)
 
 > 标签：#jira/comp/drivers/transceivers-for-can-lin-fr #jira/label/vncnms
@@ -61,6 +61,7 @@ Attached is the reference file.
 ## 关联
 
 - mentions: [[RH-17137 [VNCNMS][Cariad] BSWGen issue with missing memory map keywords in Lin Stack]]
+- is mentioned in: [[RH-17137 [VNCNMS][Cariad] BSWGen issue with missing memory map keywords in Lin Stack]]
 - is mentioned in: [[RH-16775 [VNCNMS][VCTC] Avoid Using Static Variables Inside Functions]]
 
 ## 评论
