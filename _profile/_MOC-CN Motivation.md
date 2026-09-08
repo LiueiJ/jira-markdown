@@ -1,0 +1,198 @@
+﻿---
+moc: true
+profile: CN Motivation
+---
+
+# CN Motivation · Profile 地图 (MOC)
+
+[[CN Motivation.base|在 Bases 中打开]]
+
+```dataview
+TABLE status, type, assignee, updated
+WHERE profile = "CN Motivation" AND !moc
+SORT status ASC
+```
+
+## 无 Epic
+
+- [[ARC-10140 Realtek Switch AUTOSAR Support]] — New
+- [[ARC-1031 Zeekr Zone Controller Feb 2023]] — Canceled
+- [[ARC-1038 BAIC, Various projects]] — Accepted
+- [[ARC-106 Geely Zeekr Opportunity]] — Canceled
+- [[ARC-1062 CTM Xpeng]] — Canceled
+- [[ARC-11448 【Carizon】DCM Specific Cause Code]] — Canceled
+- [[ARC-11744 Vofonturbo Suspension ECU for Geely]] — New
+- [[ARC-11745 MAXUS Zone ECU]] — New
+- [[ARC-11747 BSMER Body & Power Distribution ECUs Geely]] — New
+- [[ARC-12128 [Horizon Robotics] Continental J6B CP Project for Porsche]] — Accepted
+- [[ARC-12269 BYD EVCC ECU]] — New
+- [[ARC-12271 Magna - Tier1 CP Project - ADAS ECU]] — New
+- [[ARC-12355 Magna ADAS ECU]] — Canceled
+- [[ARC-12356 TBD]] — New
+- [[ARC-12404 HESAI - Request for DOIP & TCP - SACK]] — New
+- [[ARC-12588 HVR Solutions for BYD]] — New
+- [[ARC-12589 HVR Solutions for Changan]] — New
+- [[ARC-12617 [RTA-CCM] Charging solutions for BYD]] — New
+- [[ARC-12638 Whaleintech (Jiongyi) TTA8 Lite AUTOSAR]] — New
+- [[ARC-12748 Qualcomm Partner Activities]] — Accepted
+- [[ARC-13246 VinFast ADAS ECU]] — New
+- [[ARC-133 MCAL - Renesas RH850 P1x-C CAN, FlexRay & Fee MCAL driver support]] — Canceled
+- [[ARC-13421 DHU Central Gateway]] — New
+- [[ARC-13494 Enhance RTA-CAR to enable COBRA use-cases]] — New
+- [[ARC-13540 Nissan ZCU_L, ZCU_R and ZCU_T propjects]] — Accepted
+- [[ARC-13555 Gotion Daimler Truck BMS ECU]] — New
+- [[ARC-13556 PATAC Cadillac Platform project based on GM VIP24 for SunWoda]] — Accepted
+- [[ARC-13612 PATAC Cadillac Platform L243]] — New
+- [[ARC-13728 G-Pulse requires AUTOSAR CP lite solutions (RTA-CAR Nano)]] — New
+- [[ARC-13729 Chery - EEA Architecture requirements]] — Canceled
+- [[ARC-13785 Neusoft SmartGo Cockpit ADAS solution based on QC8797]] — New
+- [[ARC-14183 Hesai - BMW LIDAR Project]] — New
+- [[ARC-14384 PATAC - CADILLAC Project based on VIP24 for CAEA]] — Accepted
+- [[ARC-14589 Weikeng BIP Service on Weikeng BMS ECU]] — New
+- [[ARC-14617 Enable Volkwagen China Technology Company (VCTC) to configure and generate Cycur]] — New
+- [[ARC-14622 XPeng ADAS XPU]] — Accepted
+- [[ARC-14690 Cariad Project for Audi PPE E3 1.2 Platform]] — New
+- [[ARC-14691 Chery EE Architecture]] — New
+- [[ARC-14693 SHACMAN - OEM CP requirements]] — New
+- [[ARC-14696 RTA-OS port for UAES thermal management system - Gigadevice GD32A7xx B version]] — New
+- [[ARC-14697 RTA-OS port for Silergy rear wheel steering project - SA32D610 HightTec]] — New
+- [[ARC-14698 G-Pulse sensor ECU project Silergy SA32BXX]] — New
+- [[ARC-14701 RTA-OS port for Bosch ECU platform - TMC Unicon]] — New
+- [[ARC-14702 RTA-OS port for Bosch Unicon devices]] — Accepted
+- [[ARC-14703 RTA-OS port for Sungrow Motor Control Unit project - TI F29]] — New
+- [[ARC-14704 RTA-OS port for [customer TBD] [product TBD] - TMC THA6104 6102]] — Canceled
+- [[ARC-14705 RTA-OS port for [customer TBD] [product TBD] RH850 U2x OS port]] — New
+- [[ARC-14707 [Draft] Motivation ticket for the GUA OS port]] — New
+- [[ARC-14708 RTA-OS port for [customer TBD] [product TBD] YunTu YTM32B1ME05]] — Canceled
+- [[ARC-14709 RTA-OS port for Neusoft, JiGaro, Series MCU projects - IFX TC4xx Tasking]] — New
+- [[ARC-14710 RTA-OS port for several customers - MCU, BMS, Zonal projects - SemiDrive E3650 2]] — New
+- [[ARC-14711 RTA-OS port for Hesai Lidar - SemiDirve E3116 Host Core IAR Compiler]] — New
+- [[ARC-14712 BYD MotorControlUnit - C Core RISC-V Tasking]] — New
+- [[ARC-14713 RTA-OS Base Port for R52-based ARM devices with the ARM compiler]] — New
+- [[ARC-14714 RTA-OS port for Luxshare ADAS - Momenta]] — Canceled
+- [[ARC-14715 RTA-OS port for Flagchip MCU - Flagchip FC7240 and FC7300 GHS]] — New
+- [[ARC-14716 RTA-OS port for LanShan MCU - LanShan LS-N636 HighTec]] — New
+- [[ARC-14717 ChipSea CS32K776 SW Enablement]] — New
+- [[ARC-14718 RTA-OS port for Axera ADAS - Axera M97 95 ARMCC Fusa Compiler]] — New
+- [[ARC-14719 RTA-OS port for Veoneer Airbag - C Core CCFC3008PCS-A GHS]] — New
+- [[ARC-14720 RTA-OS port for CCore MCU - CCFC3011PT GHS]] — New
+- [[ARC-14721 RTA-OS port for CCore MCU - C Core CCFC3010L (Lite) GHS]] — New
+- [[ARC-14722 [Draft] Motivation ticket for the TI AWRL6844 OS port]] — Canceled
+- [[ARC-14723 RTA-HVR real time interrupt support for the ChangAn HVR demo]] — Canceled
+- [[ARC-14724 RTA-OS port for [customer TBD] [product TBD] - TDA4AH88TGAALYRQ1]] — Canceled
+- [[ARC-14725 RTA-OS port for Hesai Lidar project - Hesai C500+]] — Done
+- [[ARC-14726 RTA-OS port for [customer TBD] [product TBD] - Flagchip FC4150]] — Canceled
+- [[ARC-14727 RTA-OS port for UAES Zonal ECU - NXP S32K566 GHS Compiler]] — New
+- [[ARC-14728 RTA-OS port for UAES [TBD product] - NXP S32K566 M7 + R52 GHS Compiler]] — New
+- [[ARC-14746 RTA-OS Base Port for Mx-based devices with the GreenHills compiler]] — New
+- [[ARC-14748 RTA-OS Base Port for Mx-based devices with the IAR compiler]] — New
+- [[ARC-14764 Veoneer requires RTA-CAR, OS & HSM Firmware Solutions]] — New
+- [[ARC-14767 RTA-OS port for Magna Radar project - TI AWR2x44LCC TI Clang]] — Canceled
+- [[ARC-14782 Delta GM Project]] — New
+- [[ARC-14783 UAES Requires Type-1 , Type-2 Virtual ECU Solutions]] — New
+- [[ARC-14807 RTA-OS port for QingShan MCU project - TMC THA6412 HighTec]] — New
+- [[ARC-14808 RTA-OS port for Hirain [product TBD] - S32K5xx R52 M7 GHS]] — Canceled
+- [[ARC-14814 HCT Mitsubishi ADAS ECU requiring DIAG Services]] — New
+- [[ARC-15005 XC Radar Platform]] — New
+- [[ARC-15076 RTA-OS port for BST ADAS Domain - BST A2000 R52 GCC]] — New
+- [[ARC-15108 RTA-OS port for Ecarx IVI Domain - SemiDrive E3620B R52 GHS]] — Canceled
+- [[ARC-15162 CAEA - Hyundai EC1C Zone Control Project]] — New
+- [[ARC-15218 RTA-OS port for ETCN_SEC_Team - GigaDevice GD32A9x HSM Core - M52 GHS]] — New
+- [[ARC-15219 RTA-OS port for ETCN_SEC_Team - TMC THA8x HSM Core - M52 GHS]] — New
+- [[ARC-15263 ECARX IVI ECU]] — New
+- [[ARC-15278 RTA-OS port for Envision BMS - NXP S32K364 - M7 GHS]] — Canceled
+- [[ARC-15291 XPeng ZCU]] — New
+- [[ARC-15294 VCTC VW-CARIAD CEA 3.0]] — New
+- [[ARC-15467 VM-OSS China Local Airbag]] — Canceled
+- [[ARC-15504 FAW E111 E-QM5 ECU]] — New
+- [[ARC-15590 BTL-Geely BaseTech 3.5 ADCU]] — New
+- [[ARC-15631 CARIAD CEA 3.0 Platform VW]] — Canceled
+- [[ARC-15755 Keboda - SGM PATAC Project - gPTP requirement]] — New
+- [[ARC-16044 Leapmotor ZCU (Zone Controller) & DCU (Domain Controller)]] — New
+- [[ARC-16089 Carizon - VW ADAS Project]] — New
+- [[ARC-16120 Hesai - GAC CP Project - CP requirements]] — New
+- [[ARC-16195 BMW EES30 AUTOSAR Requirements]] — New
+- [[ARC-16215 SmartxTruck (JAC) - RTA-CAR product for Ubuntu 24.04]] — New
+- [[ARC-16245 UAES - ZCU - RTA-CAR Requirements]] — New
+- [[ARC-16253 Foton-VCU-RTA-CAR J1939 requirements]] — New
+- [[ARC-16268 RTA-OS port for LeapMotor VCU - Autochip AC78406 GHS]] — New
+- [[ARC-16269 ECarX IVI Platform (Autochip-based)]] — New
+- [[ARC-16270 SAIC ZCU]] — New
+- [[ARC-16271 LeapMotor BDC (Body Domain Controller)]] — New
+- [[ARC-16272 BAIC Gas Source Controller]] — New
+- [[ARC-16353 CAEA - VW Global Project]] — Canceled
+- [[ARC-16407 Leapmotor EPS ECU]] — New
+- [[ARC-16527 Keboda Motor Control Unit]] — New
+- [[ARC-16687 RTA-OS port for Nuclei RISC-V NA900 project - Nuclei NA900 IP]] — New
+- [[ARC-16709 FINEST BorgWarner Audi TSG ECU]] — New
+- [[ARC-16717 CAEA Switch ECU]] — New
+- [[ARC-16722 BYD - Vehicle Control ECU - Functional Safety Certification - Requirements]] — New
+- [[ARC-16728 RTA-HVR port for CCore CCRC4086 RISC-V HVR Demo - CCRC4086 Tasking]] — New
+- [[ARC-16740 Enpower - CP Flex requirements]] — New
+- [[ARC-16758 GEELY SDN Proof-of-Concept]] — New
+- [[ARC-16918 RTA-OS port for Bosch XC Radar ECU - TI AWR2644]] — New
+- [[ARC-16935 RTA-OS port for Luxshare ADAS ECU - Momenta Xheart BMC X7 GHS]] — New
+- [[ARC-17175 GEELY AUTOSAR solution for IVI and ADAS controllers]] — New
+- [[ARC-17177 Topsunpower BOT ADC ECU on Robotic Dog]] — New
+- [[ARC-17188 RTA-OS port for TRX CMS ECU - Yuntu YTM32B1MD14G0MLHT M33 IAR]] — New
+- [[ARC-17190 TRX Tier1 - Streaming Media & Rearview Mirror Project for RTA-Nano]] — New
+- [[ARC-17242 RTA-OS port for Keboda TBD ECU - R-CAR U5L2 GHS]] — New
+- [[ARC-17324 XPeng Ethernet Switch]] — New
+- [[ARC-17359 VMAX - Ford Project]] — New
+- [[ARC-17373 RTA-OS port for Horizon ADAS ECU - J7x GHS or HighTec]] — New
+- [[ARC-17378 Keboda - BMW nPDU communication requirements]] — New
+- [[ARC-17383 G-pulse (Jinmai) ADCU GEELY]] — New
+- [[ARC-17389 BYD_CCM project]] — New
+- [[ARC-17397 RTA-OS port for Magna Motor Control ECU - TI MSPM0Gx51x M0 TI Compiler]] — New
+- [[ARC-17430 GAC RTA-SWITCH Requirements]] — New
+- [[ARC-17435 GAC SDN PoC]] — New
+- [[ARC-17451 RTA-OS port for StarPower Motor Control MCU - SP68AR_R52+ HighTec Compiler]] — New
+- [[ARC-17453 Renault Next Gen SW]] — New
+- [[ARC-17468 [VCTC_Security] Immobilizer Requirements on CEA2.0&CEA1.X]] — New
+- [[ARC-17484 VCU]] — New
+- [[ARC-17487 ECU Project]] — New
+- [[ARC-17488 CP J6B ECU Platform]] — New
+- [[ARC-190 Chery]] — Canceled
+- [[ARC-191 East China JV Tire 1]] — Canceled
+- [[ARC-1912 GigaDevice - China]] — Accepted
+- [[ARC-2051 Xiaomi - 4 Domain ECUs XCD, FZCU, ADAS, PCU]] — Accepted
+- [[ARC-2055 MCAL for MotionSilicon]] — Canceled
+- [[ARC-2525 Desay GM ADCU ECU (Global-B VIP24)]] — Canceled
+- [[ARC-2531 HESAI GM VIP24 Lidar Project]] — Accepted
+- [[ARC-276 Zongmutech NextGen ADAS]] — Done
+- [[ARC-2923 Gotion BMS ECU Virtualization]] — Canceled
+- [[ARC-49 FreeTech Geely ADAS ECU project]] — Done
+- [[ARC-52 Xpeng (Guangzhou Xiaopeng Automobile)]] — Canceled
+- [[ARC-5308 MCU (Motor Control Unit) Next Generation]] — Done
+- [[ARC-5439 Geely Base Technology SWRS ZCU D&P]] — Canceled
+- [[ARC-5446 SAIC Z-One]] — Canceled
+- [[ARC-55 KEBODA BMW project]] — Canceled
+- [[ARC-6237 GAC ECU]] — New
+- [[ARC-6435 Leapmotor BSW project]] — Done
+- [[ARC-6670 LiSheng ADAS & MCU ECUs Chery]] — Done
+- [[ARC-6671 CARIAD CEA 1.0 Platform VW]] — Accepted
+- [[ARC-6719 GWM project]] — Done
+- [[ARC-6721 BYD project]] — Done
+- [[ARC-6723 DFM project]] — New
+- [[ARC-6725 Carizon ADAS ECU]] — Accepted
+- [[ARC-6894 AD ECU]] — Canceled
+- [[ARC-7206 BYD Combined Powertrain Controller]] — Accepted
+- [[ARC-7685 ENVISON - BMS Ford FNV2]] — Canceled
+- [[ARC-7738 Desay ADAS ECU for GM PATAC]] — New
+- [[ARC-7783 HiRain ADAS AD ECU]] — New
+- [[ARC-8701 [XIAOMI] E E Vehicle Architecture for Domain ECUs XCD, FZCU, ADAS, PCU]] — New
+- [[ARC-8758 ETCN - China Mainstream (CNMS)]] — Canceled
+- [[ARC-9062 BYD ADAS Controller]] — Accepted
+- [[ARC-9198 VCTC Domain ECUs]] — Accepted
+- [[ARC-9460 EMS ECU]] — New
+- [[ARC-9474 [ETCN] GAC EEA3.0 Platform (9 ECUs CCU, IDC-[M S], ADC-[M S], ZCU-[F L R T])]] — Canceled
+- [[ARC-9493 ETCN - Customers & CN Market Requirements for RTA-CAR Product]] — New
+- [[ARC-9505 Luxshare Radar ECU]] — New
+- [[ARC-9582 HYCET EVCC ECU for GMW]] — New
+- [[ARC-9667 HESAI Customized RTA-CAR for Xiaomi Spec]] — New
+- [[ARC-9725 ECarX VW SmartCabin MCU]] — Accepted
+- [[ARC-9872 XPeng Realtek RTL9072Dx AR CP SW Integration]] — New
+- [[ARC-9902 VCTC VW CEA2.0 (CDCU,LDCU,RDCU & RearDCU)]] — Accepted
+- [[ARC-9948 Veoneer HSM & OS C-Core CCFC Global license]] — New
+- [[INSYNC-50 HESAI Customized RTA-CAR for Xiaomi Spec]] — Accepted
+- [[INSYNC-61 EcarX RTA-CAR 12.7.0]] — Accepted

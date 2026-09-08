@@ -17,7 +17,7 @@ parent: "[[ARC-9902 VCTC : VW CEA2.0 (CDCU,LDCU,RDCU & RearDCU)]]"
 created: "2025-10-29T01:24:34.000+0000"
 updated: "2025-12-10T23:15:25.000+0000"
 synced-at: "2026-09-08T01:46:40.034Z"
-jira-orphaned: false
+jira-orphaned: true
 profile: CEA2.0 Needs
 ---
 
