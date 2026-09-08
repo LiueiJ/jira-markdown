@@ -16,8 +16,9 @@ epic: null
 parent: null
 created: "2026-06-27T23:53:33.000+0000"
 updated: "2026-08-28T05:30:00.000+0000"
-synced-at: "2026-09-06T01:15:42.846Z"
+synced-at: "2026-09-08T01:43:02.635Z"
 jira-orphaned: false
+profile: Medusa
 ---
 
 # MEDUSA-8 MEDUSA-8 RTA-CAR MCP

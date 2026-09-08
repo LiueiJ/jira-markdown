@@ -16,8 +16,9 @@ epic: null
 parent: null
 created: "2026-08-28T05:27:34.000+0000"
 updated: "2026-09-01T09:32:40.000+0000"
-synced-at: "2026-09-06T01:15:42.846Z"
+synced-at: "2026-09-08T01:43:02.635Z"
 jira-orphaned: false
+profile: Medusa
 ---
 
 # MEDUSA-49 Design the golden test dataset for knowledge base, verify it and generate test report

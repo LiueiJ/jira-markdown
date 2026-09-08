@@ -16,8 +16,9 @@ epic: null
 parent: null
 created: "2026-08-05T03:21:28.000+0000"
 updated: "2026-08-18T01:43:24.000+0000"
-synced-at: "2026-09-06T01:15:42.846Z"
+synced-at: "2026-09-08T01:43:02.635Z"
 jira-orphaned: false
+profile: Medusa
 ---
 
 # MEDUSA-37 M1-Setup Agent Skeleton based on FastAPI and LangGraph

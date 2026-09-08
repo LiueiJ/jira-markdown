@@ -16,8 +16,9 @@ epic: null
 parent: "[[MEDUSA-20 Agentic RTA-CAR Workflow Requirement Analysis]]"
 created: "2026-07-22T09:54:42.000+0000"
 updated: "2026-08-04T02:33:34.000+0000"
-synced-at: "2026-09-06T01:15:42.846Z"
+synced-at: "2026-09-08T01:43:02.635Z"
 jira-orphaned: false
+profile: Medusa
 ---
 
 # MEDUSA-24 Documentation of Requirement for Agentic Workflow

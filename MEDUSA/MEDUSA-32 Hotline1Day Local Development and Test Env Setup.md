@@ -16,8 +16,9 @@ epic: null
 parent: "[[MEDUSA-1 Hotline1Day Migration to CN Infrastructure]]"
 created: "2026-08-03T03:32:01.000+0000"
 updated: "2026-08-03T03:32:01.000+0000"
-synced-at: "2026-09-06T01:15:42.846Z"
+synced-at: "2026-09-08T01:43:02.635Z"
 jira-orphaned: false
+profile: Medusa
 ---
 
 # MEDUSA-32 Hotline1Day Local Development and Test Env Setup

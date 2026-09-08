@@ -16,8 +16,9 @@ epic: null
 parent: "[[MEDUSA-1 Hotline1Day Migration to CN Infrastructure]]"
 created: "2026-08-03T02:45:01.000+0000"
 updated: "2026-08-04T02:56:17.000+0000"
-synced-at: "2026-09-06T01:15:42.846Z"
+synced-at: "2026-09-08T01:43:02.635Z"
 jira-orphaned: false
+profile: Medusa
 ---
 
 # MEDUSA-31 Hotline1Day Maintenance Cost

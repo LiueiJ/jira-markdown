@@ -16,8 +16,9 @@ epic: null
 parent: "[[MEDUSA-26 Intern Orientation for Yiran]]"
 created: "2026-07-29T03:28:26.000+0000"
 updated: "2026-08-06T08:00:29.000+0000"
-synced-at: "2026-09-06T01:15:42.846Z"
+synced-at: "2026-09-08T01:43:02.635Z"
 jira-orphaned: false
+profile: Medusa
 ---
 
 # MEDUSA-29 [Tech Survey] AI Agent Architectures, Frameworks & MCP Research

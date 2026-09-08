@@ -16,8 +16,9 @@ epic: null
 parent: null
 created: "2026-09-01T10:39:49.000+0000"
 updated: "2026-09-05T08:23:21.000+0000"
-synced-at: "2026-09-06T01:15:42.846Z"
+synced-at: "2026-09-08T01:43:02.635Z"
 jira-orphaned: false
+profile: Medusa
 ---
 
 # MEDUSA-54 M1 - Develop Arxml Edit Tool for stable BSW/RTE configuration

@@ -16,8 +16,9 @@ epic: null
 parent: null
 created: "2026-09-01T08:26:38.000+0000"
 updated: "2026-09-03T08:30:17.000+0000"
-synced-at: "2026-09-06T01:15:42.846Z"
+synced-at: "2026-09-08T01:43:02.635Z"
 jira-orphaned: false
+profile: Medusa
 ---
 
 # MEDUSA-52 M1 - Demo preparation for Agentic Cobra

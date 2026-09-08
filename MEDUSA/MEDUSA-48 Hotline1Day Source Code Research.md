@@ -16,8 +16,9 @@ epic: null
 parent: null
 created: "2026-08-28T05:12:58.000+0000"
 updated: "2026-09-03T08:31:11.000+0000"
-synced-at: "2026-09-06T01:15:42.846Z"
+synced-at: "2026-09-08T01:43:02.635Z"
 jira-orphaned: false
+profile: Medusa
 ---
 
 # MEDUSA-48 Hotline1Day Source Code Research

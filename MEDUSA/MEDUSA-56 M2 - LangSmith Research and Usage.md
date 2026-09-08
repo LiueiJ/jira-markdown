@@ -16,8 +16,9 @@ epic: null
 parent: null
 created: "2026-09-02T03:26:50.000+0000"
 updated: "2026-09-07T02:36:40.000+0000"
-synced-at: "2026-09-07T03:11:58.715Z"
+synced-at: "2026-09-08T01:43:02.635Z"
 jira-orphaned: false
+profile: Medusa
 ---
 
 # MEDUSA-56 M2 - LangSmith Research and Usage

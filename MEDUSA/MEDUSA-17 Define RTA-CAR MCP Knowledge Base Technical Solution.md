@@ -16,8 +16,9 @@ epic: null
 parent: null
 created: "2026-07-22T08:29:02.000+0000"
 updated: "2026-08-05T02:48:44.000+0000"
-synced-at: "2026-09-06T01:15:42.846Z"
+synced-at: "2026-09-08T01:43:02.635Z"
 jira-orphaned: false
+profile: Medusa
 ---
 
 # MEDUSA-17 Define RTA-CAR MCP Knowledge Base Technical Solution

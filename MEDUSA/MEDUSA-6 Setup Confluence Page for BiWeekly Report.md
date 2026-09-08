@@ -16,8 +16,9 @@ epic: null
 parent: null
 created: "2026-06-28T08:04:12.000+0000"
 updated: "2026-07-22T09:38:56.000+0000"
-synced-at: "2026-09-06T01:15:42.846Z"
+synced-at: "2026-09-08T01:43:02.635Z"
 jira-orphaned: false
+profile: Medusa
 ---
 
 # MEDUSA-6 Setup Confluence Page for BiWeekly Report

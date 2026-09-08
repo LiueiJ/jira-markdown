@@ -16,8 +16,9 @@ epic: null
 parent: null
 created: "2026-06-28T07:57:49.000+0000"
 updated: "2026-08-04T02:44:35.000+0000"
-synced-at: "2026-09-06T01:15:42.846Z"
+synced-at: "2026-09-08T01:43:02.635Z"
 jira-orphaned: false
+profile: Medusa
 ---
 
 # MEDUSA-12 Setup Repo for Agentic Cobra activities including plugin, MCP, etc.

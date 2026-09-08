@@ -16,8 +16,9 @@ epic: null
 parent: "[[MEDUSA-26 Intern Orientation for Yiran]]"
 created: "2026-07-29T03:31:41.000+0000"
 updated: "2026-08-26T02:44:58.000+0000"
-synced-at: "2026-09-06T01:15:42.846Z"
+synced-at: "2026-09-08T01:43:02.635Z"
 jira-orphaned: false
+profile: Medusa
 ---
 
 # MEDUSA-30 [Case Study] Case Study of a Ready-to-Run Open-Source Agent Application

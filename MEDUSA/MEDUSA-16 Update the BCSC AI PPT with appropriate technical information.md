@@ -16,8 +16,9 @@ epic: null
 parent: "[[MEDUSA-15 Preparing BCSC Co-oporation PPT]]"
 created: "2026-06-29T05:22:17.000+0000"
 updated: "2026-07-22T09:38:46.000+0000"
-synced-at: "2026-09-06T01:15:42.846Z"
+synced-at: "2026-09-08T01:43:02.635Z"
 jira-orphaned: false
+profile: Medusa
 ---
 
 # MEDUSA-16 Update the BCSC AI PPT with appropriate technical information

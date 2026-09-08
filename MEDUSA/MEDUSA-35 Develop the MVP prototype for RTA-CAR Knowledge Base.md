@@ -16,8 +16,9 @@ epic: null
 parent: null
 created: "2026-08-05T02:55:05.000+0000"
 updated: "2026-08-28T05:09:57.000+0000"
-synced-at: "2026-09-06T01:15:42.846Z"
+synced-at: "2026-09-08T01:43:02.635Z"
 jira-orphaned: false
+profile: Medusa
 ---
 
 # MEDUSA-35 Develop the MVP prototype for RTA-CAR Knowledge Base

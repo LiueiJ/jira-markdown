@@ -16,8 +16,9 @@ epic: null
 parent: null
 created: "2026-08-27T06:44:49.000+0000"
 updated: "2026-09-02T08:54:18.000+0000"
-synced-at: "2026-09-06T01:15:42.846Z"
+synced-at: "2026-09-08T01:43:02.635Z"
 jira-orphaned: false
+profile: Medusa
 ---
 
 # MEDUSA-47 M1 - Electron or Tauri integration with React

@@ -16,8 +16,9 @@ epic: null
 parent: null
 created: "2026-07-22T09:31:38.000+0000"
 updated: "2026-08-05T01:54:00.000+0000"
-synced-at: "2026-09-06T01:15:42.846Z"
+synced-at: "2026-09-08T01:43:02.635Z"
 jira-orphaned: false
+profile: Medusa
 ---
 
 # MEDUSA-21 Evaluate the existing open source MCP knowledge base framework

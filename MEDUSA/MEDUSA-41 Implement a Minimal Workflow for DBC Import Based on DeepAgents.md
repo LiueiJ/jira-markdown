@@ -16,8 +16,9 @@ epic: null
 parent: "[[MEDUSA-37 M1-Setup Agent Skeleton based on FastAPI and LangGraph]]"
 created: "2026-08-07T03:28:13.000+0000"
 updated: "2026-08-18T01:26:31.000+0000"
-synced-at: "2026-09-06T01:15:42.846Z"
+synced-at: "2026-09-08T01:43:02.635Z"
 jira-orphaned: false
+profile: Medusa
 ---
 
 # MEDUSA-41 Implement a Minimal Workflow for DBC Import Based on DeepAgents

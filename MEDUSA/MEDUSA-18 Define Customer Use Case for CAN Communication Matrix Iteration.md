@@ -16,8 +16,9 @@ epic: null
 parent: null
 created: "2026-07-22T08:30:33.000+0000"
 updated: "2026-09-03T08:31:14.000+0000"
-synced-at: "2026-09-06T01:15:42.846Z"
+synced-at: "2026-09-08T01:43:02.635Z"
 jira-orphaned: false
+profile: Medusa
 ---
 
 # MEDUSA-18 Define Customer Use Case for CAN Communication Matrix Iteration

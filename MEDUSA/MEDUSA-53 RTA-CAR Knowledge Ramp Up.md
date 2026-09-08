@@ -16,8 +16,9 @@ epic: null
 parent: null
 created: "2026-09-01T09:33:32.000+0000"
 updated: "2026-09-01T09:33:33.000+0000"
-synced-at: "2026-09-06T01:15:42.846Z"
+synced-at: "2026-09-08T01:43:02.635Z"
 jira-orphaned: false
+profile: Medusa
 ---
 
 # MEDUSA-53 RTA-CAR Knowledge Ramp Up
