@@ -4,10 +4,10 @@ jira_url: "https://jira.etas-dev.com/browse/RTAXIP-4010"
 server: etas
 kind: motivation
 type: Story
-status: Open
+status: In Progress
 priority: Medium
 project: RTAXIP
-assignee: ""
+assignee: tuo8hc
 reporter: aiu2sgh
 tags: [RTA-BIP-UC]
 components: []
@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-08-09T08:18:04.000+0000"
-updated: "2026-09-07T10:00:26.000+0000"
-synced-at: "2026-09-08T01:46:31.431Z"
+updated: "2026-09-08T02:39:55.000+0000"
+synced-at: "2026-09-08T05:48:25.775Z"
 jira-orphaned: false
 profile: CNN
 ---
 
 # RTAXIP-4010 [RTA-BIP-UC] Move Rtm, StackM, TestM from Cobra to RTA-CAR BSW Plugin
 
-> [!jira] Open · Medium ·  · 更新于 2026-09-07T10:00:26.000+0000
+> [!jira] In Progress · Medium · [[Truong_Duc_Thang_(MSETA-Hub-CN)|Truong Duc Thang (MS/ETA-Hub-CN)]] · 更新于 2026-09-08T02:39:55.000+0000
 > [在 Jira 中打开](https://jira.etas-dev.com/browse/RTAXIP-4010)
 
 > 标签：#jira/label/rta-bip-uc
