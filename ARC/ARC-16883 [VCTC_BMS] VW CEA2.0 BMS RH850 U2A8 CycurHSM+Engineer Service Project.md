@@ -16,8 +16,9 @@ epic: null
 parent: null
 created: "2026-07-07T03:19:46.000+0000"
 updated: "2026-08-11T14:23:01.000+0000"
-synced-at: "2026-09-08T00:47:19.825Z"
+synced-at: "2026-09-08T01:41:29.326Z"
 jira-orphaned: false
+profile: CN Motivation
 ---
 
 # ARC-16883 [VCTC_BMS]: VW CEA2.0 BMS RH850/U2A8 CycurHSM+Engineer Service Project

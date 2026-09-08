@@ -1,6 +1,6 @@
-filters:
+﻿filters:
   and:
-    - profile == "Medusa"
+    - 'profile == "CN Motivation"'
 views:
   - type: table
     name: Tickets

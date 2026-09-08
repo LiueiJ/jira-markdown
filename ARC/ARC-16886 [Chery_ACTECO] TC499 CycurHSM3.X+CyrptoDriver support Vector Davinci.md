@@ -16,8 +16,9 @@ epic: null
 parent: null
 created: "2026-07-07T04:38:41.000+0000"
 updated: "2026-08-11T14:23:33.000+0000"
-synced-at: "2026-09-08T00:47:19.825Z"
+synced-at: "2026-09-08T01:41:29.326Z"
 jira-orphaned: false
+profile: CN Motivation
 ---
 
 # ARC-16886 [Chery_ACTECO] TC499 CycurHSM3.X+CyrptoDriver support Vector Davinci
