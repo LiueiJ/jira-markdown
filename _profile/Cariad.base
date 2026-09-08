@@ -11,5 +11,7 @@ views:
       - assignee
       - updated
     sort:
-      - property: status
+      - property: jira_key
+        direction: ASC
+      - property: summary
         direction: DESC
