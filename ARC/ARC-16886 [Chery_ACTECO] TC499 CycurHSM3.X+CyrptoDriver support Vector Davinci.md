@@ -16,7 +16,7 @@ epic: null
 parent: null
 created: "2026-07-07T04:38:41.000+0000"
 updated: "2026-08-11T14:23:33.000+0000"
-synced-at: "2026-09-08T02:20:49.058Z"
+synced-at: "2026-09-08T05:48:23.202Z"
 jira-orphaned: false
 profile: CN Motivation
 ---
