@@ -1,3 +1,6 @@
+---
+jira_key: MEDUSA-13
+---
 ﻿---
 jira_key: MEDUSA-1
 jira_url: "https://jira.etas-dev.com/browse/MEDUSA-1"
