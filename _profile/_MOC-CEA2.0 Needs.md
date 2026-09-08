@@ -28,3 +28,4 @@ SORT status ASC
 - [[ARC-13595 OBD support according to latest standard required for both CEA 1.0 & CEA 2.0 arc]] — On Hold
 - [[ARC-13738 Support DcmDspRequestRoutineResultsIn in ClientServerInterface RoutineServices]] — Analyzed
 - [[ARC-13749 WdgM Callout Support After GSS or MSS Expired]] — Analyzed
+- [[ARC-9904 [VW-China] TSN Support in RTA-CAR]] — Analyzed

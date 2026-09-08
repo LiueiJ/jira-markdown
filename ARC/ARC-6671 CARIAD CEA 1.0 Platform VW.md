@@ -17,7 +17,7 @@ parent: null
 created: "2024-09-03T12:29:09.000+0000"
 updated: "2025-07-09T11:10:24.000+0000"
 synced-at: "2026-09-08T02:03:07.632Z"
-jira-orphaned: false
+jira-orphaned: true
 profile: CN Motivation
 ---
 
