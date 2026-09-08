@@ -1,6 +1,3 @@
----
-jira_key: MEDUSA-13
----
 ﻿---
 jira_key: MEDUSA-1
 jira_url: "https://jira.etas-dev.com/browse/MEDUSA-1"
@@ -19,7 +16,7 @@ epic: null
 parent: null
 created: "2026-06-28T07:46:01.000+0000"
 updated: "2026-08-05T03:23:28.000+0000"
-synced-at: "2026-09-08T01:43:02.635Z"
+synced-at: "2026-09-08T05:48:24.049Z"
 jira-orphaned: false
 profile: Medusa
 ---

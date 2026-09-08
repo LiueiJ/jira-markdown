@@ -4,7 +4,7 @@ jira_url: "https://jira.etas-dev.com/browse/MEDUSA-54"
 server: etas
 kind: motivation
 type: Story
-status: To Do
+status: In Progress
 priority: Medium
 project: MEDUSA
 assignee: tao9sgh
@@ -15,20 +15,25 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-09-01T10:39:49.000+0000"
-updated: "2026-09-05T08:23:21.000+0000"
-synced-at: "2026-09-08T01:43:02.635Z"
+updated: "2026-09-08T03:44:23.000+0000"
+synced-at: "2026-09-08T05:48:24.049Z"
 jira-orphaned: false
 profile: Medusa
 ---
 
 # MEDUSA-54 M1 - Develop Arxml Edit Tool for stable BSW/RTE configuration
 
-> [!jira] To Do · Medium · [[TAO_Sisi_(ETAS-ECMXSF-CN)|TAO Sisi (ETAS-ECM/XSF-CN)]] · 更新于 2026-09-05T08:23:21.000+0000
+> [!jira] In Progress · Medium · [[TAO_Sisi_(ETAS-ECMXSF-CN)|TAO Sisi (ETAS-ECM/XSF-CN)]] · 更新于 2026-09-08T03:44:23.000+0000
 > [在 Jira 中打开](https://jira.etas-dev.com/browse/MEDUSA-54)
 
 ## 描述
 
-（无描述）
+1. Add BSW Code Gen Preflight check tool:
+
+1. 1. Check BuildSettings.properties path
+  2. Check RTA-BSW/*/dir_out path
+  3. Check ISOLAR-AB.cmd
+  4. Check module [Is Configured/ Is Selected
 
 ## 评论
 

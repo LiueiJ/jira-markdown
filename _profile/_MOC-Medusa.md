@@ -60,10 +60,10 @@ SORT status ASC
 - [[MEDUSA-49 Design the golden test dataset for knowledge base, verify it and generate test r]] — To Do
 - [[MEDUSA-5 Team Kickoff]] — Done
 - [[MEDUSA-50 Create client deployed package with agent skill]] — Done
-- [[MEDUSA-51 Create one page presentation of AI activities undertaken by Medusa team]] — In Progress
+- [[MEDUSA-51 Create one page presentation of AI activities undertaken by Medusa team]] — Done
 - [[MEDUSA-52 M1 - Demo preparation for Agentic Cobra]] — Done
 - [[MEDUSA-53 RTA-CAR Knowledge Ramp Up]] — To Do
-- [[MEDUSA-54 M1 - Develop Arxml Edit Tool for stable BSW RTE configuration]] — To Do
+- [[MEDUSA-54 M1 - Develop Arxml Edit Tool for stable BSW RTE configuration]] — In Progress
 - [[MEDUSA-55 M2 - Add RTE OS Generation tool]] — To Do
 - [[MEDUSA-56 M2 - LangSmith Research and Usage]] — In Progress
 - [[MEDUSA-6 Setup Confluence Page for BiWeekly Report]] — Done
