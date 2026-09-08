@@ -15,14 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-08-25T11:22:50.000+0200"
-updated: "2026-09-07T08:55:22.000+0200"
-synced-at: "2026-09-07T07:10:44.613Z"
+updated: "2026-09-07T09:24:41.000+0200"
+synced-at: "2026-09-08T01:41:30.697Z"
 jira-orphaned: false
+profile: Cariad
 ---
 
 # RH-17023 [VCTC] RTA-CAR 12.11 Migration RTA-CAR Toolchain Issues
 
-> [!jira] Waiting for Level 3 · Critical · [[Annamalai_Rajasekar|Annamalai Rajasekar]] · 更新于 2026-09-07T08:55:22.000+0200
+> [!jira] Waiting for Level 3 · Critical · [[Annamalai_Rajasekar|Annamalai Rajasekar]] · 更新于 2026-09-07T09:24:41.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17023)
 
 > 标签：#jira/comp/generic-importers #jira/comp/isolar-a/b #jira/label/isolar-ab

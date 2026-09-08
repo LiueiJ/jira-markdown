@@ -15,14 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-09-03T08:18:36.000+0200"
-updated: "2026-09-07T06:15:27.000+0200"
-synced-at: "2026-09-07T05:10:44.641Z"
+updated: "2026-09-07T07:19:30.000+0200"
+synced-at: "2026-09-08T01:41:30.697Z"
 jira-orphaned: false
+profile: Cariad
 ---
 
 # RH-17116 [VNCNMS][VCTC]Triggering of TCP messages in the SD module
 
-> [!jira] Waiting for Level 3 · Medium · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] · 更新于 2026-09-07T06:15:27.000+0200
+> [!jira] Waiting for Level 3 · Medium · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] · 更新于 2026-09-07T07:19:30.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17116)
 
 > 标签：#jira/comp/communication-eth #jira/label/vncnms
