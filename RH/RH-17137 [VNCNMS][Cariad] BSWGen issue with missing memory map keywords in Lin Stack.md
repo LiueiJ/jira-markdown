@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-09-07T12:32:01.000+0200"
-updated: "2026-09-07T13:35:12.000+0200"
-synced-at: "2026-09-08T01:46:06.261Z"
+updated: "2026-09-08T05:34:19.000+0200"
+synced-at: "2026-09-08T05:48:25.121Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-17137 [VNCNMS][Cariad] BSWGen issue with missing memory map keywords in Lin Stack
 
-> [!jira] Waiting for Customer · High · [[Cuong_Phan_Manh|Cuong Phan Manh]] · 更新于 2026-09-07T13:35:12.000+0200
+> [!jira] Waiting for Customer · High · [[Cuong_Phan_Manh|Cuong Phan Manh]] · 更新于 2026-09-08T05:34:19.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17137)
 
 > 标签：#jira/comp/communication-can-lin-fr #jira/label/vncnms
@@ -32,7 +32,11 @@ profile: Cariad
 
 RTA CAR version: **12.11.0**
 
-I supported the customer in investigating the missing MemMap macro issue for Cariad and found that several macros in the Lin Stack were not covered by the MemMap macros.
+I supported the customer in investigating the missing MemMap macro issue for Cariad and found several **Lin Stack functions that are currently defined without being enclosed by the corresponding MemMap section macros**.
+
+In other words, these functions/variables are present in the source code, but their definitions are **not placed between the appropriate**  ** {{***START_SEC*** }}and {{***STOP_SEC*** }}MemMap macros.
+
+The missing MemMap coverage may cause compilation errors when the corresponding MemMap sections are required by the compiler/linker configuration.
 
 This is list of Func/Variable I found:
 
@@ -61,9 +65,11 @@ This is list of Func/Variable I found:
 - LinIf_NCHandler
 - LinTp_SlaveRxIndication
 
-Could you please support me analyze this issue? Thank you so much
+Could you please help confirm whether these functions/variables are expected to be covered by MemMap macros? 
 
-![[RH-17137-image-2026-09-07-17-27-17-903.png]]
+Thank you so much
+
+![[RH-17137-image-2026-09-08-09-31-21-031.png]]
 
 Trân trọng / Best regards,
 

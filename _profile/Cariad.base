@@ -1,6 +1,6 @@
-filters:
+﻿filters:
   and:
-    - profile == "Cariad"
+    - 'profile == "Cariad"'
 views:
   - type: table
     name: Tickets
@@ -10,8 +10,3 @@ views:
       - status
       - assignee
       - updated
-    sort:
-      - property: jira_key
-        direction: ASC
-      - property: summary
-        direction: DESC

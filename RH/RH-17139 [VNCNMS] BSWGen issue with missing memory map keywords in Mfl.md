@@ -4,29 +4,29 @@ jira_url: "https://rtahotline.etas.com/jira/browse/RH-17139"
 server: rtahotline
 kind: hotline
 type: Support
-status: Investigation Required
+status: Waiting for Level 3
 priority: High
 project: RH
-assignee: ""
+assignee: mrinal.kantisirkar@in.bosch.com
 reporter: junsheng.zhang@bosch.com
 tags: [VNCNMS]
-components: []
+components: [System-InfraLib-Infrastructure]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-09-07T14:49:47.000+0200"
-updated: "2026-09-07T14:58:22.000+0200"
-synced-at: "2026-09-08T01:46:06.261Z"
+updated: "2026-09-08T06:09:53.000+0200"
+synced-at: "2026-09-08T05:48:25.121Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-17139 [VNCNMS] BSWGen issue with missing memory map keywords in Mfl
 
-> [!jira] Investigation Required · High ·  · 更新于 2026-09-07T14:58:22.000+0200
+> [!jira] Waiting for Level 3 · High · [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]] · 更新于 2026-09-08T06:09:53.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17139)
 
-> 标签：#jira/label/vncnms
+> 标签：#jira/comp/system-infralib-infrastructure #jira/label/vncnms
 
 ## 描述
 
@@ -67,6 +67,32 @@ In the picture,  **Mfl** does not have any “ *START_SEC* ” before it and “
  ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
+
+> [!note]+ 2026-09-08 06:09 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]], this System-InfraLib-Infrastructure ticket requires an assignee. As the component lead for System-InfraLib-Infrastructure, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+
+-------
+
+> [!note]+ 2026-09-08 06:09 · [[Cuong_Phan_Manh|Cuong Phan Manh]]
+> Hello [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]]  L3 Component team, After analyze the customer request, I found some **Constant Variable** {*}are not enclosed by memmap macro{*}.
+> Could you help me **analyze and confirm** this issue soon and **share fix plan** for this if it correct. 
+>
+> you can see on the list below:
+>  * Mfl_ATanTable_caf32
+>  * Mfl_ExpIntegralTable_caf32
+>  * Mfl_ExpDecimalTable_caf32
+>  * Mfl_LogTable_caf32
+>
+> Thank you so much
+
+-------
+
+> [!note]+ 2026-09-08 05:18 · [[Cuong_Phan_Manh|Cuong Phan Manh]]
+> Hello [[Junsheng_ZHANG|Junsheng ZHANG]] , We have received the information you provided and are currently investigating the issue. We will keep you updated once we have further findings.
+>
+> Thank for your report.
+
+-------
 
 > [!note]+ 2026-09-07 14:49 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Junsheng ZHANG, please note that this issue was made with VNCNMS in the summary and has been sent to the relevant queue by adding the VNCNMS label.
