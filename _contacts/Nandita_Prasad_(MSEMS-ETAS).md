@@ -4,7 +4,7 @@ username: npr5kor
 usernames:
   etas: npr5kor
   rtahotline: nandita.prasad@etas.com
-name: Prasad Nandita
-email: nandita.prasad@etas.com
+name: "Nandita Prasad (MS/EMS-ETAS)"
+email: Nandita.Prasad@etas.com
 servers: [etas, rtahotline]
 ---

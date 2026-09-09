@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-08-04T20:07:35.000+0200"
-updated: "2026-09-07T09:34:20.000+0200"
-synced-at: "2026-09-08T01:46:06.261Z"
+updated: "2026-09-09T15:44:58.000+0200"
+synced-at: "2026-09-09T13:45:59.638Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-16841 [VNCNMS][VCTC]Critical Section Protection in the SD Module
 
-> [!jira] Waiting for Level 3 · Critical · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] · 更新于 2026-09-07T09:34:20.000+0200
+> [!jira] Waiting for Level 3 · Critical · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] · 更新于 2026-09-09T15:44:58.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-16841)
 
 > 标签：#jira/comp/communication-eth #jira/label/vncnms
@@ -77,7 +77,7 @@ Best regards,
 
 ## 评论
 
-> [!note]+ 2026-09-04 10:38 · [[Jie_LIU|Jie LIU]]
+> [!note]+ 2026-09-04 10:38 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
 > Hello, [[Rajendran_Jothivel|Rajendran Jothivel]] 
 >
 > Did you have chance to look into the project I shared?
@@ -86,8 +86,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-31 09:48 · [[Jie_LIU|Jie LIU]]
-> Hello, [[Rajendran_Jothivel|Rajendran Jothivel]] [[Prasad_Nandita|Prasad Nandita]] 
+> [!note]+ 2026-08-31 09:48 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
+> Hello, [[Rajendran_Jothivel|Rajendran Jothivel]] [[Nandita_Prasad_(MSEMS-ETAS)|Prasad Nandita]] 
 >
 > Please refer to customer demo project configuration in link below: [Cariad_Issue](https://bosch-my.sharepoint.com/:f:/p/aiu2sgh/IgBC3Z_HHOe1QKgPklef1T07AYtTJ_MWzQKsPyNC_s1-yvc?e=OMp8b6)
 
@@ -102,8 +102,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-27 13:04 · [[Dong_LIU|Dong LIU]]
-> hi [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] [[Rajendran_Jothivel|Rajendran Jothivel]] 
+> [!note]+ 2026-08-27 13:04 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
+> hi [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]] [[Rajendran_Jothivel|Rajendran Jothivel]] 
 >
 > The customer’s current calls to `SoAd_IfTransmit()` are shown in the figure below. The customer will add other call paths in the future.
 >
@@ -111,8 +111,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-27 04:30 · [[Dong_LIU|Dong LIU]]
-> Hello, [[Rajendran_Jothivel|Rajendran Jothivel]] [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] 
+> [!note]+ 2026-08-27 04:30 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
+> Hello, [[Rajendran_Jothivel|Rajendran Jothivel]] [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]] 
 >
 > the customer has two more questions:
 >
@@ -139,13 +139,13 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-25 05:25 · [[Dong_LIU|Dong LIU]]
+> [!note]+ 2026-08-25 05:25 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
 > [[Rajendran_Jothivel|Rajendran Jothivel]] hello,could you please help take a look at this question?
 
 -------
 
-> [!note]+ 2026-08-20 12:42 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
-> Hello [[Dong_LIU|Dong LIU]] ,
+> [!note]+ 2026-08-20 12:42 · [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]]
+> Hello [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]] ,
 >  * {color:#FF0000}The customer may call `SoAd_IfTransmit()` or `SoAd_TpTransmit()` from different upper-layer applications. If one upper-layer application is calling `SoAd_IfTransmit()` and another higher-priority upper-layer application preempts it and also calls {{{}SoAd_IfTransmit(){}}}, could this cause any issues?{color}
 >
 > I found some requirement in AUTOSAR, and **our tool limitation** related to concerns of customer as below:
@@ -163,8 +163,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-19 03:54 · [[Dong_LIU|Dong LIU]]
-> hello, [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] [[Phuong_Nguyen_Le|Phuong Nguyen Le]] [[Rajendran_Jothivel|Rajendran Jothivel]] 
+> [!note]+ 2026-08-19 03:54 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
+> hello, [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]] [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]] [[Rajendran_Jothivel|Rajendran Jothivel]] 
 >
 > The customer has two additional questions:
 >  # The customer may call `SoAd_IfTransmit()` or `SoAd_TpTransmit()` from different upper-layer applications. If one upper-layer application is calling `SoAd_IfTransmit()` and another higher-priority upper-layer application preempts it and also calls {{{}SoAd_IfTransmit(){}}}, could this cause any issues?
@@ -175,7 +175,7 @@ Best regards,
 > [!note]+ 2026-08-17 06:38 · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]
 > ETAS recommendation: A deterministic polling mechanism can provide sufficient responsiveness while keeping CPU utilization and execution behavior predictable.
 >
-> A meeting explaining the rationale for desiging RTA-ETH in polling & also the anlaysis of the configuration of Cariad was explained in the meeting to [[Sathish_Kumar_Madanmohan|Sathish Kumar Madanmohan]] , [[Jie_LIU|Jie LIU]] , [[Dong_LIU|Dong LIU]] . 
+> A meeting explaining the rationale for desiging RTA-ETH in polling & also the anlaysis of the configuration of Cariad was explained in the meeting to [[Madanmohan_Sathish_Kumar_(ETAS-ECMXSF-CN)|Sathish Kumar Madanmohan]] , [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]] , [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]] . 
 >
 > Next action: ETAS CN hub would discuss with cariad and then get back if any technical meeting is required with the customer
 >
@@ -184,24 +184,24 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-11 11:55 · [[Dong_LIU|Dong LIU]]
-> [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] 工程放在附件中了
+> [!note]+ 2026-08-11 11:55 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
+> [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]] [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]] 工程放在附件中了
 > [^Eth_Interrupt.zip]
 
 -------
 
-> [!note]+ 2026-08-11 08:22 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
-> Hi [[Dong_LIU|Dong LIU]] ,
+> [!note]+ 2026-08-11 08:22 · [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]]
+> Hi [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]] ,
 > Additionally, could you please re-share the project used for your testing? At the moment, I cannot see the BSW source files in the project you shared with us.
 
 -------
 
-> [!note]+ 2026-08-11 04:18 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> [!note]+ 2026-08-11 04:18 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
 > [[Rajendran_Jothivel|Rajendran Jothivel]] : as ETH RX interrupt isn't supported without XCoreCDD, can we add some check in code generation to report error in this case then User will aware and update this configuration.
 >
 >
 >
-> [[Dong_LIU|Dong LIU]] :
+> [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]] :
 >
 > 1, 2) As [[Rajendran_Jothivel|Rajendran Jothivel]] mentions, the ETH RX interrupt is supported with condition is XCoreCDD is configured
 >
@@ -209,7 +209,7 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-07 08:52 · [[Dong_LIU|Dong LIU]]
+> [!note]+ 2026-08-07 08:52 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
 > Hi, [[Rajendran_Jothivel|Rajendran Jothivel]]
 >
 > **I have two questions.** 
@@ -229,7 +229,7 @@ Best regards,
 -------
 
 > [!note]+ 2026-08-07 06:43 · [[Rajendran_Jothivel|Rajendran Jothivel]]
-> Hello [[Dong_LIU|Dong LIU]],
+> Hello [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]],
 >
 > As I mentioned previously, Ethernet Rx Interrupt is supported only when the XCoreCDD module is enabled. It is not supported without enabling this module.
 >
@@ -243,23 +243,23 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-07 05:36 · [[Dong_LIU|Dong LIU]]
-> [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] [[Rajendran_Jothivel|Rajendran Jothivel]] During stress testing, the current TCP/IP stack has also occasionally exhibited some unexpected behavior. The customer suspects that these issues may also be related to the Ethernet receive interrupt mechanism.
+> [!note]+ 2026-08-07 05:36 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
+> [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]] [[Rajendran_Jothivel|Rajendran Jothivel]] During stress testing, the current TCP/IP stack has also occasionally exhibited some unexpected behavior. The customer suspects that these issues may also be related to the Ethernet receive interrupt mechanism.
 
 -------
 
-> [!note]+ 2026-08-07 05:29 · [[Dong_LIU|Dong LIU]]
-> [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] [[Rajendran_Jothivel|Rajendran Jothivel]]  In addition, the TCP/IP stack also does not support Ethernet receive interrupts. In that case, how does the TCP/IP stack work with XCoreCDD?
+> [!note]+ 2026-08-07 05:29 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
+> [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]] [[Rajendran_Jothivel|Rajendran Jothivel]]  In addition, the TCP/IP stack also does not support Ethernet receive interrupts. In that case, how does the TCP/IP stack work with XCoreCDD?
 
 -------
 
-> [!note]+ 2026-08-07 04:34 · [[Dong_LIU|Dong LIU]]
-> [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] [[Rajendran_Jothivel|Rajendran Jothivel]]  Ethernet receive interrupts are generally considered a commonly used feature. Why doesn't our product support this functionality? What were the design considerations behind this decision?
+> [!note]+ 2026-08-07 04:34 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
+> [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]] [[Rajendran_Jothivel|Rajendran Jothivel]]  Ethernet receive interrupts are generally considered a commonly used feature. Why doesn't our product support this functionality? What were the design considerations behind this decision?
 
 -------
 
 > [!note]+ 2026-08-06 15:15 · [[Rajendran_Jothivel|Rajendran Jothivel]]
-> Hello [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]],
+> Hello [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]],
 >
 > Thank you for sharing your analysis results.
 >
@@ -282,7 +282,7 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-06 12:37 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> [!note]+ 2026-08-06 12:37 · [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]]
 > Hello [[Rajendran_Jothivel|Rajendran Jothivel]] ,
 >
 > Regarding the issue of customer, I think it come from their project is using TCPIP as the upper layer + EthStack is using interrupt mode.
@@ -311,22 +311,22 @@ Best regards,
 >
 > ===================
 >
-> [[Dong_LIU|Dong LIU]] , **EthifEnableRxInterruptis** has been replaced by **EthEnableRxInterrupt** as mentioned in [https://rtahotline.etas.com/jira/browse/RH-16841?focusedCommentId=713542&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-713542]
+> [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]] , **EthifEnableRxInterruptis** has been replaced by **EthEnableRxInterrupt** as mentioned in [https://rtahotline.etas.com/jira/browse/RH-16841?focusedCommentId=713542&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-713542]
 
 -------
 
-> [!note]+ 2026-08-06 09:22 · [[Dong_LIU|Dong LIU]]
-> [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] I found the `EthEnableRxInterrupt` configuration option in the Eth module, but I couldn't find the `EthIfEnableRxInterrupt` configuration option in the EthIf module.
+> [!note]+ 2026-08-06 09:22 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
+> [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]] I found the `EthEnableRxInterrupt` configuration option in the Eth module, but I couldn't find the `EthIfEnableRxInterrupt` configuration option in the EthIf module.
 
 -------
 
-> [!note]+ 2026-08-06 09:02 · [[Dong_LIU|Dong LIU]]
-> [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] The customer has been using the interrupt-based reception mechanism throughout the project. Since the project is now approaching mass production, making such a change at this stage would have a significant impact on the project. The customer would like to understand why interrupt mode cannot be used.
+> [!note]+ 2026-08-06 09:02 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
+> [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]] The customer has been using the interrupt-based reception mechanism throughout the project. Since the project is now approaching mass production, making such a change at this stage would have a significant impact on the project. The customer would like to understand why interrupt mode cannot be used.
 
 -------
 
-> [!note]+ 2026-08-05 10:56 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
-> Hi [[Dong_LIU|Dong LIU]] ,
+> [!note]+ 2026-08-05 10:56 · [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]]
+> Hi [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]] ,
 >
 > With your confirmation, **interrupt mode** is found to be the reason for similar concurrency issues in the SD module as I mentioned in [https://rtahotline.etas.com/jira/browse/RH-16841?focusedCommentId=713542&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-713542] , and transitioning to **polling mode** helped solve it.
 >
@@ -341,8 +341,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-05 10:16 · [[Dong_LIU|Dong LIU]]
-> [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] The project is configured with the TcpIp feature, and the project link is attached.
+> [!note]+ 2026-08-05 10:16 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
+> [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]] The project is configured with the TcpIp feature, and the project link is attached.
 > [^Isolar.zip]
 
 -------
@@ -352,8 +352,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-05 09:57 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
-> Hi [[Dong_LIU|Dong LIU]] , [[Jiaqi_JI|Jiaqi JI]] ,
+> [!note]+ 2026-08-05 09:57 · [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]]
+> Hi [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]] , [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]] ,
 >
 > Firstly, can you let us know your project have TCP/IP feature? If yes, this issue can come from the limitation of **EthIf** design as below in **Section 2.4.1** of the {*}RTA-Eth Stack Reference Guide{*}:
 >
@@ -376,13 +376,13 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-05 04:23 · [[Dong_LIU|Dong LIU]]
+> [!note]+ 2026-08-05 04:23 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
 > [[JSM_Service_Bot|JSM Service Bot]] This issue is very urgent for the customer, so please keep its priority as Critical.
 
 -------
 
-> [!note]+ 2026-08-05 04:13 · [[Jiaqi_JI|Jiaqi JI]]
-> Hi [[Phuong_Nguyen_Le|Phuong Nguyen Le]] ,
+> [!note]+ 2026-08-05 04:13 · [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]]
+> Hi [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]] ,
 >
 > We raised one new critical issue, could you assign one colleague to help us investigate?
 >
