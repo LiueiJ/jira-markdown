@@ -15,6 +15,7 @@ SORT status ASC
 
 ## 无 Epic
 
+- [[MEDUSA-1 Hotline1Day Migration to CN Infrastructure]] — In Progress
 - [[MEDUSA-10 AI Partnership]] — To Do
 - [[MEDUSA-11 Acquire Read Access of RTA-CAR MCP repo]] — In Progress
 - [[MEDUSA-12 Setup Repo for Agentic Cobra activities including plugin, MCP, etc.]] — Done
@@ -65,7 +66,6 @@ SORT status ASC
 - [[MEDUSA-53 RTA-CAR Knowledge Ramp Up]] — To Do
 - [[MEDUSA-54 M1 - Develop Arxml Edit Tool for stable BSW RTE configuration]] — In Progress
 - [[MEDUSA-55 M2 - Add RTE OS Generation tool]] — To Do
-- [[MEDUSA-56 M2 - LangSmith Research and Usage]] — In Progress
 - [[MEDUSA-6 Setup Confluence Page for BiWeekly Report]] — Done
 - [[MEDUSA-7 Hotline1DayCN]] — To Do
 - [[MEDUSA-8 MEDUSA-8 RTA-CAR MCP]] — To Do

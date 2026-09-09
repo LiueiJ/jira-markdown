@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-09-02T03:26:50.000+0000"
-updated: "2026-09-07T02:36:40.000+0000"
-synced-at: "2026-09-08T01:43:02.635Z"
+updated: "2026-09-08T09:22:39.000+0000"
+synced-at: "2026-09-09T00:34:39.084Z"
 jira-orphaned: false
 profile: Medusa
 ---
 
 # MEDUSA-56 M2 - LangSmith Research and Usage
 
-> [!jira] In Progress · Medium · [[FIXED-TERM_CHEN_Yiran_(ETAS-ECMXSF-CN)|FIXED-TERM CHEN Yiran (ETAS-ECM/XSF-CN)]] · 更新于 2026-09-07T02:36:40.000+0000
+> [!jira] In Progress · Medium · [[FIXED-TERM_CHEN_Yiran_(ETAS-ECMXSF-CN)|FIXED-TERM CHEN Yiran (ETAS-ECM/XSF-CN)]] · 更新于 2026-09-08T09:22:39.000+0000
 > [在 Jira 中打开](https://jira.etas-dev.com/browse/MEDUSA-56)
 
 ## 描述
@@ -126,6 +126,14 @@ LangSmith中存在一个可用的测试数据集（2-3个用例）
 完成一次"修改→重跑→对比"的迭代闭环
 
 ## 评论
+
+> [!note]+ 2026-09-08 09:22 · [[FIXED-TERM_CHEN_Yiran_(ETAS-ECMXSF-CN)|FIXED-TERM CHEN Yiran (ETAS-ECM/XSF-CN)]]
+> Designed three test cases and configured an LLM-as-a-Judge evaluator. Further adjustments will be made after testing.
+> The numbers in the reference output indicate the minimum and maximum number of times the step should be executed.
+>
+> ![[MEDUSA-56-image-2026-09-08-17-21-26-230.png]]![[MEDUSA-56-image-2026-09-08-17-21-15-671.png]]![[MEDUSA-56-image-2026-09-08-17-21-01-957.png]]
+
+-------
 
 > [!note]+ 2026-09-07 02:36 · [[TAO_Sisi_(ETAS-ECMXSF-CN)|TAO Sisi (ETAS-ECM/XSF-CN)]]
 > [[FIXED-TERM_CHEN_Yiran_(ETAS-ECMXSF-CN)|FIXED-TERM CHEN Yiran (ETAS-ECM/XSF-CN)]] I updated the description with more details. Please have a look. Thank you.

@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-08-27T06:44:49.000+0000"
-updated: "2026-09-02T08:54:18.000+0000"
-synced-at: "2026-09-08T01:43:02.635Z"
+updated: "2026-09-08T07:50:53.000+0000"
+synced-at: "2026-09-09T00:34:39.084Z"
 jira-orphaned: false
 profile: Medusa
 ---
 
 # MEDUSA-47 M1 - Electron or Tauri integration with React
 
-> [!jira] In Progress · Medium · [[FIXED-TERM_CHEN_Yiran_(ETAS-ECMXSF-CN)|FIXED-TERM CHEN Yiran (ETAS-ECM/XSF-CN)]] · 更新于 2026-09-02T08:54:18.000+0000
+> [!jira] In Progress · Medium · [[FIXED-TERM_CHEN_Yiran_(ETAS-ECMXSF-CN)|FIXED-TERM CHEN Yiran (ETAS-ECM/XSF-CN)]] · 更新于 2026-09-08T07:50:53.000+0000
 > [在 Jira 中打开](https://jira.etas-dev.com/browse/MEDUSA-47)
 
 ## 描述
@@ -41,6 +41,11 @@ DoD:
 5. Highlight which Agent/SubAgent is doing the current job
 
 ## 评论
+
+> [!note]+ 2026-09-08 07:50 · [[FIXED-TERM_CHEN_Yiran_(ETAS-ECMXSF-CN)|FIXED-TERM CHEN Yiran (ETAS-ECM/XSF-CN)]]
+> The app has now been updated to version 0.1.3, with human-in-the-loop and language-switching features integrated into the Windows application.
+
+-------
 
 > [!note]+ 2026-09-02 08:54 · [[FIXED-TERM_CHEN_Yiran_(ETAS-ECMXSF-CN)|FIXED-TERM CHEN Yiran (ETAS-ECM/XSF-CN)]]
 > A Windows desktop application has already been packaged using Electron. Users can install it using the `.exe` file and download future versions through the in-app update button.

@@ -1,6 +1,6 @@
-﻿---
+---
 jira_key: RH-16478
-jira_url: "https://rtahotline.etas.com/jira/browse/RH-16478"
+jira_url: https://rtahotline.etas.com/jira/browse/RH-16478
 server: rtahotline
 kind: hotline
 type: Support
@@ -9,14 +9,17 @@ priority: Critical
 project: RH
 assignee: Jiaqi.JI@bosch.com
 reporter: Jiaqi.JI@bosch.com
-tags: [Cariad, VNCNMS]
-components: [RTA-RTE]
+tags:
+  - Cariad
+  - VNCNMS
+components:
+  - RTA-RTE
 fix-versions: []
-epic: null
-parent: null
-created: "2026-06-25T11:56:56.000+0200"
-updated: "2026-08-28T09:00:51.000+0200"
-synced-at: "2026-09-08T01:46:06.261Z"
+epic:
+parent:
+created: 2026-06-25T11:56:56.000+0200
+updated: 2026-08-28T09:00:51.000+0200
+synced-at: 2026-09-08T01:46:06.261Z
 jira-orphaned: false
 profile: Cariad
 ---
