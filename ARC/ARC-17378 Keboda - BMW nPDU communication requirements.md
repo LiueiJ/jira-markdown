@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-08-19T01:43:45.000+0000"
-updated: "2026-08-20T05:39:01.000+0000"
-synced-at: "2026-09-08T02:03:07.632Z"
-jira-orphaned: true
+updated: "2026-09-09T08:18:53.000+0000"
+synced-at: "2026-09-09T13:46:40.498Z"
+jira-orphaned: false
 profile: CN Motivation
 ---
 
-# ARC-17378 Keboda - BMW nPDU communication requirements
+# ARC-17378 Keboda - BMW ZCU Project
 
-> [!jira] New ·  · [[Nandita_Prasad_(MSEMS-ETAS)|Nandita Prasad (MS/EMS-ETAS)]] · 更新于 2026-08-20T05:39:01.000+0000
+> [!jira] New ·  · [[Nandita_Prasad_(MSEMS-ETAS)|Nandita Prasad (MS/EMS-ETAS)]] · 更新于 2026-09-09T08:18:53.000+0000
 > [在 Jira 中打开](https://jira.etas-dev.com/browse/ARC-17378)
 
 ## 描述
@@ -41,6 +41,35 @@ If no, what’s the plan?
 Please share any information, thank you.
 
 ## 评论
+
+> [!note]+ 2026-09-08 11:37 · [[Fargus_Alex_(MSETA)|Fargus Alex (MS/ETA)]]
+> [[Nandita_Prasad_(MSEMS-ETAS)|Nandita Prasad (MS/EMS-ETAS)]] please be aware that [[Pianta_Nicola_(ETAS-ECMXPC-Yok2)|Pianta Nicola (ETAS-ECM/XPC-Yok2)]] is now responsible for the AAA team. [[Pianta_Nicola_(ETAS-ECMXPC-Yok2)|Pianta Nicola (ETAS-ECM/XPC-Yok2)]] please can you check Nandita's request below.
+
+-------
+
+> [!note]+ 2026-09-08 09:51 · [[Nandita_Prasad_(MSEMS-ETAS)|Nandita Prasad (MS/EMS-ETAS)]]
+> [[Madanmohan_Sathish_Kumar_(ETAS-ECMXSF-CN)|Madanmohan Sathish Kumar (ETAS-ECM/XSF-CN)]] [[REN_Wanwei_(ETASCCN1)|REN Wanwei (ETAS/CCN1)]] Thanks for sharing.
+> Could you kindly create a NEED.
+> [[Fargus_Alex_(MSETA)|Fargus Alex (MS/ETA)]] As we are currently tight on bandwidth, I would like to request support from AAA team for the specification evaluation.
+> [[Dillmann_Vadim_(ETAS-ECMXPC-Abt1)|Dillmann Vadim (ETAS-ECM/XPC-Abt1)]] FYI
+
+-------
+
+> [!note]+ 2026-09-08 09:10 · [[REN_Wanwei_(ETASCCN1)|REN Wanwei (ETAS/CCN1)]]
+> [[Madanmohan_Sathish_Kumar_(ETAS-ECMXSF-CN)|Madanmohan Sathish Kumar (ETAS-ECM/XSF-CN)]] 
+>
+> please support to create Need as Nandita requirement, thank you.
+
+-------
+
+> [!note]+ 2026-09-08 09:09 · [[REN_Wanwei_(ETASCCN1)|REN Wanwei (ETAS/CCN1)]]
+> [[Nandita_Prasad_(MSEMS-ETAS)|Nandita Prasad (MS/EMS-ETAS)]] 
+>
+> Please find the Spec by this link: [EES30_LH 11668200_nPDU Communication.pdf](https://bosch-my.sharepoint.com/:b:/r/personal/rew1sgh_bosch_com/Documents/03_Customer/46_Keboda/EES30_LH%2011668200_nPDU%20Communication.pdf?d=wa69327d6f32b401983e0c16f72258509&csf=1&web=1&e=YOauJm)
+>
+> Customer requires ETAS that "Do not disclose the document to any third party."
+
+-------
 
 > [!note]+ 2026-08-20 05:39 · [[Nandita_Prasad_(MSEMS-ETAS)|Nandita Prasad (MS/EMS-ETAS)]]
 > [[Madanmohan_Sathish_Kumar_(ETAS-ECMXSF-CN)|Madanmohan Sathish Kumar (ETAS-ECM/XSF-CN)]]

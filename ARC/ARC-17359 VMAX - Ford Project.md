@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-08-14T10:18:51.000+0000"
-updated: "2026-09-04T03:14:45.000+0000"
-synced-at: "2026-09-08T02:03:07.632Z"
-jira-orphaned: true
+updated: "2026-09-08T09:09:15.000+0000"
+synced-at: "2026-09-09T13:46:40.498Z"
+jira-orphaned: false
 profile: CN Motivation
 ---
 
 # ARC-17359 VMAX - Ford Project
 
-> [!jira] New ·  · [[Buttle_Darren_(ETAS-ECMPRM1-EMW)|Buttle Darren (ETAS-ECM/PRM1-EMW)]] · 更新于 2026-09-04T03:14:45.000+0000
+> [!jira] New ·  · [[Buttle_Darren_(ETAS-ECMPRM1-EMW)|Buttle Darren (ETAS-ECM/PRM1-EMW)]] · 更新于 2026-09-08T09:09:15.000+0000
 > [在 Jira 中打开](https://jira.etas-dev.com/browse/ARC-17359)
 
 ## 描述
@@ -35,6 +35,20 @@ Initial information is documented in the [ECM_CN_Vmax_AUTOSAR_Classic_Requiremen
 More information to follow.
 
 ## 评论
+
+> [!note]+ 2026-09-08 09:09 · [[CHEN_Yi_(ETAS-ECMXSF-CN)|CHEN Yi (ETAS-ECM/XSF-CN)]]
+> Hi [[Nguyen_Quoc_Su_(MSETA-Hub-CN)|Nguyen Quoc Su (MS/ETA-Hub-CN)]] VMAX project's git : [VMAX-RIP-cdhm-F29H85x-1290 - Bitbucket (etas-dev.com)](https://bitbucket.etas-dev.com/projects/RP/repos/vmax-rip-cdhm-f29h85x-1290/browse)and I will setup the remove environment, who need to use remove pc and what tools need to install, please let me know. thank you!
+
+-------
+
+> [!note]+ 2026-09-08 06:11 · [[CHEN_Yi_(ETAS-ECMXSF-CN)|CHEN Yi (ETAS-ECM/XSF-CN)]]
+> This is the new timeline.
+>
+>
+>
+> ![[ARC-17359-image-2026-09-08-14-11-30-860.png]]
+
+-------
 
 > [!note]+ 2026-09-04 03:00 · [[Nguyen_Quoc_Su_(MSETA-Hub-CN)|Nguyen Quoc Su (MS/ETA-Hub-CN)]]
 > I stored the file in Accq folder: [Acquisition Project Docs](https://bosch.sharepoint.com/:f:/r/sites/msteams_9477696/Shared%20Documents/ECM/Customer/Acquisitions/2026/Acquisition%20Project%20Docs?d=w2cfe21a0e0e6422a9f53bab7c14ccaec&csf=1&web=1&e=wuqGVZ)/ [VMAX-Ford/ECM_CN_Vmax_AUTOSAR_Classic_Requirements_template_V16_EN0902.xlsx](https://bosch.sharepoint.com/:x:/r/sites/msteams_9477696/Shared%20Documents/ECM/Customer/Acquisitions/2026/Acquisition%20Project%20Docs/VMAX-Ford/ECM_CN_Vmax_AUTOSAR_Classic_Requirements_template_V16_EN0902.xlsx)

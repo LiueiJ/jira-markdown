@@ -152,6 +152,7 @@ SORT status ASC
 - [[ARC-17484 VCU]] — New
 - [[ARC-17487 ECU Project]] — New
 - [[ARC-17488 CP J6B ECU Platform]] — New
+- [[ARC-17504 [Keboda_BMW] Light Control ECU need CycurHSM support R-CAR U5L2 Target and PQC A]] — New
 - [[ARC-190 Chery]] — Canceled
 - [[ARC-191 East China JV Tire 1]] — Canceled
 - [[ARC-1912 GigaDevice - China]] — Accepted

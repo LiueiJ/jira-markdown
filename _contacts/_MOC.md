@@ -47,19 +47,24 @@ SORT name ASC
 - [[FAE_Technical|FAE Technical]] — `fae.technical@etas.com`
 - [[Fargus_Alex_(MSETA)|Fargus Alex (MS/ETA)]] — `faa1yok`
 - [[FENG_Tom_(ETAS-ECMXSF-CN)|FENG Tom (ETAS-ECM/XSF-CN)]] — `fet1cgd4`
+- [[Feschenko_Stanislaw_(ETAS-ECMXPC-Fe5)|Feschenko Stanislaw (ETAS-ECM/XPC-Fe5)]] — `sfe2abt`
 - [[FIXED-TERM_CHEN_Yiran_(ETAS-ECMXSF-CN)|FIXED-TERM CHEN Yiran (ETAS-ECM/XSF-CN)]] — `cin8sgh`
 - [[FIXED-TERM_YANG_Ye_(ETAS-ECMXSF-CN)|FIXED-TERM YANG Ye (ETAS-ECM/XSF-CN)]] — `yye5sgh`
 - [[FIXED-TERM_ZHENG_Zixiang_(ETAS-ECMXSF-CN)_X|FIXED-TERM ZHENG Zixiang (ETAS-ECM/XSF-CN) [X]]] — `ehz5sgh`
 - [[Frederik_Heinrich|Frederik Heinrich]] — `frederik.heinrich@etas.com`
+- [[Garofalo_Daniele_(ETAS-ECMPRM)|Garofalo Daniele (ETAS-ECM/PRM)]] — `gda9yok`
 - [[Gunjan_Pradip_Mantala|Gunjan Pradip Mantala]] — `gunjanpradip.mantala@in.bosch.com`
+- [[Hadley_Daniel_(ETAS-ECMXPC-Yok1)|Hadley Daniel (ETAS-ECM/XPC-Yok1)]] — `had1yok`
 - [[Haneef_Nusrin|Haneef Nusrin]] — `nusrin.haneef@in.bosch.com`
 - [[Hao_TAO|Hao TAO]] — `hao.tao2@etas.com`
 - [[HE_Jiankang_(ETAS-ECMXSF-CN)|HE Jiankang (ETAS-ECM/XSF-CN)]] — `hejcsgh`
 - [[Ho_Anh_Dang_(MSETA-Hub-CN)|Ho Anh Dang (MS/ETA-Hub-CN)]] — `had1hc`
 - [[Hotz_Ingo_(ETAS-ECMPRM-EMW)|Hotz Ingo (ETAS-ECM/PRM-EMW)]] — `hit1lr`
 - [[Hritik_Mehta|Hritik Mehta]] — `hritik.mehta@etas.com`
+- [[HU_Cher_(ETAS-ECMXSF-CN)|HU Cher (ETAS-ECM/XSF-CN)]] — `hcu5sgh`
 - [[HUANG_Song_(ETASCCN1)|HUANG Song (ETAS/CCN1)]] — `hso3sgh`
 - [[Hudson_Tom_(ETAS-ECMXPC-Yok1)|Hudson Tom (ETAS-ECM/XPC-Yok1)]] — `hut1yok`
+- [[Hummel_Markus_(ETAS-ECMBUD)|Hummel Markus (ETAS-ECM/BUD)]] — `hmu2abt`
 - [[Huw_Christianson|Huw Christianson]] — `huw.christianson@etas.com`
 - [[Huynh_Quang_Truong_(MSETA-Hub-CN)|Huynh Quang Truong (MS/ETA-Hub-CN)]] — `hur4hc`
 - [[Jack_Whitham|Jack Whitham]] — `jack.whitham@etas.com`
@@ -81,11 +86,12 @@ SORT name ASC
 - [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Kanti Sirkar Mrinal (MS/EMT4-ETAS)]] — `mtx1kor`
 - [[Karthi_Krishna_Shekaar_(MSEMT-ETAS)|Karthi Krishna Shekaar (MS/EMT-ETAS)]] — `kki1cob`
 - [[Karthik_M_S_(MSEMT-ETAS)|Karthik M S (MS/EMT-ETAS)]] — `mku1cob`
-- [[Kishan_Parmar|Kishan Parmar]] — `kishan.parmar2@etas.com`
 - [[Knarr_Michael_(ETAS-ECMXPC-Fe1)|Knarr Michael (ETAS-ECM/XPC-Fe1)]] — `kni7abt`
+- [[Kougioumtzis_Theodoros_(ETAS-ECMXSF-DE)|Kougioumtzis Theodoros (ETAS-ECM/XSF-DE)]] — `kou2abt`
 - [[Krishnaswamy_Dharani_Dharan|Krishnaswamy Dharani Dharan]] — `dharanidharan.krishnasamy@in.bosch.com`
 - [[Krishnaveni_Vairavan_Subramaniam_(ETAS-ECMXEO2)|Krishnaveni Vairavan Subramaniam (ETAS-ECM/XEO2)]] — `rsk9fe`
 - [[Kristoferitsch_Jakob_(RBOSPJ-GM)|Kristoferitsch Jakob (RBOS/PJ-GM)]] — `krj3wi`
+- [[Kuerbitz_Michael_(ETAS-ECMPRM-SEF2)|Kuerbitz Michael (ETAS-ECM/PRM-SEF2)]] — `ume2si`
 - [[Lan_Tran|Lan Tran]] — `lan.tranthe@etas.com`
 - [[Lay_Nick_(ETAS-ECMXPC-Yok1)|Lay Nick (ETAS-ECM/XPC-Yok1)]] — `lan1yok`
 - [[Le_Hoang_Mai_(MSETA-PMT)|Le Hoang Mai (MS/ETA-PMT)]] — `ema1hc`
@@ -106,6 +112,7 @@ SORT name ASC
 - [[Max_Sinclair|Max Sinclair]] — `maxwell.sinclair@etas.com`
 - [[Melanie_Hartlieb|Melanie Hartlieb]] — `melanie.hartlieb2@etas.com`
 - [[Mingye_YUAN|Mingye YUAN]] — `mingye.yuan@cn.bosch.com`
+- [[Mitchell_Stuart_(ETAS-ECMXSF-NA)|Mitchell Stuart (ETAS-ECM/XSF-NA)]] — `mls1yok`
 - [[Mohammed_Sameer_Gundloor|Mohammed Sameer Gundloor]] — `mohammed.sameer@etas.com`
 - [[Muhammed_Anas_K_K|Muhammed Anas K K]] — `muhammed.anaskk@in.bosch.com`
 - [[Mukherji_Arup_(ETAS-ECMXPC-Fe3)|Mukherji Arup (ETAS-ECM/XPC-Fe3)]] — `ahe2kor`
@@ -122,6 +129,7 @@ SORT name ASC
 - [[Pala_Diego_(ETAS-ECMXPC-Bo)_X|Pala Diego (ETAS-ECM/XPC-Bo) [X]]] — `pad2bo`
 - [[Pandey_Ashutosh_(ETAS-ECMXPC-Abt1)|Pandey Ashutosh (ETAS-ECM/XPC-Abt1)]] — `ads4kor`
 - [[Pandit_Rohan_(ETAS-ECMXPC-Fe3)|Pandit Rohan (ETAS-ECM/XPC-Fe3)]] — `par2bo`
+- [[Parmar_Kishan_(ETAS-ECMXPC-Yok1)_X|Parmar Kishan (ETAS-ECM/XPC-Yok1) [X]]] — `prk1yok`
 - [[Patil_Mahesh_(MSPJ-ETH-BSW)|Patil Mahesh (MS/PJ-ETH-BSW)]] — `mpt2kor`
 - [[Pedro_Duarte|Pedro Duarte]] — `pedro.duarte4@pt.bosch.com`
 - [[Pereira_Joao_(XCEVO-XPC-Brg1)|Pereira Joao (XC/EVO-XPC-Brg1)]] — `prj3brg`
@@ -136,8 +144,10 @@ SORT name ASC
 - [[Ramakant_Achari_Raviraj|Ramakant Achari Raviraj]] — `raviraj.ramakantachari@in.bosch.com`
 - [[Raza_Syed_Aoun_(ETAS-ECMXPC-Fe1)|Raza Syed Aoun (ETAS-ECM/XPC-Fe1)]] — `raa1abt`
 - [[REN_Wanwei_(ETASCCN1)|REN Wanwei (ETAS/CCN1)]] — `rew1sgh`
+- [[Risoli_Antonio_(ETAS-ECMXPC-Tn1)_X|Risoli Antonio (ETAS-ECM/XPC-Tn1) [X]]] — `ria1mi`
 - [[Roettgermann_Matthias_(ETAS-ECMXPC-Abt1)|Roettgermann Matthias (ETAS-ECM/XPC-Abt1)]] — `rot8si`
 - [[Rohith_Gowdara_Prakash|Rohith Gowdara Prakash]] — `rohith.gowdaraprakash2@etas.com`
+- [[Rosing_Martin_(ETAS-ECMXPC-Fe4)|Rosing Martin (ETAS-ECM/XPC-Fe4)]] — `iro9fe`
 - [[Rudolph_Tobias_(ETAS-ECMXPC-Fe3)|Rudolph Tobias (ETAS-ECM/XPC-Fe3)]] — `uot2fe`
 - [[Rushali_Parate|Rushali Parate]] — `rushali.parate@in.bosch.com`
 - [[Ryan_Dixon|Ryan Dixon]] — `ryan.dixon@etas.com`
@@ -151,6 +161,7 @@ SORT name ASC
 - [[Shukla_Siddharth_(ETAS-ECMXPC-Fe1)_X|Shukla Siddharth (ETAS-ECM/XPC-Fe1) [X]]] — `ssh1lud`
 - [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] — `shweta.ganeshdixit@in.bosch.com`
 - [[Simon_Wadsworth|Simon Wadsworth]] — `simon.wadsworth@etas.com`
+- [[Sivaramakrishna_Ayaswamy_(MSEMS-ETAS)|Sivaramakrishna Ayaswamy (MS/EMS-ETAS)]] — `krs1cob`
 - [[Sobin_Peter|Sobin Peter]] — `sobin.peter@etas.com`
 - [[Sollazzo_Giuseppe_(ETAS-ECMENG-EMW)|Sollazzo Giuseppe (ETAS-ECM/ENG-EMW)]] — `soi5mi`
 - [[Sri_Viswatej_Raja_Venkatesh|Sri Viswatej Raja Venkatesh]] — `sriviswatej.rajavenkatesh@in.bosch.com`
@@ -166,6 +177,7 @@ SORT name ASC
 - [[Tchouante_Auges_(ETAS-ECMXPC-Abt1)|Tchouante Auges (ETAS-ECM/XPC-Abt1)]] — `tc77si`
 - [[Thomas_Chippy|Thomas Chippy]] — `thomas.chippy@in.bosch.com`
 - [[Tobias_Ernst|Tobias Ernst]] — `tobias.ernst@etas.com`
+- [[Tracey_Nigel_(ETAS-ECMPG_ETASTCR-GB)|Tracey Nigel (ETAS-ECM/PG ETAS/TCR-GB)]] — `tyn1yok`
 - [[Trinh_Xuan_Tao_(MSETA-Hub-CN)|Trinh Xuan Tao (MS/ETA-Hub-CN)]] — `tai8hc`
 - [[Truong_Duc_Thang_(MSETA-Hub-CN)|Truong Duc Thang (MS/ETA-Hub-CN)]] — `tuo8hc`
 - [[V_Venkatachalam|V Venkatachalam]] — `venkatachalam.v@in.bosch.com`
@@ -183,6 +195,7 @@ SORT name ASC
 - [[Weber_Andreas_(ETAS-ECMXPC-Fe3)|Weber Andreas (ETAS-ECM/XPC-Fe3)]] — `wa83ka`
 - [[Wegmann_Alexander_(ETAS-ECMXPC-Bo)|Wegmann Alexander (ETAS-ECM/XPC-Bo)]] — `wea2bo`
 - [[Weigl_Sandra_(ETAS-ECMXPC-Fe3)|Weigl Sandra (ETAS-ECM/XPC-Fe3)]] — `wsg1fe`
+- [[Wendel_Kim_Julian_(ETASCVW)|Wendel Kim Julian (ETAS/CVW)]] — `kwd2si`
 - [[WU_Yanan_(ETASCCN1)|WU Yanan (ETAS/CCN1)]] — `eau1sgh`
 - [[XIE_Allen_(ETAS-ECMXSF-CN)|XIE Allen (ETAS-ECM/XSF-CN)]] — `xie2sgh`
 - [[XU_Yinchuan_(ETAS-ECMXSF-CN)|XU Yinchuan (ETAS-ECM/XSF-CN)]] — `xyi8sgh`

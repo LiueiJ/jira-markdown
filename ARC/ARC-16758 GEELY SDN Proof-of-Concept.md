@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-06-29T06:55:56.000+0000"
-updated: "2026-09-03T06:58:40.000+0000"
-synced-at: "2026-09-08T02:03:07.632Z"
-jira-orphaned: true
+updated: "2026-09-08T07:50:35.000+0000"
+synced-at: "2026-09-09T13:46:40.498Z"
+jira-orphaned: false
 profile: CN Motivation
 ---
 
 # ARC-16758 GEELY SDN Proof-of-Concept
 
-> [!jira] New ·  · [[Hotz_Ingo_(ETAS-ECMPRM-EMW)|Hotz Ingo (ETAS-ECM/PRM-EMW)]] · 更新于 2026-09-03T06:58:40.000+0000
+> [!jira] New ·  · [[Hotz_Ingo_(ETAS-ECMPRM-EMW)|Hotz Ingo (ETAS-ECM/PRM-EMW)]] · 更新于 2026-09-08T07:50:35.000+0000
 > [在 Jira 中打开](https://jira.etas-dev.com/browse/ARC-16758)
 
 ## 描述
@@ -54,4 +54,5 @@ In contrast, Time-Sensitive Networking (TSN) is mentioned as a lower priority fo
 
 ## 关联
 
+- relates to: [[ARC-8183 TOP104 NextCarNetwork]]
 - is refined by: [[ARCANA-1373 Support for GEELY SDN requirements]]

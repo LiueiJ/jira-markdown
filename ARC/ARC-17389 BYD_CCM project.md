@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-08-21T07:08:31.000+0000"
-updated: "2026-09-04T14:51:29.000+0000"
-synced-at: "2026-09-08T02:03:07.632Z"
-jira-orphaned: true
+updated: "2026-09-08T08:33:46.000+0000"
+synced-at: "2026-09-09T13:46:40.498Z"
+jira-orphaned: false
 profile: CN Motivation
 ---
 
 # ARC-17389 BYD_CCM project
 
-> [!jira] New ·  · [[Jain_Vihitha_(MSEMS-ETAS)|Jain Vihitha (MS/EMS-ETAS)]] · 更新于 2026-09-04T14:51:29.000+0000
+> [!jira] New ·  · [[Jain_Vihitha_(MSEMS-ETAS)|Jain Vihitha (MS/EMS-ETAS)]] · 更新于 2026-09-08T08:33:46.000+0000
 > [在 Jira 中打开](https://jira.etas-dev.com/browse/ARC-17389)
 
 ## 描述
@@ -31,6 +31,11 @@ profile: CN Motivation
 （无描述）
 
 ## 评论
+
+> [!note]+ 2026-09-08 08:33 · [[WU_Yanan_(ETASCCN1)|WU Yanan (ETAS/CCN1)]]
+> **Unfortunately, we need to inform everyone that BYD has decided to open this project for public bidding. ETAS will be competing against Chinese suppliers, whose prices are extremely low. At our current pricing, we have no competitive advantage, and our chance of winning this project is virtually zero. Thank you all for your support**
+
+-------
 
 > [!note]+ 2026-09-04 14:51 · [[Jain_Vihitha_(MSEMS-ETAS)|Jain Vihitha (MS/EMS-ETAS)]]
 > {color:#de350b}1.Is the **15118-20 conformance test report** provided free of charge?{color}

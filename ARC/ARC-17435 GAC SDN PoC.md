@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-08-26T08:49:59.000+0000"
-updated: "2026-09-08T05:04:26.000+0000"
-synced-at: "2026-09-08T05:48:23.202Z"
-jira-orphaned: true
+updated: "2026-09-08T07:50:35.000+0000"
+synced-at: "2026-09-09T13:46:40.498Z"
+jira-orphaned: false
 profile: CN Motivation
 ---
 
 # ARC-17435 GAC SDN PoC
 
-> [!jira] New ·  · [[Buttle_Darren_(ETAS-ECMPRM1-EMW)|Buttle Darren (ETAS-ECM/PRM1-EMW)]] · 更新于 2026-09-08T05:04:26.000+0000
+> [!jira] New ·  · [[Buttle_Darren_(ETAS-ECMPRM1-EMW)|Buttle Darren (ETAS-ECM/PRM1-EMW)]] · 更新于 2026-09-08T07:50:35.000+0000
 > [在 Jira 中打开](https://jira.etas-dev.com/browse/ARC-17435)
 
 ## 描述
@@ -53,4 +53,5 @@ CN Sales contact : [[ZHAN_Huihui_(ETASCCN1)|ZHAN Huihui (ETAS/CCN1)]]
 
 ## 关联
 
+- relates to: [[ARC-8183 TOP104 NextCarNetwork]]
 - is refined by: [[ARCANA-1403 Support for GAC SDN requirements]]
