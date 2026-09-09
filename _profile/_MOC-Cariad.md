@@ -53,7 +53,7 @@ SORT status ASC
 - [[RH-15475 Question About Placing Fee Module Section in Cache Region]] — Closed
 - [[RH-15517 When Mem_write returns E_NOT_OK, Memacc do not terminate current job]] — Closed
 - [[RH-15554 [CNMS][VCTC] RTA-SWCL Product Certification Issues]] — Closed
-- [[RH-15717 Intermittent SOME IP Subscription Loss After Repeated CDCU_MCU Reset]] — Waiting for Level 3
+- [[RH-15717 Intermittent SOME IP Subscription Loss After Repeated CDCU_MCU Reset]] — Waiting for Customer
 - [[RH-15727 [CARIAD] OBD Related Questions]] — Closed
 - [[RH-15741 [CNMS][VCTC]Rips Issues caused by version upgrades]] — Closed
 - [[RH-15864 [VW Cariad CEA2.0] Usage Question for Eth Time Sync Phc Feature]] — Closed
@@ -109,7 +109,7 @@ SORT status ASC
 - [[RH-17007 [VNCNMS][VCTC]E2E-related Rte_COMCbk generation is confusing messy]] — Waiting for Customer
 - [[RH-17016 [VNCNMS][VCTC]RTE Task Runnable Period Variable Generation Error]] — Closed
 - [[RH-17023 [VCTC] RTA-CAR 12.11 Migration RTA-CAR Toolchain Issues]] — Waiting for Customer
-- [[RH-17069 [VCTC]Crypto causes certificate reading failure.]] — Waiting for Level 3
+- [[RH-17069 [VCTC]Crypto causes certificate reading failure.]] — Waiting for Customer
 - [[RH-17070 RTA CAR file parsing error]] — Solution Proposed
 - [[RH-17071 [VNCNMS][VCTC]A local variable in Rte_COMCbk is not initialized]] — Solution Proposed
 - [[RH-17072 Os generate error]] — Closed
@@ -120,6 +120,6 @@ SORT status ASC
 - [[RH-17106 [VNCNMS][VCTC] DID and Snapshot Data Configuration for Multiple Vehicle Variants]] — Solution Proposed
 - [[RH-17113 Lin’s E2E issue]] — Waiting for Customer
 - [[RH-17116 [VNCNMS][VCTC]Triggering of TCP messages in the SD module]] — Waiting for Level 3
-- [[RH-17137 [VNCNMS][Cariad] BSWGen issue with missing memory map keywords in Lin Stack]] — Waiting for Level 2
+- [[RH-17137 [VNCNMS][Cariad] BSWGen issue with missing memory map keywords in Lin Stack]] — Waiting for Level 3
 - [[RH-17139 [VNCNMS] BSWGen issue with missing memory map keywords in Mfl]] — Waiting for Level 3
-- [[RH-17140 Logic issues related to E2E signal groups in the RTE]] — Waiting for Level 2
+- [[RH-17140 Logic issues related to E2E signal groups in the RTE]] — Waiting for Level 3

@@ -5,7 +5,7 @@ server: rtahotline
 kind: hotline
 type: Support
 status: Solution Proposed
-priority: Critical
+priority: Medium
 project: RH
 assignee: dong.liu5@etas.com
 reporter: dong.liu5@etas.com
@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-05-28T12:58:38.000+0200"
-updated: "2026-09-03T11:37:37.000+0200"
-synced-at: "2026-09-08T01:46:06.261Z"
+updated: "2026-09-09T15:45:46.000+0200"
+synced-at: "2026-09-09T13:45:59.638Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-16193 The SdBuildClientEntryBuffer function causes the software to enter a trap
 
-> [!jira] Solution Proposed · Critical · [[Dong_LIU|Dong LIU]] · 更新于 2026-09-03T11:37:37.000+0200
+> [!jira] Solution Proposed · Medium · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]] · 更新于 2026-09-09T15:45:46.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-16193)
 
 > 标签：#jira/comp/communication-eth
@@ -92,24 +92,24 @@ Best regards,
 
 ## 评论
 
-> [!note]+ 2026-09-03 11:37 · [[Cuong_Phan_Manh|Cuong Phan Manh]]
+> [!note]+ 2026-09-03 11:37 · [[Phan_Manh_Cuong_(MSETA-Hub-CN)|Cuong Phan Manh]]
 > the review has been done
 
 -------
 
-> [!note]+ 2026-08-27 08:23 · [[Cuong_Phan_Manh|Cuong Phan Manh]]
+> [!note]+ 2026-08-27 08:23 · [[Phan_Manh_Cuong_(MSETA-Hub-CN)|Cuong Phan Manh]]
 > Hi [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] . the timeline is fine for our team, thank for your support
 
 -------
 
 > [!note]+ 2026-08-26 12:00 · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]
-> [[Cuong_Phan_Manh|Cuong Phan Manh]] : We currently have several team members out on leave, so the earliest we can pick this unplanned activity would be on **September 2nd.** 
+> [[Phan_Manh_Cuong_(MSETA-Hub-CN)|Cuong Phan Manh]] : We currently have several team members out on leave, so the earliest we can pick this unplanned activity would be on **September 2nd.** 
 >
 > Let me know if this works for you!
 
 -------
 
-> [!note]+ 2026-08-26 10:08 · [[Cuong_Phan_Manh|Cuong Phan Manh]]
+> [!note]+ 2026-08-26 10:08 · [[Phan_Manh_Cuong_(MSETA-Hub-CN)|Cuong Phan Manh]]
 > Hi [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] ,
 >
 > Could you please review the ticket within this week's timeline?
@@ -119,13 +119,13 @@ Best regards,
 -------
 
 > [!note]+ 2026-08-26 07:46 · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]
-> [[Cuong_Phan_Manh|Cuong Phan Manh]] : What is the timeline for the review? 
+> [[Phan_Manh_Cuong_(MSETA-Hub-CN)|Cuong Phan Manh]] : What is the timeline for the review? 
 >
 > Since we are not aware if the base which is used for this porting has some additional changes other than what was officially delivered from product team, we can only ensure if all the **changes only for this ticket** are correctly ported in your PR. 
 
 -------
 
-> [!note]+ 2026-08-25 12:00 · [[Cuong_Phan_Manh|Cuong Phan Manh]]
+> [!note]+ 2026-08-25 12:00 · [[Phan_Manh_Cuong_(MSETA-Hub-CN)|Cuong Phan Manh]]
 > Hello [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] , To ensure that we deliver the correct and final version, I would like to ask the NETCOM team to review the source code and confirm that it is aligned with the latest version intended for delivery.
 >
 > Could you request your team take a few time to review the source code again?
@@ -138,13 +138,13 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-06-24 08:32 · [[Dong_LIU|Dong LIU]]
+> [!note]+ 2026-06-24 08:32 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
 > Sorry, I closed it by mistake.
 
 -------
 
-> [!note]+ 2026-06-24 04:14 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
-> [[Dong_LIU|Dong LIU]] , I see that you close this ticket, does it mean that the shared code drop can solve the issue?
+> [!note]+ 2026-06-24 04:14 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
+> [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]] , I see that you close this ticket, does it mean that the shared code drop can solve the issue?
 
 -------
 
@@ -161,7 +161,7 @@ Best regards,
 -------
 
 > [!note]+ 2026-06-02 13:21 · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]
-> [[Jie_LIU|Jie LIU]] : 
+> [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]] : 
 >
 > Attached is the code drop for the server reboot case(Base of RTA-CAR 12.9.0) which is reported by Cariad.
 >
@@ -181,7 +181,7 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-05-29 09:44 · [[Jie_LIU|Jie LIU]]
+> [!note]+ 2026-05-29 09:44 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
 > Hi Nandhini,
 >
 > Customer has confirmed they do not have logs for this issue due to the problem happens not often. But it really happens several times in DV car which causes the ECU in unpredictable stable. Actually, customer has analyzed our code for two weeks, and outcome this diagram for root cause, please provide our analysis report based on the evidence.
