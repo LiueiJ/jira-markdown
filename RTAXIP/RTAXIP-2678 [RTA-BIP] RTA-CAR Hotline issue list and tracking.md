@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2025-11-04T11:54:39.000+0000"
-updated: "2026-09-07T08:08:03.000+0000"
-synced-at: "2026-09-08T01:46:31.431Z"
+updated: "2026-09-09T09:33:38.000+0000"
+synced-at: "2026-09-09T13:46:41.888Z"
 jira-orphaned: false
 profile: CNN
 ---
 
 # RTAXIP-2678 [RTA-BIP] RTA-CAR Hotline issue list and tracking
 
-> [!jira] In Progress · Medium · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Nguyen Le Phuong (MS/ETA-Hub-CN)]] · 更新于 2026-09-07T08:08:03.000+0000
+> [!jira] In Progress · Medium · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Nguyen Le Phuong (MS/ETA-Hub-CN)]] · 更新于 2026-09-09T09:33:38.000+0000
 > [在 Jira 中打开](https://jira.etas-dev.com/browse/RTAXIP-2678)
 
 > 标签：#jira/label/rta-bip-rh
@@ -257,8 +257,8 @@ Wait for Hotline ticket
 [RH-16928](https://rtahotline.etas.com/jira/browse/RH-16928)
 12.11.0
 &#91;VNCNMS&#93;&#91;BIP&#93; DoIP TCP Connection Issue
-!help_16.png!
-Wait for Hotline ticket
+!lightbulb_on.png!
+L3 provided a code drop to fix this issue in **RTA-CAR 12.11.0**, and the fix is planned for inclusion in **RTA-CAR 12.13.0**.
 
 [RH-16963](https://rtahotline.etas.com/jira/browse/RH-16963)
 12.11.0
