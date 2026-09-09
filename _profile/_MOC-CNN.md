@@ -112,7 +112,7 @@ SORT status ASC
 - [[RTAXIP-3992 [RTA-BIP-RH] Check the resolution of RH-16680 -Intermittent failure to generate]] — Open
 - [[RTAXIP-3993 [RTA-BIP-RH] Check the resolution of RH-14496 - Issue relates to System Diagnost]] — Open
 - [[RTAXIP-4009 [RTA-BIP-UC] Switch Cobra Package Management Tool from Anaconda to UV]] — Open
-- [[RTAXIP-4010 [RTA-BIP-UC] Move Rtm, StackM, TestM from Cobra to RTA-CAR BSW Plugin]] — Open
+- [[RTAXIP-4010 [RTA-BIP-UC] Move Rtm, StackM, TestM from Cobra to RTA-CAR BSW Plugin]] — In Progress
 - [[RTAXIP-4011 [RTA-BIP-UC] Cobra Big Version Upgrade in BIP]] — Open
 - [[RTAXIP-4042 [RTA-BIP-RH] Check the resolution of RH-10257 -Multicore Protection - Request to]] — Open
 - [[RTAXIP-4053 [RTA-RIP][VMAX-Accq][Ford]- Motor controller RTA-CAR]] — In Acquisition

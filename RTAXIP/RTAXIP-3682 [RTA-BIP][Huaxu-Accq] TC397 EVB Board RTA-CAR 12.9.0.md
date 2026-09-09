@@ -15,15 +15,15 @@ fix-versions: [Huaxu_RTA_BIP_cdels_TC397TK_1290]
 epic: null
 parent: null
 created: "2026-05-18T09:08:57.000+0000"
-updated: "2026-09-07T11:32:01.000+0000"
-synced-at: "2026-09-08T01:46:31.431Z"
+updated: "2026-09-08T06:23:35.000+0000"
+synced-at: "2026-09-09T00:34:37.045Z"
 jira-orphaned: false
 profile: CNN
 ---
 
 # RTAXIP-3682 [RTA-BIP][Huaxu-Accq] TC397 EVB Board RTA-CAR 12.9.0
 
-> [!jira] In Acquisition · Medium · [[FENG_Tom_(ETAS-ECMXSF-CN)|FENG Tom (ETAS-ECM/XSF-CN)]] · 更新于 2026-09-07T11:32:01.000+0000
+> [!jira] In Acquisition · Medium · [[FENG_Tom_(ETAS-ECMXSF-CN)|FENG Tom (ETAS-ECM/XSF-CN)]] · 更新于 2026-09-08T06:23:35.000+0000
 > [在 Jira 中打开](https://jira.etas-dev.com/browse/RTAXIP-3682)
 
 > 标签：#jira/label/xip-local-accq
@@ -61,7 +61,6 @@ Accq folder: [3682-Huaxu](https://bosch.sharepoint.com/:f:/r/sites/msteams_9477
 ## 关联
 
 - relates to: [[RTAXIP-4063 [Huaxu-bip]-cdels-TC397-1290_kickoff]]
-- is cloned by: [[RTAXIP-4089 [RTA-BIP][RBCD-Accq] S32G399 Customer Board RTA-CAR 12.11.0]]
 
 ## 评论
 
