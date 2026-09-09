@@ -5,7 +5,7 @@ server: rtahotline
 kind: hotline
 type: Support
 status: Waiting for Customer
-priority: Critical
+priority: Medium
 project: RH
 assignee: junsheng.zhang@bosch.com
 reporter: junsheng.zhang@bosch.com
@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-09-03T06:11:36.000+0200"
-updated: "2026-09-03T10:32:26.000+0200"
-synced-at: "2026-09-08T01:46:06.261Z"
+updated: "2026-09-09T16:28:53.000+0200"
+synced-at: "2026-09-09T14:34:18.809Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-17113 Lin’s E2E issue
 
-> [!jira] Waiting for Customer · Critical · [[Junsheng_ZHANG|Junsheng ZHANG]] · 更新于 2026-09-03T10:32:26.000+0200
+> [!jira] Waiting for Customer · Medium · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] · 更新于 2026-09-09T16:28:53.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17113)
 
 > 标签：#jira/label/vncnms
@@ -81,19 +81,19 @@ May I ask why we have such restrictions? Is there a way to help the customer ach
 ## 评论
 
 > [!note]+ 2026-09-03 10:32 · [[JSM_Service_Bot|JSM Service Bot]]
-> [[Junsheng_ZHANG|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-09-03 10:32 · [[Junsheng_ZHANG|Junsheng ZHANG]]
-> Hi [[Dang_Ho_Anh|Dang Ho Anh]] ,
+> [!note]+ 2026-09-03 10:32 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
+> Hi [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] ,
 >
 > The customer hasn’t synced the project to us yet, but previously in the 9.1 version, the RTA CAR was configurable. After the customer synced to 12.11, it no longer works.
 
 -------
 
-> [!note]+ 2026-09-03 08:47 · [[Dang_Ho_Anh|Dang Ho Anh]]
-> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] 
+> [!note]+ 2026-09-03 08:47 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] 
 >
 > Could you share the project in the ticket or directly with me?
 >
