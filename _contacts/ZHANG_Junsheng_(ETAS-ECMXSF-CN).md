@@ -4,7 +4,7 @@ username: hzn4sgh
 usernames:
   etas: hzn4sgh
   rtahotline: junsheng.zhang@bosch.com
-name: "ZHANG Junsheng (ETAS-ECM/XSF-CN)"
-email: Junsheng.ZHANG@bosch.com
+name: Junsheng ZHANG
+email: junsheng.zhang@bosch.com
 servers: [etas, rtahotline]
 ---

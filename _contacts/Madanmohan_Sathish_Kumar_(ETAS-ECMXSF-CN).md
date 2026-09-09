@@ -4,7 +4,7 @@ username: mas1yok
 usernames:
   etas: mas1yok
   rtahotline: sathish.madanmohan@etas.com
-name: "Madanmohan Sathish Kumar (ETAS-ECM/XSF-CN)"
-email: Sathish.Madanmohan@etas.com
+name: Sathish Kumar Madanmohan
+email: sathish.madanmohan@etas.com
 servers: [etas, rtahotline]
 ---

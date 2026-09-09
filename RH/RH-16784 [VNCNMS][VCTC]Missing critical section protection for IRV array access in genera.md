@@ -4,10 +4,10 @@ jira_url: "https://rtahotline.etas.com/jira/browse/RH-16784"
 server: rtahotline
 kind: hotline
 type: Support
-status: Solution Proposed
+status: Waiting for Level 3
 priority: Critical
 project: RH
-assignee: sisi.tao@bosch.com
+assignee: vamsikiran.koduri@etas.com
 reporter: sisi.tao@bosch.com
 tags: [VNCNMS]
 components: [RTA-RTE]
@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-07-28T12:13:13.000+0200"
-updated: "2026-09-09T09:43:01.000+0200"
-synced-at: "2026-09-09T13:45:59.638Z"
+updated: "2026-09-09T16:13:23.000+0200"
+synced-at: "2026-09-09T14:25:13.055Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-16784 [VNCNMS][VCTC]Missing critical section protection for IRV array access in generated RTE code
 
-> [!jira] Solution Proposed · Critical · [[TAO_Sisi_(ETAS-ECMXSF-CN)|Sisi TAO]] · 更新于 2026-09-09T09:43:01.000+0200
+> [!jira] Waiting for Level 3 · Critical · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] · 更新于 2026-09-09T16:13:23.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-16784)
 
 > 标签：#jira/comp/rta-rte #jira/label/vncnms

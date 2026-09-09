@@ -4,26 +4,26 @@ jira_url: "https://rtahotline.etas.com/jira/browse/RH-15717"
 server: rtahotline
 kind: hotline
 type: Analysis Request
-status: Waiting for Customer
+status: Waiting for Level 3
 priority: Medium
 project: RH
-assignee: jie.liu8@etas.com
+assignee: shweta.ganeshdixit@in.bosch.com
 reporter: jie.liu8@etas.com
 tags: []
 components: [Communication-Eth]
 fix-versions: [RTA-CAR 12.13.0]
 epic: null
 parent: null
-created: "2026-04-09T16:08:43.210+0200"
-updated: "2026-09-09T15:40:31.818+0200"
-synced-at: "2026-09-09T13:41:28.866Z"
+created: "2026-04-09T16:08:43.000+0200"
+updated: "2026-09-09T15:53:59.000+0200"
+synced-at: "2026-09-09T14:25:13.055Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-15717 Intermittent SOME/IP Subscription Loss After Repeated CDCU_MCU Reset
 
-> [!jira] Waiting for Customer · Medium · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]] · 更新于 2026-09-09T15:40:31.818+0200
+> [!jira] Waiting for Level 3 · Medium · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] · 更新于 2026-09-09T15:53:59.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-15717)
 
 > 标签：#jira/comp/communication-eth

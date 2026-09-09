@@ -97,12 +97,12 @@ SORT status ASC
 - [[RH-16761 [VNCNMS][VCTC]Priority issue in DCM]] — Closed
 - [[RH-16775 [VNCNMS][VCTC] Avoid Using Static Variables Inside Functions]] — Waiting for Level 3
 - [[RH-16780 [VNCNMS][Cariad] Erase reinitialization for DEM NVM block]] — Closed
-- [[RH-16784 [VNCNMS][VCTC]Missing critical section protection for IRV array access in genera]] — Solution Proposed
+- [[RH-16784 [VNCNMS][VCTC]Missing critical section protection for IRV array access in genera]] — Waiting for Level 3
 - [[RH-16841 [VNCNMS][VCTC]Critical Section Protection in the SD Module]] — Waiting for Level 3
 - [[RH-16863 [VNCNMS][VCTC]AliveTimeout configuration is not taking effect]] — Closed
 - [[RH-16903 Xcp_SetControlMode接口使用问题]] — Closed
 - [[RH-16912 [VNCNMS][VCTC]Macro definition of DOIP_NACK_OUT_OF_MEMORY]] — Closed
-- [[RH-16960 [VNCNMS][VCTC]Multicore issues in DEM]] — Solution Proposed
+- [[RH-16960 [VNCNMS][VCTC]Multicore issues in DEM]] — Closed
 - [[RH-16976 [VNCNMS][VCTC] OBD Cross-Core Implementation and NoOBD Configuration Follow-Up I]] — Closed
 - [[RH-16985 [VNCNMS][VCTC] OBDonUDS & OBDclassic Test Issues]] — Solution Proposed
 - [[RH-17005 Issues caused by the HSM version update to 3.0.7]] — Waiting for Customer

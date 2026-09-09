@@ -5,7 +5,7 @@ server: rtahotline
 kind: hotline
 type: Support
 status: Waiting for Level 3
-priority: Critical
+priority: High
 project: RH
 assignee: vamsikiran.koduri@etas.com
 reporter: junsheng.zhang@bosch.com
@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-09-07T15:16:48.000+0200"
-updated: "2026-09-09T15:37:37.000+0200"
-synced-at: "2026-09-09T13:45:59.638Z"
+updated: "2026-09-09T16:24:53.000+0200"
+synced-at: "2026-09-09T14:25:13.055Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-17140 Logic issues related to E2E signal groups in the RTE
 
-> [!jira] Waiting for Level 3 · Critical · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] · 更新于 2026-09-09T15:37:37.000+0200
+> [!jira] Waiting for Level 3 · High · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] · 更新于 2026-09-09T16:24:53.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17140)
 
 > 标签：#jira/comp/rta-rte #jira/label/vncnms
@@ -61,13 +61,6 @@ Hi Hotline,
  ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
-
-> [!note]+ 2026-09-09 15:46 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
-> Hi [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] ,
->
-> I believe the customer is questioning our current logic. Even if HandleNeverReceived is configured to true, we should not fail to return an RTE_E_NEVER_RECEIVED fault. I will also share your feedback with the customer to ask whether they can accept this behavior.
-
--------
 
 > [!note]+ 2026-09-09 15:33 · [[JSM_Service_Bot|JSM Service Bot]]
 > Reminder for tickets requiring L3 RTE attention:

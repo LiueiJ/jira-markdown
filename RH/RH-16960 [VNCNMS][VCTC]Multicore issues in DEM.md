@@ -4,8 +4,8 @@ jira_url: "https://rtahotline.etas.com/jira/browse/RH-16960"
 server: rtahotline
 kind: hotline
 type: Support
-status: Solution Proposed
-priority: High
+status: Closed
+priority: Medium
 project: RH
 assignee: junsheng.zhang@bosch.com
 reporter: junsheng.zhang@bosch.com
@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-08-18T11:40:56.000+0200"
-updated: "2026-09-07T16:36:19.000+0200"
-synced-at: "2026-09-08T01:46:06.261Z"
+updated: "2026-09-09T15:58:16.000+0200"
+synced-at: "2026-09-09T14:25:13.055Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-16960 [VNCNMS][VCTC]Multicore issues in DEM
 
-> [!jira] Solution Proposed · High · [[Junsheng_ZHANG|Junsheng ZHANG]] · 更新于 2026-09-07T16:36:19.000+0200
+> [!jira] Closed · Medium · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] · 更新于 2026-09-09T15:58:16.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-16960)
 
 > 标签：#jira/comp/diagnostic-eventstatemgmt #jira/label/vncnms
@@ -71,7 +71,7 @@ Because we found that after configuring cross-core, the “from-core” side onl
 ## 评论
 
 > [!note]+ 2026-09-07 16:36 · [[Sagar_Subbaramaiah|Sagar Subbaramaiah]]
-> Hi [[Jie_LIU|Jie LIU]] 
+> Hi [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]] 
 >
 > There is no +explicit+ specification in AR that the API Dem_SetEventAvailable() API can only be called once at the very beginning. We can check with our representiative in the AR-workgroup to see if such a constraint can be added to a future version of AR SWS. In any case, considering that the API itself is intended for variant handling, we did not expect it to be called during normal operation. But if the customer claims that the variant switch can happen at any time, it would be interesting to collect more details of their use-case. So, could you please get some more details on this?
 >
@@ -81,12 +81,12 @@ Because we found that after configuring cross-core, the “from-core” side onl
 
 -------
 
-> [!note]+ 2026-09-07 09:46 · [[Darren_Buttle|Darren Buttle]]
+> [!note]+ 2026-09-07 09:46 · [[Buttle_Darren_(ETAS-ECMPRM1-EMW)|Darren Buttle]]
 > [[Gunjan_Pradip_Mantala|Gunjan Pradip Mantala]] - just speaking with the ETCN team and they have a customer meeting on Wednesday and they need to provide some feedback on this issue. Can you make sure that they have something by End of Business on Tuesday 8/Sept/26 Thanks!
 
 -------
 
-> [!note]+ 2026-09-04 10:35 · [[Jie_LIU|Jie LIU]]
+> [!note]+ 2026-09-04 10:35 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
 > hello, [[Vihitha_Jain_(vihitha.jain@bosch.com)|Vihitha Jain]] 
 >
 > Customer has some feedback based on the analyzing report for PF. Could you please help to answer it?
@@ -98,7 +98,7 @@ Because we found that after configuring cross-core, the “from-core” side onl
 
 -------
 
-> [!note]+ 2026-08-31 13:36 · [[Jie_LIU|Jie LIU]]
+> [!note]+ 2026-08-31 13:36 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
 > Hello, [[Gunjan_Pradip_Mantala|Gunjan Pradip Mantala]] 
 >
 > Based on the feedback of [https://rtahotline.etas.com/jira/browse/RH-16960?focusedCommentId=722141&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-722141,] customer furtherly asked is there any specification to say **Dem_SetEventAvailable()** API can only be called once at the very beginning? 
@@ -107,12 +107,12 @@ Because we found that after configuring cross-core, the “from-core” side onl
 
 -------
 
-> [!note]+ 2026-08-31 04:20 · [[Jie_LIU|Jie LIU]]
+> [!note]+ 2026-08-31 04:20 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
 > [^Dem_Multicore_Analysis.docx]
 
 -------
 
-> [!note]+ 2026-08-31 04:19 · [[Jie_LIU|Jie LIU]]
+> [!note]+ 2026-08-31 04:19 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
 > **Uploaded the feedback from PF in email loop as attachment:**
 >
 > Hi together,
@@ -177,23 +177,23 @@ Because we found that after configuring cross-core, the “from-core” side onl
 
 -------
 
-> [!note]+ 2026-08-31 04:15 · [[Jie_LIU|Jie LIU]]
+> [!note]+ 2026-08-31 04:15 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
 > [^RE_ VCTC - DEM Multicore a_lignment.msg]
 
 -------
 
 > [!note]+ 2026-08-20 16:27 · [[JSM_Service_Bot|JSM Service Bot]]
-> [[Junsheng_ZHANG|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-08-20 16:27 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> [!note]+ 2026-08-20 16:27 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
 > ![[RH-16960-screenshot-1.png]]
 
 -------
 
 > [!note]+ 2026-08-19 11:53 · [[Gunjan_Pradip_Mantala|Gunjan Pradip Mantala]]
-> Hi [[Dang_Ho_Anh|Dang Ho Anh]], Hi [[Jie_LIU|Jie LIU]],
+> Hi [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]], Hi [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]],
 >
 > Thank you for reaching out to us.
 >
@@ -213,8 +213,8 @@ Because we found that after configuring cross-core, the “from-core” side onl
 
 -------
 
-> [!note]+ 2026-08-19 06:55 · [[Dang_Ho_Anh|Dang Ho Anh]]
-> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
+> [!note]+ 2026-08-19 06:55 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] ,
 >
 > As [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]'s comment, please use CSSafety to handle inter core client server communications.
 >
@@ -223,7 +223,7 @@ Because we found that after configuring cross-core, the “from-core” side onl
 -------
 
 > [!note]+ 2026-08-19 06:18 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
-> Hello [[Dang_Ho_Anh|Dang Ho Anh]] , related to RTE: In the given use case, CSSafety has to be used to handle inter core client server communications.
+> Hello [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] , related to RTE: In the given use case, CSSafety has to be used to handle inter core client server communications.
 
 -------
 
@@ -232,7 +232,7 @@ Because we found that after configuring cross-core, the “from-core” side onl
 
 -------
 
-> [!note]+ 2026-08-19 02:43 · [[Jie_LIU|Jie LIU]]
+> [!note]+ 2026-08-19 02:43 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
 > Dear experts,
 >
 > For the first question, customer also wants to know if they use CDD in each partition to call the API listed in the sheets directly without RTE, is it safe for reentrance? The reason is our wrapper function also call the APIs directly.
@@ -259,7 +259,7 @@ Because we found that after configuring cross-core, the “from-core” side onl
 
 -------
 
-> [!note]+ 2026-08-19 02:36 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [!note]+ 2026-08-19 02:36 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
 > Dear [Mantala Gunjan Pradip (MS/EMS3-ETAS)](https://confluence.etas-dev.com/display/~gct2kor) and [Koduri Vamsi Kiran (ETAS-ECM/XPC-Abt1)](https://confluence.etas-dev.com/display/~kod4abt)
 >
 > This ticket is related to both Dem and RTE for the Cariad customer.
@@ -275,8 +275,8 @@ Because we found that after configuring cross-core, the “from-core” side onl
 
 -------
 
-> [!note]+ 2026-08-18 14:32 · [[Dang_Ho_Anh|Dang Ho Anh]]
-> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
+> [!note]+ 2026-08-18 14:32 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] ,
 > Just to let you know, I am currently analyzing your ticket and will get back to you with more details as soon as possible.
 
 -------
