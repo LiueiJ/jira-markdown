@@ -9,24 +9,24 @@ priority: High
 project: RH
 assignee: vinh.voquanggia@vn.bosch.com
 reporter: phuong.nguyenle@vn.bosch.com
-tags: [VNCNMS]
+tags: [MAKW, VNCNMS]
 components: [AAA (Analysis), FSQP]
 fix-versions: []
 epic: null
 parent: null
-created: "2026-07-28T05:30:12.000+0200"
-updated: "2026-08-27T04:36:10.000+0200"
-synced-at: "2026-09-08T01:46:06.261Z"
+created: "2026-07-28T05:30:12.729+0200"
+updated: "2026-09-09T14:18:13.039+0200"
+synced-at: "2026-09-09T12:33:57.747Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-16775 [VNCNMS][VCTC] Avoid Using Static Variables Inside Functions
 
-> [!jira] Waiting for Level 3 · High · [[Vinh_Vo_Quang_Gia|Vinh Vo Quang Gia]] · 更新于 2026-08-27T04:36:10.000+0200
+> [!jira] Waiting for Level 3 · High · [[Vo_Quang_Gia_Vinh_(MSETA-ARC-PF2)|Vinh Vo Quang Gia]] · 更新于 2026-09-09T14:18:13.039+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-16775)
 
-> 标签：#jira/comp/aaa-analysis #jira/comp/fsqp #jira/label/vncnms
+> 标签：#jira/comp/aaa-analysis #jira/comp/fsqp #jira/label/makw #jira/label/vncnms
 
 ## 描述
 
@@ -112,38 +112,38 @@ Trân trọng / Best regards,
 
 ## 评论
 
-> [!note]+ 2026-08-13 10:08 · [[Alex_Fargus|Alex Fargus]]
-> [[Vinh_Vo_Quang_Gia|Vinh Vo Quang Gia]] please move this to "Solution Proposed" once that analysis ticket is complete.
+> [!note]+ 2026-08-13 10:08 · [[Fargus_Alex_(MSETA)|Alex Fargus]]
+> [[Vo_Quang_Gia_Vinh_(MSETA-ARC-PF2)|Vinh Vo Quang Gia]] please move this to "Solution Proposed" once that analysis ticket is complete.
 
 -------
 
 > [!note]+ 2026-08-13 07:53 · [[Oliver_Kust|Oliver Kust]]
-> This ticket should be assigned to somebody driving the implementation. Is it you, [[Alex_Fargus|Alex Fargus]] ,[[Vinh_Vo_Quang_Gia|Vinh Vo Quang Gia]] ?
+> This ticket should be assigned to somebody driving the implementation. Is it you, [[Fargus_Alex_(MSETA)|Alex Fargus]] ,[[Vo_Quang_Gia_Vinh_(MSETA-ARC-PF2)|Vinh Vo Quang Gia]] ?
 
 -------
 
-> [!note]+ 2026-08-03 09:32 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
-> [[Jiaqi_JI|Jiaqi JI]] , [[Jie_LIU|Jie LIU]] : This is planned in 26.4 so that we can't provide comprehensive solution for Cariad in Aug. Is it OK for you?
+> [!note]+ 2026-08-03 09:32 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
+> [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]] , [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]] : This is planned in 26.4 so that we can't provide comprehensive solution for Cariad in Aug. Is it OK for you?
 
 -------
 
-> [!note]+ 2026-07-30 09:36 · [[Vinh_Vo_Quang_Gia|Vinh Vo Quang Gia]]
+> [!note]+ 2026-07-30 09:36 · [[Vo_Quang_Gia_Vinh_(MSETA-ARC-PF2)|Vinh Vo Quang Gia]]
 > linked the Analysis ticket and plan accordingly
 
 -------
 
-> [!note]+ 2026-07-30 07:51 · [[Alex_Fargus|Alex Fargus]]
-> [[Girish_Chandran|Girish Chandran]] [[Nicola_Pianta|Nicola Pianta]] [[Vinh_Vo_Quang_Gia|Vinh Vo Quang Gia]]  Per Alex's comment below, please can you analyse the issue and prepare a Capability for planning in PI 26.4. Please link the analysis ticket when it is available.
+> [!note]+ 2026-07-30 07:51 · [[Fargus_Alex_(MSETA)|Alex Fargus]]
+> [[Chandran_Girish_(ETAS-ECMXPC-Yok1)|Girish Chandran]] [[Nicola_Pianta|Nicola Pianta]] [[Vo_Quang_Gia_Vinh_(MSETA-ARC-PF2)|Vinh Vo Quang Gia]]  Per Alex's comment below, please can you analyse the issue and prepare a Capability for planning in PI 26.4. Please link the analysis ticket when it is available.
 
 -------
 
-> [!note]+ 2026-07-29 15:52 · [[Alexander_Burn|Alexander Burn]]
-> [[Alex_Fargus|Alex Fargus]] I would like to see this planned in 26.4.
+> [!note]+ 2026-07-29 15:52 · [[Burn_Alexander_(ETAS-ECMXPC-Yok1)|Alexander Burn]]
+> [[Fargus_Alex_(MSETA)|Alex Fargus]] I would like to see this planned in 26.4.
 
 -------
 
-> [!note]+ 2026-07-29 13:39 · [[Alex_Fargus|Alex Fargus]]
-> [[Nick_Lay|Nick Lay]] [[Alexander_Burn|Alexander Burn]] Can you take a look and comment about the priority of this topic? We need a decision about whether to analyse and derive a Capability to address this issue.
+> [!note]+ 2026-07-29 13:39 · [[Fargus_Alex_(MSETA)|Alex Fargus]]
+> [[Lay_Nick_(ETAS-ECMXPC-Yok1)|Nick Lay]] [[Burn_Alexander_(ETAS-ECMXPC-Yok1)|Alexander Burn]] Can you take a look and comment about the priority of this topic? We need a decision about whether to analyse and derive a Capability to address this issue.
 >
 > [[Nicola_Pianta|Nicola Pianta]] FYI.
 
@@ -168,7 +168,7 @@ Trân trọng / Best regards,
 
 -------
 
-> [!note]+ 2026-07-29 04:28 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> [!note]+ 2026-07-29 04:28 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
 > I received response from [[Volker_Kairies|Volker Kairies]] as [^WG VNCNMS Avoid Using Static Variables Inside Functions.msg]
 >
 > ^[[Volker_Kairies|Volker Kairies]] , [[Oliver_Kust|Oliver Kust]] : May I understand that we have rule for "static variables shall be defined with a **file static** scope" but this rule isn't followed strictly?^
@@ -179,7 +179,7 @@ Trân trọng / Best regards,
 
 -------
 
-> [!note]+ 2026-07-28 10:22 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> [!note]+ 2026-07-28 10:22 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
 > [[Oliver_Kust|Oliver Kust]] , [[Erich_Merz|Erich Merz]] : Can you not only check static variable issue, but also check all memmap implementation and provide solution for them?
 
 -------
@@ -189,23 +189,23 @@ Trân trọng / Best regards,
 
 -------
 
-> [!note]+ 2026-07-28 05:55 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> [!note]+ 2026-07-28 05:55 · [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]]
 > Hello [[Oliver_Kust|Oliver Kust]] , [[Erich_Merz|Erich Merz]] ,
 > There are several limitations when using local static variables in our software. The customer has identified these limitations and requested improvements. Could you please review and evaluate the solution proposed by the customer?
 
 -------
 
 > [!note]+ 2026-07-28 05:39 · [[JSM_Service_Bot|JSM Service Bot]]
-> Hi [[Phuong_Nguyen_Le|Phuong Nguyen Le]], this issue does not have a component set and cannot be transistioned to 'Waiting for Level 3'
+> Hi [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]], this issue does not have a component set and cannot be transistioned to 'Waiting for Level 3'
 
 -------
 
 > [!note]+ 2026-07-28 05:39 · [[JSM_Service_Bot|JSM Service Bot]]
-> [[Erich_Merz|Erich Merz]], [[Oliver_Kust_(Oliver.Kust@etas.com)|Oliver Kust]], this issue requires your attention.
+> [[Erich_Merz|Erich Merz]], [[Oliver_Kust|Oliver Kust]], this issue requires your attention.
 
 -------
 
-> [!note]+ 2026-07-28 05:37 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> [!note]+ 2026-07-28 05:37 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
 > Set to High Priority as this is big issue and impact to functional safety. 
 >
 > The memmap issues are reporting by Cariad/VCTC in RH-16706, RH-16705, RH-16708

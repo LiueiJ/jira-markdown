@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-09-01T10:39:49.000+0000"
-updated: "2026-09-08T03:44:23.000+0000"
-synced-at: "2026-09-08T05:48:24.049Z"
+updated: "2026-09-09T08:51:55.000+0000"
+synced-at: "2026-09-09T13:46:39.554Z"
 jira-orphaned: false
 profile: Medusa
 ---
 
 # MEDUSA-54 M1 - Develop Arxml Edit Tool for stable BSW/RTE configuration
 
-> [!jira] In Progress · Medium · [[TAO_Sisi_(ETAS-ECMXSF-CN)|TAO Sisi (ETAS-ECM/XSF-CN)]] · 更新于 2026-09-08T03:44:23.000+0000
+> [!jira] In Progress · Medium · [[TAO_Sisi_(ETAS-ECMXSF-CN)|TAO Sisi (ETAS-ECM/XSF-CN)]] · 更新于 2026-09-09T08:51:55.000+0000
 > [在 Jira 中打开](https://jira.etas-dev.com/browse/MEDUSA-54)
 
 ## 描述
@@ -36,6 +36,12 @@ profile: Medusa
   4. Check module [Is Configured/ Is Selected
 
 ## 评论
+
+> [!note]+ 2026-09-09 08:51 · [[TAO_Sisi_(ETAS-ECMXSF-CN)|TAO Sisi (ETAS-ECM/XSF-CN)]]
+> Add Preflight check tool for BSW Code Gen
+> ![[MEDUSA-54-image-2026-09-09-16-51-52-867.png]]
+
+-------
 
 > [!note]+ 2026-09-05 08:23 · [[TAO_Sisi_(ETAS-ECMXSF-CN)|TAO Sisi (ETAS-ECM/XSF-CN)]]
 > Add Console to show the progress of Cobra tool / ISOLAR CLI:

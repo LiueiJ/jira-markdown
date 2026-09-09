@@ -66,6 +66,7 @@ SORT status ASC
 - [[MEDUSA-53 RTA-CAR Knowledge Ramp Up]] — To Do
 - [[MEDUSA-54 M1 - Develop Arxml Edit Tool for stable BSW RTE configuration]] — In Progress
 - [[MEDUSA-55 M2 - Add RTE OS Generation tool]] — To Do
+- [[MEDUSA-56 M2 - LangSmith Research and Usage]] — In Progress
 - [[MEDUSA-6 Setup Confluence Page for BiWeekly Report]] — Done
 - [[MEDUSA-7 Hotline1DayCN]] — To Do
 - [[MEDUSA-8 MEDUSA-8 RTA-CAR MCP]] — To Do

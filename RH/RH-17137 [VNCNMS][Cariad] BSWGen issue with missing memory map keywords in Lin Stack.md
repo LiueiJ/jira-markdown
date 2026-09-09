@@ -4,29 +4,29 @@ jira_url: "https://rtahotline.etas.com/jira/browse/RH-17137"
 server: rtahotline
 kind: hotline
 type: Support
-status: Waiting for Level 2
+status: Waiting for Level 3
 priority: High
 project: RH
-assignee: cuong.phanmanh@vn.bosch.com
+assignee: nusrin.haneef@in.bosch.com
 reporter: cuong.phanmanh@vn.bosch.com
-tags: [VNCNMS]
+tags: [MAKW, VNCNMS]
 components: [Communication-Can-Lin-Fr]
 fix-versions: []
 epic: null
 parent: null
-created: "2026-09-07T12:32:01.000+0200"
-updated: "2026-09-08T09:40:33.000+0200"
-synced-at: "2026-09-08T23:34:02.312Z"
+created: "2026-09-07T12:32:01.279+0200"
+updated: "2026-09-09T14:38:42.212+0200"
+synced-at: "2026-09-09T12:44:01.424Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-17137 [VNCNMS][Cariad] BSWGen issue with missing memory map keywords in Lin Stack
 
-> [!jira] Waiting for Level 2 · High · [[Cuong_Phan_Manh|Cuong Phan Manh]] · 更新于 2026-09-08T09:40:33.000+0200
+> [!jira] Waiting for Level 3 · High · [[Haneef_Nusrin|Haneef Nusrin]] · 更新于 2026-09-09T14:38:42.212+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17137)
 
-> 标签：#jira/comp/communication-can-lin-fr #jira/label/vncnms
+> 标签：#jira/comp/communication-can-lin-fr #jira/label/makw #jira/label/vncnms
 
 ## 描述
 
@@ -90,18 +90,18 @@ Managing Directors: Sawaiker Girish Vinayak (BGSV/GM)
 
 ## 评论
 
-> [!note]+ 2026-09-08 09:40 · [[Cuong_Phan_Manh|Cuong Phan Manh]]
+> [!note]+ 2026-09-08 09:40 · [[Phan_Manh_Cuong_(MSETA-Hub-CN)|Cuong Phan Manh]]
 > Hello [[Muhammed_Anas_K_K|Muhammed Anas K K]] , I updated the Description for more detail, could you analyze the issue again? If you still not clear the information, you can contact me via MS Team or check the ticket **RH-16705** for more information, Thanks
 
 -------
 
 > [!note]+ 2026-09-07 13:35 · [[Muhammed_Anas_K_K|Muhammed Anas K K]]
-> Hello [[Junsheng_ZHANG|Junsheng ZHANG]] , The hotline ticket content is not clear. Could you please provide more details on the issue, expected behavior, and the specific analysis/action required?
+> Hello [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] , The hotline ticket content is not clear. Could you please provide more details on the issue, expected behavior, and the specific analysis/action required?
 
 -------
 
-> [!note]+ 2026-09-07 12:56 · [[Cuong_Phan_Manh|Cuong Phan Manh]]
-> Hello [[Junsheng_ZHANG|Junsheng ZHANG]], I created this ticket to discuss and analyze your question in here. Thank you so much
+> [!note]+ 2026-09-07 12:56 · [[Phan_Manh_Cuong_(MSETA-Hub-CN)|Cuong Phan Manh]]
+> Hello [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]], I created this ticket to discuss and analyze your question in here. Thank you so much
 
 -------
 

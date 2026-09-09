@@ -9,24 +9,24 @@ priority: Critical
 project: RH
 assignee: junsheng.zhang@bosch.com
 reporter: junsheng.zhang@bosch.com
-tags: []
+tags: [MAKW]
 components: [RTA-RTE]
 fix-versions: []
 epic: null
 parent: null
-created: "2026-09-01T07:12:26.000+0200"
-updated: "2026-09-08T11:44:40.000+0200"
-synced-at: "2026-09-08T23:34:02.312Z"
+created: "2026-09-01T07:12:26.565+0200"
+updated: "2026-09-09T14:37:22.528+0200"
+synced-at: "2026-09-09T12:37:46.092Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-17085 The RTE generated section name is incorrect.
 
-> [!jira] Waiting for Customer · Critical · [[Junsheng_ZHANG|Junsheng ZHANG]] · 更新于 2026-09-08T11:44:40.000+0200
+> [!jira] Waiting for Customer · Critical · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] · 更新于 2026-09-09T14:37:22.528+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17085)
 
-> 标签：#jira/comp/rta-rte
+> 标签：#jira/comp/rta-rte #jira/label/makw
 
 ## 描述
 
@@ -62,18 +62,18 @@ Hi hotline,
 
 ## 评论
 
-> [!note]+ 2026-09-08 10:27 · [[Ngoc_Duong_Thi|Ngoc Duong Thi]]
-> [[Auges_Tchouante|Auges Tchouante]] , It has been planned in RTA-RTE 12.14.0 
+> [!note]+ 2026-09-08 10:27 · [[Duong_Thi_Ngoc_(ETAS-ECMXPC-Yok1)|Ngoc Duong Thi]]
+> [[Tchouante_Auges_(ETAS-ECMXPC-Abt1)|Auges Tchouante]] , It has been planned in RTA-RTE 12.14.0 
 
 -------
 
-> [!note]+ 2026-09-08 10:07 · [[Auges_Tchouante|Auges Tchouante]]
-> [[Ngoc_Duong_Thi|Ngoc Duong Thi]] I had a discussion with the reporter and he's asking for  the timeline by when the issue will be fixed.
+> [!note]+ 2026-09-08 10:07 · [[Tchouante_Auges_(ETAS-ECMXPC-Abt1)|Auges Tchouante]]
+> [[Duong_Thi_Ngoc_(ETAS-ECMXPC-Yok1)|Ngoc Duong Thi]] I had a discussion with the reporter and he's asking for  the timeline by when the issue will be fixed.
 
 -------
 
 > [!note]+ 2026-09-04 13:03 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
-> HI [[Shaker_Abdolrahman_Saleh|Shaker Abdolrahman Saleh]] Can we have call to see how memory sections are handled within this project? please invite me and [[Auges_Tchouante|Auges Tchouante]].
+> HI [[Shaker_Abdolrahman_Saleh|Shaker Abdolrahman Saleh]] Can we have call to see how memory sections are handled within this project? please invite me and [[Tchouante_Auges_(ETAS-ECMXPC-Abt1)|Auges Tchouante]].
 
 -------
 
@@ -139,7 +139,7 @@ Hi hotline,
 
 -------
 
-> [!note]+ 2026-09-02 08:22 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> [!note]+ 2026-09-02 08:22 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
 > Hi [[Shaker_Abdolrahman_Saleh|Shaker Abdolrahman Saleh]] ,
 >
 > Also, the customer’s project is confidential, and the linker and startup code will not affect the RTE-generated code. Can you tell me exactly what to check to confirm the root cause?
@@ -147,11 +147,11 @@ Hi hotline,
 -------
 
 > [!note]+ 2026-09-02 08:19 · [[JSM_Service_Bot|JSM Service Bot]]
-> [[Junsheng_ZHANG|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-09-02 08:19 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> [!note]+ 2026-09-02 08:19 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
 > Hi [[Shaker_Abdolrahman_Saleh|Shaker Abdolrahman Saleh]] ,
 >
 > This issue currently impacts the customer’s MPU development. The customer also wants to know whether this is caused by a configuration problem or a tool bug.  If it is configuration-related, I can help the customer modify the configuration. But if it is a tool bug, we should inform the customer about the expected fix timeline and the plan.
@@ -159,7 +159,7 @@ Hi hotline,
 -------
 
 > [!note]+ 2026-09-01 14:21 · [[Shaker_Abdolrahman_Saleh|Shaker Abdolrahman Saleh]]
-> Hi [[Junsheng_ZHANG|Junsheng ZHANG]],
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]],
 >
 > agree that global variables/buffers/structures with an init value should be mapped to
 > a section  SEC_VAR_INIT_8 instead of ... SEC_VAR_CLEARED_8.

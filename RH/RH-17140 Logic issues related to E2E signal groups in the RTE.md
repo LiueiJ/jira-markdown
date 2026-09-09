@@ -4,29 +4,29 @@ jira_url: "https://rtahotline.etas.com/jira/browse/RH-17140"
 server: rtahotline
 kind: hotline
 type: Support
-status: Waiting for Level 2
+status: Waiting for Level 3
 priority: Critical
 project: RH
-assignee: dang.hoanh@vn.bosch.com
+assignee: vamsikiran.koduri@etas.com
 reporter: junsheng.zhang@bosch.com
 tags: [VNCNMS]
-components: []
+components: [RTA-RTE]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-09-07T15:16:48.000+0200"
-updated: "2026-09-08T14:06:37.000+0200"
-synced-at: "2026-09-08T23:34:02.312Z"
+updated: "2026-09-09T15:37:37.000+0200"
+synced-at: "2026-09-09T13:45:59.638Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-17140 Logic issues related to E2E signal groups in the RTE
 
-> [!jira] Waiting for Level 2 · Critical · [[Dang_Ho_Anh|Dang Ho Anh]] · 更新于 2026-09-08T14:06:37.000+0200
+> [!jira] Waiting for Level 3 · Critical · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] · 更新于 2026-09-09T15:37:37.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17140)
 
-> 标签：#jira/label/vncnms
+> 标签：#jira/comp/rta-rte #jira/label/vncnms
 
 ## 描述
 
@@ -62,12 +62,79 @@ Hi Hotline,
 
 ## 评论
 
-> [!note]+ 2026-09-08 10:31 · [[JSM_Service_Bot|JSM Service Bot]]
-> [[Junsheng_ZHANG|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [!note]+ 2026-09-09 15:46 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
+> Hi [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] ,
+>
+> I believe the customer is questioning our current logic. Even if HandleNeverReceived is configured to true, we should not fail to return an RTE_E_NEVER_RECEIVED fault. I will also share your feedback with the customer to ask whether they can accept this behavior.
 
 -------
 
-> [!note]+ 2026-09-08 10:31 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> [!note]+ 2026-09-09 15:33 · [[JSM_Service_Bot|JSM Service Bot]]
+> Reminder for tickets requiring L3 RTE attention:
+>
+> - Have you attached the configuration?
+> - Have you stated which version of RTA-CAR is being used (or, RTA-RTE)?
+> - Have you tried the configuration with the latest version of RTA-CAR (or, RTA-RTE)?
+> - Have you provided the exact command-line options and exact set of input files fed in to RTA-RTE (this could be the ISOLAR RTE LOG file)?
+> - Have you stated the name of the customer?
+> - Have you stated the priority / deadline?
+> - Have you checked the history of hotline tickets for any relevant keywords?
+>
+> Not providing this information could delay the solution to the problem.
+
+-------
+
+> [!note]+ 2026-09-09 15:33 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]], this RTA-RTE ticket requires an assignee. As the component lead for RTA-RTE, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+
+-------
+
+> [!note]+ 2026-09-09 15:31 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] , After giving it some careful thought, I realized that this could be an issue.
+>
+> Hi [Koduri Vamsi Kiran (ETAS-ECM/XPC-Abt1)](https://confluence.etas-dev.com/display/~kod4abt),
+>
+> The behavior of RTE that Junsheng just shared is that when HandleNeverReceived is set to true, but **_initValue_** of an unqueued data element, **invalidValue** and **handleInvalid** are not configured. In this case, Rte_Read() function will return RTE_E_COM_STOPPED instead of RTE_E_NEVER_RECEIVED; which seems not correct. Is this the expected behavior from RTE?
+>
+> I'm trying to configure the project so that the RTE generates code in accordance with the specification requirement below:
+> ![[RH-17140-image-2026-09-09-19-59-01-850.png]]
+>
+> To demonstrate that the RTE supports the use of HandleNeverReceived.
+>
+> But the RTE report errors:
+> ![[RH-17140-image-2026-09-09-20-03-00-955.png]]
+>
+> Could you also help check this error?
+>
+> I have attached the project to this ticket. The password to unzip it is the same as the one I sent you previously.
+> The testing port is RPort - SysSigGrp_C1_ADS_MP_EPS_AngCtrl_E2E of component CDD_ComUser.
+>
+> Thank you,
+> [^Isolar_RH-17140.zip]
+
+-------
+
+> [!note]+ 2026-09-09 10:58 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]],
+> The initial value of the global buffer Rte_Rx_* is set to RTE_E_NEVER_RECEIVED because the attribute *HandleNeverReceived* is set to true
+> ![[RH-17140-image-2026-09-09-15-20-57-496.png]]
+>
+> The effect of this attribute is described below:
+> ![[RH-17140-image-2026-09-09-15-24-27-092.png]]
+>
+> If this feature is not required for the use case, please set HandleNeverReceived to false. The initial value of the RTE variable will then be set to RTE_E_OK.
+> Or please share the customer’s use case so I can analyze it further, as RTE supports different use cases based on our configuration.
+>
+> CC: [Koduri Vamsi Kiran (ETAS-ECM/XPC-Abt1)](https://confluence.etas-dev.com/display/~kod4abt)
+
+-------
+
+> [!note]+ 2026-09-08 10:31 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+
+-------
+
+> [!note]+ 2026-09-08 10:31 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
 > password ： ETAS
 >
 >
@@ -76,7 +143,7 @@ Hi Hotline,
 -------
 
 > [!note]+ 2026-09-07 18:25 · [[Phong_Tang_Dieu|Phong Tang Dieu]]
-> Hi [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
 > Could you please describe more detailed about the use case? 
 > And could you share the project as well? It would be helpful to analyze the issue. From my side, I could find any similar generated code even for E2E and E2EXf.
 > Thanks,
