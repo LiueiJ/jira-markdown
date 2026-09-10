@@ -8,14 +8,14 @@ status: Investigation Required
 priority: High
 project: RH
 assignee: ""
-reporter: "[[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]"
+reporter: Jie LIU
 tags: []
 fix-versions: []
 epic: null
 parent: null
 created: "2026-09-10T04:45:41.000+0200"
 updated: "2026-09-10T04:45:42.000+0200"
-synced-at: "2026-09-10T03:48:22.681Z"
+synced-at: "2026-09-10T08:07:25.599Z"
 jira-orphaned: false
 profile: Cariad
 ---

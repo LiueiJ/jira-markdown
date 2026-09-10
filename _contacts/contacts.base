@@ -1,0 +1,11 @@
+﻿filters:
+  and:
+    - 'file.folder == "_jira/_contacts"'
+views:
+  - type: table
+    name: Contacts
+    order:
+      - name
+      - username
+      - email
+      - servers

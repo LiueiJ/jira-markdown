@@ -1,6 +1,6 @@
-filters:
+﻿filters:
   and:
-    - profile == "CEA2.0 Needs"
+    - 'profile == "CEA2.0 Needs"'
 views:
   - type: table
     name: Tickets
