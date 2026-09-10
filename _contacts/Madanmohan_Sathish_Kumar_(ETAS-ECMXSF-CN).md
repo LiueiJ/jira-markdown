@@ -3,7 +3,8 @@ jira_contact: mas1yok
 username: mas1yok
 usernames:
   etas: mas1yok
-name: "Madanmohan Sathish Kumar (ETAS-ECM/XSF-CN)"
-email: Sathish.Madanmohan@etas.com
-servers: [etas]
+  rtahotline: sathish.madanmohan@etas.com
+name: Sathish Kumar Madanmohan
+email: sathish.madanmohan@etas.com
+servers: [etas, rtahotline]
 ---

@@ -3,7 +3,8 @@ jira_contact: lan1yok
 username: lan1yok
 usernames:
   etas: lan1yok
-name: "Lay Nick (ETAS-ECM/XPC-Yok1)"
-email: Nick.Lay@etas.com
-servers: [etas]
+  rtahotline: nick.lay@etas.com
+name: Nick Lay
+email: nick.lay@etas.com
+servers: [etas, rtahotline]
 ---
