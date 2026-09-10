@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-06-12T11:19:50.000+0200"
-updated: "2026-09-09T18:06:19.000+0200"
-synced-at: "2026-09-10T00:24:38.390Z"
+updated: "2026-09-10T04:23:34.000+0200"
+synced-at: "2026-09-10T03:06:42.188Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-16347 RTE code gen Error parsing input file
 
-> [!jira] Waiting for Level 3 · Critical · [[Karthi_Krishna_Shekaar_(MSEMT-ETAS)|Shekaar Karthi Krishna]] · 更新于 2026-09-09T18:06:19.000+0200
+> [!jira] Waiting for Level 3 · Critical · [[Karthi_Krishna_Shekaar_(MSEMT-ETAS)|Shekaar Karthi Krishna]] · 更新于 2026-09-10T04:23:34.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-16347)
 
 > 标签：#jira/comp/rta-car
@@ -61,9 +61,9 @@ Best regards,
 ## 关联
 
 - relates to: [[RH-16514 ConfGen 12.11.0 elements order for EcuC leads to RTE failure]]
+- split from: [[RH-17023 [VCTC] RTA-CAR 12.11 Migration RTA-CAR Toolchain Issues]]
 - mentions: [[RH-15495 [BMSGen2] RTE generation failed with message "Error parsing input file"]]
 - is mentioned in: [[RH-16514 ConfGen 12.11.0 elements order for EcuC leads to RTE failure]]
-- is mentioned in: [[RH-17023 [VCTC] RTA-CAR 12.11 Migration RTA-CAR Toolchain Issues]]
 - is mentioned in: [[RH-16478 [VNCNMS][VCTC] E2E Signalgroup Issue]]
 
 ## 评论

@@ -123,3 +123,8 @@ SORT status ASC
 - [[RH-17137 [VNCNMS][Cariad] BSWGen issue with missing memory map keywords in Lin Stack]] — Waiting for Level 3
 - [[RH-17139 [VNCNMS] BSWGen issue with missing memory map keywords in Mfl]] — Waiting for Level 3
 - [[RH-17140 Logic issues related to E2E signal groups in the RTE]] — Waiting for Level 3
+- [[RH-17171 Error Report During LDF File Importing by CLI]] — Investigation Required
+- [[RH-17173 Whole BSW becomes invalid in Code Gen UI]] — Investigation Required
+- [[RH-17174 Exception during Execution of JavaAction for Com]] — Investigation Required
+- [[RH-17175 0_CheckLiceses Error during Code Gen]] — Investigation Required
+- [[RH-17176 Resources Could Not Be Found Exception during Code Gen]] — Investigation Required

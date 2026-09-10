@@ -4,9 +4,23 @@ filters:
 views:
   - type: table
     name: Tickets
+    groupBy:
+      property: status
+      direction: ASC
     order:
-      - jira_key
-      - summary
-      - status
+      - file.basename
       - assignee
+      - status
       - updated
+      - jira_url
+    sort:
+      - property: assignee
+        direction: ASC
+      - property: summary
+        direction: ASC
+      - property: jira_key
+        direction: DESC
+      - property: status
+        direction: DESC
+    columnSize:
+      file.basename: 466
