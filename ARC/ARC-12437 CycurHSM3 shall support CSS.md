@@ -7,26 +7,18 @@ type: Need (Subtask)
 status: New
 priority: High
 project: ARC
-assignee: par2bo
-reporter: ec82abt
-tags: [CEA2.0]
-components: []
+assignee: "[[Pandit_Rohan_(ETAS-ECMXPC-Fe3)|Pandit Rohan (ETAS-ECM/XPC-Fe3)]]"
+reporter: "[[Schran_Sven_(ETAS-ECMXPC-Fe3)|Schran Sven (ETAS-ECM/XPC-Fe3)]]"
+tags: [jira/label/cea20]
 fix-versions: []
 epic: null
 parent: "[[ARC-9902 VCTC : VW CEA2.0 (CDCU,LDCU,RDCU & RearDCU)]]"
 created: "2025-08-14T12:20:10.000+0000"
 updated: "2026-06-09T09:35:10.000+0000"
-synced-at: "2026-09-08T01:46:40.034Z"
-jira-orphaned: true
+synced-at: "2026-09-10T03:48:16.674Z"
+jira-orphaned: false
 profile: CEA2.0 Needs
 ---
-
-# ARC-12437 CycurHSM3 shall support CSS
-
-> [!jira] New · High · [[Pandit_Rohan_(ETAS-ECMXPC-Fe3)|Pandit Rohan (ETAS-ECM/XPC-Fe3)]] · 更新于 2026-06-09T09:35:10.000+0000
-> [在 Jira 中打开](https://jira.etas-dev.com/browse/ARC-12437)
-
-> 标签：#jira/label/cea20
 
 ## 描述
 

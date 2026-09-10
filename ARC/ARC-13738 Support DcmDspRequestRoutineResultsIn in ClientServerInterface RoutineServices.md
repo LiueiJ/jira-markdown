@@ -7,26 +7,18 @@ type: Need (Subtask)
 status: Analyzed
 priority: High
 project: ARC
-assignee: vih4kor
-reporter: aiu2sgh
-tags: [CEA2.0, DIAG]
-components: []
+assignee: "[[Jain_Vihitha_(MSEMS-ETAS)|Jain Vihitha (MS/EMS-ETAS)]]"
+reporter: "[[LIU_Jie_(ETAS-ECMXSF-CN)|LIU Jie (ETAS-ECM/XSF-CN)]]"
+tags: [jira/label/cea20, jira/label/diag]
 fix-versions: []
 epic: null
 parent: "[[ARC-9902 VCTC : VW CEA2.0 (CDCU,LDCU,RDCU & RearDCU)]]"
 created: "2025-11-27T06:32:50.000+0000"
 updated: "2026-02-24T07:25:01.000+0000"
-synced-at: "2026-09-08T01:46:40.034Z"
-jira-orphaned: true
+synced-at: "2026-09-10T03:48:16.674Z"
+jira-orphaned: false
 profile: CEA2.0 Needs
 ---
-
-# ARC-13738 Support DcmDspRequestRoutineResultsIn in ClientServerInterface RoutineServices
-
-> [!jira] Analyzed · High · [[Jain_Vihitha_(MSEMS-ETAS)|Jain Vihitha (MS/EMS-ETAS)]] · 更新于 2026-02-24T07:25:01.000+0000
-> [在 Jira 中打开](https://jira.etas-dev.com/browse/ARC-13738)
-
-> 标签：#jira/label/cea20 #jira/label/diag
 
 ## 描述
 

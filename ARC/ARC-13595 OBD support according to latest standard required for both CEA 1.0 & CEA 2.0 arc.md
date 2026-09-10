@@ -7,26 +7,18 @@ type: Need (Subtask)
 status: On Hold
 priority: Medium
 project: ARC
-assignee: vih4kor
-reporter: mas1yok
-tags: [CEA2.0, DIAG]
-components: []
+assignee: "[[Jain_Vihitha_(MSEMS-ETAS)|Jain Vihitha (MS/EMS-ETAS)]]"
+reporter: "[[Madanmohan_Sathish_Kumar_(ETAS-ECMXSF-CN)|Madanmohan Sathish Kumar (ETAS-ECM/XSF-CN)]]"
+tags: [jira/label/cea20, jira/label/diag]
 fix-versions: []
 epic: null
 parent: "[[ARC-9902 VCTC : VW CEA2.0 (CDCU,LDCU,RDCU & RearDCU)]]"
 created: "2025-11-12T05:31:59.000+0000"
 updated: "2026-01-15T02:13:21.000+0000"
-synced-at: "2026-09-08T01:46:40.034Z"
-jira-orphaned: true
+synced-at: "2026-09-10T03:48:16.674Z"
+jira-orphaned: false
 profile: CEA2.0 Needs
 ---
-
-# ARC-13595 OBD support according to latest standard required for both CEA 1.0 & CEA 2.0 architecture
-
-> [!jira] On Hold · Medium · [[Jain_Vihitha_(MSEMS-ETAS)|Jain Vihitha (MS/EMS-ETAS)]] · 更新于 2026-01-15T02:13:21.000+0000
-> [在 Jira 中打开](https://jira.etas-dev.com/browse/ARC-13595)
-
-> 标签：#jira/label/cea20 #jira/label/diag
 
 ## 描述
 

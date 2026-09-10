@@ -7,26 +7,18 @@ type: Need (Subtask)
 status: Analyzed
 priority: High
 project: ARC
-assignee: tan9sgh
-reporter: tst1sgh
-tags: [CEA2.0, Cap_Used_PIP26.1_SEC_Prep, CycurHSM3.x, PIP26.1_SEC_Prep, SEC, SEC-SecServices]
-components: []
+assignee: "[[TAN_Yang_(ETAS-ECMXSF-CN)|TAN Yang (ETAS-ECM/XSF-CN)]]"
+reporter: "[[TANG_Steven_(ETAS-ECMXSF-CN)|TANG Steven (ETAS-ECM/XSF-CN)]]"
+tags: [jira/label/cea20, jira/label/cap_used_pip261_sec_prep, jira/label/cycurhsm3x, jira/label/pip261_sec_prep, jira/label/sec, jira/label/sec-secservices]
 fix-versions: []
 epic: null
 parent: "[[ARC-9902 VCTC : VW CEA2.0 (CDCU,LDCU,RDCU & RearDCU)]]"
 created: "2025-05-09T05:23:20.000+0000"
 updated: "2026-07-01T15:29:51.000+0000"
-synced-at: "2026-09-08T01:46:40.034Z"
-jira-orphaned: true
+synced-at: "2026-09-10T03:48:16.674Z"
+jira-orphaned: false
 profile: CEA2.0 Needs
 ---
-
-# ARC-10779 CryptoDriver & CycurHSM3.x shall support HW-CSP APIs for devices with Host sided acceleration capability
-
-> [!jira] Analyzed · High · [[TAN_Yang_(ETAS-ECMXSF-CN)|TAN Yang (ETAS-ECM/XSF-CN)]] · 更新于 2026-07-01T15:29:51.000+0000
-> [在 Jira 中打开](https://jira.etas-dev.com/browse/ARC-10779)
-
-> 标签：#jira/label/cea20 #jira/label/cap_used_pip261_sec_prep #jira/label/cycurhsm3x #jira/label/pip261_sec_prep #jira/label/sec #jira/label/sec-secservices
 
 ## 描述
 

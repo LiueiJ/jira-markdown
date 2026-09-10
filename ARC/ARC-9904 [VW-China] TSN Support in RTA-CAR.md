@@ -7,26 +7,18 @@ type: Need (Subtask)
 status: Analyzed
 priority: Medium
 project: ARC
-assignee: npr5kor
-reporter: mas1yok
-tags: [CEA2.0, COM, NETCOM]
-components: []
+assignee: "[[Nandita_Prasad_(MSEMS-ETAS)|Nandita Prasad (MS/EMS-ETAS)]]"
+reporter: "[[Madanmohan_Sathish_Kumar_(ETAS-ECMXSF-CN)|Madanmohan Sathish Kumar (ETAS-ECM/XSF-CN)]]"
+tags: [jira/label/cea20, jira/label/com, jira/label/netcom]
 fix-versions: []
 epic: null
 parent: "[[ARC-9902 VCTC : VW CEA2.0 (CDCU,LDCU,RDCU & RearDCU)]]"
 created: "2025-03-28T05:27:33.000+0000"
 updated: "2026-01-21T04:56:53.000+0000"
-synced-at: "2026-09-08T01:46:40.034Z"
-jira-orphaned: true
+synced-at: "2026-09-10T03:48:16.674Z"
+jira-orphaned: false
 profile: CEA2.0 Needs
 ---
-
-# ARC-9904 [VW-China] TSN Support in RTA-CAR
-
-> [!jira] Analyzed · Medium · [[Nandita_Prasad_(MSEMS-ETAS)|Nandita Prasad (MS/EMS-ETAS)]] · 更新于 2026-01-21T04:56:53.000+0000
-> [在 Jira 中打开](https://jira.etas-dev.com/browse/ARC-9904)
-
-> 标签：#jira/label/cea20 #jira/label/com #jira/label/netcom
 
 ## 描述
 

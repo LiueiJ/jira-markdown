@@ -7,26 +7,18 @@ type: Need (Subtask)
 status: Satisfied
 priority: Urgent
 project: ARC
-assignee: aiu2sgh
-reporter: mas1yok
-tags: [CEA2.0]
-components: []
+assignee: "[[LIU_Jie_(ETAS-ECMXSF-CN)|LIU Jie (ETAS-ECM/XSF-CN)]]"
+reporter: "[[Madanmohan_Sathish_Kumar_(ETAS-ECMXSF-CN)|Madanmohan Sathish Kumar (ETAS-ECM/XSF-CN)]]"
+tags: [jira/label/cea20]
 fix-versions: []
 epic: null
 parent: "[[ARC-9902 VCTC : VW CEA2.0 (CDCU,LDCU,RDCU & RearDCU)]]"
 created: "2025-10-14T00:51:21.000+0000"
 updated: "2026-05-06T17:13:45.000+0000"
-synced-at: "2026-09-08T01:46:40.034Z"
-jira-orphaned: true
+synced-at: "2026-09-10T03:48:16.674Z"
+jira-orphaned: false
 profile: CEA2.0 Needs
 ---
-
-# ARC-13331 RTE Support for Implicit+Transformer Feature
-
-> [!jira] Satisfied · Urgent · [[LIU_Jie_(ETAS-ECMXSF-CN)|LIU Jie (ETAS-ECM/XSF-CN)]] · 更新于 2026-05-06T17:13:45.000+0000
-> [在 Jira 中打开](https://jira.etas-dev.com/browse/ARC-13331)
-
-> 标签：#jira/label/cea20
 
 ## 描述
 

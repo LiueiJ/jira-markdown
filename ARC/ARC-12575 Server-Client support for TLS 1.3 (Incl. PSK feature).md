@@ -7,26 +7,18 @@ type: Need (Subtask)
 status: On Hold
 priority: High
 project: ARC
-assignee: ec82abt
-reporter: mas1yok
-tags: [CEA2.0, PI-25.4_Prep, SEC]
-components: []
+assignee: "[[Schran_Sven_(ETAS-ECMXPC-Fe3)|Schran Sven (ETAS-ECM/XPC-Fe3)]]"
+reporter: "[[Madanmohan_Sathish_Kumar_(ETAS-ECMXSF-CN)|Madanmohan Sathish Kumar (ETAS-ECM/XSF-CN)]]"
+tags: [jira/label/cea20, jira/label/pi-254_prep, jira/label/sec]
 fix-versions: []
 epic: null
 parent: "[[ARC-9902 VCTC : VW CEA2.0 (CDCU,LDCU,RDCU & RearDCU)]]"
 created: "2025-09-04T07:22:04.000+0000"
 updated: "2026-08-31T05:02:39.000+0000"
-synced-at: "2026-09-08T01:46:40.034Z"
-jira-orphaned: true
+synced-at: "2026-09-10T03:48:16.674Z"
+jira-orphaned: false
 profile: CEA2.0 Needs
 ---
-
-# ARC-12575 Server-Client support for TLS 1.3 (Incl. PSK feature)
-
-> [!jira] On Hold · High · [[Schran_Sven_(ETAS-ECMXPC-Fe3)|Schran Sven (ETAS-ECM/XPC-Fe3)]] · 更新于 2026-08-31T05:02:39.000+0000
-> [在 Jira 中打开](https://jira.etas-dev.com/browse/ARC-12575)
-
-> 标签：#jira/label/cea20 #jira/label/pi-254_prep #jira/label/sec
 
 ## 描述
 

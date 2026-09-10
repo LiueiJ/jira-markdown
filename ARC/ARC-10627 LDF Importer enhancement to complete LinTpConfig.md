@@ -7,26 +7,18 @@ type: Need (Subtask)
 status: Satisfied
 priority: Medium
 project: ARC
-assignee: kki1cob
-reporter: kki1cob
-tags: [CEA2.0]
-components: []
+assignee: "[[Karthi_Krishna_Shekaar_(MSEMT-ETAS)|Karthi Krishna Shekaar (MS/EMT-ETAS)]]"
+reporter: "[[Karthi_Krishna_Shekaar_(MSEMT-ETAS)|Karthi Krishna Shekaar (MS/EMT-ETAS)]]"
+tags: [jira/label/cea20]
 fix-versions: [RTA-CAR 12.10.0]
 epic: null
 parent: "[[ARC-9902 VCTC : VW CEA2.0 (CDCU,LDCU,RDCU & RearDCU)]]"
 created: "2025-04-17T10:07:29.000+0000"
 updated: "2026-05-11T20:42:33.000+0000"
-synced-at: "2026-09-08T01:46:40.034Z"
-jira-orphaned: true
+synced-at: "2026-09-10T03:48:16.674Z"
+jira-orphaned: false
 profile: CEA2.0 Needs
 ---
-
-# ARC-10627 LDF Importer enhancement to complete LinTpConfig
-
-> [!jira] Satisfied · Medium · [[Karthi_Krishna_Shekaar_(MSEMT-ETAS)|Karthi Krishna Shekaar (MS/EMT-ETAS)]] · 更新于 2026-05-11T20:42:33.000+0000
-> [在 Jira 中打开](https://jira.etas-dev.com/browse/ARC-10627)
-
-> 标签：#jira/label/cea20
 
 ## 描述
 

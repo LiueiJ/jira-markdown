@@ -7,26 +7,18 @@ type: Need (Subtask)
 status: Analyzed
 priority: High
 project: ARC
-assignee: tan9sgh
-reporter: mas1yok
-tags: [CEA2.0, NETDRV, "[MCAL]"]
-components: []
+assignee: "[[TAN_Yang_(ETAS-ECMXSF-CN)|TAN Yang (ETAS-ECM/XSF-CN)]]"
+reporter: "[[Madanmohan_Sathish_Kumar_(ETAS-ECMXSF-CN)|Madanmohan Sathish Kumar (ETAS-ECM/XSF-CN)]]"
+tags: [jira/label/cea20, jira/label/netdrv, jira/label/mcal]
 fix-versions: []
 epic: null
 parent: "[[ARC-9902 VCTC : VW CEA2.0 (CDCU,LDCU,RDCU & RearDCU)]]"
 created: "2025-09-16T08:58:29.000+0000"
 updated: "2026-04-22T15:17:46.000+0000"
-synced-at: "2026-09-08T01:46:40.034Z"
-jira-orphaned: true
+synced-at: "2026-09-10T03:48:16.674Z"
+jira-orphaned: false
 profile: CEA2.0 Needs
 ---
-
-# ARC-12713 Transceiver drivers support for  TLIN1022 ; DP83TC812S ; RTL9000BS
-
-> [!jira] Analyzed · High · [[TAN_Yang_(ETAS-ECMXSF-CN)|TAN Yang (ETAS-ECM/XSF-CN)]] · 更新于 2026-04-22T15:17:46.000+0000
-> [在 Jira 中打开](https://jira.etas-dev.com/browse/ARC-12713)
-
-> 标签：#jira/label/cea20 #jira/label/netdrv #jira/label/mcal
 
 ## 描述
 
