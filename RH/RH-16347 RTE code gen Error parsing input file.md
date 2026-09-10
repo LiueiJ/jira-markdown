@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-06-12T11:19:50.000+0200"
-updated: "2026-09-01T06:54:37.000+0200"
-synced-at: "2026-09-08T01:46:06.261Z"
+updated: "2026-09-09T18:06:19.000+0200"
+synced-at: "2026-09-10T00:24:38.390Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-16347 RTE code gen Error parsing input file
 
-> [!jira] Waiting for Level 3 · Critical · [[Shekaar_Karthi_Krishna|Shekaar Karthi Krishna]] · 更新于 2026-09-01T06:54:37.000+0200
+> [!jira] Waiting for Level 3 · Critical · [[Karthi_Krishna_Shekaar_(MSEMT-ETAS)|Shekaar Karthi Krishna]] · 更新于 2026-09-09T18:06:19.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-16347)
 
 > 标签：#jira/comp/rta-car
@@ -63,13 +63,18 @@ Best regards,
 - relates to: [[RH-16514 ConfGen 12.11.0 elements order for EcuC leads to RTE failure]]
 - mentions: [[RH-15495 [BMSGen2] RTE generation failed with message "Error parsing input file"]]
 - is mentioned in: [[RH-16514 ConfGen 12.11.0 elements order for EcuC leads to RTE failure]]
-- is mentioned in: [[RH-16478 [VNCNMS][VCTC] E2E Signalgroup Issue]]
 - is mentioned in: [[RH-17023 [VCTC] RTA-CAR 12.11 Migration RTA-CAR Toolchain Issues]]
+- is mentioned in: [[RH-16478 [VNCNMS][VCTC] E2E Signalgroup Issue]]
 
 ## 评论
 
+> [!note]+ 2026-09-09 18:06 · [[Karthik_M_S_(MSEMT-ETAS)|M S Karthik]]
+> Just to close the conversation in previous comment, ticket "[ARC-17412](https://jira.etas-dev.com/browse/ARC-17412) Resolve impact of RTE-Preprocessor removal: force schema compliance" is linked to this ticket
+
+-------
+
 > [!note]+ 2026-08-24 15:42 · [[Oliver_Taylor|Oliver Taylor]]
-> Hi [[Shekaar_Karthi_Krishna|Shekaar Karthi Krishna]],
+> Hi [[Karthi_Krishna_Shekaar_(MSEMT-ETAS)|Shekaar Karthi Krishna]],
 >
 > We discussed this exact support ticket in a call a couple of weeks ago where we agreed that (from the perspective of a user) this is simply a regression.
 > You proposed a solution whereby the 'hidden' features of the preprocessor (some of which are highlighted in this ticket) could be covered by the TOOLS team.
@@ -83,7 +88,7 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-20 13:38 · [[Shekaar_Karthi_Krishna|Shekaar Karthi Krishna]]
+> [!note]+ 2026-08-20 13:38 · [[Karthi_Krishna_Shekaar_(MSEMT-ETAS)|Shekaar Karthi Krishna]]
 > Hello [[Ryan_Dixon|Ryan Dixon]],
 >
 > I am not right person to comment on which component has generated invalid arxml files.  [[Oliver_Taylor|Oliver Taylor]] can you please feedback
@@ -91,13 +96,13 @@ Best regards,
 -------
 
 > [!note]+ 2026-08-20 13:27 · [[Ryan_Dixon|Ryan Dixon]]
-> [[Shekaar_Karthi_Krishna|Shekaar Karthi Krishna]]
+> [[Karthi_Krishna_Shekaar_(MSEMT-ETAS)|Shekaar Karthi Krishna]]
 > Who / What is responsible for generating non-compliant schema ARXML in the first place?
 
 -------
 
 > [!note]+ 2026-08-20 13:14 · [[Max_Sinclair|Max Sinclair]]
-> Hi [[Shekaar_Karthi_Krishna|Shekaar Karthi Krishna]] ,
+> Hi [[Karthi_Krishna_Shekaar_(MSEMT-ETAS)|Shekaar Karthi Krishna]] ,
 >
 > Thanks very much for the fast response, I think there has been a bit of a misunderstanding here. 
 >
@@ -110,7 +115,7 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-20 12:58 · [[Shekaar_Karthi_Krishna|Shekaar Karthi Krishna]]
+> [!note]+ 2026-08-20 12:58 · [[Karthi_Krishna_Shekaar_(MSEMT-ETAS)|Shekaar Karthi Krishna]]
 > Hi [[Max_Sinclair|Max Sinclair]] ,
 >
 > During RTA-RTE generation through the plugin, performs a preprocessing step where ARXML files are patched and rewritten before being passed to the RTE Generator. One side effect of this, ARTOP rewrites XML tags in the correct AUTOSAR schema order. 
@@ -122,7 +127,7 @@ Best regards,
 -------
 
 > [!note]+ 2026-08-20 12:28 · [[Max_Sinclair|Max Sinclair]]
-> Hi [[Shekaar_Karthi_Krishna_(Karthi.Krishna@etas.com)|Shekaar Karthi Krishna]] ,
+> Hi [[Karthi_Krishna_Shekaar_(MSEMT-ETAS)|Shekaar Karthi Krishna]] ,
 >
 > [[Oliver_Taylor|Oliver Taylor]] mentioned he had a discussion with you about partially replacing some of the old functionality from the pre-processor i.e. ordering of tags.
 >
@@ -134,19 +139,19 @@ Best regards,
 -------
 
 > [!note]+ 2026-07-13 11:04 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
-> Hi [[M_S_Karthik|M S Karthik]], Please check above summary from Oliver w.r.t ordering issue we discussed.
+> Hi [[Karthik_M_S_(MSEMT-ETAS)|M S Karthik]], Please check above summary from Oliver w.r.t ordering issue we discussed.
 
 -------
 
 > [!note]+ 2026-06-26 13:07 · [[Oliver_Taylor|Oliver Taylor]]
 > All we've done here is identify where we used to unknowingly provide value to the customer which they expect to be maintained in the product, we could make something good out of this.
 >
-> [[Sisi_TAO|Sisi TAO]], these files had always been contradicting the spec, the problem had been masked by the pre-processor due to the way it handles arxml it reordered the arxml as a by product of its process. You can see the pre-processed arxml at "C:/Users/<your user name>/AppData/Local/Temp/rta/rte/..."
+> [[TAO_Sisi_(ETAS-ECMXSF-CN)|Sisi TAO]], these files had always been contradicting the spec, the problem had been masked by the pre-processor due to the way it handles arxml it reordered the arxml as a by product of its process. You can see the pre-processed arxml at "C:/Users/<your user name>/AppData/Local/Temp/rta/rte/..."
 >
 > [[Ryan_Dixon|Ryan Dixon]], I backported this to CAR 12.9.0 to see how it behaves there: [^Conf_12.9.0.zip] 
 > Against CAR 12.9.0 (preprocessor then rtegen) there's no arxml parsing errors. The temp dir is like  [^After_preprocessor.zip]. (It does get other errors "E001224 Element 'Dem_Init' has a duplicate name within context.." which are unimportant for this support ticket)
 >
-> [[Alexander_Burn|Alexander Burn]] / [[Nick_Lay|Nick Lay]]. I agree, the RTEGen is technically correct in throwing an error here. It has always only accepted the correct ordering of arxml. The problem is that from the perspective of the customer this is a regression. RTA-CAR's 'Generate RTE' functionality used to have a step where it would sanitise the config and permit this, and it wasn't intentional: it simply took in the config with artop (which does permit this) when doing the preprocessor and created the temp directory which had a cleaned version, which RTEGen was run against.
+> [[Burn_Alexander_(ETAS-ECMXPC-Yok1)|Alexander Burn]] / [[Lay_Nick_(ETAS-ECMXPC-Yok1)|Nick Lay]]. I agree, the RTEGen is technically correct in throwing an error here. It has always only accepted the correct ordering of arxml. The problem is that from the perspective of the customer this is a regression. RTA-CAR's 'Generate RTE' functionality used to have a step where it would sanitise the config and permit this, and it wasn't intentional: it simply took in the config with artop (which does permit this) when doing the preprocessor and created the temp directory which had a cleaned version, which RTEGen was run against.
 > I don't think that we should force RTEGen to permit this config, but I do think that RTA-CAR should provide a solution to allow customers to use the projects that we allowed them to generate code with in older versions. If it was a single line of config we wanted them to adjust this kind of measure wouldn't be necessary, but from what I can tell this will be thousands of elements that will need to be inspected, checked against the schema, and corrected manually. I think we can do better than saying "we're *technically* right, so its not out problem".
 >
 > For this customer with this issue I think one of our FAE's can create a script that will fix their config and get them moving again, but long term I'd like to see a tool in CAR which would permanently resolve this specific issue with the ordering of elements in the way the preprocessor handled it.
@@ -178,7 +183,7 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-06-25 08:12 · [[Sisi_TAO|Sisi TAO]]
+> [!note]+ 2026-06-25 08:12 · [[TAO_Sisi_(ETAS-ECMXSF-CN)|Sisi TAO]]
 > Hi [[Max_Sinclair|Max Sinclair]] 
 >
 > DBC_SysDesc.arxml is generated by our hub developed script. Other files are mostly generated by customer script.
@@ -188,7 +193,7 @@ Best regards,
 -------
 
 > [!note]+ 2026-06-23 19:18 · [[Max_Sinclair|Max Sinclair]]
-> Hi [[Dong_LIU|Dong LIU]] ,
+> Hi [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]] ,
 >
 > Issues are stemming from malformed xml in your project (tags in the wrong order). In RTA-CAR 12.11 the rte preprocessor has been removed which previously would reorder these tags for you.
 >
@@ -221,11 +226,11 @@ Best regards,
 >
 > Additionally the error message for this is not clear enough so the user doesn't know what the problem is in the first place.
 >
-> [[Nick_Lay|Nick Lay]] 
+> [[Lay_Nick_(ETAS-ECMXPC-Yok1)|Nick Lay]] 
 
 -------
 
-> [!note]+ 2026-06-22 11:17 · [[Nick_Lay|Nick Lay]]
+> [!note]+ 2026-06-22 11:17 · [[Lay_Nick_(ETAS-ECMXPC-Yok1)|Nick Lay]]
 > The RTE is likely correct here, the input its being given is not schema conformant. ARXML is only ARXML if it conforms with an AUTOSAR schema.
 >
 > The fix needs to be in whatever generated that non-conformant "ARXML". If that's part of our tooling, then there's a bug we need to fix. If it's come from the customer directly then (unfortunately) they will need to fix it.
@@ -276,7 +281,7 @@ Best regards,
 -------
 
 > [!note]+ 2026-06-15 17:44 · [[Max_Sinclair|Max Sinclair]]
-> Hi [[Vamsi_Kiran_Koduri_(VamsiKiran.Koduri@etas.com)|Vamsi Kiran Koduri]],
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]],
 >
 > Could you take a look at this (Conf-3.zip), from what I can see the RTE xml parser seems to be falsely labelling config as incorrect.
 >
@@ -305,12 +310,12 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-06-12 11:27 · [[Dong_LIU|Dong LIU]]
+> [!note]+ 2026-06-12 11:27 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
 > The project has been uploaded here.
 
 -------
 
-> [!note]+ 2026-06-12 11:27 · [[Dong_LIU|Dong LIU]]
+> [!note]+ 2026-06-12 11:27 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
 > [^Conf-3.zip]
 
 -------

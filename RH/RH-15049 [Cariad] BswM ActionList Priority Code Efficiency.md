@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-02-04T04:40:35.000+0100"
-updated: "2026-09-09T14:57:56.000+0200"
-synced-at: "2026-09-09T13:45:59.638Z"
+updated: "2026-09-09T18:51:54.000+0200"
+synced-at: "2026-09-10T00:24:38.390Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-15049 [Cariad] BswM ActionList Priority Code Efficiency
 
-> [!jira] Waiting for Level 3 · High · [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]] · 更新于 2026-09-09T14:57:56.000+0200
+> [!jira] Waiting for Level 3 · High · [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]] · 更新于 2026-09-09T18:51:54.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-15049)
 
 > 标签：#jira/comp/system-infralib-infrastructure
@@ -64,15 +64,15 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 > So a few observations from my side:
 >  * Our code
 >  ** Calling a function in a loop is usually a bad code smell. Doing it twice just stinks
->  *** Two calls to BswM_Prv_GetActionListPriority() inside a doubly nested loop controlled where each loop is controlled by a 16-bit value means in the worst case we're calling that function 65536^2 x 2 = **8+ billion times**  :-O
+>  *** Two calls to BswM_Prv_GetActionListPriority() inside a doubly nested loop where each loop is controlled by a 16-bit value means in the worst case we're calling that function 65536^2 x 2 = **8+ billion times**  :-O
 >  *** This is embarrassingly awful code - the customer must think we're idiots
->  ** I'm guessing we don't see BSWM_MAX_NO_OF_RULES set very high in practice (and I assume we know how big this is at code generation time) but even so this is going to be inefficient
+>  ** I'm guessing we don't see BSWM_MAX_NO_OF_RULES set very high in practice (and I assume we know how big this is at code generation time) but even so this is going to be really inefficient for low numbers of rules
 >  * Customer's code
 >  ** Caching the priority list is a good space/time tradeoff here
 >  ** I'm guessing the "allZero" guard is misleading - I'd assume this needs to be strengthened to "allIdenticalPriority" as we'd not need to sort in that case either
 >  *** I'd then question what we're doing with [ARCSMIL-1956](https://jira.etas-dev.com/browse/ARCSMIL-1956) and just doing what a customer has asked us instead of thinking about the problem
 >
-> **But....** I'd like to understand why we cannot just generated a priority sorted list of rules at code generation time? Don't we know statically via configuration which requests are deferred processing? We could then avoid lot of runtime overhead( code, data & time).
+> **But....** I'd like to understand why we cannot just generate a priority sorted list of rules at code generation time? Don't we know statically via configuration which requests are deferred processing? We could then avoid lot of runtime overhead( code, data & time).
 
 -------
 

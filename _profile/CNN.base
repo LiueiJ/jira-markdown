@@ -1,6 +1,6 @@
-﻿filters:
+filters:
   and:
-    - 'profile == "CNN"'
+    - profile == "CNN"
 views:
   - type: table
     name: Tickets

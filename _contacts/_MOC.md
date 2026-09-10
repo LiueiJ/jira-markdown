@@ -188,8 +188,8 @@ SORT name ASC
 - [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] — `vamsikiran.koduri@etas.com`
 - [[Varsha_Srinivasan_(MSEMS2-ETAS)_X|Varsha Srinivasan (MS/EMS2-ETAS) [X]]] — `isv5kor`
 - [[Venkatesh_Raghavendra_(MSEMS2-ETAS)_X|Venkatesh Raghavendra (MS/EMS2-ETAS) [X]]] — `vtr2kor`
-- [[Jain_Vihitha_(MSEMS-ETAS)|Vihitha Jain]] — `vih4kor`
 - [[Vihitha_Jain_(vihitha.jain@bosch.com)|Vihitha Jain]] — `vihitha.jain@bosch.com`
+- [[Jain_Vihitha_(MSEMS-ETAS)|Vihitha Jain]] — `vih4kor`
 - [[Vo_Quang_Gia_Vinh_(MSETA-ARC-PF2)|Vinh Vo Quang Gia]] — `vov4hc`
 - [[Vo_Quoc_Tien_(MSETA-Hub-CN)|Vo Quoc Tien (MS/ETA-Hub-CN)]] — `viq1hc`
 - [[Volker_Boehm|Volker Boehm]] — `volker.boehm@etas.com`

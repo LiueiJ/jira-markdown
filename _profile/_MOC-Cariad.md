@@ -105,7 +105,7 @@ SORT status ASC
 - [[RH-16960 [VNCNMS][VCTC]Multicore issues in DEM]] — Closed
 - [[RH-16976 [VNCNMS][VCTC] OBD Cross-Core Implementation and NoOBD Configuration Follow-Up I]] — Closed
 - [[RH-16985 [VNCNMS][VCTC] OBDonUDS & OBDclassic Test Issues]] — Solution Proposed
-- [[RH-17005 Issues caused by the HSM version update to 3.0.7]] — Waiting for Customer
+- [[RH-17005 Issues caused by the HSM version update to 3.0.7]] — Closed
 - [[RH-17007 [VNCNMS][VCTC]E2E-related Rte_COMCbk generation is confusing messy]] — Waiting for Customer
 - [[RH-17016 [VNCNMS][VCTC]RTE Task Runnable Period Variable Generation Error]] — Closed
 - [[RH-17023 [VCTC] RTA-CAR 12.11 Migration RTA-CAR Toolchain Issues]] — Waiting for Customer

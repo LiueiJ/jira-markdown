@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-09-07T15:16:48.000+0200"
-updated: "2026-09-09T16:30:24.000+0200"
-synced-at: "2026-09-09T14:34:18.809Z"
+updated: "2026-09-09T17:26:31.000+0200"
+synced-at: "2026-09-10T00:24:38.390Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-17140 Logic issues related to E2E signal groups in the RTE
 
-> [!jira] Waiting for Level 3 · High · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] · 更新于 2026-09-09T16:30:24.000+0200
+> [!jira] Waiting for Level 3 · High · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] · 更新于 2026-09-09T17:26:31.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17140)
 
 > 标签：#jira/comp/rta-rte #jira/label/vncnms
@@ -106,7 +106,6 @@ Hi Hotline,
 >
 > Thank you,
 > [^Isolar_RH-17140.zip]
-> ![[RH-17140-image-2026-09-09-21-29-57-039.png]]
 
 -------
 

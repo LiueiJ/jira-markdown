@@ -4,7 +4,7 @@ jira_url: "https://rtahotline.etas.com/jira/browse/RH-17005"
 server: rtahotline
 kind: hotline
 type: Support
-status: Waiting for Customer
+status: Closed
 priority: Critical
 project: RH
 assignee: junsheng.zhang@bosch.com
@@ -15,15 +15,15 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-08-23T14:02:22.000+0200"
-updated: "2026-08-26T13:31:49.000+0200"
-synced-at: "2026-09-08T01:46:06.261Z"
+updated: "2026-09-10T01:51:03.000+0200"
+synced-at: "2026-09-10T00:24:38.390Z"
 jira-orphaned: false
 profile: Cariad
 ---
 
 # RH-17005 Issues caused by the HSM version update to 3.0.7
 
-> [!jira] Waiting for Customer · Critical · [[Junsheng_ZHANG|Junsheng ZHANG]] · 更新于 2026-08-26T13:31:49.000+0200
+> [!jira] Closed · Critical · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] · 更新于 2026-09-10T01:51:03.000+0200
 > [在 Jira 中打开](https://rtahotline.etas.com/jira/browse/RH-17005)
 
 ## 描述
@@ -62,7 +62,17 @@ Hi Hotline,
 
 ## 评论
 
-> [!note]+ 2026-08-26 13:31 · [[Sandra_Weigl|Sandra Weigl]]
+> [!note]+ 2026-09-10 01:50 · [[TANG_Steven_(ETAS-ECMXSF-CN)|Steven TANG]]
+> this proposal already verified at CARIAD side. it works well, we can close this ticket.
+
+-------
+
+> [!note]+ 2026-09-09 18:57 · [[JSM_Service_Bot|JSM Service Bot]]
+> This issue has not received any response for 2 weeks and will now be automatically moved to Solution Proposed.
+
+-------
+
+> [!note]+ 2026-08-26 13:31 · [[Weigl_Sandra_(ETAS-ECMXPC-Fe3)|Sandra Weigl]]
 > Hi [[Christian_Fuerst|Christian Fuerst]] ,
 >
 > product team is already heavily involved and provided already a POC how to solve the situaiton on customer side.
@@ -72,7 +82,7 @@ Hi Hotline,
 -------
 
 > [!note]+ 2026-08-24 15:39 · [[Christian_Fuerst|Christian Fuerst]]
-> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] ,
 >
 > normally it is not needed to change the UCB settings when you upgrade the CycurHSM to a newer version.
 >
@@ -101,7 +111,7 @@ Hi Hotline,
 -------
 
 > [!note]+ 2026-08-24 10:34 · [[Christian_Fuerst|Christian Fuerst]]
-> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] ,
 >
 > can you provide in which phase of development this issue shows up, please?
 >
