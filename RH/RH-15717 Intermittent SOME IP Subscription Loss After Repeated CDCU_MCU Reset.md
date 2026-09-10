@@ -7,15 +7,15 @@ type: Analysis Request
 status: Waiting for Level 3
 priority: Medium
 project: RH
-assignee: "[[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]"
+assignee: "[[Chandran_Girish_(ETAS-ECMXPC-Yok1)|Girish Chandran]]"
 reporter: "[[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]"
 tags: [jira/comp/communication-eth]
 fix-versions: [RTA-CAR 12.13.0]
 epic: null
 parent: null
 created: "2026-04-09T16:08:43.000+0200"
-updated: "2026-09-10T05:25:04.000+0200"
-synced-at: "2026-09-10T03:48:22.681Z"
+updated: "2026-09-10T07:03:58.000+0200"
+synced-at: "2026-09-10T05:55:43.272Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -180,6 +180,26 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 - is blocked by: [[RHC-674 VW CEA1.0 SOA issues on Production Line]]
 
 ## 评论
+
+> [!note]+ 2026-09-10 07:03 · [[Nandita_Prasad_(MSEMS-ETAS)|Prasad Nandita]]
+> [[Chandran_Girish_(ETAS-ECMXPC-Yok1)|Girish Chandran]]  I understand that there has been a decision in the ARCH round to handle this check in the tooling, instead at component level.
+>
+> This would be needed for 12.13.0, and hence we need to derive a suitable approach together, request your kind feedback.
+>
+> We will consider the improvement, but approach needs to be robust for product and would take some time.
+>
+> [[Phuong_Nguyen_Le|Phuong Nguyen Le]]  For VCTC since the config is already modified and fixed for the target project, doesn't this suffice?
+
+-------
+
+> [!note]+ 2026-09-10 05:58 · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]
+> [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]] : Thanks for the feedback!
+>
+> Currently we are discussing this with [[Chandran_Girish_(ETAS-ECMXPC-Yok1)|Girish Chandran]] if this validation can be inbuilt in the code generation tool instead of every module implementing a validation error for the parameters which will make the code bulky and unmaintainable. 
+>
+> I have assigned this ticket to [[Chandran_Girish_(ETAS-ECMXPC-Yok1)|Girish Chandran]] to take this forward. 
+
+-------
 
 > [!note]+ 2026-09-09 15:40 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
 > [[Phuong_Nguyen_Le|Phuong Nguyen Le]] [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] I've changed the priority of this issue to Medium.

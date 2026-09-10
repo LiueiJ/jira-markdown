@@ -15,6 +15,7 @@ SORT status ASC
 
 ## 无 Epic
 
+- [[RH-12443 [Cariad][ConfGen] CanIfRxPduDataLength is not generated for UserDefinedIPdu]] — Closed
 - [[RH-12551 LDF Importer is not importing LinTpConfig correctly]] — Closed
 - [[RH-12574 [Cariad][Mem Stack] The problem description is not clear about Mem stack]] — Closed
 - [[RH-12653 [ConfGen] no error trace with line number provided]] — Closed

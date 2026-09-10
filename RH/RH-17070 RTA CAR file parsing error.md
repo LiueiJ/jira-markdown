@@ -5,7 +5,7 @@ server: rtahotline
 kind: hotline
 type: Support
 status: Solution Proposed
-priority: Critical
+priority: High
 project: RH
 assignee: "[[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]"
 reporter: "[[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]"
@@ -14,8 +14,8 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-08-30T06:50:15.000+0200"
-updated: "2026-09-10T05:21:54.000+0200"
-synced-at: "2026-09-10T03:48:22.681Z"
+updated: "2026-09-10T07:55:15.000+0200"
+synced-at: "2026-09-10T05:55:43.272Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -56,7 +56,7 @@ Hi hotline,
 
 ## 关联
 
-- is mentioned in: [[RH-17023 [VCTC] RTA-CAR 12.11 Migration RTA-CAR Toolchain Issues]]
+- split from: [[RH-17023 [VCTC] RTA-CAR 12.11 Migration RTA-CAR Toolchain Issues]]
 
 ## 评论
 

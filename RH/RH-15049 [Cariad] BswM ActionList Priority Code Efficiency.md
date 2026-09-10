@@ -14,8 +14,8 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-02-04T04:40:35.000+0100"
-updated: "2026-09-10T05:35:15.000+0200"
-synced-at: "2026-09-10T03:48:22.681Z"
+updated: "2026-09-10T06:31:39.000+0200"
+synced-at: "2026-09-10T05:55:43.272Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -51,6 +51,39 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
+
+> [!note]+ 2026-09-10 06:31 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> [[Madanmohan_Sathish_Kumar_(ETAS-ECMXSF-CN)|Sathish Kumar Madanmohan]] : May I understand your that: We don't need to integrate their suggestion for the PR7 but we need to share to customer these messages:
+>
+> 1) We can confirm their code change can work well with their use case is "allZero priority Action Lists" --> They can change the code manually by themself as workaround now.
+>
+> 2) We need time to give 'Proper' solution and provide the solution later.
+>
+> ??
+
+-------
+
+> [!note]+ 2026-09-10 06:16 · [[Madanmohan_Sathish_Kumar_(ETAS-ECMXSF-CN)|Sathish Kumar Madanmohan]]
+> I agree to [[Buttle_Darren_(ETAS-ECMPRM1-EMW)|Darren Buttle]] 's inputs. Hence I pinned it. 
+>  # We need to apply the right solution in the next release- to ensure we covered CARIAD
+>  # We need to evaluate >> Ordering the list during code generation phase<< asap and document that. 
+>  ## It will be very helpful if we can share the proper solution proposal with the customer - just to show we can do better & build the proper solution than what they had suggested - It will highlight that we are competent and professional org. and we take customer feedback very seriously and build a 'Proper' solution. 
+>  ## We must change the mindset of the customer from being critical about everything they find -> collaborative partner and they should feel positive & confident to share feedback. 
+>  ## If we simply implement what customer suggested -> We are no different to other local CP suppliers in customers eyes. Then next time customer will prefer local supplier. That is the harsh reality 
+
+-------
+
+> [!note]+ 2026-09-10 05:54 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> Thank for [[Buttle_Darren_(ETAS-ECMPRM1-EMW)|Darren Buttle]] 's sharing! It's a great idea to order the list of rule in code generation phase as we can order the list base on the referred Actionlist's priority.
+>
+> [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]] : How do you think?
+>
+> Additionally for planning:
+>  * {*}For Long-term solution{*}: We can keepto apply customer's solution for the PR7 version firstly to satisfy the Cariad's usecases (as all priority is 0). How do you think [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]] , [[Madanmohan_Sathish_Kumar_(ETAS-ECMXSF-CN)|Sathish Kumar Madanmohan]]
+>  * {*}For Long-term solution{*}: We need to analyze and apply Darren's idea.
+>  ** [[Jain_Vihitha_(MSEMS-ETAS)|Vihitha Jain]]: Can you team plan to check and apply this idea in short time?
+
+-------
 
 > [!note]+ 2026-09-09 14:57 · [[Buttle_Darren_(ETAS-ECMPRM1-EMW)|Darren Buttle]]
 > So a few observations from my side:

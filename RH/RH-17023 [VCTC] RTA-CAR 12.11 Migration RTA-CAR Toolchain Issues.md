@@ -14,8 +14,8 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-08-25T11:22:50.000+0200"
-updated: "2026-09-10T05:04:45.000+0200"
-synced-at: "2026-09-10T03:48:22.681Z"
+updated: "2026-09-10T07:55:05.000+0200"
+synced-at: "2026-09-10T05:55:43.272Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -61,13 +61,13 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 ## 关联
 
 - relates to: [[RH-16963 [VNCNMS][BIP] Tool Issue when using RTA-CAR 12.11.0]]
+- split to: [[RH-17070 RTA CAR file parsing error]]
 - split to: [[RH-17173 Whole BSW becomes invalid in Code Gen UI]]
 - split to: [[RH-17174 Exception during Execution of JavaAction for Com]]
 - split to: [[RH-17175 0_CheckLiceses Error during Code Gen]]
 - split to: [[RH-17176 Resources Could Not Be Found Exception during Code Gen]]
 - split to: [[RH-17171 Error Report During LDF File Importing by CLI]]
 - split to: [[RH-16347 RTE code gen Error parsing input file ]]
-- mentions: [[RH-17070 RTA CAR file parsing error]]
 
 ## 评论
 
