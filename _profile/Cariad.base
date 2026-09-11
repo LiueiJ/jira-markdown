@@ -4,9 +4,24 @@ filters:
 views:
   - type: table
     name: Tickets Not Closed
+    filters:
+      and:
+        - status != "Closed"
+    groupBy:
+      property: priority
+      direction: ASC
     order:
-      - jira_key
-      - summary
+      - file.name
+      - priority
       - status
       - assignee
-      - updated
+      - tags
+    sort:
+      - property: assignee
+        direction: ASC
+    rowHeight: medium
+    columnSize:
+      file.basename: 339
+      note.status: 128
+      note.assignee: 167
+      note.tags: 253

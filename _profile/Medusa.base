@@ -1,6 +1,6 @@
-﻿filters:
+filters:
   and:
-    - 'profile == "Medusa"'
+    - profile == "Medusa"
 views:
   - type: table
     name: Tickets

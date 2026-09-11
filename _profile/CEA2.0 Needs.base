@@ -3,10 +3,7 @@ filters:
     - profile == "CEA2.0 Needs"
 views:
   - type: table
-    name: Tickets Not Closed
-    filters:
-      and:
-        - status != "Closed"
+    name: Tickets
     groupBy:
       property: status
       direction: ASC

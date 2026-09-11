@@ -7,15 +7,15 @@ type: Support
 status: Waiting for Customer
 priority: Critical
 project: RH
-assignee: Junsheng ZHANG
-reporter: Junsheng ZHANG
+assignee: "[[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]"
+reporter: "[[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]"
 tags: [jira/comp/sec-cryptoauhsm3]
 fix-versions: []
 epic: null
 parent: null
-created: "2026-08-30T06:33:15.000+0200"
-updated: "2026-09-09T13:31:22.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+created: "2026-08-30T06:33:15.815+0200"
+updated: "2026-09-09T13:31:22.602+0200"
+synced-at: "2026-09-11T01:21:26.775Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -68,14 +68,14 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
 
-> [!note]+ 2026-09-08 16:18 · Rohith Gowdara Prakash
-> Hi Junsheng ZHANG,
+> [!note]+ 2026-09-08 16:18 · [[Rohith_Gowdara_Prakash|Rohith Gowdara Prakash]]
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]],
 > The earliest date we can provide this fix is October 2. Please let us know if this works for you.
 
 -------
 
-> [!note]+ 2026-09-07 11:06 · Junsheng ZHANG
-> Hi Elvan Caliskan ,
+> [!note]+ 2026-09-07 11:06 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
+> Hi [[Elvan_Caliskan|Elvan Caliskan]] ,
 >
 > We only need to modify one line of code in this way; I think this would be better；
 >
@@ -83,10 +83,10 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-09-03 14:52 · Christian Fuerst
-> Hi Elvan Caliskan ,
+> [!note]+ 2026-09-03 14:52 · [[Christian_Fuerst|Christian Fuerst]]
+> Hi [[Elvan_Caliskan|Elvan Caliskan]] ,
 >
-> can you provide a answer for Junsheng ZHANG for the timeline fix, please?
+> can you provide a answer for [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] for the timeline fix, please?
 >
 > thx
 >
@@ -95,22 +95,22 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-09-03 14:40 · JSM Service Bot
-> Junsheng ZHANG, the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [!note]+ 2026-09-03 14:40 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-09-03 14:40 · Junsheng ZHANG
-> Hi Elvan Caliskan ,
+> [!note]+ 2026-09-03 14:40 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
+> Hi [[Elvan_Caliskan|Elvan Caliskan]] ,
 >
 > Thank you very much for your proposal and your replies. The customer’s project will go into mass production soon—when can we get the fixed code? Is there a plan/schedule?
 
 -------
 
-> [!note]+ 2026-09-03 13:27 · Christian Fuerst
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-09-03 13:27 · [[Christian_Fuerst|Christian Fuerst]]
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] ,
 >
-> you can try out the preliminary fix which described by Elvan Caliskan .
+> you can try out the preliminary fix which described by [[Elvan_Caliskan|Elvan Caliskan]] .
 >
 > Keep in mind that this fix is only provided for testing purposes and are **NOT** allowed for {*}production/series usage{*}.
 >
@@ -123,12 +123,12 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-09-03 12:40 · Elvan Caliskan
+> [!note]+ 2026-09-03 12:40 · [[Elvan_Caliskan|Elvan Caliskan]]
 > ![[RH-17069-2.png]] ![[RH-17069-1.png]]
 
 -------
 
-> [!note]+ 2026-09-03 12:35 · Elvan Caliskan
+> [!note]+ 2026-09-03 12:35 · [[Elvan_Caliskan|Elvan Caliskan]]
 > If you want to try it out before the official fix is released, this is the essential part in rba_CryptoAuHSM3_Prv_CertificateParse_Trigger() — the session handle has to be stored as job handle before the API call:
 >
 > jobHandle_u32 = RBA_CRYPTOAUHSM3_PRV_SESSION_GET_SESSION_HANDLE(session_pst);
@@ -141,8 +141,8 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-09-03 12:30 · Elvan Caliskan
-> Hi Christian Fuerst and Junsheng ZHANG 
+> [!note]+ 2026-09-03 12:30 · [[Elvan_Caliskan|Elvan Caliskan]]
+> Hi [[Christian_Fuerst|Christian Fuerst]] and [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] 
 >
 > I had a look at this, the bug is confirmed and you pointed at the right place in the code. While tracing it though, I found that the actual chain of events is a bit different from what it looks like at first.
 >
@@ -156,7 +156,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 >
 > **Other affected functions:**
 >
-> Junsheng ZHANG  asked whether other functions have the same problem, so I went through the remaining primitives. There is one more: rba_CryptoAuHSM3_Prv_KeyElementSet_TriggerRelease() calls ecy_hsm_Csai_ReleaseCertificate(), which is also a job based API without a job handle return value, and it does not store the handle either. If the release runs on a session where no inject happened before, it works on a foreign handle in the same way. We are fixing that one together with the parse.
+> [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]  asked whether other functions have the same problem, so I went through the remaining primitives. There is one more: rba_CryptoAuHSM3_Prv_KeyElementSet_TriggerRelease() calls ecy_hsm_Csai_ReleaseCertificate(), which is also a job based API without a job handle return value, and it does not store the handle either. If the release runs on a session where no inject happened before, it works on a foreign handle in the same way. We are fixing that one together with the parse.
 >
 > Everything else is fine. All other primitives receive their job handle through the phJob output parameter, and for the multi step ones (Cipher, Aead) the state machine makes sure the start call always comes first.
 >
@@ -171,18 +171,18 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-09-03 09:54 · Junsheng ZHANG
+> [!note]+ 2026-09-03 09:54 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
 > Is there any update?
 
 -------
 
-> [!note]+ 2026-08-31 08:52 · JSM Service Bot
-> Hi Elvan Caliskan, this SEC-CryptoAuHSM3 ticket requires an assignee. As the component lead for SEC-CryptoAuHSM3, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+> [!note]+ 2026-08-31 08:52 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Elvan_Caliskan|Elvan Caliskan]], this SEC-CryptoAuHSM3 ticket requires an assignee. As the component lead for SEC-CryptoAuHSM3, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------
 
-> [!note]+ 2026-08-31 08:52 · Christian Fuerst
-> Hi Elvan Caliskan ,
+> [!note]+ 2026-08-31 08:52 · [[Christian_Fuerst|Christian Fuerst]]
+> Hi [[Elvan_Caliskan|Elvan Caliskan]] ,
 >
 > can you have a look into this issue, please?
 >
@@ -197,8 +197,8 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-08-31 08:49 · Christian Fuerst
-> Hi Junsheng ZHANG 
+> [!note]+ 2026-08-31 08:49 · [[Christian_Fuerst|Christian Fuerst]]
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] 
 >
 > thx for pointing out this issue.
 >
@@ -215,7 +215,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-08-30 08:02 · JSM Service Bot
+> [!note]+ 2026-08-30 08:02 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Junsheng ZHANG. Your issue is set to "Critical" priority.
 > Please ensure that there is a reasonable justification for this listed in the issue description, otherwise the priority may be reviewed and adjusted during triage.
 > Kind regards
