@@ -7,15 +7,15 @@ type: Support
 status: Solution Proposed
 priority: High
 project: RH
-assignee: "[[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]"
-reporter: "[[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]"
+assignee: "[[Jie_LIU|Jie LIU]]"
+reporter: "[[Jie_LIU|Jie LIU]]"
 tags: []
 fix-versions: []
 epic: null
 parent: null
 created: "2026-09-10T04:45:41.000+0200"
 updated: "2026-09-10T11:54:08.000+0200"
-synced-at: "2026-09-11T00:31:48.001Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -34,7 +34,7 @@ Code Gen Error -> Clear output files and reopen workspace can solve this issue
 ## 评论
 
 > [!note]+ 2026-09-10 11:54 · [[James_Butterfield|James Butterfield]]
-> Hi [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]],
+> Hi [[Jie_LIU|Jie LIU]],
 >
 > Please see feedback from [[M_S_Karthik|M S Karthik]] in [this comment](https://rtahotline.etas.com/jira/browse/RH-17023?focusedCommentId=722483&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-722483) regarding this issue:
 > {quote}

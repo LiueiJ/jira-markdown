@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: High
 project: RH
-assignee: Dong LIU
-reporter: Dong LIU
+assignee: "[[Dong_LIU|Dong LIU]]"
+reporter: "[[Dong_LIU|Dong LIU]]"
 tags: [jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-08-05T20:06:41.000+0200"
 updated: "2026-08-12T11:16:44.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -59,15 +59,15 @@ Best regards,
 
 ## 评论
 
-> [!note]+ 2026-08-12 10:24 · Dong LIU
-> Khoa Phan Huynh Dang I have changed it at first.
+> [!note]+ 2026-08-12 10:24 · [[Dong_LIU|Dong LIU]]
+> [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] I have changed it at first.
 >
 > ![[RH-16863-image-2026-08-12-16-24-29-973.png]]
 
 -------
 
-> [!note]+ 2026-08-12 09:39 · Khoa Phan Huynh Dang
-> Hello Dong LIU ,
+> [!note]+ 2026-08-12 09:39 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hello [[Dong_LIU|Dong LIU]] ,
 >
 > As I said, you shall change the DataTypePolicy of **I_IBRS_VehSpd_I_IBRS_SpdInfo** to **NETWORK-REPRESENTATION-FROM-COM-SPEC,** when you use **AliveTimeout** paremeter from the ** **NonQueueReceiverComSpec** of the connected RPort{*}`*`
 >
@@ -80,8 +80,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-11 19:59 · Dong LIU
-> Khoa Phan Huynh Dang Could you please help test the `I_IBRS_VehSpd` signal and the related RPORT? I tried it myself, but I couldn't get it to work.
+> [!note]+ 2026-08-11 19:59 · [[Dong_LIU|Dong LIU]]
+> [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] Could you please help test the `I_IBRS_VehSpd` signal and the related RPORT? I tried it myself, but I couldn't get it to work.
 >
 > ![[RH-16863-image-2026-08-12-01-56-05-354.png]]
 >
@@ -89,8 +89,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-06 14:14 · Khoa Phan Huynh Dang
-> Hi Dong LIU ,
+> [!note]+ 2026-08-06 14:14 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Dong_LIU|Dong LIU]] ,
 >
 > I cannot see your configuration in the capture. However, I update Isignal **I_CDCU_DiagnosticSt_I_CDCU_DiagnosticSt** as the sample data for your project --> It runs normal as expectation
 >
@@ -107,20 +107,20 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-06 09:27 · Dong LIU
-> Khoa Phan Huynh Dang I have change the DataTypePolicy of the ISignal from LEGACY to NETWORK-REPRESENTATION-FROM-COM-SPEC, but it does not work.
+> [!note]+ 2026-08-06 09:27 · [[Dong_LIU|Dong LIU]]
+> [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] I have change the DataTypePolicy of the ISignal from LEGACY to NETWORK-REPRESENTATION-FROM-COM-SPEC, but it does not work.
 
 -------
 
-> [!note]+ 2026-08-06 05:55 · Khoa Phan Huynh Dang
-> Hi Jiaqi JI , Dong LIU ,
+> [!note]+ 2026-08-06 05:55 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Jiaqi_JI|Jiaqi JI]] , [[Dong_LIU|Dong LIU]] ,
 >
 > I believe this ticket is duplicated with RH-16452 😅, and this is not a tool issue. Could you please refer to the guidance in RH-14775 for configuring the **AliveTimeout** parameter?
 
 -------
 
-> [!note]+ 2026-08-06 03:30 · Jiaqi JI
-> Hi Phuong Nguyen Le ,
+> [!note]+ 2026-08-06 03:30 · [[Jiaqi_JI|Jiaqi JI]]
+> Hi [[Phuong_Nguyen_Le|Phuong Nguyen Le]] ,
 >
 > We raised one new ticket from cariad, could you help assign one engineer from you side to help us investigate it?
 >
@@ -128,12 +128,12 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-06 03:29 · JSM Service Bot
+> [!note]+ 2026-08-06 03:29 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Dong LIU, please note that this issue was made with VNCNMS in the summary and has been sent to the relevant queue by adding the VNCNMS label.
 
 -------
 
-> [!note]+ 2026-08-05 20:32 · Dong LIU
+> [!note]+ 2026-08-05 20:32 · [[Dong_LIU|Dong LIU]]
 > **The project is attached.**
 > [^Isolar.zip]
 

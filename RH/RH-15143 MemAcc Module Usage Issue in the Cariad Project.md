@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: High
 project: RH
-assignee: Dong LIU
-reporter: Dong LIU
+assignee: "[[Dong_LIU|Dong LIU]]"
+reporter: "[[Dong_LIU|Dong LIU]]"
 tags: [jira/comp/memory-drivers]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-02-09T11:47:12.000+0100"
 updated: "2026-04-29T11:37:36.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -67,18 +67,18 @@ Tel. +86 21 2218-4408 | [Dong.LIU5@etas.com!mail_small.gif!](mailto:Dong.LIU5@et
 
 ## 评论
 
-> [!note]+ 2026-04-29 11:37 · JSM Service Bot
+> [!note]+ 2026-04-29 11:37 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-04-14 18:48 · JSM Service Bot
+> [!note]+ 2026-04-14 18:48 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically moved to Solution Proposed.
 
 -------
 
-> [!note]+ 2026-03-31 02:00 · Max Sinclair
-> Hi Dong LIU ,
+> [!note]+ 2026-03-31 02:00 · [[Max_Sinclair|Max Sinclair]]
+> Hi [[Dong_LIU|Dong LIU]] ,
 >
 > Apologies for the delay on this, is this still an open issue for the customer?
 >
@@ -87,7 +87,7 @@ Tel. +86 21 2218-4408 | [Dong.LIU5@etas.com!mail_small.gif!](mailto:Dong.LIU5@et
 
 -------
 
-> [!note]+ 2026-03-18 10:39 · V Venkatachalam
+> [!note]+ 2026-03-18 10:39 · [[V_Venkatachalam|V Venkatachalam]]
 > Hi Max,
 >
 > Yes, mutiple meminstance can be supported, if the device mutually exclusive in terms of access (ie: parallel access of Pflash & Dflash).
@@ -100,8 +100,8 @@ Tel. +86 21 2218-4408 | [Dong.LIU5@etas.com!mail_small.gif!](mailto:Dong.LIU5@et
 
 -------
 
-> [!note]+ 2026-03-04 15:24 · Max Sinclair
-> Hi V Venkatachalam,
+> [!note]+ 2026-03-04 15:24 · [[Max_Sinclair|Max Sinclair]]
+> Hi [[V_Venkatachalam|V Venkatachalam]],
 >
 > Sorry for the slight delay on this.
 > {quote}I noticed that the customer has created two different MemInstances—one for PFlash and another for DFlash. Could you please help me understand the reasoning behind this approach?
@@ -121,7 +121,7 @@ Tel. +86 21 2218-4408 | [Dong.LIU5@etas.com!mail_small.gif!](mailto:Dong.LIU5@et
 
 -------
 
-> [!note]+ 2026-02-26 12:10 · V Venkatachalam
+> [!note]+ 2026-02-26 12:10 · [[V_Venkatachalam|V Venkatachalam]]
 > Hi Max,
 >
 > I noticed that the customer has created two different MemInstances—one for PFlash and another for DFlash. Could you please help me understand the reasoning behind this approach?
@@ -137,8 +137,8 @@ Tel. +86 21 2218-4408 | [Dong.LIU5@etas.com!mail_small.gif!](mailto:Dong.LIU5@et
 
 -------
 
-> [!note]+ 2026-02-11 16:55 · Max Sinclair
-> Hi V Venkatachalam ,
+> [!note]+ 2026-02-11 16:55 · [[Max_Sinclair|Max Sinclair]]
+> Hi [[V_Venkatachalam|V Venkatachalam]] ,
 >
 > Would you be able to help here? Is the inability to use multiple devices relating to the backwards support for fls?
 >
@@ -149,8 +149,8 @@ Tel. +86 21 2218-4408 | [Dong.LIU5@etas.com!mail_small.gif!](mailto:Dong.LIU5@et
 
 -------
 
-> [!note]+ 2026-02-10 11:13 · Dong LIU
-> Hi Max Sinclair 
+> [!note]+ 2026-02-10 11:13 · [[Dong_LIU|Dong LIU]]
+> Hi [[Max_Sinclair|Max Sinclair]] 
 >
 > The version of EB Tresos is 29.7.5.
 >
@@ -158,8 +158,8 @@ Tel. +86 21 2218-4408 | [Dong.LIU5@etas.com!mail_small.gif!](mailto:Dong.LIU5@et
 
 -------
 
-> [!note]+ 2026-02-09 17:26 · Dong LIU
-> Max Sinclair 
+> [!note]+ 2026-02-09 17:26 · [[Dong_LIU|Dong LIU]]
+> [[Max_Sinclair|Max Sinclair]] 
 >
 > the version of RTA-CAR is 12.11.0VCTCESR1pr1
 >
@@ -173,13 +173,13 @@ Tel. +86 21 2218-4408 | [Dong.LIU5@etas.com!mail_small.gif!](mailto:Dong.LIU5@et
 
 -------
 
-> [!note]+ 2026-02-09 17:23 · Dong LIU
+> [!note]+ 2026-02-09 17:23 · [[Dong_LIU|Dong LIU]]
 > [^Isolar.zip]
 
 -------
 
-> [!note]+ 2026-02-09 17:13 · Max Sinclair
-> Hi Dong LIU ,
+> [!note]+ 2026-02-09 17:13 · [[Max_Sinclair|Max Sinclair]]
+> Hi [[Dong_LIU|Dong LIU]] ,
 >
 > I believe you're right that is a current limitation of MemAcc but need some more information first:
 >

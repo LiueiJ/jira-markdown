@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Low
 project: RH
-assignee: Marc Kaiser
-reporter: Sisi TAO
+assignee: "[[Marc_Kaiser|Marc Kaiser]]"
+reporter: "[[Sisi_TAO|Sisi TAO]]"
 tags: [jira/comp/communication-can-lin-fr]
 fix-versions: []
 epic: null
 parent: null
 created: "2025-05-16T09:10:24.000+0200"
 updated: "2026-06-11T10:35:11.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -60,18 +60,18 @@ I remember I discussed with [@Kaiser Marc (ETAS-ECM/XPC-Fe5)!mail_small.gif!](ma
 
 ## 评论
 
-> [!note]+ 2025-08-14 18:02 · JSM Service Bot
+> [!note]+ 2025-08-14 18:02 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2025-07-09 04:53 · Mingye YUAN
+> [!note]+ 2025-07-09 04:53 · [[Mingye_YUAN|Mingye YUAN]]
 > Confirmed from Mr. Fargus Alex, this issue will be solved in CAR 12.8.0.
 
 -------
 
-> [!note]+ 2025-05-16 09:45 · Marc Kaiser
-> Hello [Sisi TAO](/jira/secure/ViewProfile.jspa?name=sisi.tao%40bosch.com), 
+> [!note]+ 2025-05-16 09:45 · [[Marc_Kaiser|Marc Kaiser]]
+> Hello [[Sisi_TAO|Sisi TAO]], 
 >
 >
 >
@@ -81,7 +81,7 @@ I remember I discussed with [@Kaiser Marc (ETAS-ECM/XPC-Fe5)!mail_small.gif!](ma
 >
 >
 >
-> I just checked with [K Raj Kumar](/jira/secure/ViewProfile.jspa?name=rajkumar.k2%40in.bosch.com) to make sure that it is not missed. 
+> I just checked with [[K_Raj_Kumar|K Raj Kumar]] to make sure that it is not missed. 
 >
 > Until that release, we will bridge gap by providing ConfGen Plugins with hotfixes. 
 >

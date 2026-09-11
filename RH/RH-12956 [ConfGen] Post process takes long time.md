@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Medium
 project: RH
-assignee: Sisi TAO
-reporter: Sisi TAO
+assignee: "[[Sisi_TAO|Sisi TAO]]"
+reporter: "[[Sisi_TAO|Sisi TAO]]"
 tags: []
 fix-versions: []
 epic: null
 parent: null
 created: "2025-05-06T09:02:14.000+0200"
 updated: "2026-05-21T11:09:09.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -48,15 +48,15 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
 
-> [!note]+ 2026-04-02 04:46 · Sisi TAO
-> Hi James Butterfield 
+> [!note]+ 2026-04-02 04:46 · [[Sisi_TAO|Sisi TAO]]
+> Hi [[James_Butterfield|James Butterfield]] 
 >
 > Thank you very much for your detail information. Customer's project now is upgraded to RTA-CAR 12.11.0VCTCESR1pr1 now which is identical with 12.9. I believe the post processor runs faster. 
 
 -------
 
-> [!note]+ 2026-04-01 14:21 · James Butterfield
-> Hi Sisi TAO,
+> [!note]+ 2026-04-01 14:21 · [[James_Butterfield|James Butterfield]]
+> Hi [[Sisi_TAO|Sisi TAO]],
 >
 > Apologies that this ticket has taken so long to be responded to during the CNMS / VNCNMS restructuring.
 >
@@ -76,22 +76,22 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-03-26 18:31 · Su Nguyen Quoc
+> [!note]+ 2026-03-26 18:31 · [[Su_Nguyen_Quoc|Su Nguyen Quoc]]
 > [Review queue/forward]
 >
 > Removed labels "VNCNMS", forward to PF/ Global team - needs to assign an assignee.
 
 -------
 
-> [!note]+ 2025-05-06 12:18 · Sisi TAO
-> Hi Hritik Mehta  Attached is the project. Thank you for your support
+> [!note]+ 2025-05-06 12:18 · [[Sisi_TAO|Sisi TAO]]
+> Hi [[Hritik_Mehta|Hritik Mehta]]  Attached is the project. Thank you for your support
 >
 > [^Config.zip] *(30.40 MB)*
 
 -------
 
-> [!note]+ 2025-05-06 11:42 · Hritik Mehta
-> Hi Sisi TAO.
+> [!note]+ 2025-05-06 11:42 · [[Hritik_Mehta|Hritik Mehta]]
+> Hi [[Sisi_TAO|Sisi TAO]].
 >
 > Please attach the RTA-CAR project so I can debug confgen and understand why it's taking such a long time.
 >

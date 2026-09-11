@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Medium
 project: RH
-assignee: Yinchuan XU
-reporter: Yinchuan XU
+assignee: "[[Yinchuan_XU|Yinchuan XU]]"
+reporter: "[[Yinchuan_XU|Yinchuan XU]]"
 tags: [jira/comp/memory-high-level, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2025-03-18T10:24:27.000+0100"
 updated: "2026-06-01T11:38:04.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -64,24 +64,24 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
 
-> [!note]+ 2026-06-01 11:38 · JSM Service Bot
+> [!note]+ 2026-06-01 11:38 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-05-18 05:53 · Khoa Phan Huynh Dang
-> Hello Yinchuan XU ,
+> [!note]+ 2026-05-18 05:53 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hello [[Yinchuan_XU|Yinchuan XU]] ,
 >
 > As confirmation from L3 dev, I'll change the status to "Solution Proposed". If you found any new concerns of this topic, kindly help me re-open this ticket. Thank you.
 
 -------
 
-> [!note]+ 2026-05-07 06:24 · M S Karthik
+> [!note]+ 2026-05-07 06:24 · [[M_S_Karthik|M S Karthik]]
 > changing the component to Mem-HL, so it can be processed as soon as 12.11.0 is released. 
 
 -------
 
-> [!note]+ 2026-03-02 08:25 · Tobias Ernst
+> [!note]+ 2026-03-02 08:25 · [[Tobias_Ernst|Tobias Ernst]]
 > The question behind is then why is the Fee configured as some dummy.
 > The reason could be that the Fee always need to be configured if it is available - this I have to check.
 >
@@ -95,36 +95,36 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-03-02 07:51 · Tobias Ernst
+> [!note]+ 2026-03-02 07:51 · [[Tobias_Ernst|Tobias Ernst]]
 > The error message is only coming if you have something configured for the Fee by the user. Please check your configuration. If there is nothing configured for the Fee and nothing requested to be forwarded from Fee, then this error does not occur.
 
 -------
 
-> [!note]+ 2026-03-02 07:12 · Alex Fargus
+> [!note]+ 2026-03-02 07:12 · [[Alex_Fargus|Alex Fargus]]
 > {quote}Actually, the root cause is I don’t have any fee block in NVMBlockDescription, but I still generate Fee module. 
 > {quote}
-> This looks to be another case where code is generated despite the validation errors. M S Karthik Sunith Jayakumar Rohith 
+> This looks to be another case where code is generated despite the validation errors. [[M_S_Karthik|M S Karthik]] [[Sunith_Jayakumar_Rohith|Sunith Jayakumar Rohith]] 
 
 -------
 
-> [!note]+ 2025-07-02 13:07 · Alex Fargus
-> M S Karthik This looks to be an ISOLAR-B topic, who should it be assigned to?
+> [!note]+ 2025-07-02 13:07 · [[Alex_Fargus|Alex Fargus]]
+> [[M_S_Karthik|M S Karthik]] This looks to be an ISOLAR-B topic, who should it be assigned to?
 
 -------
 
-> [!note]+ 2025-03-27 11:12 · Tobias Ernst
-> V Venkatachalam : The problem is the input validation framework which is making checks before the actual driver-script can work on them and make a more suitable output. So the Mem team is the wrong team to be addressed. It is a limitation of the tooling.
+> [!note]+ 2025-03-27 11:12 · [[Tobias_Ernst|Tobias Ernst]]
+> [[V_Venkatachalam|V Venkatachalam]] : The problem is the input validation framework which is making checks before the actual driver-script can work on them and make a more suitable output. So the Mem team is the wrong team to be addressed. It is a limitation of the tooling.
 >
 > The only point we can influence is to switch off the input validation completely - this is however not wanted.
 
 -------
 
-> [!note]+ 2025-03-18 10:54 · Adrian Funk
-> V Venkatachalam : Hi Venki, can you please take over? Thank you!
+> [!note]+ 2025-03-18 10:54 · [[Adrian_Funk|Adrian Funk]]
+> [[V_Venkatachalam|V Venkatachalam]] : Hi Venki, can you please take over? Thank you!
 
 -------
 
-> [!note]+ 2025-03-18 10:45 · Nikesh Vishak
-> Adrian Funk : can you please get this hotline ticket analyzed? Thank you
+> [!note]+ 2025-03-18 10:45 · [[Nikesh_Vishak|Nikesh Vishak]]
+> [[Adrian_Funk|Adrian Funk]] : can you please get this hotline ticket analyzed? Thank you
 
 -------

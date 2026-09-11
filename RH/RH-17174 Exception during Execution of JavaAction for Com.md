@@ -8,14 +8,14 @@ status: Waiting for Level 3
 priority: High
 project: RH
 assignee: "[[Krishnaswamy_Dharani_Dharan|Krishnaswamy Dharani Dharan]]"
-reporter: "[[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]"
+reporter: "[[Jie_LIU|Jie LIU]]"
 tags: [jira/comp/isolar-b]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-09-10T04:31:50.000+0200"
 updated: "2026-09-10T12:58:13.000+0200"
-synced-at: "2026-09-11T00:31:48.001Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---

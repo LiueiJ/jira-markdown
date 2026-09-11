@@ -7,15 +7,15 @@ type: Support
 status: Waiting for Customer
 priority: Critical
 project: RH
-assignee: "[[TAO_Sisi_(ETAS-ECMXSF-CN)|Sisi TAO]]"
-reporter: "[[TAO_Sisi_(ETAS-ECMXSF-CN)|Sisi TAO]]"
+assignee: "[[Sisi_TAO|Sisi TAO]]"
+reporter: "[[Sisi_TAO|Sisi TAO]]"
 tags: [jira/comp/generic-importers, jira/comp/isolar-a/b, jira/label/isolar-ab, jira/label/isolar-b, jira/label/regional, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-08-25T11:22:50.000+0200"
 updated: "2026-09-10T12:42:36.000+0200"
-synced-at: "2026-09-11T01:13:17.157Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -77,7 +77,7 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 ## 评论
 
 > [!note]+ 2026-09-10 12:42 · [[James_Butterfield|James Butterfield]]
-> Hi [[TAO_Sisi_(ETAS-ECMXSF-CN)|Sisi TAO]] and [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]],
+> Hi [[Sisi_TAO|Sisi TAO]] and [[Jie_LIU|Jie LIU]],
 >
 > Given that all the issues described here now reside in separate tickets, I suggest we keep any further discussion in the individual tickets for better tracking purposes. Do you agree with this?
 >
@@ -89,55 +89,55 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 -------
 
 > [!note]+ 2026-09-10 12:12 · [[James_Butterfield|James Butterfield]]
-> [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]], issue #6 with ConfGen has been split to [RH-17181](https://rtahotline.etas.com/jira/projects/RH/queues/custom/89/RH-17181).
+> [[Jie_LIU|Jie LIU]], issue #6 with ConfGen has been split to [RH-17181](https://rtahotline.etas.com/jira/projects/RH/queues/custom/89/RH-17181).
 >
 > FYI [[Duy_Pham|Duy Pham]]
 
 -------
 
-> [!note]+ 2026-09-10 05:04 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
-> [[Karthi_Krishna_Shekaar_(MSEMT-ETAS)|Shekaar Karthi Krishna]] To avoid mixing all the issues, the issues with evidence are split into separate tickets. Please help to check whether all these issues can be solved with the patch to be delivered.
+> [!note]+ 2026-09-10 05:04 · [[Jie_LIU|Jie LIU]]
+> [[Shekaar_Karthi_Krishna|Shekaar Karthi Krishna]] To avoid mixing all the issues, the issues with evidence are split into separate tickets. Please help to check whether all these issues can be solved with the patch to be delivered.
 
 -------
 
-> [!note]+ 2026-09-08 09:11 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
-> [[Karthik_M_S_(MSEMT-ETAS)|M S Karthik]] : Which issues will be included in the patch?
+> [!note]+ 2026-09-08 09:11 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> [[M_S_Karthik|M S Karthik]] : Which issues will be included in the patch?
 >
-> [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]] , as info from [[Karthik_M_S_(MSEMT-ETAS)|M S Karthik]] , it's a standalone installation package so that it will be not integrated into VCTCPR7 plugin. Please note that next delivery will be VCTCPR7 plugin + ISOLAR-A/B installation package
+> [[Jie_LIU|Jie LIU]] , as info from [[M_S_Karthik|M S Karthik]] , it's a standalone installation package so that it will be not integrated into VCTCPR7 plugin. Please note that next delivery will be VCTCPR7 plugin + ISOLAR-A/B installation package
 >
 > CC: a [[Lan_Tran|Lan Tran]] 
 
 -------
 
 > [!note]+ 2026-09-08 05:33 · [[Duy_Pham|Duy Pham]]
-> Hi [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]], would you please provide us log errors for ConfGen and project to preproduce the problems ?
+> Hi [[Jie_LIU|Jie LIU]], would you please provide us log errors for ConfGen and project to preproduce the problems ?
 
 -------
 
-> [!note]+ 2026-09-07 08:55 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
-> [[Karthik_M_S_(MSEMT-ETAS)|M S Karthik]] , thanks for the feedback. 
+> [!note]+ 2026-09-07 08:55 · [[Jie_LIU|Jie LIU]]
+> [[M_S_Karthik|M S Karthik]] , thanks for the feedback. 
 >
 > Yes, it is required in CW38 to have one version for our ETAS internal testing.
 >
 > And in CW39, we need one version to deliver to customer as VCTC PR7 release with other bugfix as a whole.
 >
-> cc. [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]  [[Lan_Tran|Lan Tran]] 
+> cc. [[Phuong_Nguyen_Le|Phuong Nguyen Le]]  [[Lan_Tran|Lan Tran]] 
 
 -------
 
-> [!note]+ 2026-09-04 13:24 · [[Karthik_M_S_(MSEMT-ETAS)|M S Karthik]]
-> [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]], Thanks for asking.
+> [!note]+ 2026-09-04 13:24 · [[M_S_Karthik|M S Karthik]]
+> [[Jie_LIU|Jie LIU]], Thanks for asking.
 >
 > This delivery from ISOLAR-A/B would be a standalone installation package which user must perform installation on top of RTA-CAR to patch it. No integration with VCTC RTA-BSW plugin necessary. Do you still see a need for it to be delivered by CW 38? If this is required in CW 38 only for our ETAS internal testing, we could provide an unofficial delivery package ({_}not QG'ed one{_}) for the same.
 >
 > Looking forward for your feedback on the same. Thanks. 
 >
-> [[Karthi_Krishna_Shekaar_(MSEMT-ETAS)|Shekaar Karthi Krishna]] - FYI
+> [[Shekaar_Karthi_Krishna|Shekaar Karthi Krishna]] - FYI
 
 -------
 
-> [!note]+ 2026-09-04 10:31 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
-> Hello, [[Karthi_Krishna_Shekaar_(MSEMT-ETAS)|Shekaar Karthi Krishna]], is it possible to provide a patch delivery by CW 38, so that we can integrate it into VCTC PR7 plugin by CW 39?
+> [!note]+ 2026-09-04 10:31 · [[Jie_LIU|Jie LIU]]
+> Hello, [[Shekaar_Karthi_Krishna|Shekaar Karthi Krishna]], is it possible to provide a patch delivery by CW 38, so that we can integrate it into VCTC PR7 plugin by CW 39?
 
 -------
 
@@ -146,21 +146,21 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 
 -------
 
-> [!note]+ 2026-09-03 11:04 · [[Karthi_Krishna_Shekaar_(MSEMT-ETAS)|Shekaar Karthi Krishna]]
-> Hello [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]],
+> [!note]+ 2026-09-03 11:04 · [[Shekaar_Karthi_Krishna|Shekaar Karthi Krishna]]
+> Hello [[Jie_LIU|Jie LIU]],
 >
 > Team is working on the fix and plan is to provide a patch delivery by CW 39 and then we will plan for an official bug fix release later.
 
 -------
 
-> [!note]+ 2026-09-02 10:58 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
-> Hello, [[Karthi_Krishna_Shekaar_(MSEMT-ETAS)|Shekaar Karthi Krishna]] 
+> [!note]+ 2026-09-02 10:58 · [[Jie_LIU|Jie LIU]]
+> Hello, [[Shekaar_Karthi_Krishna|Shekaar Karthi Krishna]] 
 >
 > Do we have the timing plan for back porting to V12.11? We needs to share it also with customer
 
 -------
 
-> [!note]+ 2026-09-01 06:54 · [[Karthi_Krishna_Shekaar_(MSEMT-ETAS)|Shekaar Karthi Krishna]]
+> [!note]+ 2026-09-01 06:54 · [[Shekaar_Karthi_Krishna|Shekaar Karthi Krishna]]
 > **#2** 
 >  * .LDF(in uppercase) is not getting imported, this is a issue in CLI 
 >  * Workaround:
@@ -174,7 +174,7 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 
 -------
 
-> [!note]+ 2026-08-31 18:03 · [[Karthik_M_S_(MSEMT-ETAS)|M S Karthik]]
+> [!note]+ 2026-08-31 18:03 · [[M_S_Karthik|M S Karthik]]
 > Please find the latest status on above reports: 
 >  * **#1**
 >  ** ISOLAR team is able to reproduce the issue, however, root cause is not yet identified and Its challenging. Analysis is in progress
@@ -192,18 +192,18 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 
 -------
 
-> [!note]+ 2026-08-30 08:29 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
+> [!note]+ 2026-08-30 08:29 · [[Junsheng_ZHANG|Junsheng ZHANG]]
 > The file not recognized issue also affects the customer’s use of Git for synchronized development. After downloading the code from Git, it may fail to recognize the ARXML files in the bswmd and swcd folders, causing the RTE code generation to lack links for ports related to BSW modules. RTE code can still be generated without errors, but the actual functionality is missing.You can ref https://rtahotline.etas.com/jira/projects/RH/queues/custom/470/RH-17070；
 
 -------
 
-> [!note]+ 2026-08-27 12:03 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
+> [!note]+ 2026-08-27 12:03 · [[Jie_LIU|Jie LIU]]
 > Patch used basing on RTA-CAR 12.11.0 official release
 > [^RTA-CAR_12.11.0.VCTCESR1pr5_UpdateSite-SNAPSHOT.zip] [^RTA-CAR_CORE_BUNDLES_UpdateSite-12.11.0.VCTCESR1pr4-SNAPSHOT.zip]
 
 -------
 
-> [!note]+ 2026-08-27 11:48 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
+> [!note]+ 2026-08-27 11:48 · [[Jie_LIU|Jie LIU]]
 > It could happen when changing folder structure of ecucvalues or paramdefs, adding new modules, ECUC extract, etc.
 
 -------
@@ -215,7 +215,7 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 
 -------
 
-> [!note]+ 2026-08-27 04:51 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
+> [!note]+ 2026-08-27 04:51 · [[Jie_LIU|Jie LIU]]
 > The work around is to delete all these things:
 >
 > ![[RH-17023-image-2026-08-27-10-52-24-135.png]]

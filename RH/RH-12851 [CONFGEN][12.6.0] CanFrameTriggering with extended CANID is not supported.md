@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: High
 project: RH
-assignee: Sisi TAO
-reporter: Sisi TAO
+assignee: "[[Sisi_TAO|Sisi TAO]]"
+reporter: "[[Sisi_TAO|Sisi TAO]]"
 tags: [jira/comp/generic-importers, jira/label/cariad, jira/label/nullpointerexception]
 fix-versions: [RTA-CAR 12.13.0]
 epic: null
 parent: null
 created: "2025-04-18T08:54:06.000+0200"
 updated: "2026-04-14T13:58:27.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -52,15 +52,15 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
 
-> [!note]+ 2026-04-14 13:42 · Sisi TAO
-> Hi James Butterfield 
+> [!note]+ 2026-04-14 13:42 · [[Sisi_TAO|Sisi TAO]]
+> Hi [[James_Butterfield|James Butterfield]] 
 >
 > Yeah, you can close this ticket as resolved. Thank you.
 
 -------
 
-> [!note]+ 2026-04-14 10:31 · James Butterfield
-> Hi Sisi TAO,
+> [!note]+ 2026-04-14 10:31 · [[James_Butterfield|James Butterfield]]
+> Hi [[Sisi_TAO|Sisi TAO]],
 >
 > This feature will be supported in ConfGen from RTA-CAR 12.13.0 onwards and can be tracked by [ARC-15934](https://jira.etas-dev.com/browse/ARC-15934).
 > Please let me know if there is anything you wish to add to this ticket, otherwise, let me know if you are happy for it to be marked as resolved. 
@@ -70,19 +70,19 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-04-14 03:47 · K Raj Kumar
+> [!note]+ 2026-04-14 03:47 · [[K_Raj_Kumar|K Raj Kumar]]
 > Created change request [ARC-15934](https://jira.etas-dev.com/browse/ARC-15934) to support this feature in RTA-CAR 12.13.0 release. Best Regards, Rajkumar
 
 -------
 
-> [!note]+ 2026-03-26 17:19 · K Raj Kumar
-> Su Nguyen Quoc We will check this issue internally and get back you. 
+> [!note]+ 2026-03-26 17:19 · [[K_Raj_Kumar|K Raj Kumar]]
+> [[Su_Nguyen_Quoc|Su Nguyen Quoc]] We will check this issue internally and get back you. 
 >
 > Best Regards, **Rajkumar**
 
 -------
 
-> [!note]+ 2026-03-26 16:49 · Su Nguyen Quoc
+> [!note]+ 2026-03-26 16:49 · [[Su_Nguyen_Quoc|Su Nguyen Quoc]]
 > [Review queue/forward]
 > Is the problem solved? Is there a proposed solution?
 >
@@ -130,15 +130,15 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2025-07-28 09:08 · Mingye YUAN
+> [!note]+ 2025-07-28 09:08 · [[Mingye_YUAN|Mingye YUAN]]
 > Hello Marc,
 >
 > I am sorry I might confuse you with my sentences, I just want to check the progress based on your comments: "It looks like we have to enhance the ConfGen Mailbox algorithm from the ground up." since this ticket is in high priority. If there is any update, please let me know, thanks a lot.
 
 -------
 
-> [!note]+ 2025-07-24 13:32 · Marc Kaiser
-> Hello Mingye YUAN, I will be honest. We have not progressed on this yet. 
+> [!note]+ 2025-07-24 13:32 · [[Marc_Kaiser|Marc Kaiser]]
+> Hello [[Mingye_YUAN|Mingye YUAN]], I will be honest. We have not progressed on this yet. 
 >
 > But I have a good idea now.
 >
@@ -150,20 +150,20 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2025-07-21 09:57 · Mingye YUAN
+> [!note]+ 2025-07-21 09:57 · [[Mingye_YUAN|Mingye YUAN]]
 > Hello Marc:
 >
 > Can I know if there is any update fro ConfGen Mailbox algorithm? Thanks.
 
 -------
 
-> [!note]+ 2025-06-20 10:06 · Sathish Kumar Madanmohan
-> thanks Marc Kaiser  . much appreciate your swift response.
+> [!note]+ 2025-06-20 10:06 · [[Sathish_Kumar_Madanmohan|Sathish Kumar Madanmohan]]
+> thanks [[Marc_Kaiser|Marc Kaiser]]  . much appreciate your swift response.
 
 -------
 
-> [!note]+ 2025-06-20 09:03 · Marc Kaiser
-> Hello Sathish Kumar Madanmohan and Sisi TAO,
+> [!note]+ 2025-06-20 09:03 · [[Marc_Kaiser|Marc Kaiser]]
+> Hello [[Sathish_Kumar_Madanmohan|Sathish Kumar Madanmohan]] and [[Sisi_TAO|Sisi TAO]],
 >
 > thank you for raising this to my attention again. I will now prioritze this topic and find a solution in ConfGen. It looks like we have to enhance the ConfGen Mailbox algorithm from the ground up.
 >
@@ -171,20 +171,20 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2025-06-19 07:44 · Sathish Kumar Madanmohan
-> Sam Hutchings Marc Kaiser  could you please provide the status update on this ticket ? has any solution / agreement reached in resolving it ?
+> [!note]+ 2025-06-19 07:44 · [[Sathish_Kumar_Madanmohan|Sathish Kumar Madanmohan]]
+> [[Sam_Hutchings|Sam Hutchings]] [[Marc_Kaiser|Marc Kaiser]]  could you please provide the status update on this ticket ? has any solution / agreement reached in resolving it ?
 
 -------
 
-> [!note]+ 2025-04-23 14:46 · Kishan Parmar
-> Hi Sam Hutchings,
+> [!note]+ 2025-04-23 14:46 · [[Kishan_Parmar|Kishan Parmar]]
+> Hi [[Sam_Hutchings|Sam Hutchings]],
 >
-> Not much for me to add here. It is clear the error information is there but not being passed through. Going to forward on to M S Karthik - do you what has changed in 12.6 to cause this?
+> Not much for me to add here. It is clear the error information is there but not being passed through. Going to forward on to [[M_S_Karthik|M S Karthik]] - do you what has changed in 12.6 to cause this?
 
 -------
 
-> [!note]+ 2025-04-22 05:14 · Sisi TAO
-> Hi Sam Hutchings ,
+> [!note]+ 2025-04-22 05:14 · [[Sisi_TAO|Sisi TAO]]
+> Hi [[Sam_Hutchings|Sam Hutchings]] ,
 >
 > Thank you very much for your researching. I highly recommend this issue could be resolved in 12.7.0 (and of course the exception issue) since I think it's a generic use case for different customers.
 >
@@ -192,16 +192,16 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2025-04-21 15:43 · Sam Hutchings
-> Hi Marc Kaiser and Sisi TAO,
+> [!note]+ 2025-04-21 15:43 · [[Sam_Hutchings|Sam Hutchings]]
+> Hi [[Marc_Kaiser|Marc Kaiser]] and [[Sisi_TAO|Sisi TAO]],
 >
 > Yes Sisi you are right, ConfGen does not support mixed frame types in a single mailbox. The workaround here is to remove the extended {{{}FrameTriggering{}}}, or add another `FramePort` and assign the extended `FT` to that {{{}FP{}}}.
 >
 > ![[RH-12851-image-2025-04-21-14-01-30-058.png]]
 >
-> Since this is for Cariad, Marc Kaiser is this supposed to be modified in the general RTA-BSW code, or do Cariad get their own custom version?
+> Since this is for Cariad, [[Marc_Kaiser|Marc Kaiser]] is this supposed to be modified in the general RTA-BSW code, or do Cariad get their own custom version?
 >
-> Regarding the error message, Nick Lay and Kishan Parmar I think this is the opposite of what we were aiming for with the null pointer exception fixes.
+> Regarding the error message, [[Nick_Lay|Nick Lay]] and [[Kishan_Parmar|Kishan Parmar]] I think this is the opposite of what we were aiming for with the null pointer exception fixes.
 > Previously, only unhandled errors threw NPEs. When testing this in 12.6.0, I get the following, and I am concerned that we now catch *all errors* that are thrown instead of just logged, which is 168 across 83 files. This leaves the user completely in the dark, and will increase the load on the support teams.
 > ![[RH-12851-image-2025-04-21-14-40-23-093.png]]
 >
@@ -213,8 +213,8 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2025-04-18 11:30 · Sam Hutchings
-> Hi Marc Kaiser,
+> [!note]+ 2025-04-18 11:30 · [[Sam_Hutchings|Sam Hutchings]]
+> Hi [[Marc_Kaiser|Marc Kaiser]],
 >
 > Is this a CNMS ticket?
 >
@@ -222,7 +222,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2025-04-18 08:54 · Sisi TAO
+> [!note]+ 2025-04-18 08:54 · [[Sisi_TAO|Sisi TAO]]
 > [^CDCU-CDCU-CDCU_2025_04_11.zip] *(1.77 MB)*
 
 -------

@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Critical
 project: RH
-assignee: Ramakant Achari Raviraj
-reporter: Sisi TAO
+assignee: "[[Ramakant_Achari_Raviraj|Ramakant Achari Raviraj]]"
+reporter: "[[Sisi_TAO|Sisi TAO]]"
 tags: [jira/label/cariad, jira/label/isolar-a]
 fix-versions: []
 epic: null
 parent: null
 created: "2025-03-14T04:41:17.000+0100"
 updated: "2026-07-27T04:40:43.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -62,17 +62,17 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
 
-> [!note]+ 2025-07-09 04:59 · Mingye YUAN
+> [!note]+ 2025-07-09 04:59 · [[Mingye_YUAN|Mingye YUAN]]
 > Confirmed from Mr. Fargus Alex, this issue will be solved in CAR 12.8.0.
 
 -------
 
-> [!note]+ 2025-06-03 17:58 · JSM Service Bot
+> [!note]+ 2025-06-03 17:58 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2025-05-20 12:03 · Mingye YUAN
+> [!note]+ 2025-05-20 12:03 · [[Mingye_YUAN|Mingye YUAN]]
 > Raviraj will solve this issue in 12.8.0:
 >
 >
@@ -81,8 +81,8 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2025-04-30 12:36 · Ramakant Achari Raviraj
-> Hello Sisi TAO,
+> [!note]+ 2025-04-30 12:36 · [[Ramakant_Achari_Raviraj|Ramakant Achari Raviraj]]
+> Hello [[Sisi_TAO|Sisi TAO]],
 >
 > These improvements are planned for 12.8.0. We will provide you a test version as soon as it is available.
 >
@@ -92,8 +92,8 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2025-04-02 09:15 · Sisi TAO
-> Hi Ramakant Achari Raviraj 
+> [!note]+ 2025-04-02 09:15 · [[Sisi_TAO|Sisi TAO]]
+> Hi [[Ramakant_Achari_Raviraj|Ramakant Achari Raviraj]] 
 >
 >
 >
@@ -101,8 +101,8 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2025-04-02 09:08 · Ramakant Achari Raviraj
-> Hello Mingye YUAN, Sisi TAO,
+> [!note]+ 2025-04-02 09:08 · [[Ramakant_Achari_Raviraj|Ramakant Achari Raviraj]]
+> Hello [[Mingye_YUAN|Mingye YUAN]], [[Sisi_TAO|Sisi TAO]],
 >
 > We have analysed this and learned that connector reference was never supported. In AUTOSAR, it is mentioned that this reference is optional in case of ECUExtract, however I see confgen expects this reference to create parameters in {color:#000000}{color:#000000}LinTpGlobalConfig.{color}{color} I have created ticket to [[ARCTOOLS-8799] LDF Importer shall configure connector and TpConnection references for the completeness - Jira (etas-dev.com)|https://jira.etas-dev.com/browse/ARCTOOLS-8799] to address both points.
 >
@@ -114,7 +114,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2025-03-26 06:26 · Mingye YUAN
+> [!note]+ 2025-03-26 06:26 · [[Mingye_YUAN|Mingye YUAN]]
 > Hello Mr. Marc and Ramakant:
 >
 > Is the analysis for importing the Connector parameter done? We are waiting for this implementation to complete our Cariad project cobra part, we need to finish it by March 31st. Otherwise, there could be risk for the process. I'd really appreciate it if you could get it done as soon as you can.
@@ -125,10 +125,10 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2025-03-19 08:47 · Marc Kaiser
-> Hello Sisi TAO,
+> [!note]+ 2025-03-19 08:47 · [[Marc_Kaiser|Marc Kaiser]]
+> Hello [[Sisi_TAO|Sisi TAO]],
 >
-> I had a call with Ramakant Achari Raviraj. We found that the Connector is currently not set by LDF importer, as you say. The feature currently is not implemented, so there is nothing you can change in the LDF to make it import that parameter. We have to analyse why we do not set this parameter. Ramakant Achari Raviraj  will get back to us once analysis is complete.
+> I had a call with [[Ramakant_Achari_Raviraj|Ramakant Achari Raviraj]]. We found that the Connector is currently not set by LDF importer, as you say. The feature currently is not implemented, so there is nothing you can change in the LDF to make it import that parameter. We have to analyse why we do not set this parameter. [[Ramakant_Achari_Raviraj|Ramakant Achari Raviraj]]  will get back to us once analysis is complete.
 >
 > For the second point, it is simular. We confirm your observation is the current implemented behaviour.
 >
@@ -136,7 +136,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2025-03-14 10:54 · Sisi TAO
+> [!note]+ 2025-03-14 10:54 · [[Sisi_TAO|Sisi TAO]]
 > [^lintpConfGen.zip]
 
 -------

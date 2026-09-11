@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Critical
 project: RH
-assignee: Junsheng ZHANG
-reporter: Junsheng ZHANG
+assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: [jira/comp/cycurhsm2]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-06-24T11:58:55.000+0200"
 updated: "2026-09-01T08:42:35.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -52,24 +52,24 @@ We tested the TBT(Trusted Boot Table) update times (2k &#8211; 6.88ms, 4k &#8211
 
 ## 评论
 
-> [!note]+ 2026-07-14 12:29 · Alexander Wegmann
+> [!note]+ 2026-07-14 12:29 · [[Alexander_Wegmann|Alexander Wegmann]]
 > This request is being worked on by RT-SEC here: [https://jira.etas-dev.com/browse/DE_1901025HSM-105160]
 
 -------
 
-> [!note]+ 2026-06-24 12:46 · Phong Tang Dieu
-> Hi Alexander Wegmann
+> [!note]+ 2026-06-24 12:46 · [[Phong_Tang_Dieu|Phong Tang Dieu]]
+> Hi [[Alexander_Wegmann|Alexander Wegmann]]
 > Could you please take a look at this issue?
 > Thanks,
 
 -------
 
-> [!note]+ 2026-06-24 12:46 · JSM Service Bot
-> Hi Alexander Wegmann, this CycurHSM2 ticket requires an assignee. As the component lead for CycurHSM2, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+> [!note]+ 2026-06-24 12:46 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Alexander_Wegmann|Alexander Wegmann]], this CycurHSM2 ticket requires an assignee. As the component lead for CycurHSM2, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------
 
-> [!note]+ 2026-06-24 11:58 · FAE Technical
+> [!note]+ 2026-06-24 11:58 · [[FAE_Technical|FAE Technical]]
 > AI Investigation automatically started due to ticket creation by trusted agent Junsheng ZHANG.
 > Progress can be tracked on [Jenkins](https://rta-fae.jenkins.etas-dev.com/job/Hotline%20Automation%20-%20Agentic/job/main)
 >

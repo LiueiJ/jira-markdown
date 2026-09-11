@@ -7,15 +7,15 @@ type: Support
 status: Solution Proposed
 priority: High
 project: RH
-assignee: "[[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]"
-reporter: "[[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]"
+assignee: "[[Jie_LIU|Jie LIU]]"
+reporter: "[[Jie_LIU|Jie LIU]]"
 tags: []
 fix-versions: []
 epic: null
 parent: null
 created: "2026-09-10T04:14:03.000+0200"
 updated: "2026-09-10T11:38:43.000+0200"
-synced-at: "2026-09-11T00:31:48.001Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -37,7 +37,7 @@ Sometimes when we open the project, it intermittently reports **BSW invalid**. 
 ## 评论
 
 > [!note]+ 2026-09-10 11:38 · [[James_Butterfield|James Butterfield]]
-> Hi [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]],
+> Hi [[Jie_LIU|Jie LIU]],
 >
 > This issue will be fixed in RTA-CAR 12.12.0 and can be tracked from [ARCTOOLS-23627](https://jira.etas-dev.com/browse/ARCTOOLS-23627).
 >

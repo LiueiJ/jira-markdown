@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Low
 project: RH
-assignee: Jiaqi JI
-reporter: Jiaqi JI
+assignee: "[[Jiaqi_JI|Jiaqi JI]]"
+reporter: "[[Jiaqi_JI|Jiaqi JI]]"
 tags: [jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-07-28T09:18:13.000+0200"
 updated: "2026-08-21T15:05:34.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -50,12 +50,12 @@ Best Regards,
 
 ## 评论
 
-> [!note]+ 2026-08-13 14:26 · JSM Service Bot
+> [!note]+ 2026-08-13 14:26 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-07-30 06:32 · Khoa Phan Huynh Dang
+> [!note]+ 2026-07-30 06:32 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > No, the Dem module does not provide a dedicated API to directly erase or reinitialize an NvM block. According to the mandatory interface table in "{*}8.4 Expected Interfaces{*}" and requirement **SWS_Dem_00164** in "AUTOSAR_SWS_DiagnosticEventManager.pdf", Dem interacts with NvM only through the following four APIs: {*}NvM_ReadBlock{*}, {*}NvM_WriteBlock{*}, {*}NvM_SetRamBlockStatus{*}, and {*}NvM_GetErrorStatus{*}. APIs such as **NvM_EraseNvBlock** and **NvM_InvalidateNvBlock** are not used by Dem.
 >
 > ![[RH-16780-image-2026-07-30-11-30-36-610.png]]
@@ -66,12 +66,12 @@ Best Regards,
 
 -------
 
-> [!note]+ 2026-07-28 09:19 · JSM Service Bot
+> [!note]+ 2026-07-28 09:19 · [[JSM_Service_Bot|JSM Service Bot]]
 > Note: Khoa Phan Huynh Dang added as watcher to the issue. Internal support agents cannot be added as Request Participants, so they have been automatically joined as Watchers instead.
 
 -------
 
-> [!note]+ 2026-07-28 09:19 · Jiaqi JI
+> [!note]+ 2026-07-28 09:19 · [[Jiaqi_JI|Jiaqi JI]]
 > Hi team, 
 >
 >
@@ -101,17 +101,17 @@ Best Regards,
 
 -------
 
-> [!note]+ 2026-07-28 09:18 · JSM Service Bot
+> [!note]+ 2026-07-28 09:18 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Jiaqi.JI@bosch.com, please note that this issue was made with VNCNMS in the summary and has been sent to the relevant queue by adding the VNCNMS label.
 
 -------
 
-> [!note]+ 2026-07-28 09:18 · Jiaqi.JI@bosch.com
+> [!note]+ 2026-07-28 09:18 · [[Jiaqi.JI@bosch.com|Jiaqi.JI@bosch.com]]
 > [^DEM_NVM.xlsx] *(11 kB)*
 
 -------
 
-> [!note]+ 2026-07-28 09:18 · JSM Service Bot
+> [!note]+ 2026-07-28 09:18 · [[JSM_Service_Bot|JSM Service Bot]]
 > Note: Khoa Phan Huynh Dang added as watcher to the issue. Internal support agents cannot be added as Request Participants, so they have been automatically joined as Watchers instead.
 
 -------

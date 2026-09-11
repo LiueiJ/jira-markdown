@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Low
 project: RH
-assignee: Sisi TAO
-reporter: Sisi TAO
+assignee: "[[Sisi_TAO|Sisi TAO]]"
+reporter: "[[Sisi_TAO|Sisi TAO]]"
 tags: [jira/comp/isolar-b]
 fix-versions: []
 epic: null
 parent: null
 created: "2025-05-06T11:15:14.000+0200"
 updated: "2026-03-08T08:36:35.000+0100"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -52,18 +52,18 @@ I’m working with confgen RTA-CAR12.6.0 and using BSW Enhancer. I set many defa
 
 ## 评论
 
-> [!note]+ 2025-10-10 15:07 · JSM Service Bot
+> [!note]+ 2025-10-10 15:07 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2025-09-25 18:30 · JSM Service Bot
+> [!note]+ 2025-09-25 18:30 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically moved to Solution Proposed.
 
 -------
 
-> [!note]+ 2025-09-04 08:30 · Krishnaswamy Dharani Dharan
-> Hello Sisi TAO,
+> [!note]+ 2025-09-04 08:30 · [[Krishnaswamy_Dharani_Dharan|Krishnaswamy Dharani Dharan]]
+> Hello [[Sisi_TAO|Sisi TAO]],
 >
 > We have tried reproducing this multiple times in reported version, but it is not reproducible.
 >
@@ -75,17 +75,17 @@ I’m working with confgen RTA-CAR12.6.0 and using BSW Enhancer. I set many defa
 
 -------
 
-> [!note]+ 2025-08-28 07:07 · Sisi TAO
+> [!note]+ 2025-08-28 07:07 · [[Sisi_TAO|Sisi TAO]]
 > [^BasicSoftware.zip]
 
 -------
 
-> [!note]+ 2025-08-20 10:40 · JSM Service Bot
+> [!note]+ 2025-08-20 10:40 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi ISOLAR-B Support Owner. This ticket requires an assignee.
 
 -------
 
-> [!note]+ 2025-08-20 10:40 · Marc Kaiser
+> [!note]+ 2025-08-20 10:40 · [[Marc_Kaiser|Marc Kaiser]]
 > First time we execute confgen, we get UserGenerated in the ecucvalues that BSW Enhancer enhanced. Second time and following UserGenerated is removed.
 >
 > THis makes comparison in beyond compare diffcult because there are just too many differences. We would like consistent behaviour no matter how often we execute.

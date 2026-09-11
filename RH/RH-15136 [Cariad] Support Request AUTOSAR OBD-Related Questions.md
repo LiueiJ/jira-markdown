@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Medium
 project: RH
-assignee: Dong LIU
-reporter: Dong LIU
+assignee: "[[Dong_LIU|Dong LIU]]"
+reporter: "[[Dong_LIU|Dong LIU]]"
 tags: [jira/comp/diagnostic-eventstatemgmt, jira/label/cariad, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-02-09T06:44:12.000+0100"
 updated: "2026-08-05T06:05:24.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -66,17 +66,17 @@ Best regards,
 
 ## 评论
 
-> [!note]+ 2026-05-07 11:37 · JSM Service Bot
+> [!note]+ 2026-05-07 11:37 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-04-23 03:58 · Phuong Nguyen Le
-> Dong LIU , Jiaqi JI : Can we close this ticket?
+> [!note]+ 2026-04-23 03:58 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> [[Dong_LIU|Dong LIU]] , [[Jiaqi_JI|Jiaqi JI]] : Can we close this ticket?
 
 -------
 
-> [!note]+ 2026-04-08 13:09 · Khoa Phan Huynh Dang
+> [!note]+ 2026-04-08 13:09 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > {color:#de350b}1. DEM_CLR_DIST and DEM_MIL_DIST were reset when the event memory was cleared.{color}
 > {color:#de350b}Refer to E19 figure: The distance traveled IUMPR must NOT be reset as a result of the event memory being cleared.{color}
 > {color:#de350b}Whether distance traveled IUMPR is equal to DEM_CLR_DIST or DEM_MIL_DIST ?{color}
@@ -103,8 +103,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-04-08 09:01 · Jiaqi JI
-> Hi Khoa Phan Huynh Dang Dang Ho Anh ,
+> [!note]+ 2026-04-08 09:01 · [[Jiaqi_JI|Jiaqi JI]]
+> Hi [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] [[Dang_Ho_Anh|Dang Ho Anh]] ,
 >
 > Add question:
 > Is OBD only supported DEM_OBD_PRIMARY_ECU, unsupported DEM_OBD_MASTER_ECU and DEM_OBD_DEP_SEC_ECU in RTA-CAR V12.11? see E21 log.
@@ -117,13 +117,13 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-04-02 09:41 · Jiaqi JI
+> [!note]+ 2026-04-02 09:41 · [[Jiaqi_JI|Jiaqi JI]]
 > ![[RH-15136-4.2 question added 2.png]] ![[RH-15136-4.2 question added 1.png]]
 
 -------
 
-> [!note]+ 2026-04-02 09:40 · Jiaqi JI
-> Hi Khoa Phan Huynh Dang Khoa Phan Huynh Dang ,
+> [!note]+ 2026-04-02 09:40 · [[Jiaqi_JI|Jiaqi JI]]
+> Hi [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] ,
 >
 > 3 questions added as following:
 >
@@ -135,8 +135,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-04-01 11:17 · Jiaqi JI
-> Hello Khoa Phan Huynh Dang Dang Ho Anh ,
+> [!note]+ 2026-04-01 11:17 · [[Jiaqi_JI|Jiaqi JI]]
+> Hello [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] [[Dang_Ho_Anh|Dang Ho Anh]] ,
 >
 > For question:
 > Are there any matching configuration items in ETAS tool which are equal to variable"healing_inhibition","healing_inhibition_cnt","healing_TripCounter_cnt" referring to below healing diagram ?{}
@@ -146,8 +146,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-03-30 08:22 · Jiaqi JI
-> Hello Khoa Phan Huynh Dang Dang Ho Anh both,
+> [!note]+ 2026-03-30 08:22 · [[Jiaqi_JI|Jiaqi JI]]
+> Hello [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] [[Dang_Ho_Anh|Dang Ho Anh]] both,
 >
 > Customer adds questions: Please give feedback on tomorrow morning follow-up meeting. Thanks a lot!
 >  # Do all IUMPR counters provide APIs for ASW to call, with ASW handling the conditional checks? Does BSW only implement auto-increment and not handle conditional checks?
@@ -158,13 +158,13 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-03-24 04:16 · Khoa Phan Huynh Dang
-> Hello Dong LIU , Jiaqi JI , could you please help input new questions from the customer? This will allow us to proceed with the ticket and seek further support if necessary.
+> [!note]+ 2026-03-24 04:16 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hello [[Dong_LIU|Dong LIU]] , [[Jiaqi_JI|Jiaqi JI]] , could you please help input new questions from the customer? This will allow us to proceed with the ticket and seek further support if necessary.
 
 -------
 
-> [!note]+ 2026-03-17 12:37 · Gunjan Pradip Mantala
-> Hi Khoa Phan Huynh DangKhoa
+> [!note]+ 2026-03-17 12:37 · [[Gunjan_Pradip_Mantala|Gunjan Pradip Mantala]]
+> Hi [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]Khoa
 >
 > Thank you for reaching out to us!
 >
@@ -185,8 +185,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-03-17 10:08 · Sobin Peter
-> Hi Khoa Phan Huynh Dang ,
+> [!note]+ 2026-03-17 10:08 · [[Sobin_Peter|Sobin Peter]]
+> Hi [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] ,
 >
 > Answer to Q7:
 >
@@ -196,11 +196,11 @@ Best regards,
 >
 >
 >
-> Hi Gunjan Pradip Mantala , Please have a look at the Dem queries.
+> Hi [[Gunjan_Pradip_Mantala|Gunjan Pradip Mantala]] , Please have a look at the Dem queries.
 
 -------
 
-> [!note]+ 2026-03-16 04:26 · Khoa Phan Huynh Dang
+> [!note]+ 2026-03-16 04:26 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > After **Monday's meeting** (3/16/2026), we still have some **follow-up** questions:
 >
 >
@@ -215,7 +215,7 @@ Best regards,
 >
 >
 >
-> {color:#403294}Hello Raghuram Telagamsetti, Gunjan Pradip Mantala , could you help me support the questions *Q7, Q10 and Q13*{color}
+> {color:#403294}Hello [[Raghuram_Telagamsetti|Raghuram Telagamsetti]], [[Gunjan_Pradip_Mantala|Gunjan Pradip Mantala]] , could you help me support the questions *Q7, Q10 and Q13*{color}
 >
 >
 >
@@ -223,12 +223,12 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-03-12 10:21 · Jiaqi JI
+> [!note]+ 2026-03-12 10:21 · [[Jiaqi_JI|Jiaqi JI]]
 > [^ETAS Configuration OPL.xlsx]
 
 -------
 
-> [!note]+ 2026-03-08 18:41 · Khoa Phan Huynh Dang
+> [!note]+ 2026-03-08 18:41 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > *{color:#FF0000}Q12.  An error occurred when generating BSW about{color}*{color:#FF0000} OBDonUDS (base on {*}RTA-CAR 12.11.0VCTCESR1pr1{*})?{color}
 >
 > {color:#FF0000}    see the attach file OBDonUDS-rta-bsw.log.{color}
@@ -257,7 +257,7 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-03-08 15:57 · Khoa Phan Huynh Dang
+> [!note]+ 2026-03-08 15:57 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > The remaining questions focus on **Classic OBD** configuration in **RTA-CAR 9.1.x** as follows:
 >
 > {color:#de350b}Q11:Are there any matching configuration items in ETAS tool which are equal to variable"healing_inhibition","healing_inhibition_cnt","healing_TripCounter_cnt" referring to below healing diagram ?{color}
@@ -294,15 +294,15 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-03-06 09:35 · Jiaqi JI
-> Hello Dang Ho Anh Khoa Phan Huynh Dang ,
+> [!note]+ 2026-03-06 09:35 · [[Jiaqi_JI|Jiaqi JI]]
+> Hello [[Dang_Ho_Anh|Dang Ho Anh]] [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] ,
 >
 > Please receive customer reply as attachment email. https://rtahotline.etas.com/jira/secure/attachment/314718/Re%20CARIADOBD%20Questions%20Answering%203.7%20reply.msg
 
 -------
 
-> [!note]+ 2026-03-06 09:26 · Jiaqi JI
-> Hello Dang Ho Anh Khoa Phan Huynh Dang ,
+> [!note]+ 2026-03-06 09:26 · [[Jiaqi_JI|Jiaqi JI]]
+> Hello [[Dang_Ho_Anh|Dang Ho Anh]] [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] ,
 >
 > Cariad gives their information as  zip 2 image and the log file. Please have a check. Thanks!
 >
@@ -316,14 +316,14 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-03-06 06:20 · Khoa Phan Huynh Dang
+> [!note]+ 2026-03-06 06:20 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > Additionally, the below is the document that can help the customer to configure OBD feature manually
 >
 > [^ETAS_AR422_OBD_ISO15031_UserManual 1-1.docx]
 
 -------
 
-> [!note]+ 2026-03-06 05:41 · Khoa Phan Huynh Dang
+> [!note]+ 2026-03-06 05:41 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > {color:#de350b}*Q7.  Does RTACAR support separate configuration of P2 and P2* timing parameters for OBD Classic?*{color}
 >
 > I want to correct some information:
@@ -346,7 +346,7 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-03-06 05:39 · Khoa Phan Huynh Dang
+> [!note]+ 2026-03-06 05:39 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > {*}{color:#de350b}Q11:Are there any matching configuration items in ETAS tool which are equal to variable"healing_inhibition","healing_inhibition_cnt","healing_TripCounter_cnt" referring to below healing diagram ?{color}{*}{*}`*`{color:#172b4d} {color}
 >
 > + I understood the mentioned diagram that describe **the healing process**
@@ -375,7 +375,7 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-03-06 05:28 · Khoa Phan Huynh Dang
+> [!note]+ 2026-03-06 05:28 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > *{color:#de350b}Q8: How to active the function DEM_CFG_OBD_IUMPR ?
 >
 > Q9:An error occurred when generating the code with the configuration of the DemRatio? 
@@ -396,7 +396,7 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-03-06 04:55 · Khoa Phan Huynh Dang
+> [!note]+ 2026-03-06 04:55 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > {color:#172b4d}Hello {*}Jiaqi{*},{color}
 >
 > All below info are my knowledge about the **RTA-CAR version 9.1.x** which the customer is using:
@@ -448,13 +448,13 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-03-02 06:21 · Jiaqi JI
+> [!note]+ 2026-03-02 06:21 · [[Jiaqi_JI|Jiaqi JI]]
 > [^Fw CARIADOBD Questions Answering.msg]
 
 -------
 
-> [!note]+ 2026-03-02 06:21 · Jiaqi JI
-> Hi Dang Ho Anh ,questions added as follows. Email as attachment. Thanks a lot!
+> [!note]+ 2026-03-02 06:21 · [[Jiaqi_JI|Jiaqi JI]]
+> Hi [[Dang_Ho_Anh|Dang Ho Anh]] ,questions added as follows. Email as attachment. Thanks a lot!
 >
 > Q8: How to active the function DEM_CFG_OBD_IUMPR ?
 >
@@ -499,8 +499,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-02-27 10:36 · Dang Ho Anh
-> Hi Jiaqi JI,
+> [!note]+ 2026-02-27 10:36 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[Jiaqi_JI|Jiaqi JI]],
 >
 > Please check the summary for all questions below:
 >
@@ -565,8 +565,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-02-26 08:29 · Jiaqi JI
-> Hi Su Nguyen Quoc ，which detailed expectations do you need now? 
+> [!note]+ 2026-02-26 08:29 · [[Jiaqi_JI|Jiaqi JI]]
+> Hi [[Su_Nguyen_Quoc|Su Nguyen Quoc]] ，which detailed expectations do you need now? 
 >
 > As customer request, please give feedback before 12:00pm this saturday.
 >
@@ -574,12 +574,12 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-02-25 12:39 · Su Nguyen Quoc
+> [!note]+ 2026-02-25 12:39 · [[Su_Nguyen_Quoc|Su Nguyen Quoc]]
 > Hi Dang, as discussed, let's keep the analysis internal for now. We also need to gather more detailed expectations from the customer in order to propose the right solution.
 
 -------
 
-> [!note]+ 2026-02-25 11:59 · Dang Ho Anh
+> [!note]+ 2026-02-25 11:59 · [[Dang_Ho_Anh|Dang Ho Anh]]
 > Dear All,
 >
 > I and @Phan Huynh Dang Khoa (MS/EPS22-SWC MS/EPC-PS) have checked for the point 5 (TripCounter and HealingCounter).
@@ -598,7 +598,7 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-02-10 10:05 · Badun CAI
+> [!note]+ 2026-02-10 10:05 · [[Badun_CAI|Badun CAI]]
 > 5. TripCounter /HealingCounter  {color:#ff0000}*I didn't  find related information ,need Vietnamese response*{color}
 >
 >     PermanentDTC refer to :{*}DemRbOBDSupportBlockingPermanentDTC{*}
@@ -619,7 +619,7 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-02-10 08:59 · Junsheng ZHANG
+> [!note]+ 2026-02-10 08:59 · [[Junsheng_ZHANG|Junsheng ZHANG]]
 > 2.Not supported
 >
 > ![[RH-15136-image-2026-02-10-15-48-36-938.png]]

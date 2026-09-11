@@ -7,15 +7,15 @@ type: Support
 status: Solution Proposed
 priority: High
 project: RH
-assignee: Junsheng ZHANG
-reporter: Junsheng ZHANG
+assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: [jira/comp/isolar-a, jira/comp/isolar-a/b]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-08-30T06:50:15.000+0200"
 updated: "2026-09-10T07:55:15.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -60,7 +60,7 @@ Hi hotline,
 
 ## 评论
 
-> [!note]+ 2026-08-31 11:31 · M S Karthik
+> [!note]+ 2026-08-31 11:31 · [[M_S_Karthik|M S Karthik]]
 > As per the discussion, please find the summary of the discussion and action plan. 
 > ----
 > ## **"\.buildframework"** folder is not delivered to SCM (like GIT).
@@ -94,8 +94,8 @@ Hi hotline,
 
 -------
 
-> [!note]+ 2026-08-31 06:49 · M S Karthik
-> Junsheng ZHANG - Are we delivering .settings folder into GIT?
+> [!note]+ 2026-08-31 06:49 · [[M_S_Karthik|M S Karthik]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]] - Are we delivering .settings folder into GIT?
 >  # Could you please share the files and folders which are stored in GIT? I'm interested to know the contents of below folders.
 >  # If it is **not** possible to share the project artifacts, is it possible to zip and share these alone please?
 >
@@ -109,7 +109,7 @@ Hi hotline,
 
 -------
 
-> [!note]+ 2026-08-30 08:00 · JSM Service Bot
+> [!note]+ 2026-08-30 08:00 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Junsheng ZHANG. Your issue is set to "Critical" priority.
 > Please ensure that there is a reasonable justification for this listed in the issue description, otherwise the priority may be reviewed and adjusted during triage.
 > Kind regards

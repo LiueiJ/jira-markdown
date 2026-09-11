@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: High
 project: RH
-assignee: Dong LIU
-reporter: Dong LIU
+assignee: "[[Dong_LIU|Dong LIU]]"
+reporter: "[[Dong_LIU|Dong LIU]]"
 tags: []
 fix-versions: []
 epic: null
 parent: null
 created: "2026-03-16T04:15:21.000+0100"
 updated: "2026-04-19T11:37:33.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -54,18 +54,18 @@ Best regards,
 
 ## 评论
 
-> [!note]+ 2026-04-19 11:37 · JSM Service Bot
+> [!note]+ 2026-04-19 11:37 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-04-04 18:48 · JSM Service Bot
+> [!note]+ 2026-04-04 18:48 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically moved to Solution Proposed.
 
 -------
 
-> [!note]+ 2026-03-19 17:42 · Dong LIU
-> Hi, Hritik Mehta 
+> [!note]+ 2026-03-19 17:42 · [[Dong_LIU|Dong LIU]]
+> Hi, [[Hritik_Mehta|Hritik Mehta]] 
 >
 > I’ve replied to the customer. Their original understanding was that when using DMA, memory regions with cache cannot be used due to potential cache coherency issues, while without DMA, the data can be placed in any memory region. The customer will need to reconfirm this point.
 >
@@ -73,8 +73,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-03-17 17:21 · Hritik Mehta
-> Hi Dong LIU,
+> [!note]+ 2026-03-17 17:21 · [[Hritik_Mehta|Hritik Mehta]]
+> Hi [[Dong_LIU|Dong LIU]],
 >  # Yes, placement in cached RAM is mandatory for data integrity when DMA is used by the Fls/MemAcc driver. The section **BSW_START_SEC_VAR_SECURED_CACHED_RAM_ALIGNED_CLEARED_UNSPECIFIED** contains a single variable, {*}Fee_Prv_Cfg_MediumBuffer_un{*}, which is the sole DMA transfer buffer used for all Fee flash read and write operations. 
 >  # The reason cached RAM is required is that DMA transfers bypass the CPU cache controller. If the DMA engine writes new data into this buffer while the CPU cache still holds a stale copy, the CPU will read the old (incorrect) data resulting in silent data corruption. 
 >  # If DMA is **not** used by the Fls/MemAcc driver (CPU-copy mode only), placing this section in non-cached RAM is safe from a data-integrity perspective, though it incurs a performance cost. 
@@ -87,8 +87,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-03-16 19:25 · Hritik Mehta
-> Hi Dong LIU,
+> [!note]+ 2026-03-16 19:25 · [[Hritik_Mehta|Hritik Mehta]]
+> Hi [[Dong_LIU|Dong LIU]],
 >
 > Apologies for the delay, this is currently in investigation. You will get a response by tomorrow.
 >

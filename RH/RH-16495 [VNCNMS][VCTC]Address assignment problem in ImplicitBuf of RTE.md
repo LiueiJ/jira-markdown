@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: High
 project: RH
-assignee: Junsheng ZHANG
-reporter: Junsheng ZHANG
+assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: [jira/comp/rta-rte, jira/label/vncnms, jira/label/ai-analysis-commented]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-06-26T12:24:56.000+0200"
 updated: "2026-08-05T14:25:48.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -95,40 +95,40 @@ It seems that there is a problem with the code, but is this caused by customer c
 
 ## 评论
 
-> [!note]+ 2026-07-21 15:46 · Phuong Nguyen Le
-> Junsheng ZHANG , Have you checked the RTA-CAR 12.11.0.VCTCESR1pr4 for this issue?
+> [!note]+ 2026-07-21 15:46 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]] , Have you checked the RTA-CAR 12.11.0.VCTCESR1pr4 for this issue?
 >
 > I assume that the issue is fixed in this version, please verify it and share feedback here!
 
 -------
 
-> [!note]+ 2026-07-21 14:23 · JSM Service Bot
+> [!note]+ 2026-07-21 14:23 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-07-07 11:51 · Vamsi Kiran Koduri
-> Phuong Nguyen Le Yes, Issue was fixed from RTE v12.10.0.
+> [!note]+ 2026-07-07 11:51 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> [[Phuong_Nguyen_Le|Phuong Nguyen Le]] Yes, Issue was fixed from RTE v12.10.0.
 
 -------
 
-> [!note]+ 2026-07-03 16:00 · Phuong Nguyen Le
+> [!note]+ 2026-07-03 16:00 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
 > **RTA-CAR 12.11.0VCTCESR1pr1** is base on RTA_CAR 12.9.0 so that RTE shall be 12.9.0.
 >
-> Vamsi Kiran Koduri : Cariad agree to upgrade to RTA-CAR 12.11. Can you confirm that the issue will be solved in RTA-CAR 12.11.0?
+> [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] : Cariad agree to upgrade to RTA-CAR 12.11. Can you confirm that the issue will be solved in RTA-CAR 12.11.0?
 >
-> Junsheng ZHANG : If yes, can you help to check the issue again after migrating to RTA-CAR 12.11.0
+> [[Junsheng_ZHANG|Junsheng ZHANG]] : If yes, can you help to check the issue again after migrating to RTA-CAR 12.11.0
 
 -------
 
-> [!note]+ 2026-07-03 15:08 · Vamsi Kiran Koduri
-> Hi Su Nguyen Quoc ,  customer is currently using RTA-CAR 12.11.0VCTCESR1pr1. But what about the RTE version used within? 
+> [!note]+ 2026-07-03 15:08 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Hi [[Su_Nguyen_Quoc|Su Nguyen Quoc]] ,  customer is currently using RTA-CAR 12.11.0VCTCESR1pr1. But what about the RTE version used within? 
 > We get to know customer is using RTE v12.9.0 in https://rtahotline.etas.com/jira/browse/RH-16495?focusedCommentId=699806&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-699806
 > and also from attached generated code of RTE https://rtahotline.etas.com/jira/secure/attachment/337636/RTA_Code.zip. 
 
 -------
 
-> [!note]+ 2026-07-03 14:49 · Su Nguyen Quoc
+> [!note]+ 2026-07-03 14:49 · [[Su_Nguyen_Quoc|Su Nguyen Quoc]]
 > Hi all,
 >
 > Could we clarify the proposed solution regarding the fix available in RTE v12.10.0?
@@ -136,7 +136,7 @@ It seems that there is a problem with the code, but is this caused by customer c
 > As I understand, the customer is currently using {*}RTA-CAR 12.11.0VCTCESR1pr1{*}. From the customer's perspective, moving to v12.10.0 would not be considered an upgrade but rather a version rollback, which I believe may be difficult for Cariad to accept at this stage.
 >
 > Could you please advise:
->  * Is the fix from **RTE-21020** already available in any RTA-CAR release compatible with {*}12.11.0VCTCESR1pr1{*}? Phuong Nguyen Le: could you please check if could release another ESR? 
+>  * Is the fix from **RTE-21020** already available in any RTA-CAR release compatible with {*}12.11.0VCTCESR1pr1{*}? [[Phuong_Nguyen_Le|Phuong Nguyen Le]]: could you please check if could release another ESR? 
 >  * If not, is there a backport plan or an equivalent solution available for the customer's current baseline?
 >
 > I would like to better understand the recommended path before discussing it with Cariad.
@@ -146,8 +146,8 @@ It seems that there is a problem with the code, but is this caused by customer c
 
 -------
 
-> [!note]+ 2026-07-02 09:34 · Vamsi Kiran Koduri
-> Junsheng ZHANG,Christian Fuerst Okay, after reviewing the attached code i confirm the reported issue.  My earlier analysis was performed on COM call back reception API where there is no such issue but the reported problem can be observed in LdCom reception callback API.
+> [!note]+ 2026-07-02 09:34 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]],[[Christian_Fuerst|Christian Fuerst]] Okay, after reviewing the attached code i confirm the reported issue.  My earlier analysis was performed on COM call back reception API where there is no such issue but the reported problem can be observed in LdCom reception callback API.
 >
 > However even the reported problem wr.t data update in LdCom reception call back API was fixed in RTE in v12.10.0 using https://jira.etas-dev.com/browse/RTE-21020.
 >
@@ -155,8 +155,8 @@ It seems that there is a problem with the code, but is this caused by customer c
 
 -------
 
-> [!note]+ 2026-07-02 07:17 · Christian Fuerst
-> Hi Vamsi Kiran Koduri ,
+> [!note]+ 2026-07-02 07:17 · [[Christian_Fuerst|Christian Fuerst]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] ,
 >
 > can you have a look at the new Attachment, please?
 >
@@ -167,33 +167,33 @@ It seems that there is a problem with the code, but is this caused by customer c
 
 -------
 
-> [!note]+ 2026-07-02 04:47 · Junsheng ZHANG
-> Hi Vamsi Kiran Koduri ,
+> [!note]+ 2026-07-02 04:47 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] ,
 >
 >     The code has been uploaded, and both our debugging and analysis confirm that the issue lies with the code generation；
 
 -------
 
-> [!note]+ 2026-07-02 04:35 · JSM Service Bot
-> Junsheng ZHANG, the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [!note]+ 2026-07-02 04:35 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-07-02 04:35 · Junsheng ZHANG
+> [!note]+ 2026-07-02 04:35 · [[Junsheng_ZHANG|Junsheng ZHANG]]
 > [^RTA_Code.zip]
 
 -------
 
-> [!note]+ 2026-07-01 15:40 · Vamsi Kiran Koduri
-> Junsheng ZHANG,Khoa Phan Huynh Dang Please check my comment above https://rtahotline.etas.com/jira/browse/RH-16495?focusedCommentId=699762&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-699762.
+> [!note]+ 2026-07-01 15:40 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]],[[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] Please check my comment above https://rtahotline.etas.com/jira/browse/RH-16495?focusedCommentId=699762&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-699762.
 > If you still want to discuss lets have call anytime.
 
 -------
 
-> [!note]+ 2026-07-01 14:46 · Christian Fuerst
-> Hi Khoa Phan Huynh Dang / Junsheng ZHANG ,
+> [!note]+ 2026-07-01 14:46 · [[Christian_Fuerst|Christian Fuerst]]
+> Hi [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] / [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 >
-> can you answer on the request of Vamsi Kiran Koduri , please?
+> can you answer on the request of [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] , please?
 > [https://rtahotline.etas.com/jira/browse/RH-16495?focusedCommentId=699971&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-699971] 
 >
 > Thx
@@ -203,35 +203,35 @@ It seems that there is a problem with the code, but is this caused by customer c
 
 -------
 
-> [!note]+ 2026-07-01 12:18 · Vamsi Kiran Koduri
-> okay Khoa Phan Huynh Dang, Could you please get response to my previous comment in this ticket?
+> [!note]+ 2026-07-01 12:18 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> okay [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]], Could you please get response to my previous comment in this ticket?
 
 -------
 
-> [!note]+ 2026-07-01 05:47 · Khoa Phan Huynh Dang
-> Hi Vamsi Kiran Koduri ,
+> [!note]+ 2026-07-01 05:47 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] ,
 >
 > I think **RTA-RTE 12.9.0** is being used by customer
 >
-> cc: Junsheng ZHANG 
+> cc: [[Junsheng_ZHANG|Junsheng ZHANG]] 
 
 -------
 
-> [!note]+ 2026-06-30 19:17 · Vamsi Kiran Koduri
-> Junsheng ZHANG,Khoa Phan Huynh Dang Did customer face any issue reading incorrect data or is this analysis based on observing data in variables run time?
+> [!note]+ 2026-06-30 19:17 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]],[[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] Did customer face any issue reading incorrect data or is this analysis based on observing data in variables run time?
 > The reason to ask this is even Rte_Rx_* buffer is of composite type which has status, transformer error elements along with data , In the Com callback API, only data (composite.data) is written to IocWrite API and therefore the data part has to be read on application as well.
 > If you disagree, please attach RTE generated code to check further.
 
 -------
 
-> [!note]+ 2026-06-30 15:37 · Khoa Phan Huynh Dang
-> Hi Vamsi Kiran Koduri ,
+> [!note]+ 2026-06-30 15:37 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] ,
 >
 > As discussed, kindly update your analysis on this ticket. Thank you so much.
 
 -------
 
-> [!note]+ 2026-06-30 14:36 · Marc Kaiser
+> [!note]+ 2026-06-30 14:36 · [[Marc_Kaiser|Marc Kaiser]]
 > AI ANALYSIS (automated — verify before acting on this)
 >
 > Root Cause Confirmed: Type mismatch between implicit buffer and IOC composite type
@@ -285,28 +285,28 @@ It seems that there is a problem with the code, but is this caused by customer c
 
 -------
 
-> [!note]+ 2026-06-30 13:55 · Marc Kaiser
+> [!note]+ 2026-06-30 13:55 · [[Marc_Kaiser|Marc Kaiser]]
 > [This comment was replaced — see the internal comment below]
 
 -------
 
-> [!note]+ 2026-06-30 13:00 · Su Nguyen Quoc
+> [!note]+ 2026-06-30 13:00 · [[Su_Nguyen_Quoc|Su Nguyen Quoc]]
 > The team/Khoa is working with PF to share development plan.
 
 -------
 
-> [!note]+ 2026-06-30 08:59 · JSM Service Bot
+> [!note]+ 2026-06-30 08:59 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Junsheng ZHANG, please note that this issue was made with VNCNMS in the summary and has been sent to the relevant queue by adding the VNCNMS label.
 
 -------
 
-> [!note]+ 2026-06-29 08:21 · JSM Service Bot
-> Hi Vamsi Kiran Koduri, this RTA-RTE ticket requires an assignee. As the component lead for RTA-RTE, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+> [!note]+ 2026-06-29 08:21 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]], this RTA-RTE ticket requires an assignee. As the component lead for RTA-RTE, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------
 
-> [!note]+ 2026-06-29 08:21 · Christian Fuerst
-> Hi Vamsi Kiran Koduri ,
+> [!note]+ 2026-06-29 08:21 · [[Christian_Fuerst|Christian Fuerst]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] ,
 >
 > it seems that customer found a not fully resolved known issue in RTE generator:
 >
@@ -328,7 +328,7 @@ It seems that there is a problem with the code, but is this caused by customer c
 
 -------
 
-> [!note]+ 2026-06-29 08:16 · JSM Service Bot
+> [!note]+ 2026-06-29 08:16 · [[JSM_Service_Bot|JSM Service Bot]]
 > Reminder for tickets requiring L3 RTE attention:
 >
 > - Have you attached the configuration?
@@ -343,8 +343,8 @@ It seems that there is a problem with the code, but is this caused by customer c
 
 -------
 
-> [!note]+ 2026-06-29 08:15 · Christian Fuerst
-> Hi Junsheng ZHANG .
+> [!note]+ 2026-06-29 08:15 · [[Christian_Fuerst|Christian Fuerst]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] .
 >
 > it seems that you have found a bug in the RTE generator, but needs confirmed by L3 (which I will forward the topic to L3).
 >

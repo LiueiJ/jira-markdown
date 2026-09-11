@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: High
 project: RH
-assignee: Dong LIU
-reporter: Dong LIU
+assignee: "[[Dong_LIU|Dong LIU]]"
+reporter: "[[Dong_LIU|Dong LIU]]"
 tags: [jira/comp/communication-comservices]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-08-11T11:18:14.000+0200"
 updated: "2026-09-02T14:28:31.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -54,18 +54,18 @@ Best regards,
 
 ## 评论
 
-> [!note]+ 2026-09-02 14:28 · JSM Service Bot
+> [!note]+ 2026-09-02 14:28 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-08-12 12:58 · Mohammed Sameer Gundloor
-> Hello Lewis Oxtoby , Thats correct, these APIs can be used to enable/Disable Calibration, Measurement and Stimulation.
+> [!note]+ 2026-08-12 12:58 · [[Mohammed_Sameer_Gundloor|Mohammed Sameer Gundloor]]
+> Hello [[Lewis_Oxtoby|Lewis Oxtoby]] , Thats correct, these APIs can be used to enable/Disable Calibration, Measurement and Stimulation.
 
 -------
 
-> [!note]+ 2026-08-12 09:46 · Lewis Oxtoby
-> Hi Mohammed Sameer Gundloor ,
+> [!note]+ 2026-08-12 09:46 · [[Lewis_Oxtoby|Lewis Oxtoby]]
+> Hi [[Mohammed_Sameer_Gundloor|Mohammed Sameer Gundloor]] ,
 >
 > After a bit of digging I found this response to the same question from a couple of years ago:
 >
@@ -81,13 +81,13 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-11 17:13 · JSM Service Bot
-> Hi Mohammed Sameer Gundloor, this Communication-ComServices ticket requires an assignee. As the component lead for Communication-ComServices, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+> [!note]+ 2026-08-11 17:13 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Mohammed_Sameer_Gundloor|Mohammed Sameer Gundloor]], this Communication-ComServices ticket requires an assignee. As the component lead for Communication-ComServices, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------
 
-> [!note]+ 2026-08-11 17:13 · Lewis Oxtoby
-> Hi Mohammed Sameer Gundloor 
+> [!note]+ 2026-08-11 17:13 · [[Lewis_Oxtoby|Lewis Oxtoby]]
+> Hi [[Mohammed_Sameer_Gundloor|Mohammed Sameer Gundloor]] 
 >
 > The customer would like to be able to dynamically enable and disable XCP. The Xcp_SetControlMode function has been identified as a possible way of doing this, can this be accessible, such as from an application code callback, or is this just a BSW internal function? 
 >

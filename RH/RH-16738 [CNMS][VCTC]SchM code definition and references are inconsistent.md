@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: High
 project: RH
-assignee: Junsheng ZHANG
-reporter: Junsheng ZHANG
+assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: [jira/comp/rta-rte, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-07-23T08:23:46.000+0200"
 updated: "2026-09-03T14:28:36.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -64,23 +64,23 @@ If this problem is caused by configuration, please provide a solution.
 
 ## 评论
 
-> [!note]+ 2026-09-03 14:28 · JSM Service Bot
+> [!note]+ 2026-09-03 14:28 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-08-20 03:58 · Phuong Nguyen Le
-> Junsheng ZHANG , do you have any feedback for this ticket? 
+> [!note]+ 2026-08-20 03:58 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]] , do you have any feedback for this ticket? 
 
 -------
 
-> [!note]+ 2026-08-19 18:56 · JSM Service Bot
+> [!note]+ 2026-08-19 18:56 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically moved to Solution Proposed.
 
 -------
 
-> [!note]+ 2026-08-04 15:46 · Phuong Nguyen Le
-> Junsheng ZHANG :
+> [!note]+ 2026-08-04 15:46 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]] :
 >
 > These integration code will map input parameter to SchM_Enter_rba_EthTcp_...[] array then it will be mapped to rte schm function
 >
@@ -90,27 +90,27 @@ If this problem is caused by configuration, please provide a solution.
 
 -------
 
-> [!note]+ 2026-08-04 14:47 · Junsheng ZHANG
-> Hi Phuong Nguyen Le ,
+> [!note]+ 2026-08-04 14:47 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Phuong_Nguyen_Le|Phuong Nguyen Le]] ,
 > I’m not fully understanding your response. In the picture you provided, the issue was not fixed—the function still has parameters. I checked in PR4 the call sites of {{{}SchM_Enter_rba_EthTcp_TxBuf{}}}, and they are still made with parameters.
 >
 > So did the RTE segment modify the code and add parameters to these interfaces?
 
 -------
 
-> [!note]+ 2026-07-27 08:56 · Jiaqi JI
-> Hi Phuong Nguyen Le ,
+> [!note]+ 2026-07-27 08:56 · [[Jiaqi_JI|Jiaqi JI]]
+> Hi [[Phuong_Nguyen_Le|Phuong Nguyen Le]] ,
 >
 > Big thanks for your feedback.
 >
-> In this week, Dong LIU is the proxy of Zhang Junsheng.
+> In this week, [[Dong_LIU|Dong LIU]] is the proxy of Zhang Junsheng.
 >
 > Thanks a lot!
 
 -------
 
-> [!note]+ 2026-07-27 08:50 · Phuong Nguyen Le
-> Khoa Phan Huynh Dang , Junsheng ZHANG , Dong LIU , Jiaqi JI : We check and this issue was fixed in RTA-CAR 12.11 and it's been in RTA-CAR 12.11.0.VCTCESR1pr4.
+> [!note]+ 2026-07-27 08:50 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] , [[Junsheng_ZHANG|Junsheng ZHANG]] , [[Dong_LIU|Dong LIU]] , [[Jiaqi_JI|Jiaqi JI]] : We check and this issue was fixed in RTA-CAR 12.11 and it's been in RTA-CAR 12.11.0.VCTCESR1pr4.
 >
 > Note: please generate integration code (rba_EthTcp_Cfg_SchM.h) again then SchM function will be defined like below:
 >
@@ -120,24 +120,24 @@ If this problem is caused by configuration, please provide a solution.
 
 -------
 
-> [!note]+ 2026-07-26 05:42 · JSM Service Bot
-> Junsheng ZHANG, the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [!note]+ 2026-07-26 05:42 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-07-26 05:42 · Junsheng ZHANG
-> Hi Khoa Phan Huynh Dang ,
+> [!note]+ 2026-07-26 05:42 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] ,
 >
 > Could you please help confirm the specific fix version and timing?
 
 -------
 
-> [!note]+ 2026-07-24 14:58 · Vamsi Kiran Koduri
-> Hi Khoa Phan Huynh Dang,  There is no fix required from RTE. EthTcp module should change the way Schm APIs are called i.e. those API's should not have an argument. In  RH-13777 , issue was resolved by change in https://jira.etas-dev.com/browse/ARCCOM-9772
+> [!note]+ 2026-07-24 14:58 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Hi [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]],  There is no fix required from RTE. EthTcp module should change the way Schm APIs are called i.e. those API's should not have an argument. In  RH-13777 , issue was resolved by change in https://jira.etas-dev.com/browse/ARCCOM-9772
 
 -------
 
-> [!note]+ 2026-07-24 11:22 · JSM Service Bot
+> [!note]+ 2026-07-24 11:22 · [[JSM_Service_Bot|JSM Service Bot]]
 > Reminder for tickets requiring L3 RTE attention:
 >
 > - Have you attached the configuration?
@@ -152,13 +152,13 @@ If this problem is caused by configuration, please provide a solution.
 
 -------
 
-> [!note]+ 2026-07-24 11:22 · JSM Service Bot
-> Hi Vamsi Kiran Koduri, this RTA-RTE ticket requires an assignee. As the component lead for RTA-RTE, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+> [!note]+ 2026-07-24 11:22 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]], this RTA-RTE ticket requires an assignee. As the component lead for RTA-RTE, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------
 
-> [!note]+ 2026-07-24 11:20 · Khoa Phan Huynh Dang
-> Hello Vamsi Kiran Koduri ,
+> [!note]+ 2026-07-24 11:20 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hello [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] ,
 > As I understand it, this issue was already identified in RH-13777 and was resolved in RTA-CAR by the {*}RTA-RTE team{*}. However, I cannot see any related updates or changes. Could you kindly help me confirm the following: 
 >  # Is my understanding of this issue correct?
 >  # If so, do we have any plans to provide a fix for it?

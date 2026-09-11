@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: High
 project: RH
-assignee: Junsheng ZHANG
-reporter: Junsheng ZHANG
+assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: [jira/comp/rta-rte]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-07-20T10:15:37.000+0200"
 updated: "2026-09-01T14:28:26.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -60,18 +60,18 @@ On the other hand, in the previous version (RTA-CAR 12.6), it was possible to sk
 
 ## 评论
 
-> [!note]+ 2026-09-01 14:28 · JSM Service Bot
+> [!note]+ 2026-09-01 14:28 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-08-17 18:56 · JSM Service Bot
+> [!note]+ 2026-08-17 18:56 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically moved to Solution Proposed.
 
 -------
 
-> [!note]+ 2026-08-03 09:24 · Dang Ho Anh
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-08-03 09:24 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 >
 > With this workaround solution, there is currently no way to avoid generating the background task.
 >
@@ -79,8 +79,8 @@ On the other hand, in the previous version (RTA-CAR 12.6), it was possible to sk
 
 -------
 
-> [!note]+ 2026-08-03 07:57 · Junsheng ZHANG
-> Hi Dang Ho Anh,
+> [!note]+ 2026-08-03 07:57 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Dang_Ho_Anh|Dang Ho Anh]],
 >
 > I checked the customer's current configuration and found that OsTaskAutostart was not enabled; moreover, this task was also generated in the RTE. The customer's expectation is to no longer generate this task;
 >
@@ -88,8 +88,8 @@ On the other hand, in the previous version (RTA-CAR 12.6), it was possible to sk
 
 -------
 
-> [!note]+ 2026-07-31 13:26 · Dang Ho Anh
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-07-31 13:26 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 >
 > You can refer to the workaround solution in the BIP project with RTA-CAR 12.9.0. The approach works as follows:
 >  # Create a background task in the OS, but do not enable `OsTaskAutostart` for this task.
@@ -98,12 +98,12 @@ On the other hand, in the previous version (RTA-CAR 12.6), it was possible to sk
 >
 > With this workaround, the RTE can be generated successfully, while the invocation of KeyM_MainBackgroundFunction() remains under user control.
 >
-> CC: Jiaqi JI 
+> CC: [[Jiaqi_JI|Jiaqi JI]] 
 
 -------
 
-> [!note]+ 2026-07-29 04:53 · Jiaqi JI
-> Hi Hritik Mehta Vamsi Kiran Koduri both, 
+> [!note]+ 2026-07-29 04:53 · [[Jiaqi_JI|Jiaqi JI]]
+> Hi [[Hritik_Mehta|Hritik Mehta]] [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] both, 
 >
 > Good morning, could you have a check on this issue?
 >
@@ -111,19 +111,19 @@ On the other hand, in the previous version (RTA-CAR 12.6), it was possible to sk
 
 -------
 
-> [!note]+ 2026-07-29 04:53 · JSM Service Bot
+> [!note]+ 2026-07-29 04:53 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Junsheng ZHANG. Your issue is set to "Critical" priority.
 > Please ensure that there is a reasonable justification for this listed in the issue description, otherwise the priority may be reviewed and adjusted during triage.
 > Kind regards
 
 -------
 
-> [!note]+ 2026-07-27 09:25 · Vamsi Kiran Koduri
-> Hi Hritik Mehta, Whats OS idle callback? I don't think this is as per recommendation from KeyM team i.e. to map either to a background task or low prio periodic task.
+> [!note]+ 2026-07-27 09:25 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Hi [[Hritik_Mehta|Hritik Mehta]], Whats OS idle callback? I don't think this is as per recommendation from KeyM team i.e. to map either to a background task or low prio periodic task.
 
 -------
 
-> [!note]+ 2026-07-24 17:35 · JSM Service Bot
+> [!note]+ 2026-07-24 17:35 · [[JSM_Service_Bot|JSM Service Bot]]
 > Reminder for tickets requiring L3 RTE attention:
 >
 > - Have you attached the configuration?
@@ -138,8 +138,8 @@ On the other hand, in the previous version (RTA-CAR 12.6), it was possible to sk
 
 -------
 
-> [!note]+ 2026-07-24 17:35 · Hritik Mehta
-> Hi Vamsi Kiran Koduri,
+> [!note]+ 2026-07-24 17:35 · [[Hritik_Mehta|Hritik Mehta]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]],
 >
 > A customer on **RTA-CAR 12.11.0.VCTCESR1pr1** calls **KeyM_MainBackgroundFunction** directly from the OS idle callback ({*}Os_Idle_cbk{*} per their description) and does not want any task mapping for the corresponding KeyM background event in the RTE configuration. RTE generation then stops with error 1563 for the unmapped {*}BE_KeyM_MainBackgroundFunction{*}. The KeyM L3 has already confirmed the function itself must run (background task type recommended, low-priority periodic repetitive task acceptable), so this remaining question is purely on the RTE side.
 >
@@ -153,18 +153,18 @@ On the other hand, in the previous version (RTA-CAR 12.6), it was possible to sk
 
 -------
 
-> [!note]+ 2026-07-23 08:08 · Junsheng ZHANG
+> [!note]+ 2026-07-23 08:08 · [[Junsheng_ZHANG|Junsheng ZHANG]]
 > The customer did not use the Schedule Table generated by RTE, so I have already implemented this function (KeyM_MainBackground Function) in Os_Idle_cbk; But the customer doesn't want to configure this task in RTE anymore;However, this will result in an error, so we need to address this issue
 
 -------
 
-> [!note]+ 2026-07-23 08:03 · JSM Service Bot
-> Junsheng ZHANG, the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [!note]+ 2026-07-23 08:03 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-07-23 08:03 · Junsheng ZHANG
-> Hi Hritik Mehta ,
+> [!note]+ 2026-07-23 08:03 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Hritik_Mehta|Hritik Mehta]] ,
 >
 > Now, if I don't map to the Background Task or put it in a periodic task, RTE will report an error; Do we have a way to prevent RTE from reporting this error again;
 >
@@ -172,8 +172,8 @@ On the other hand, in the previous version (RTA-CAR 12.6), it was possible to sk
 
 -------
 
-> [!note]+ 2026-07-22 15:00 · Hritik Mehta
-> Hi Junsheng ZHANG,
+> [!note]+ 2026-07-22 15:00 · [[Hritik_Mehta|Hritik Mehta]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]],
 >
 > L3 has confirmed too:
 > {quote}i will always recommend 'KeyM_MainBackgroundFunction must be scheduled only in the background task type'. if background task is not available in customer stand, then they can place KeyM_MainBackgroundFunction in any other low-priority periodic repetitive task of OS.
@@ -184,7 +184,7 @@ On the other hand, in the previous version (RTA-CAR 12.6), it was possible to sk
 
 -------
 
-> [!note]+ 2026-07-22 06:53 · Balan Arumugam
+> [!note]+ 2026-07-22 06:53 · [[Balan_Arumugam|Balan Arumugam]]
 > Hello Hritik,
 >
 > i will always recommend '{*}KeyM_MainBackgroundFunction{*} must be scheduled only in the background task type'. if background task is not available in customer stand, then they can place **KeyM_MainBackgroundFunction** in any other low-priority periodic repetitive task of OS. 
@@ -197,13 +197,13 @@ On the other hand, in the previous version (RTA-CAR 12.6), it was possible to sk
 
 -------
 
-> [!note]+ 2026-07-21 16:08 · JSM Service Bot
-> Hi Balan Arumugam, this SEC-KeyM ticket requires an assignee. As the component lead for SEC-KeyM, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+> [!note]+ 2026-07-21 16:08 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Balan_Arumugam|Balan Arumugam]], this SEC-KeyM ticket requires an assignee. As the component lead for SEC-KeyM, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------
 
-> [!note]+ 2026-07-21 16:07 · Hritik Mehta
-> Hi Balan Arumugam,
+> [!note]+ 2026-07-21 16:07 · [[Hritik_Mehta|Hritik Mehta]]
+> Hi [[Balan_Arumugam|Balan Arumugam]],
 >
 > A CNMS/VCTC customer on RTA-CAR 12.11.0.VCTCESR1pr1 has configured KeyM and does not want to schedule **KeyM_MainBackgroundFunction** in a background-type task. The RTE rejects the unmapped background event (error 1563), which we consider correct, and we found no KeyM parameter that removes the event. Functionally the background function looks mandatory whenever KeyM is used, since certificate init completion and the asynchronous certificate and key request processing run only there.
 >
@@ -216,8 +216,8 @@ On the other hand, in the previous version (RTA-CAR 12.6), it was possible to sk
 
 -------
 
-> [!note]+ 2026-07-21 16:05 · Hritik Mehta
-> Hi Junsheng ZHANG,
+> [!note]+ 2026-07-21 16:05 · [[Hritik_Mehta|Hritik Mehta]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]],
 >
 > From our analysis this is expected behaviour: a background event like the one for **KeyM_MainBackgroundFunction** must always be mapped to a task, and there is no KeyM configuration option that removes the event. Since you prefer not to use a background-type task, I am checking with our KeyM development team what the recommended and officially supported way to schedule this function is in your case, and I will follow up as soon as I have their confirmation.
 >
@@ -228,8 +228,8 @@ On the other hand, in the previous version (RTA-CAR 12.6), it was possible to sk
 
 -------
 
-> [!note]+ 2026-07-20 17:49 · Hritik Mehta
-> Hi Junsheng ZHANG,
+> [!note]+ 2026-07-20 17:49 · [[Hritik_Mehta|Hritik Mehta]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]],
 >
 > Apologies for the delay, this is now under investigation.
 >

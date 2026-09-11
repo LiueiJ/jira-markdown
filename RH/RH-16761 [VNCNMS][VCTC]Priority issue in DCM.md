@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: High
 project: RH
-assignee: Junsheng ZHANG
-reporter: Junsheng ZHANG
+assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: [jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-07-25T12:56:58.000+0200"
 updated: "2026-08-12T14:26:29.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -55,12 +55,12 @@ Hi Hotline,
 
 ## 评论
 
-> [!note]+ 2026-08-12 14:26 · JSM Service Bot
+> [!note]+ 2026-08-12 14:26 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-07-29 14:00 · Khoa Phan Huynh Dang
+> [!note]+ 2026-07-29 14:00 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > {color:#de350b}When DoIP (protocol = 2) is executing a diagnostic service and DoCAN (protocol = 1) receives 3E 80, what will happen? Can the S3 timer be updated?Alternatively, when DoIP (protocol = 1) is executing a diagnostic service and DoCAN (protocol = 2) receives 3E 80, what will happen?{color}
 >
 >
@@ -80,13 +80,13 @@ Hi Hotline,
 
 -------
 
-> [!note]+ 2026-07-29 11:54 · JSM Service Bot
+> [!note]+ 2026-07-29 11:54 · [[JSM_Service_Bot|JSM Service Bot]]
 > Note: Jiaqi JI added as watcher to the issue. Internal support agents cannot be added as Request Participants, so they have been automatically joined as Watchers instead.
 
 -------
 
-> [!note]+ 2026-07-29 11:54 · Khoa Phan Huynh Dang
-> Hello Junsheng ZHANG , Jiaqi JI 
+> [!note]+ 2026-07-29 11:54 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hello [[Junsheng_ZHANG|Junsheng ZHANG]] , [[Jiaqi_JI|Jiaqi JI]] 
 >  * {color:#de350b}If multiple protocols (DoCAN and DoIP) use the same ServiceTable, are their sessions shared? For example, after a DoCAN request switches to the default session, then a DoIP request switches to the extended session—would that be considered a shared session?{color}
 >
 > Yes, module DCM only use one session state for all protocols and your example is correct. As you can see, DCM only maintain 1 variable "Dcm_SesCtrlType" for ECU and ignore protocol type (as the input) in the definition.
@@ -109,8 +109,8 @@ Hi Hotline,
 
 -------
 
-> [!note]+ 2026-07-28 11:44 · Jiaqi JI
-> Hi Phuong Nguyen Le ，
+> [!note]+ 2026-07-28 11:44 · [[Jiaqi_JI|Jiaqi JI]]
+> Hi [[Phuong_Nguyen_Le|Phuong Nguyen Le]] ，
 >
 > Please support for assign one engineer on this issue.
 >
@@ -118,7 +118,7 @@ Hi Hotline,
 
 -------
 
-> [!note]+ 2026-07-28 11:44 · JSM Service Bot
+> [!note]+ 2026-07-28 11:44 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Junsheng ZHANG, please note that this issue was made with VNCNMS in the summary and has been sent to the relevant queue by adding the VNCNMS label.
 
 -------

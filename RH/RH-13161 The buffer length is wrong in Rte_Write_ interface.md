@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Low
 project: RH
-assignee: Yinchuan XU
-reporter: Yinchuan XU
+assignee: "[[Yinchuan_XU|Yinchuan XU]]"
+reporter: "[[Yinchuan_XU|Yinchuan XU]]"
 tags: []
 fix-versions: []
 epic: null
 parent: null
 created: "2025-05-29T08:37:32.000+0200"
 updated: "2026-03-05T06:52:04.000+0100"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -64,19 +64,19 @@ Hello Hotline:
 
 ## 评论
 
-> [!note]+ 2025-07-08 18:00 · JSM Service Bot
+> [!note]+ 2025-07-08 18:00 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2025-06-23 18:25 · JSM Service Bot
+> [!note]+ 2025-06-23 18:25 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically moved to Solution Proposed.
 
 -------
 
-> [!note]+ 2025-05-30 10:13 · Marc Kaiser
-> Hello Mingye YUAN, Yinchuan.XU@bosch.com  and Sam Hutchings ,
-> I had a quick chat with Yinchuan.XU@bosch.com  about this. It looks like the root cause was that the parameter rba_syselem_headerlength was set to 0 in the ecucvalues.
+> [!note]+ 2025-05-30 10:13 · [[Marc_Kaiser|Marc Kaiser]]
+> Hello [[Mingye_YUAN|Mingye YUAN]], [[Yinchuan.XU@bosch.com|Yinchuan.XU@bosch.com]]  and [[Sam_Hutchings|Sam Hutchings]] ,
+> I had a quick chat with [[Yinchuan.XU@bosch.com|Yinchuan.XU@bosch.com]]  about this. It looks like the root cause was that the parameter rba_syselem_headerlength was set to 0 in the ecucvalues.
 >
 > It looks like this parameter was imported, not by ConfGen, but some customer script. 
 >
@@ -84,12 +84,12 @@ Hello Hotline:
 >
 > It could be considered to validate this parameter in a someipxf bsw module and throwing an error in this case, since it is guaranteed to be incorrect. I will bring it up with SomeIpXf dev team and ask for opinions. It is always not nice if such an error only shows up at runtime and can not be detected earlier.
 >
-> Sam Hutchings : Thank you for processing this ticket on german holiday.
+> [[Sam_Hutchings|Sam Hutchings]] : Thank you for processing this ticket on german holiday.
 
 -------
 
-> [!note]+ 2025-05-30 10:05 · Sam Hutchings
-> Hi Mingye YUAN,
+> [!note]+ 2025-05-30 10:05 · [[Sam_Hutchings|Sam Hutchings]]
+> Hi [[Mingye_YUAN|Mingye YUAN]],
 >
 > I don't think this is an issue in RTA-CAR, I think the configuration is incorrect and have explained why. If you think the explanation is wrong, please can you state why?
 >
@@ -98,15 +98,15 @@ Hello Hotline:
 
 -------
 
-> [!note]+ 2025-05-30 07:29 · Mingye YUAN
+> [!note]+ 2025-05-30 07:29 · [[Mingye_YUAN|Mingye YUAN]]
 > Hello Sam:
 >
 > I see the request status has been changed to “Solution Proposed“. Can I ask in which version of RTA-CAR this issue will be fixed? Thanks.
 
 -------
 
-> [!note]+ 2025-05-29 18:04 · Sam Hutchings
-> Hi Yinchuan XU,
+> [!note]+ 2025-05-29 18:04 · [[Sam_Hutchings|Sam Hutchings]]
+> Hi [[Yinchuan_XU|Yinchuan XU]],
 >
 > I have reviewed the attached project and after some discussion with my colleagues, we believe that the issue is the PDU length in the EcuC module is wrong. In the example you have shared, it is set to 21, but in the System Description and the rba_SysElem module, it is set to 13. We believe that the PDU length is incorrect, perhaps from an old project or including the header length.
 >
@@ -121,7 +121,7 @@ Hello Hotline:
 
 -------
 
-> [!note]+ 2025-05-29 08:37 · Yinchuan XU
+> [!note]+ 2025-05-29 08:37 · [[Yinchuan_XU|Yinchuan XU]]
 > [^Cariad_RteET_20250529.zip] *(7.33 MB)*
 
 -------

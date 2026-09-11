@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Critical
 project: RH
-assignee: Steven.Tang
-reporter: Steven.Tang
+assignee: "[[Steven.Tang|Steven.Tang]]"
+reporter: "[[Steven.Tang|Steven.Tang]]"
 tags: [jira/comp/cycurhsm3]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-09-02T04:19:31.000+0200"
 updated: "2026-09-07T10:57:44.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -54,7 +54,7 @@ This compatibility question is currently affecting the customer's HSM validation
 
 ## 评论
 
-> [!note]+ 2026-09-07 10:53 · Steven TANG
+> [!note]+ 2026-09-07 10:53 · [[Steven_TANG|Steven TANG]]
 > Let's update the current situation in this ticket:
 >
 > 1, CARIAD four-domain ECUs (CCU,LZCU,RZCU&TZCU) software to fix CycurHSM3.0.7.b1 Issue have passed pressure test and be release to their onsite engineer for ECU flash last Friday morning.
@@ -69,18 +69,18 @@ This compatibility question is currently affecting the customer's HSM validation
 
 -------
 
-> [!note]+ 2026-09-07 09:14 · Sathish Kumar Madanmohan
+> [!note]+ 2026-09-07 09:14 · [[Sathish_Kumar_Madanmohan|Sathish Kumar Madanmohan]]
 > The issue is addressed and customer has done the stress testing and the feedback is positive. 
 >
 > THe next step is ensure the solution is of production quality. 
 >
-> Sandra Weigl  next step is to release this in production quality.  Customer expected date : E.09 / or 1st Week of Oct-2026
+> [[Sandra_Weigl|Sandra Weigl]]  next step is to release this in production quality.  Customer expected date : E.09 / or 1st Week of Oct-2026
 >
-> Steven.Tang Jie LIU  Jiaqi JI  fyi
+> [[Steven.Tang|Steven.Tang]] [[Jie_LIU|Jie LIU]]  [[Jiaqi_JI|Jiaqi JI]]  fyi
 
 -------
 
-> [!note]+ 2026-09-02 07:36 · Steven TANG
+> [!note]+ 2026-09-02 07:36 · [[Steven_TANG|Steven TANG]]
 > we meet the CycurHSM 3.0.7.b1 could not be updated to the new released Hotfix package CycurHSM3.0.7.b3 problem. detail you can see the following: 
 >
 >
@@ -107,7 +107,7 @@ This compatibility question is currently affecting the customer's HSM validation
 
 -------
 
-> [!note]+ 2026-09-02 04:23 · JSM Service Bot
+> [!note]+ 2026-09-02 04:23 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Steven.Tang. Your issue is set to "Critical" priority.
 > Please ensure that there is a reasonable justification for this listed in the issue description, otherwise the priority may be reviewed and adjusted during triage.
 > Kind regards

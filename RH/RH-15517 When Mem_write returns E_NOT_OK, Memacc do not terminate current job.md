@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Critical
 project: RH
-assignee: Dong LIU
-reporter: Dong LIU
+assignee: "[[Dong_LIU|Dong LIU]]"
+reporter: "[[Dong_LIU|Dong LIU]]"
 tags: [jira/comp/memory-high-level]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-03-19T18:09:23.000+0100"
 updated: "2026-04-23T11:37:35.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -58,18 +58,18 @@ Best regards,
 
 ## 评论
 
-> [!note]+ 2026-04-23 11:37 · JSM Service Bot
+> [!note]+ 2026-04-23 11:37 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-04-08 18:48 · JSM Service Bot
+> [!note]+ 2026-04-08 18:48 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically moved to Solution Proposed.
 
 -------
 
-> [!note]+ 2026-03-24 11:51 · V Venkatachalam
-> Hi Hritik Mehta ,
+> [!note]+ 2026-03-24 11:51 · [[V_Venkatachalam|V Venkatachalam]]
+> Hi [[Hritik_Mehta|Hritik Mehta]] ,
 >
 > If the parameter **MemAccTimeoutSupervisionEnabled** is set to {*}True{*}, any request will be aborted if a timeout occurs in the `MemAcc_Prv_CheckTimeout` function.
 >
@@ -81,8 +81,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-03-20 20:20 · Hritik Mehta
-> Hi V Venkatachalam,
+> [!note]+ 2026-03-20 20:20 · [[Hritik_Mehta|Hritik Mehta]]
+> Hi [[V_Venkatachalam|V Venkatachalam]],
 >
 > A customer using **RTA-CAR 12.11.0VCTCESR1pr1** reports that when **Mem_Write** returns {*}E_NOT_OK{*}, the **MemAcc** job does not terminate, it stays in the **REQ** state and the write is retried on every **MemAcc_MainFunction** call, blocking all subsequent requests.
 >

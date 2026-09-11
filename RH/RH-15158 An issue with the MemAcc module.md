@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Critical
 project: RH
-assignee: Dong LIU
-reporter: Dong LIU
+assignee: "[[Dong_LIU|Dong LIU]]"
+reporter: "[[Dong_LIU|Dong LIU]]"
 tags: [jira/comp/memory-drivers]
 fix-versions: [RTA-CAR 12.11.0]
 epic: null
 parent: null
 created: "2026-02-10T10:19:13.000+0100"
 updated: "2026-04-04T11:37:01.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -72,19 +72,19 @@ Best regards,
 
 ## 评论
 
-> [!note]+ 2026-04-04 11:37 · JSM Service Bot
+> [!note]+ 2026-04-04 11:37 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-03-19 17:42 · Dong LIU
-> Tobias Ernst 
+> [!note]+ 2026-03-19 17:42 · [[Dong_LIU|Dong LIU]]
+> [[Tobias_Ernst|Tobias Ernst]] 
 >
 > ok, thank you!
 
 -------
 
-> [!note]+ 2026-03-16 21:55 · Tobias Ernst
+> [!note]+ 2026-03-16 21:55 · [[Tobias_Ernst|Tobias Ernst]]
 > The issue can be confirmed however the solution shall look differently.
 > The change should be made in
 >
@@ -103,7 +103,7 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-03-09 09:36 · Dong LIU
+> [!note]+ 2026-03-09 09:36 · [[Dong_LIU|Dong LIU]]
 > The customer’s actual use case requires configuring **4 MemInstances** in the {*}Mem module{*}. In this scenario, when four instances are configured, the {*}Instance ID passed from MemAcc to the Mem module is always the ID of the first instance{*}, and the IDs of the other three instances cannot be passed to the Mem module.
 >
 > After the customer modified the code {*}from line 999 to the code at line 1000{*}, the issue was resolved.
@@ -114,8 +114,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-03-02 06:33 · Dong LIU
-> V Venkatachalam
+> [!note]+ 2026-03-02 06:33 · [[Dong_LIU|Dong LIU]]
+> [[V_Venkatachalam|V Venkatachalam]]
 >
 > the customer would like to keep the current configuration and does not want to make any changes to it. 
 >
@@ -123,7 +123,7 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-02-27 13:17 · V Venkatachalam
+> [!note]+ 2026-02-27 13:17 · [[V_Venkatachalam|V Venkatachalam]]
 > Hi Dong,
 >
 > I noticed that the current configuration has multiple meminstances set up for a single device.
@@ -139,8 +139,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-02-12 19:14 · Max Sinclair
-> Hi V Venkatachalam ,
+> [!note]+ 2026-02-12 19:14 · [[Max_Sinclair|Max Sinclair]]
+> Hi [[V_Venkatachalam|V Venkatachalam]] ,
 >
 > I'm not familiar enough with the MemAcc implementation to really analyze this. 
 >
@@ -151,12 +151,12 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-02-10 10:39 · Dong LIU
+> [!note]+ 2026-02-10 10:39 · [[Dong_LIU|Dong LIU]]
 > The project is attached.[^Isolar.zip]
 
 -------
 
-> [!note]+ 2026-02-10 10:39 · Dong LIU
+> [!note]+ 2026-02-10 10:39 · [[Dong_LIU|Dong LIU]]
 > [^Isolar.zip]
 
 -------

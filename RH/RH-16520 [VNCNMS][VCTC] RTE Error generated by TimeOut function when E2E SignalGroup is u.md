@@ -7,15 +7,15 @@ type: Support
 status: Waiting for Customer
 priority: Medium
 project: RH
-assignee: Junsheng ZHANG
-reporter: Junsheng ZHANG
+assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: [jira/comp/rta-rte, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-06-29T17:18:58.000+0200"
 updated: "2026-09-10T05:23:05.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -62,31 +62,31 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
 
-> [!note]+ 2026-09-08 10:37 · Dang Ho Anh
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-09-08 10:37 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 > Could you share the result after verification?
 
 -------
 
-> [!note]+ 2026-09-07 12:09 · Dang Ho Anh
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-09-07 12:09 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 > I have checked the project you sent. 
 > {*}Regarding point 1{*}: The `DataElement` mapping of the testing port in `CCAN_Rx` is incorrect. Could you update it and check the result?
 >
 > The below image is my updated DataElement.
 > ![[RH-16520-image-2026-09-07-17-05-02-155.png]]
 > {*}Regarding to point 2{*}: This is the bug from pre-release version as confirmed by Vamsi in the comment [https://rtahotline.etas.com/jira/browse/RH-16520?focusedCommentId=720762&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-720762] .
-> Hi Vamsi Kiran Koduri , Could you please confirm whether this bug has already been fixed in another pre-release version or in an official release?
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] , Could you please confirm whether this bug has already been fixed in another pre-release version or in an official release?
 
 -------
 
-> [!note]+ 2026-09-05 18:18 · JSM Service Bot
-> Junsheng ZHANG, the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [!note]+ 2026-09-05 18:18 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-09-05 18:18 · Junsheng ZHANG
-> Hi Dang Ho Anh ,
+> [!note]+ 2026-09-05 18:18 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Dang_Ho_Anh|Dang Ho Anh]] ,
 >
 > Following your guidance, I re-validated this issue on RTA-RTE_12.11.2pr2. I think the missing fix has been addressed partially, but there are still some problems.
 >
@@ -116,37 +116,37 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-09-04 03:37 · Dang Ho Anh
-> Hi Vamsi Kiran Koduri ,
+> [!note]+ 2026-09-04 03:37 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] ,
 >
 > Could you help answer my previous question?
 >
 >
 >
-> Hi Junsheng ZHANG ,
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 >
 > I understand that you are busy with another customer issue, but could you please spare some time to test the RTE pre-release package {{{}RTA-RTE_12.11.2pr2{}}}? I do not have the required environment on my side.
 >
-> Vamsi Kiran Koduri , please let us know if there is any version newer than {{{}RTA-RTE_12.11.2pr2{}}}, so we can get and test the latest version.
+> [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] , please let us know if there is any version newer than {{{}RTA-RTE_12.11.2pr2{}}}, so we can get and test the latest version.
 
 -------
 
-> [!note]+ 2026-08-26 15:04 · Dang Ho Anh
-> Vamsi Kiran Koduri ,
+> [!note]+ 2026-08-26 15:04 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] ,
 >
 > The feature of this RTE pre-release package, such as whether we need to add the RTE option --deviate-event-based-com-mapping, --no-optimized-ioc-channels, or other options.
 
 -------
 
-> [!note]+ 2026-08-26 15:00 · Vamsi Kiran Koduri
-> Hi Dang Ho Anh ,
+> [!note]+ 2026-08-26 15:00 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Hi [[Dang_Ho_Anh|Dang Ho Anh]] ,
 >  # Yes that is expected, RTE uses IOC for all channels when there is 1:N connection and at least one of the receiver is using IOC.
 >  # Question is not clear , to enable which feature?
 
 -------
 
-> [!note]+ 2026-08-26 14:53 · Dang Ho Anh
-> Thanks Vamsi Kiran Koduri ,
+> [!note]+ 2026-08-26 14:53 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Thanks [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] ,
 > I have double-checked and have the following questions:
 >  # By default, when the RTE option `--no-optimized-ioc-channels` is not used, an IoC channel is used to communicate the timeout status between `Com` and the SWC, even though they are on the same partition. Is this the expected behavior?
 >  # What are the mandatory or recommended RTE options to enable this feature?
@@ -154,13 +154,13 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 >
 >
 > Regarding the IoC generation by RTA-OS, I do not have the compiler on my side, so I am not able to verify it.
-> Hi Junsheng ZHANG , could you help generate the OS and compile the software to ensure that the pre-release package works? Testing it on a real board would be great.
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] , could you help generate the OS and compile the software to ensure that the pre-release package works? Testing it on a real board would be great.
 > I will prepare the project based on the LZCU project you sent me and share it with you later today.
 
 -------
 
-> [!note]+ 2026-08-25 18:28 · Vamsi Kiran Koduri
-> Hello  Dang Ho Anh ,
+> [!note]+ 2026-08-25 18:28 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Hello  [[Dang_Ho_Anh|Dang Ho Anh]] ,
 >
 > We analyzed reported observations in generated code and confirm there are no major findings apart from "composite.status getting updated two times in Rte_COMCbk function" which can be minor fix and not blocking.
 >
@@ -170,46 +170,46 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 >
 > Having postfix at the end of Ioc Channel function names are okay if the same names are generated by RTAOS which is the case here. OsNeeds generated by RTE has receiver ID's for these IOC channels which will inform RTAOS to generate consistent names --> So this is not an issue.
 >
-> FYI Matthew Greenfield ,Jack Whitham 
+> FYI [[Matthew_Greenfield|Matthew Greenfield]] ,[[Jack_Whitham|Jack Whitham]] 
 
 -------
 
-> [!note]+ 2026-08-25 11:42 · Vamsi Kiran Koduri
-> Hi Dang Ho Anh , able to generate using this project. Thank you.
+> [!note]+ 2026-08-25 11:42 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Hi [[Dang_Ho_Anh|Dang Ho Anh]] , able to generate using this project. Thank you.
 >
-> FYI Matthew Greenfield ,Jack Whitham 
+> FYI [[Matthew_Greenfield|Matthew Greenfield]] ,[[Jack_Whitham|Jack Whitham]] 
 > [^RH_16520_Test_Project_12110 1.zip]
 
 -------
 
-> [!note]+ 2026-08-25 10:59 · Junsheng ZHANG
+> [!note]+ 2026-08-25 10:59 · [[Junsheng_ZHANG|Junsheng ZHANG]]
 > Gen BSW First
 >
 > ![[RH-16520-image-2026-08-25-16-59-53-309.png]]
 
 -------
 
-> [!note]+ 2026-08-25 10:52 · Vamsi Kiran Koduri
-> Hi Dang Ho Anh as discussed on call,  with given project RTE generation is failing with errors, see attached file.
+> [!note]+ 2026-08-25 10:52 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Hi [[Dang_Ho_Anh|Dang Ho Anh]] as discussed on call,  with given project RTE generation is failing with errors, see attached file.
 > [^RteErr.xml]
 
 -------
 
-> [!note]+ 2026-08-25 02:24 · Dang Ho Anh
-> Hi Simon Wadsworth and Vamsi Kiran Koduri 
+> [!note]+ 2026-08-25 02:24 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[Simon_Wadsworth|Simon Wadsworth]] and [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] 
 >
 > I have verified `RTA-RTE_12.11.2pr2` with my test project. The attached file includes my test project and some concern points regarding this pre-release version.
 >
 > Could you please check these points and fix them if they are valid?
 >
 >
-> CC: Jiaqi JI Junsheng ZHANG Phuong Nguyen Le
+> CC: [[Jiaqi_JI|Jiaqi JI]] [[Junsheng_ZHANG|Junsheng ZHANG]] [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
 > [^RH-16520_VerificationResult.zip]
 
 -------
 
-> [!note]+ 2026-08-24 07:01 · Dang Ho Anh
-> Hi Jiaqi JI ,
+> [!note]+ 2026-08-24 07:01 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[Jiaqi_JI|Jiaqi JI]] ,
 >
 > As communicated, I will verify this issue using {{{}RTA-RTE_12.12.1pr1.zip{}}}, which has been released by the product team to address this issue.
 >
@@ -221,13 +221,13 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-08-04 14:25 · JSM Service Bot
+> [!note]+ 2026-08-04 14:25 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-07-21 11:42 · Phuong Nguyen Le
-> Jiaqi JI ,Can you share some info about your discussion with Alex? 
+> [!note]+ 2026-07-21 11:42 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> [[Jiaqi_JI|Jiaqi JI]] ,Can you share some info about your discussion with Alex? 
 >
 > Our sharing will be valuable for another user having similar isssue.
 >
@@ -235,42 +235,42 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-07-17 03:25 · Jiaqi JI
-> Hi Dang Ho Anh ,
+> [!note]+ 2026-07-17 03:25 · [[Jiaqi_JI|Jiaqi JI]]
+> Hi [[Dang_Ho_Anh|Dang Ho Anh]] ,
 >
 > This ticket has been discussed with Alex by separate email. Thanks a lot for your support!
 
 -------
 
-> [!note]+ 2026-07-16 06:15 · Dang Ho Anh
-> Hi Jiaqi JI ,
+> [!note]+ 2026-07-16 06:15 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[Jiaqi_JI|Jiaqi JI]] ,
 >
 > Could you please align with the PF team on the expected timeline and release type (ESR or official release) for this issue?
 
 -------
 
-> [!note]+ 2026-07-10 15:09 · Dang Ho Anh
-> Jack Whitham Please check this project:
+> [!note]+ 2026-07-10 15:09 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [[Jack_Whitham|Jack Whitham]] Please check this project:
 > [^Isolar_RH-16520.zip]
 
 -------
 
-> [!note]+ 2026-07-10 14:54 · Jack Whitham
-> Dang Ho Anh please could you attach the project that was used to generate the "case 1" Rte.c file in the RH-16520_RteGeneration.zip file, to help me to understand and reproduce the issue?
+> [!note]+ 2026-07-10 14:54 · [[Jack_Whitham|Jack Whitham]]
+> [[Dang_Ho_Anh|Dang Ho Anh]] please could you attach the project that was used to generate the "case 1" Rte.c file in the RH-16520_RteGeneration.zip file, to help me to understand and reproduce the issue?
 
 -------
 
-> [!note]+ 2026-07-03 10:43 · Vamsi Kiran Koduri
+> [!note]+ 2026-07-03 10:43 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
 > Will be addressed using linked ticket RTE-22926
 
 -------
 
-> [!note]+ 2026-07-02 09:48 · Vamsi Kiran Koduri
-> Hi Dang Ho Anh I confirm the reported issues. Unfortunately, there are issues in RTE handling Com callback timeout  notification with the combination of Port FAN IN and data transformation.  Internal ticket to handle these fixes will be linked soon.
+> [!note]+ 2026-07-02 09:48 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Hi [[Dang_Ho_Anh|Dang Ho Anh]] I confirm the reported issues. Unfortunately, there are issues in RTE handling Com callback timeout  notification with the combination of Port FAN IN and data transformation.  Internal ticket to handle these fixes will be linked soon.
 
 -------
 
-> [!note]+ 2026-07-01 12:17 · JSM Service Bot
+> [!note]+ 2026-07-01 12:17 · [[JSM_Service_Bot|JSM Service Bot]]
 > Reminder for tickets requiring L3 RTE attention:
 >
 > - Have you attached the configuration?
@@ -285,12 +285,12 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-07-01 12:17 · JSM Service Bot
-> Hi Vamsi Kiran Koduri, this RTA-RTE ticket requires an assignee. As the component lead for RTA-RTE, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+> [!note]+ 2026-07-01 12:17 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]], this RTA-RTE ticket requires an assignee. As the component lead for RTA-RTE, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------
 
-> [!note]+ 2026-07-01 12:15 · Dang Ho Anh
+> [!note]+ 2026-07-01 12:15 · [[Dang_Ho_Anh|Dang Ho Anh]]
 > Dear [Koduri Vamsi Kiran (ETAS-ECM/XPC-Abt1)](https://confluence.etas-dev.com/display/~kod4abt)
 >
 > Please find my analysis for the ticket below:
@@ -326,32 +326,32 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 >
 > [^RH-16520_RteGeneration.zip]
 >
-> CC: Junsheng ZHANG Sisi TAO Xiao BAI Jiaqi JI 
+> CC: [[Junsheng_ZHANG|Junsheng ZHANG]] [[Sisi_TAO|Sisi TAO]] [[Xiao_BAI|Xiao BAI]] [[Jiaqi_JI|Jiaqi JI]] 
 
 -------
 
-> [!note]+ 2026-07-01 12:15 · Dang Ho Anh
+> [!note]+ 2026-07-01 12:15 · [[Dang_Ho_Anh|Dang Ho Anh]]
 > [^RH-16520_RteGeneration.zip]
 
 -------
 
-> [!note]+ 2026-07-01 04:16 · Sisi TAO
-> Hi Dang Ho Anh  Su Nguyen Quoc 
+> [!note]+ 2026-07-01 04:16 · [[Sisi_TAO|Sisi TAO]]
+> Hi [[Dang_Ho_Anh|Dang Ho Anh]]  [[Su_Nguyen_Quoc|Su Nguyen Quoc]] 
 >
-> Xiao BAI is trying to reproduce this issue on our project, because customer project is not allow to share.
+> [[Xiao_BAI|Xiao BAI]] is trying to reproduce this issue on our project, because customer project is not allow to share.
 >
-> I didn't send Dang Ho Anh any project this week. But last week I did share one. That one was to reproduce another issue, so that one is not able to produce this issue.
+> I didn't send [[Dang_Ho_Anh|Dang Ho Anh]] any project this week. But last week I did share one. That one was to reproduce another issue, so that one is not able to produce this issue.
 
 -------
 
-> [!note]+ 2026-06-30 17:41 · Dang Ho Anh
-> Su Nguyen Quoc Junsheng ZHANG ,
-> I’m now able to reproduce the issue after updating the project that Sisi TAO sent me yesterday.
+> [!note]+ 2026-06-30 17:41 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [[Su_Nguyen_Quoc|Su Nguyen Quoc]] [[Junsheng_ZHANG|Junsheng ZHANG]] ,
+> I’m now able to reproduce the issue after updating the project that [[Sisi_TAO|Sisi TAO]] sent me yesterday.
 
 -------
 
-> [!note]+ 2026-06-30 13:02 · Su Nguyen Quoc
-> Hi Junsheng ZHANG,
+> [!note]+ 2026-06-30 13:02 · [[Su_Nguyen_Quoc|Su Nguyen Quoc]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]],
 > As discussed, could you pls share 
 > #### 1-5. Mandatory Evidence Package
 >
@@ -368,11 +368,11 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 >  # No project → Cannot reproduce
 >  # No reproducer → Cannot verify|
 >
-> Then Dang Ho Anh  could start to support, thanks!
+> Then [[Dang_Ho_Anh|Dang Ho Anh]]  could start to support, thanks!
 
 -------
 
-> [!note]+ 2026-06-30 08:59 · JSM Service Bot
+> [!note]+ 2026-06-30 08:59 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Junsheng ZHANG, please note that this issue was made with VNCNMS in the summary and has been sent to the relevant queue by adding the VNCNMS label.
 
 -------

@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Medium
 project: RH
-assignee: Yinchuan XU
-reporter: Yinchuan XU
+assignee: "[[Yinchuan_XU|Yinchuan XU]]"
+reporter: "[[Yinchuan_XU|Yinchuan XU]]"
 tags: [jira/comp/diagnostic-communication]
 fix-versions: []
 epic: null
 parent: null
 created: "2025-04-08T07:59:11.000+0200"
 updated: "2026-03-05T06:52:02.000+0100"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -58,28 +58,28 @@ For currently, I add Dcm.h in Dcm_Types.h, and it can build normal, but I don’
 
 ## 评论
 
-> [!note]+ 2025-07-24 18:01 · JSM Service Bot
+> [!note]+ 2025-07-24 18:01 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2025-07-09 18:25 · JSM Service Bot
+> [!note]+ 2025-07-09 18:25 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically moved to Solution Proposed.
 
 -------
 
-> [!note]+ 2025-06-25 05:59 · Alex Fargus
-> Move the ticket state to "waiting for customer" because the last comment from Raghuram Telagamsetti appears to be asking for more information.
+> [!note]+ 2025-06-25 05:59 · [[Alex_Fargus|Alex Fargus]]
+> Move the ticket state to "waiting for customer" because the last comment from [[Raghuram_Telagamsetti|Raghuram Telagamsetti]] appears to be asking for more information.
 
 -------
 
-> [!note]+ 2025-06-12 12:17 · JSM Service Bot
-> Sammy Burchmore this issue requires your attention.
+> [!note]+ 2025-06-12 12:17 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[Sammy_Burchmore|Sammy Burchmore]] this issue requires your attention.
 
 -------
 
-> [!note]+ 2025-04-08 15:20 · Raghuram Telagamsetti
-> Yinchuan XU
+> [!note]+ 2025-04-08 15:20 · [[Raghuram_Telagamsetti|Raghuram Telagamsetti]]
+> [[Yinchuan_XU|Yinchuan XU]]
 >
 > It is important to note that the `Dcm.h` file should not be included within the `Dcm_Types.h` file, as the `Dcm.h` file already includes {{{}Dcm_Types.h{}}}.
 >
@@ -87,8 +87,8 @@ For currently, I add Dcm.h in Dcm_Types.h, and it can build normal, but I don’
 
 -------
 
-> [!note]+ 2025-04-08 12:20 · Sammy Burchmore
-> Hi Raghuram Telagamsetti,
+> [!note]+ 2025-04-08 12:20 · [[Sammy_Burchmore|Sammy Burchmore]]
+> Hi [[Raghuram_Telagamsetti|Raghuram Telagamsetti]],
 >
 > Why is Dcm.h not included in Dcm_Types? It seems like it should be and its causing a compilation error in RTA-CAR 12.6.0. Currently the customer is working around this by including the file manually.
 >
@@ -98,7 +98,7 @@ For currently, I add Dcm.h in Dcm_Types.h, and it can build normal, but I don’
 
 -------
 
-> [!note]+ 2025-04-08 12:16 · JSM Service Bot
+> [!note]+ 2025-04-08 12:16 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Diagnostic Communication Support Owner. This ticket requires an assignee.
 
 -------

@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Medium
 project: RH
-assignee: Jiaqi JI
-reporter: Jiaqi JI
+assignee: "[[Jiaqi_JI|Jiaqi JI]]"
+reporter: "[[Jiaqi_JI|Jiaqi JI]]"
 tags: [jira/label/cnms, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-06-05T04:49:43.000+0200"
 updated: "2026-06-25T11:39:13.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -52,30 +52,30 @@ Noted with thanks for your kindly support!
 
 ## 评论
 
-> [!note]+ 2026-06-25 11:39 · JSM Service Bot
+> [!note]+ 2026-06-25 11:39 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-06-10 11:42 · JSM Service Bot
-> Jiaqi JI, the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [!note]+ 2026-06-10 11:42 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[Jiaqi_JI|Jiaqi JI]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-06-10 11:42 · Jiaqi JI
-> Hi Khoa Phan Huynh Dang ,
+> [!note]+ 2026-06-10 11:42 · [[Jiaqi_JI|Jiaqi JI]]
+> Hi [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] ,
 >
 > I have forwarded to customer. Noted with thanks for your kindly support!
 
 -------
 
-> [!note]+ 2026-06-09 13:10 · Khoa Phan Huynh Dang
-> Hi Jiaqi JI ,
+> [!note]+ 2026-06-09 13:10 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Jiaqi_JI|Jiaqi JI]] ,
 > Can you help me forward the analyzed information to the customer ☺️?
 
 -------
 
-> [!note]+ 2026-06-09 12:56 · Khoa Phan Huynh Dang
+> [!note]+ 2026-06-09 12:56 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > **3. Does** **ETAS lin stack support lin busoff? As they don't read any requirement in lin2.0 and IS017987-1/-2/-3/-4 related lin busoff**
 >
 > In AUTOSAR, LIN is a simple master-slave (single-master) protocol based on UART, and it does not provide complex error management mechanisms like CAN (which includes error counters and error states such as error active, error passive, and bus-off). Therefore, there is no API or callback named `Lin_BusOff` or `LinIf_BusOff` in AUTOSAR.
@@ -91,7 +91,7 @@ Noted with thanks for your kindly support!
 
 -------
 
-> [!note]+ 2026-06-09 11:16 · Khoa Phan Huynh Dang
+> [!note]+ 2026-06-09 11:16 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > **2. Which option to choose about "DemOBDEngineType"? Our car models include "ICE/PHEV/BEV/EREV".**
 >  * Please specify the **EngineType** for **ICE** vehicles. Select **"Spark Ignition"** if the car runs on petrol, or **"Compression Ignition"** for diesel cars.
 >
@@ -101,22 +101,22 @@ Noted with thanks for your kindly support!
 
 -------
 
-> [!note]+ 2026-06-09 08:33 · Khoa Phan Huynh Dang
+> [!note]+ 2026-06-09 08:33 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > 1. **Currently, Service 0x04 can only clear EmissionRelated DTCs. If all DTCs (include EmissionRelated and Non-EmissionRelated DTCs) can be cleared by service 0x04, how to implement it?**
 >
 > ==> SID 0x04 is used for Classic OBD, so this service can only clear EmissionRelated DTCs. If you want to clear all DTCs (OBD and non-OBD), please use SID 0x14.
 
 -------
 
-> [!note]+ 2026-06-09 08:12 · Jiaqi JI
-> Hello Khoa Phan Huynh Dang ,
+> [!note]+ 2026-06-09 08:12 · [[Jiaqi_JI|Jiaqi JI]]
+> Hello [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] ,
 >
 > Yes, customer use this version.
 
 -------
 
-> [!note]+ 2026-06-09 08:08 · Khoa Phan Huynh Dang
-> Hello Jiaqi JI ,
+> [!note]+ 2026-06-09 08:08 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hello [[Jiaqi_JI|Jiaqi JI]] ,
 >
 >
 > Could you please confirm whether our customer is still using 12.11.0VCTCESR1pr1 for their project?

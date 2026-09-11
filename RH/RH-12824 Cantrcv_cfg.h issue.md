@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Medium
 project: RH
-assignee: Yinchuan XU
-reporter: Yinchuan XU
+assignee: "[[Yinchuan_XU|Yinchuan XU]]"
+reporter: "[[Yinchuan_XU|Yinchuan XU]]"
 tags: [jira/comp/drivers/transceivers-for-can-lin-fr]
 fix-versions: []
 epic: null
 parent: null
 created: "2025-04-16T08:52:02.000+0200"
 updated: "2026-03-05T06:52:05.000+0100"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -52,18 +52,18 @@ Hello Hotline:
 
 ## 评论
 
-> [!note]+ 2025-10-18 15:07 · JSM Service Bot
+> [!note]+ 2025-10-18 15:07 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2025-07-09 04:58 · Mingye YUAN
+> [!note]+ 2025-07-09 04:58 · [[Mingye_YUAN|Mingye YUAN]]
 > Confirmed from Mr. Fargus Alex, this issue will be solved in CAR 12.8.0.
 
 -------
 
-> [!note]+ 2025-06-25 08:09 · Chandran E K Subhash
-> Hello Alex Fargus,
+> [!note]+ 2025-06-25 08:09 · [[Chandran_E_K_Subhash|Chandran E K Subhash]]
+> Hello [[Alex_Fargus|Alex Fargus]],
 >
 > As discussed in the below comments, the update is considered as a minor improvement in the CanTrcv component. Change will be available in RTA-CAR 12.8.0 as part of the EPIC  [ARCMND-5914](https://jira.etas-dev.com/browse/ARCMND-5914) (Story - [ARCMND-6582](https://jira.etas-dev.com/browse/ARCMND-6582)).
 >
@@ -73,13 +73,13 @@ Hello Hotline:
 
 -------
 
-> [!note]+ 2025-06-25 05:53 · Alex Fargus
-> Chandran E K Subhash Please can you share the defect ticket for the fix you reported below?
+> [!note]+ 2025-06-25 05:53 · [[Alex_Fargus|Alex Fargus]]
+> [[Chandran_E_K_Subhash|Chandran E K Subhash]] Please can you share the defect ticket for the fix you reported below?
 
 -------
 
-> [!note]+ 2025-06-23 11:33 · Chandran E K Subhash
-> Hello Mingye YUAN,
+> [!note]+ 2025-06-23 11:33 · [[Chandran_E_K_Subhash|Chandran E K Subhash]]
+> Hello [[Mingye_YUAN|Mingye YUAN]],
 >
 > This issue is already addressed by the platform and the correction will be available in the next release.
 >
@@ -91,20 +91,20 @@ Hello Hotline:
 
 -------
 
-> [!note]+ 2025-06-23 10:46 · JSM Service Bot
-> Sammy Burchmore this issue requires your attention.
+> [!note]+ 2025-06-23 10:46 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[Sammy_Burchmore|Sammy Burchmore]] this issue requires your attention.
 
 -------
 
-> [!note]+ 2025-04-23 08:07 · Mingye YUAN
-> Hello [Chandran E K Subhash](https://rtahotline.etas.com/jira/secure/ViewProfile.jspa?name=subhash.chandranek%40in.bosch.com) :
+> [!note]+ 2025-04-23 08:07 · [[Mingye_YUAN|Mingye YUAN]]
+> Hello [[Chandran_E_K_Subhash|Chandran E K Subhash]] :
 >
 > Could you please correct it since customer is already not pleased about this error.
 
 -------
 
-> [!note]+ 2025-04-22 12:27 · Chandran E K Subhash
-> Hello Yinchuan XU,
+> [!note]+ 2025-04-22 12:27 · [[Chandran_E_K_Subhash|Chandran E K Subhash]]
+> Hello [[Yinchuan_XU|Yinchuan XU]],
 >
 > I understand the issue and not denying it. The rationale behind keeping these macros in the Cfg.h was for internal testing purpose and are no longer used within our environment. This is the reason why this issue was not detected from platform.
 >
@@ -122,8 +122,8 @@ Hello Hotline:
 
 -------
 
-> [!note]+ 2025-04-21 03:51 · Yinchuan XU
-> Hello Chandran E K Subhash 
+> [!note]+ 2025-04-21 03:51 · [[Yinchuan_XU|Yinchuan XU]]
+> Hello [[Chandran_E_K_Subhash|Chandran E K Subhash]] 
 >
 > What is used in CanTrcv_User.c not important, it is really integration code. And I just show you the detail error.
 >
@@ -135,8 +135,8 @@ Hello Hotline:
 
 -------
 
-> [!note]+ 2025-04-18 13:11 · Chandran E K Subhash
-> Hello Yinchuan XU,
+> [!note]+ 2025-04-18 13:11 · [[Chandran_E_K_Subhash|Chandran E K Subhash]]
+> Hello [[Yinchuan_XU|Yinchuan XU]],
 >
 > I see that the error is thrown from CanTrcv_User.c file which is not delivered as part of CanTrcv component. I assume that it is an integration code.
 >
@@ -149,8 +149,8 @@ Hello Hotline:
 
 -------
 
-> [!note]+ 2025-04-17 04:45 · Yinchuan XU
-> Hi Sammy Burchmore 
+> [!note]+ 2025-04-17 04:45 · [[Yinchuan_XU|Yinchuan XU]]
+> Hi [[Sammy_Burchmore|Sammy Burchmore]] 
 >
 > When I build the generate code, it report error, as below:
 >
@@ -160,8 +160,8 @@ Hello Hotline:
 
 -------
 
-> [!note]+ 2025-04-16 15:50 · Sammy Burchmore
-> Hi Yinchuan XU,
+> [!note]+ 2025-04-16 15:50 · [[Sammy_Burchmore|Sammy Burchmore]]
+> Hi [[Yinchuan_XU|Yinchuan XU]],
 >
 > Before I ask the developers, is this causing any issues or are you just interested in understanding the design philosophy?
 >

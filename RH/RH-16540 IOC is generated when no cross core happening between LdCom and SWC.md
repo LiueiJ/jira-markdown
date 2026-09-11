@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: High
 project: RH
-assignee: Sisi TAO
-reporter: Sisi TAO
+assignee: "[[Sisi_TAO|Sisi TAO]]"
+reporter: "[[Sisi_TAO|Sisi TAO]]"
 tags: [jira/comp/rta-rte]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-07-01T12:24:59.000+0200"
 updated: "2026-07-01T15:24:04.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -70,7 +70,7 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 
 ## 评论
 
-> [!note]+ 2026-07-01 15:23 · JSM Service Bot
+> [!note]+ 2026-07-01 15:23 · [[JSM_Service_Bot|JSM Service Bot]]
 > Reminder for tickets requiring L3 RTE attention:
 >
 > - Have you attached the configuration?
@@ -85,13 +85,13 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 
 -------
 
-> [!note]+ 2026-07-01 14:28 · Vamsi Kiran Koduri
-> Had discussion over call with Sisi TAO,Marc Kaiser and agreed to migrate to RTE v12.11.0.
+> [!note]+ 2026-07-01 14:28 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Had discussion over call with [[Sisi_TAO|Sisi TAO]],[[Marc_Kaiser|Marc Kaiser]] and agreed to migrate to RTE v12.11.0.
 
 -------
 
-> [!note]+ 2026-07-01 14:15 · Auges Tchouante
-> Hi Sisi TAO
+> [!note]+ 2026-07-01 14:15 · [[Auges_Tchouante|Auges Tchouante]]
+> Hi [[Sisi_TAO|Sisi TAO]]
 > In 12.11.0 we have added below feature
 > Version 12.11.0pr5
 > Partitions for Com/LdCom callbacks are determined as specified by AUTOSAR If a project has multiple EcucPartitions and uses Com or LdCom, then the project
@@ -121,8 +121,8 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 
 -------
 
-> [!note]+ 2026-07-01 13:56 · Sisi TAO
-> Hi Matthew Greenfield ,
+> [!note]+ 2026-07-01 13:56 · [[Sisi_TAO|Sisi TAO]]
+> Hi [[Matthew_Greenfield|Matthew Greenfield]] ,
 >
 > I'm not allowed to share customer project here. Could you please quick confirm, is this feature actually supported by RTE? Can RTE be aware that LdCom is on the partition other than BswPartition(Core0). 
 >
@@ -133,8 +133,8 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 
 -------
 
-> [!note]+ 2026-07-01 13:35 · Matthew Greenfield
-> Sisi TAO,
+> [!note]+ 2026-07-01 13:35 · [[Matthew_Greenfield|Matthew Greenfield]]
+> [[Sisi_TAO|Sisi TAO]],
 >
 > Will you provide a configuration please?
 

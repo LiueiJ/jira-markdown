@@ -7,15 +7,15 @@ type: Support
 status: Waiting for Level 3
 priority: High
 project: RH
-assignee: "[[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]]"
-reporter: "[[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]"
+assignee: "[[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: [jira/comp/system-infralib-infrastructure, jira/label/makw, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-09-07T14:49:47.000+0200"
 updated: "2026-09-10T12:54:57.000+0200"
-synced-at: "2026-09-11T00:31:48.001Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -60,7 +60,7 @@ In the picture,  **Mfl** does not have any “ *START_SEC* ” before it and “
 
 ## 评论
 
-> [!note]+ 2026-09-10 12:53 · [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]]
+> [!note]+ 2026-09-10 12:53 · [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]]
 > Hi [[Phuong_Nguyen_Le|Phuong Nguyen Le]] ,
 >
 > Cross-partition access is possible only if these constant tables which are placed in a default memory section that is shared and readable by all relevant partitions.
@@ -68,13 +68,13 @@ In the picture,  **Mfl** does not have any “ *START_SEC* ” before it and “
 -------
 
 > [!note]+ 2026-09-10 08:54 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
-> [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]] : I don't know what is "improvement activity" but Cariad need these shall be fix on RTA-CAR 12.11 and provide patch to them. 
+> [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]] : I don't know what is "improvement activity" but Cariad need these shall be fix on RTA-CAR 12.11 and provide patch to them. 
 >
 > And I don't agree that this is just improvement points as this impacts to MPU features. 
 
 -------
 
-> [!note]+ 2026-09-10 08:40 · [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]]
+> [!note]+ 2026-09-10 08:40 · [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]]
 > Hi [[Phuong_Nguyen_Le|Phuong Nguyen Le]] ,
 >
 > We analyzed the issue and found that the following four constant tables are not enclosed within MemMap macros:
@@ -85,22 +85,22 @@ In the picture,  **Mfl** does not have any “ *START_SEC* ” before it and “
 >
 > Since this does not result in any build failure or functional issue, we propose to handle it as an improvement activity. Such improvements are provided in our forward release versions. Please provide your feedback. 
 >
-> Fyi [[Thomas_Chippy|Thomas Chippy]] [[Vihitha_Jain|Vihitha Jain]] 
+> Fyi [[Thomas_Chippy|Thomas Chippy]] [[Vihitha_Jain_(vihitha.jain@bosch.com)|Vihitha Jain]] 
 
 -------
 
 > [!note]+ 2026-09-08 11:31 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
-> [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]] , Cariad is asking to provide the fix on 25/Sep. Is it possible for you to provide the code drop in advance then our team can integrate to RTA-CAR then provide it to customer?
+> [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]] , Cariad is asking to provide the fix on 25/Sep. Is it possible for you to provide the code drop in advance then our team can integrate to RTA-CAR then provide it to customer?
 
 -------
 
 > [!note]+ 2026-09-08 06:09 · [[JSM_Service_Bot|JSM Service Bot]]
-> Hi [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]], this System-InfraLib-Infrastructure ticket requires an assignee. As the component lead for System-InfraLib-Infrastructure, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+> Hi [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]], this System-InfraLib-Infrastructure ticket requires an assignee. As the component lead for System-InfraLib-Infrastructure, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------
 
 > [!note]+ 2026-09-08 06:09 · [[Cuong_Phan_Manh|Cuong Phan Manh]]
-> Hello [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]]  L3 Component team, After analyze the customer request, I found some **Constant Variable** {*}are not enclosed by memmap macro{*}.
+> Hello [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]]  L3 Component team, After analyze the customer request, I found some **Constant Variable** {*}are not enclosed by memmap macro{*}.
 > Could you help me **analyze and confirm** this issue soon and **share fix plan** for this if it correct. 
 >
 > you can see on the list below:
@@ -114,7 +114,7 @@ In the picture,  **Mfl** does not have any “ *START_SEC* ” before it and “
 -------
 
 > [!note]+ 2026-09-08 05:18 · [[Cuong_Phan_Manh|Cuong Phan Manh]]
-> Hello [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] , We have received the information you provided and are currently investigating the issue. We will keep you updated once we have further findings.
+> Hello [[Junsheng_ZHANG|Junsheng ZHANG]] , We have received the information you provided and are currently investigating the issue. We will keep you updated once we have further findings.
 >
 > Thank for your report.
 

@@ -7,15 +7,15 @@ type: Support
 status: Waiting for Level 3
 priority: Medium
 project: RH
-assignee: Shweta Ganesh Dixit
-reporter: Dong LIU
+assignee: "[[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]"
+reporter: "[[Dong_LIU|Dong LIU]]"
 tags: [jira/comp/communication-eth, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-09-03T08:18:36.000+0200"
 updated: "2026-09-07T07:19:30.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -62,13 +62,13 @@ Best regards,
 
 ## 评论
 
-> [!note]+ 2026-09-07 06:14 · JSM Service Bot
-> Hi Shweta Ganesh Dixit, this Communication-Eth ticket requires an assignee. As the component lead for Communication-Eth, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+> [!note]+ 2026-09-07 06:14 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]], this Communication-Eth ticket requires an assignee. As the component lead for Communication-Eth, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------
 
-> [!note]+ 2026-09-07 06:13 · Khoa Phan Huynh Dang
-> Hi Shweta Ganesh Dixit ,
+> [!note]+ 2026-09-07 06:13 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] ,
 >
 > I got the confirmation in RH-16737 that **UDP and TCP has been supported** and it can be configured together {*}in the project for RTA-CAR 9.1{*}.
 >
@@ -95,14 +95,14 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-09-03 13:16 · Khoa Phan Huynh Dang
-> Hi Jiaqi JI ,
+> [!note]+ 2026-09-03 13:16 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Jiaqi_JI|Jiaqi JI]] ,
 > We will begin analyzing this ticket tomorrow and will share further details asap.
 
 -------
 
-> [!note]+ 2026-09-03 10:38 · Jiaqi JI
-> Hi Phuong Nguyen Le Phuong,
+> [!note]+ 2026-09-03 10:38 · [[Jiaqi_JI|Jiaqi JI]]
+> Hi [[Phuong_Nguyen_Le|Phuong Nguyen Le]] Phuong,
 >
 > Could you support arrange one of your colleague to help take a look into this issue?
 >
@@ -114,7 +114,7 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-09-03 10:37 · JSM Service Bot
+> [!note]+ 2026-09-03 10:37 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Dong LIU, please note that this issue was made with VNCNMS in the summary and has been sent to the relevant queue by adding the VNCNMS label.
 
 -------

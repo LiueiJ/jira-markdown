@@ -8,7 +8,7 @@ views:
       property: status
       direction: ASC
     order:
-      - file.basename
+      - file.name
       - priority
       - status
       - assignee

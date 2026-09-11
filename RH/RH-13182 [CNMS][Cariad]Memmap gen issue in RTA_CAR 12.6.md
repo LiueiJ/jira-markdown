@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Medium
 project: RH
-assignee: Sam Hutchings
-reporter: Hao TAO
+assignee: "[[Sam_Hutchings|Sam Hutchings]]"
+reporter: "[[Hao_TAO|Hao TAO]]"
 tags: [jira/comp/communication-can-lin-fr]
 fix-versions: []
 epic: null
 parent: null
 created: "2025-06-03T05:24:13.000+0200"
 updated: "2026-03-08T08:36:37.000+0100"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -36,13 +36,13 @@ I met a memmap gen issue as shown in the pics. I will share with you the project
 
 ## 评论
 
-> [!note]+ 2025-08-19 18:02 · JSM Service Bot
+> [!note]+ 2025-08-19 18:02 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2025-08-05 17:26 · Sam Hutchings
-> Hi Hao TAO,
+> [!note]+ 2025-08-05 17:26 · [[Sam_Hutchings|Sam Hutchings]]
+> Hi [[Hao_TAO|Hao TAO]],
 >
 > I'm not sure why, but the xpt template file being passed in is not being accepted by MemMapGen. I can provide a workaround for now; using an RTAText-based template instead. I have attached the customer's converted .xpt file as well as the script I created to convert it below. The changes required are updating customerTemplate.txt to point to the new file, and change the input command for MemMapGen to:
 > ```
@@ -58,25 +58,25 @@ I met a memmap gen issue as shown in the pics. I will share with you the project
 
 -------
 
-> [!note]+ 2025-08-05 15:02 · Sam Hutchings
-> Marc Kaiser is this still being handled as a CNMS ticket?
+> [!note]+ 2025-08-05 15:02 · [[Sam_Hutchings|Sam Hutchings]]
+> [[Marc_Kaiser|Marc Kaiser]] is this still being handled as a CNMS ticket?
 
 -------
 
-> [!note]+ 2025-06-26 10:28 · Mingye YUAN
+> [!note]+ 2025-06-26 10:28 · [[Mingye_YUAN|Mingye YUAN]]
 > Hello Nikesh:
 >
 > Can you help to check this issue? Thanks
 
 -------
 
-> [!note]+ 2025-06-05 13:29 · Hao TAO
+> [!note]+ 2025-06-05 13:29 · [[Hao_TAO|Hao TAO]]
 > Hi,
 > Anyone can help to check this issue?
 
 -------
 
-> [!note]+ 2025-06-03 05:46 · Hao TAO
+> [!note]+ 2025-06-03 05:46 · [[Hao_TAO|Hao TAO]]
 > Hi, Hotline,
 >
 > You can refer to the attached file for checking the issue reported.
@@ -85,7 +85,7 @@ I met a memmap gen issue as shown in the pics. I will share with you the project
 
 -------
 
-> [!note]+ 2025-06-03 05:24 · Hao TAO
+> [!note]+ 2025-06-03 05:24 · [[Hao_TAO|Hao TAO]]
 > ![[RH-13182-2025-06-03_10h29_09.png]]
 >
 > ![[RH-13182-2025-06-03_10h29_39.png]]

@@ -7,15 +7,15 @@ type: Support
 status: Waiting for Level 3
 priority: Critical
 project: RH
-assignee: Shweta Ganesh Dixit
-reporter: Dong LIU
+assignee: "[[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]"
+reporter: "[[Dong_LIU|Dong LIU]]"
 tags: [jira/comp/communication-eth, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-08-04T20:07:35.000+0200"
 updated: "2026-09-09T15:44:58.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -69,8 +69,8 @@ Best regards,
 
 ## 评论
 
-> [!note]+ 2026-09-04 10:38 · Jie LIU
-> Hello, Rajendran Jothivel 
+> [!note]+ 2026-09-04 10:38 · [[Jie_LIU|Jie LIU]]
+> Hello, [[Rajendran_Jothivel|Rajendran Jothivel]] 
 >
 > Did you have chance to look into the project I shared?
 >
@@ -78,14 +78,14 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-31 09:48 · Jie LIU
-> Hello, Rajendran Jothivel Prasad Nandita 
+> [!note]+ 2026-08-31 09:48 · [[Jie_LIU|Jie LIU]]
+> Hello, [[Rajendran_Jothivel|Rajendran Jothivel]] [[Prasad_Nandita|Prasad Nandita]] 
 >
 > Please refer to customer demo project configuration in link below: [Cariad_Issue](https://bosch-my.sharepoint.com/:f:/p/aiu2sgh/IgBC3Z_HHOe1QKgPklef1T07AYtTJ_MWzQKsPyNC_s1-yvc?e=OMp8b6)
 
 -------
 
-> [!note]+ 2026-08-27 13:49 · Rajendran Jothivel
+> [!note]+ 2026-08-27 13:49 · [[Rajendran_Jothivel|Rajendran Jothivel]]
 > Hello Dong,
 >
 > Please see my feedback below,
@@ -94,8 +94,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-27 13:04 · Dong LIU
-> hi Khoa Phan Huynh Dang Rajendran Jothivel 
+> [!note]+ 2026-08-27 13:04 · [[Dong_LIU|Dong LIU]]
+> hi [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] [[Rajendran_Jothivel|Rajendran Jothivel]] 
 >
 > The customer’s current calls to `SoAd_IfTransmit()` are shown in the figure below. The customer will add other call paths in the future.
 >
@@ -103,8 +103,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-27 04:30 · Dong LIU
-> Hello, Rajendran Jothivel Khoa Phan Huynh Dang 
+> [!note]+ 2026-08-27 04:30 · [[Dong_LIU|Dong LIU]]
+> Hello, [[Rajendran_Jothivel|Rajendran Jothivel]] [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] 
 >
 > the customer has two more questions:
 >
@@ -115,7 +115,7 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-25 09:29 · Rajendran Jothivel
+> [!note]+ 2026-08-25 09:29 · [[Rajendran_Jothivel|Rajendran Jothivel]]
 > Hello Dong LIU,
 >
 > Please see my feedback below,
@@ -131,13 +131,13 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-25 05:25 · Dong LIU
-> Rajendran Jothivel hello,could you please help take a look at this question?
+> [!note]+ 2026-08-25 05:25 · [[Dong_LIU|Dong LIU]]
+> [[Rajendran_Jothivel|Rajendran Jothivel]] hello,could you please help take a look at this question?
 
 -------
 
-> [!note]+ 2026-08-20 12:42 · Khoa Phan Huynh Dang
-> Hello Dong LIU ,
+> [!note]+ 2026-08-20 12:42 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hello [[Dong_LIU|Dong LIU]] ,
 >  * {color:#FF0000}The customer may call `SoAd_IfTransmit()` or `SoAd_TpTransmit()` from different upper-layer applications. If one upper-layer application is calling `SoAd_IfTransmit()` and another higher-priority upper-layer application preempts it and also calls {{{}SoAd_IfTransmit(){}}}, could this cause any issues?{color}
 >
 > I found some requirement in AUTOSAR, and **our tool limitation** related to concerns of customer as below:
@@ -146,17 +146,17 @@ Best regards,
 >
 > ![[RH-16841-image-2026-08-20-14-20-04-115.png]]
 >
-> Regarding this question, two different upper-layer applications invoke {{{}SoAd_IfTransmit(){}}}, and the second call preempts the first one. This may cause the counter to be overwritten, resulting in a race condition. Consequently, the counter value may become incorrect, {*}affecting TxConfirmation processing{*}. Hello Rajendran Jothivel , 
+> Regarding this question, two different upper-layer applications invoke {{{}SoAd_IfTransmit(){}}}, and the second call preempts the first one. This may cause the counter to be overwritten, resulting in a race condition. Consequently, the counter value may become incorrect, {*}affecting TxConfirmation processing{*}. Hello [[Rajendran_Jothivel|Rajendran Jothivel]] , 
 > I believe this limitation could be extended to support this use case. Could you please review it and provide your feedback?
 > Additionally, if your 2 SoAd_IfTransmit() are invoked during one socket, it also causes a lost data.  As the requirement [{*}SWS_SoAd_00653{*}], SoAd will reject request and return E_NOT_OK
 >  * {color:#FF0000}If the protocol stack is currently executing {{{}SoAd_MainFunction(){}}}, and an upper-layer application calls `SoAd_IfTransmit()` and preempts {{{}SoAd_MainFunction(){}}}, could this cause any issues?{color}
 >
-> Currently, I found a ticket related to a potential TX data corruption issue (reported in RH-16791). Rajendran Jothivel , do you have any info about this question?
+> Currently, I found a ticket related to a potential TX data corruption issue (reported in RH-16791). [[Rajendran_Jothivel|Rajendran Jothivel]] , do you have any info about this question?
 
 -------
 
-> [!note]+ 2026-08-19 03:54 · Dong LIU
-> hello, Khoa Phan Huynh Dang Phuong Nguyen Le Rajendran Jothivel 
+> [!note]+ 2026-08-19 03:54 · [[Dong_LIU|Dong LIU]]
+> hello, [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] [[Phuong_Nguyen_Le|Phuong Nguyen Le]] [[Rajendran_Jothivel|Rajendran Jothivel]] 
 >
 > The customer has two additional questions:
 >  # The customer may call `SoAd_IfTransmit()` or `SoAd_TpTransmit()` from different upper-layer applications. If one upper-layer application is calling `SoAd_IfTransmit()` and another higher-priority upper-layer application preempts it and also calls {{{}SoAd_IfTransmit(){}}}, could this cause any issues?
@@ -164,10 +164,10 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-17 06:38 · Shweta Ganesh Dixit
+> [!note]+ 2026-08-17 06:38 · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]
 > ETAS recommendation: A deterministic polling mechanism can provide sufficient responsiveness while keeping CPU utilization and execution behavior predictable.
 >
-> A meeting explaining the rationale for desiging RTA-ETH in polling & also the anlaysis of the configuration of Cariad was explained in the meeting to Sathish Kumar Madanmohan , Jie LIU , Dong LIU . 
+> A meeting explaining the rationale for desiging RTA-ETH in polling & also the anlaysis of the configuration of Cariad was explained in the meeting to [[Sathish_Kumar_Madanmohan|Sathish Kumar Madanmohan]] , [[Jie_LIU|Jie LIU]] , [[Dong_LIU|Dong LIU]] . 
 >
 > Next action: ETAS CN hub would discuss with cariad and then get back if any technical meeting is required with the customer
 >
@@ -176,33 +176,33 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-11 11:55 · Dong LIU
-> Khoa Phan Huynh Dang Khoa Phan Huynh Dang 工程放在附件中了
+> [!note]+ 2026-08-11 11:55 · [[Dong_LIU|Dong LIU]]
+> [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] 工程放在附件中了
 > [^Eth_Interrupt.zip]
 
 -------
 
-> [!note]+ 2026-08-11 08:22 · Khoa Phan Huynh Dang
-> Hi Dong LIU ,
+> [!note]+ 2026-08-11 08:22 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Dong_LIU|Dong LIU]] ,
 > Additionally, could you please re-share the project used for your testing? At the moment, I cannot see the BSW source files in the project you shared with us.
 
 -------
 
-> [!note]+ 2026-08-11 04:18 · Phuong Nguyen Le
-> Rajendran Jothivel : as ETH RX interrupt isn't supported without XCoreCDD, can we add some check in code generation to report error in this case then User will aware and update this configuration.
+> [!note]+ 2026-08-11 04:18 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> [[Rajendran_Jothivel|Rajendran Jothivel]] : as ETH RX interrupt isn't supported without XCoreCDD, can we add some check in code generation to report error in this case then User will aware and update this configuration.
 >
 >
 >
-> Dong LIU :
+> [[Dong_LIU|Dong LIU]] :
 >
-> 1, 2) As Rajendran Jothivel mentions, the ETH RX interrupt is supported with condition is XCoreCDD is configured
+> 1, 2) As [[Rajendran_Jothivel|Rajendran Jothivel]] mentions, the ETH RX interrupt is supported with condition is XCoreCDD is configured
 >
-> 3) Doip: Rajendran Jothivel : About DoIP issue, Is this issue same as SD and need XCoreCDD for ETH ISR too?
+> 3) Doip: [[Rajendran_Jothivel|Rajendran Jothivel]] : About DoIP issue, Is this issue same as SD and need XCoreCDD for ETH ISR too?
 
 -------
 
-> [!note]+ 2026-08-07 08:52 · Dong LIU
-> Hi, Rajendran Jothivel
+> [!note]+ 2026-08-07 08:52 · [[Dong_LIU|Dong LIU]]
+> Hi, [[Rajendran_Jothivel|Rajendran Jothivel]]
 >
 > **I have two questions.** 
 >
@@ -220,8 +220,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-07 06:43 · Rajendran Jothivel
-> Hello Dong LIU,
+> [!note]+ 2026-08-07 06:43 · [[Rajendran_Jothivel|Rajendran Jothivel]]
+> Hello [[Dong_LIU|Dong LIU]],
 >
 > As I mentioned previously, Ethernet Rx Interrupt is supported only when the XCoreCDD module is enabled. It is not supported without enabling this module.
 >
@@ -235,23 +235,23 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-07 05:36 · Dong LIU
-> Khoa Phan Huynh Dang Rajendran Jothivel During stress testing, the current TCP/IP stack has also occasionally exhibited some unexpected behavior. The customer suspects that these issues may also be related to the Ethernet receive interrupt mechanism.
+> [!note]+ 2026-08-07 05:36 · [[Dong_LIU|Dong LIU]]
+> [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] [[Rajendran_Jothivel|Rajendran Jothivel]] During stress testing, the current TCP/IP stack has also occasionally exhibited some unexpected behavior. The customer suspects that these issues may also be related to the Ethernet receive interrupt mechanism.
 
 -------
 
-> [!note]+ 2026-08-07 05:29 · Dong LIU
-> Khoa Phan Huynh Dang Rajendran Jothivel  In addition, the TCP/IP stack also does not support Ethernet receive interrupts. In that case, how does the TCP/IP stack work with XCoreCDD?
+> [!note]+ 2026-08-07 05:29 · [[Dong_LIU|Dong LIU]]
+> [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] [[Rajendran_Jothivel|Rajendran Jothivel]]  In addition, the TCP/IP stack also does not support Ethernet receive interrupts. In that case, how does the TCP/IP stack work with XCoreCDD?
 
 -------
 
-> [!note]+ 2026-08-07 04:34 · Dong LIU
-> Khoa Phan Huynh Dang Rajendran Jothivel  Ethernet receive interrupts are generally considered a commonly used feature. Why doesn't our product support this functionality? What were the design considerations behind this decision?
+> [!note]+ 2026-08-07 04:34 · [[Dong_LIU|Dong LIU]]
+> [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] [[Rajendran_Jothivel|Rajendran Jothivel]]  Ethernet receive interrupts are generally considered a commonly used feature. Why doesn't our product support this functionality? What were the design considerations behind this decision?
 
 -------
 
-> [!note]+ 2026-08-06 15:15 · Rajendran Jothivel
-> Hello Khoa Phan Huynh Dang,
+> [!note]+ 2026-08-06 15:15 · [[Rajendran_Jothivel|Rajendran Jothivel]]
+> Hello [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]],
 >
 > Thank you for sharing your analysis results.
 >
@@ -269,13 +269,13 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-06 12:37 · JSM Service Bot
-> Hi Shweta Ganesh Dixit, this Communication-Eth ticket requires an assignee. As the component lead for Communication-Eth, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+> [!note]+ 2026-08-06 12:37 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]], this Communication-Eth ticket requires an assignee. As the component lead for Communication-Eth, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------
 
-> [!note]+ 2026-08-06 12:37 · Khoa Phan Huynh Dang
-> Hello Rajendran Jothivel ,
+> [!note]+ 2026-08-06 12:37 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hello [[Rajendran_Jothivel|Rajendran Jothivel]] ,
 >
 > Regarding the issue of customer, I think it come from their project is using TCPIP as the upper layer + EthStack is using interrupt mode.
 >
@@ -299,26 +299,26 @@ Best regards,
 >  # 
 > Do we have any workaround for this limitation? If not, could we consider a design enhancement or bug-fix plan to support this use case in future releases?
 >
-> cc: Shweta Ganesh Dixit 
+> cc: [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] 
 >
 > ===================
 >
-> Dong LIU , **EthifEnableRxInterruptis** has been replaced by **EthEnableRxInterrupt** as mentioned in [https://rtahotline.etas.com/jira/browse/RH-16841?focusedCommentId=713542&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-713542]
+> [[Dong_LIU|Dong LIU]] , **EthifEnableRxInterruptis** has been replaced by **EthEnableRxInterrupt** as mentioned in [https://rtahotline.etas.com/jira/browse/RH-16841?focusedCommentId=713542&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-713542]
 
 -------
 
-> [!note]+ 2026-08-06 09:22 · Dong LIU
-> Khoa Phan Huynh Dang I found the `EthEnableRxInterrupt` configuration option in the Eth module, but I couldn't find the `EthIfEnableRxInterrupt` configuration option in the EthIf module.
+> [!note]+ 2026-08-06 09:22 · [[Dong_LIU|Dong LIU]]
+> [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] I found the `EthEnableRxInterrupt` configuration option in the Eth module, but I couldn't find the `EthIfEnableRxInterrupt` configuration option in the EthIf module.
 
 -------
 
-> [!note]+ 2026-08-06 09:02 · Dong LIU
-> Khoa Phan Huynh Dang The customer has been using the interrupt-based reception mechanism throughout the project. Since the project is now approaching mass production, making such a change at this stage would have a significant impact on the project. The customer would like to understand why interrupt mode cannot be used.
+> [!note]+ 2026-08-06 09:02 · [[Dong_LIU|Dong LIU]]
+> [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] The customer has been using the interrupt-based reception mechanism throughout the project. Since the project is now approaching mass production, making such a change at this stage would have a significant impact on the project. The customer would like to understand why interrupt mode cannot be used.
 
 -------
 
-> [!note]+ 2026-08-05 10:56 · Khoa Phan Huynh Dang
-> Hi Dong LIU ,
+> [!note]+ 2026-08-05 10:56 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Dong_LIU|Dong LIU]] ,
 >
 > With your confirmation, **interrupt mode** is found to be the reason for similar concurrency issues in the SD module as I mentioned in [https://rtahotline.etas.com/jira/browse/RH-16841?focusedCommentId=713542&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-713542] , and transitioning to **polling mode** helped solve it.
 >
@@ -328,24 +328,24 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-05 10:17 · JSM Service Bot
+> [!note]+ 2026-08-05 10:17 · [[JSM_Service_Bot|JSM Service Bot]]
 > Note: Khoa Phan Huynh Dang added as watcher to the issue. Internal support agents cannot be added as Request Participants, so they have been automatically joined as Watchers instead.
 
 -------
 
-> [!note]+ 2026-08-05 10:16 · Dong LIU
-> Khoa Phan Huynh Dang The project is configured with the TcpIp feature, and the project link is attached.
+> [!note]+ 2026-08-05 10:16 · [[Dong_LIU|Dong LIU]]
+> [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] The project is configured with the TcpIp feature, and the project link is attached.
 > [^Isolar.zip]
 
 -------
 
-> [!note]+ 2026-08-05 09:57 · JSM Service Bot
+> [!note]+ 2026-08-05 09:57 · [[JSM_Service_Bot|JSM Service Bot]]
 > Note: Jiaqi JI added as watcher to the issue. Internal support agents cannot be added as Request Participants, so they have been automatically joined as Watchers instead.
 
 -------
 
-> [!note]+ 2026-08-05 09:57 · Khoa Phan Huynh Dang
-> Hi Dong LIU , Jiaqi JI ,
+> [!note]+ 2026-08-05 09:57 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Dong_LIU|Dong LIU]] , [[Jiaqi_JI|Jiaqi JI]] ,
 >
 > Firstly, can you let us know your project have TCP/IP feature? If yes, this issue can come from the limitation of **EthIf** design as below in **Section 2.4.1** of the {*}RTA-Eth Stack Reference Guide{*}:
 >
@@ -363,18 +363,18 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-05 04:23 · JSM Service Bot
+> [!note]+ 2026-08-05 04:23 · [[JSM_Service_Bot|JSM Service Bot]]
 > Note: JSM Service Bot added as watcher to the issue. Internal support agents cannot be added as Request Participants, so they have been automatically joined as Watchers instead.
 
 -------
 
-> [!note]+ 2026-08-05 04:23 · Dong LIU
-> JSM Service Bot This issue is very urgent for the customer, so please keep its priority as Critical.
+> [!note]+ 2026-08-05 04:23 · [[Dong_LIU|Dong LIU]]
+> [[JSM_Service_Bot|JSM Service Bot]] This issue is very urgent for the customer, so please keep its priority as Critical.
 
 -------
 
-> [!note]+ 2026-08-05 04:13 · Jiaqi JI
-> Hi Phuong Nguyen Le ,
+> [!note]+ 2026-08-05 04:13 · [[Jiaqi_JI|Jiaqi JI]]
+> Hi [[Phuong_Nguyen_Le|Phuong Nguyen Le]] ,
 >
 > We raised one new critical issue, could you assign one colleague to help us investigate?
 >
@@ -382,19 +382,19 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-05 04:12 · JSM Service Bot
+> [!note]+ 2026-08-05 04:12 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Dong LIU, please note that this issue was made with VNCNMS in the summary and has been sent to the relevant queue by adding the VNCNMS label.
 
 -------
 
-> [!note]+ 2026-08-04 20:10 · JSM Service Bot
+> [!note]+ 2026-08-04 20:10 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Dong LIU. Your issue is set to "Critical" priority.
 > Please ensure that there is a reasonable justification for this listed in the issue description, otherwise the priority may be reviewed and adjusted during triage.
 > Kind regards
 
 -------
 
-> [!note]+ 2026-08-04 20:07 · JSM Service Bot
+> [!note]+ 2026-08-04 20:07 · [[JSM_Service_Bot|JSM Service Bot]]
 > Note: Jiaqi JI, JSM Service Bot, Zhou ZHOU, Jie LIU added as watcher to the issue. Internal support agents cannot be added as Request Participants, so they have been automatically joined as Watchers instead.
 
 -------

@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: High
 project: RH
-assignee: Dong LIU
-reporter: Dong LIU
+assignee: "[[Dong_LIU|Dong LIU]]"
+reporter: "[[Dong_LIU|Dong LIU]]"
 tags: [jira/label/regional, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-06-23T19:07:55.000+0200"
 updated: "2026-08-06T05:57:30.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -57,13 +57,13 @@ Best regards,
 
 ## 评论
 
-> [!note]+ 2026-06-24 14:18 · Dong LIU
-> Shaker Abdolrahman Saleh   ok, thank you
+> [!note]+ 2026-06-24 14:18 · [[Dong_LIU|Dong LIU]]
+> [[Shaker_Abdolrahman_Saleh|Shaker Abdolrahman Saleh]]   ok, thank you
 
 -------
 
-> [!note]+ 2026-06-24 11:21 · Shaker Abdolrahman Saleh
-> Hi Dong LIU,
+> [!note]+ 2026-06-24 11:21 · [[Shaker_Abdolrahman_Saleh|Shaker Abdolrahman Saleh]]
+> Hi [[Dong_LIU|Dong LIU]],
 >
 > the AliveTimout value can be configured as suggested in this [RH-14775?focusedCommentId=637383](https://rtahotline.etas.com/jira/browse/RH-14775?focusedCommentId=637383&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-637383) therefore either:
 >  # Change the <TIMEOUT> value on ISignalPort ETAS01_Sig01_ETAS_IN to be 3.0 and rerunning ConfGen (Generate ECU Configuration) or
@@ -79,17 +79,17 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-06-24 04:37 · Dong LIU
+> [!note]+ 2026-06-24 04:37 · [[Dong_LIU|Dong LIU]]
 > I have attached the project in the attachment.
 
 -------
 
-> [!note]+ 2026-06-24 04:37 · Dong LIU
+> [!note]+ 2026-06-24 04:37 · [[Dong_LIU|Dong LIU]]
 > [^autosar_rta_xip_1290.zip]
 
 -------
 
-> [!note]+ 2026-06-23 19:07 · FAE Technical
+> [!note]+ 2026-06-23 19:07 · [[FAE_Technical|FAE Technical]]
 > AI Investigation automatically started due to ticket creation by trusted agent Dong LIU.
 > Progress can be tracked on [Jenkins](https://rta-fae.jenkins.etas-dev.com/job/Hotline%20Automation%20-%20Agentic/job/main)
 >

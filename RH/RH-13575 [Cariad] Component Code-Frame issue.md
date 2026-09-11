@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Low
 project: RH
-assignee: Xiao BAI
-reporter: Xiao BAI
+assignee: "[[Xiao_BAI|Xiao BAI]]"
+reporter: "[[Xiao_BAI|Xiao BAI]]"
 tags: [jira/comp/isolar-a]
 fix-versions: []
 epic: null
 parent: null
 created: "2025-07-24T12:23:27.000+0200"
 updated: "2026-03-05T06:52:02.000+0100"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -64,13 +64,13 @@ Is there any solution for this issue? Thank you very much for your support.
 
 ## 评论
 
-> [!note]+ 2025-09-16 18:03 · JSM Service Bot
+> [!note]+ 2025-09-16 18:03 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2025-09-02 10:36 · James Butterfield
-> Hi Xiao BAI and Krishnaswamy Dharani Dharan,
+> [!note]+ 2025-09-02 10:36 · [[James_Butterfield|James Butterfield]]
+> Hi [[Xiao_BAI|Xiao BAI]] and [[Krishnaswamy_Dharani_Dharan|Krishnaswamy Dharani Dharan]],
 >
 > I have moved this ticket to Solution Proposed as the original issue has been resolved with a workaround, and there is also a linked work ticket to resolve this issue in the future.
 > If you require any further assistance with this issue, please feel free to re-open the ticket!
@@ -80,8 +80,8 @@ Is there any solution for this issue? Thank you very much for your support.
 
 -------
 
-> [!note]+ 2025-09-02 08:43 · Krishnaswamy Dharani Dharan
-> Hello James Butterfield, 
+> [!note]+ 2025-09-02 08:43 · [[Krishnaswamy_Dharani_Dharan|Krishnaswamy Dharani Dharan]]
+> Hello [[James_Butterfield|James Butterfield]], 
 >
 > Please find the workaround attached.
 >
@@ -93,22 +93,22 @@ Is there any solution for this issue? Thank you very much for your support.
 
 -------
 
-> [!note]+ 2025-09-02 08:43 · Krishnaswamy Dharani Dharan
+> [!note]+ 2025-09-02 08:43 · [[Krishnaswamy_Dharani_Dharan|Krishnaswamy Dharani Dharan]]
 > [^template 4.zip]
 
 -------
 
-> [!note]+ 2025-08-11 11:05 · JSM Service Bot
+> [!note]+ 2025-08-11 11:05 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi ISOLAR-A Support Owner. This ticket requires an assignee.
 
 -------
 
-> [!note]+ 2025-08-11 11:05 · James Butterfield
-> Hi Xiao BAI,
+> [!note]+ 2025-08-11 11:05 · [[James_Butterfield|James Butterfield]]
+> Hi [[Xiao_BAI|Xiao BAI]],
 >
 > Thank you for supplying the project file.
 >
-> Hi Krishnaswamy Dharani Dharan,
+> Hi [[Krishnaswamy_Dharani_Dharan|Krishnaswamy Dharani Dharan]],
 >
 > Please find attached the project file requested.
 >
@@ -117,15 +117,15 @@ Is there any solution for this issue? Thank you very much for your support.
 
 -------
 
-> [!note]+ 2025-08-11 10:57 · Xiao BAI
-> Hello James Butterfield ,
+> [!note]+ 2025-08-11 10:57 · [[Xiao_BAI|Xiao BAI]]
+> Hello [[James_Butterfield|James Butterfield]] ,
 >
 > The customer's project file is [^autosar_rta_xip-develop-vctc-bms-bip-CD-rh850U2A8GHS-1260@820f06eeaad.zip]
 
 -------
 
-> [!note]+ 2025-08-08 10:09 · James Butterfield
-> Hi Xiao BAI,
+> [!note]+ 2025-08-08 10:09 · [[James_Butterfield|James Butterfield]]
+> Hi [[Xiao_BAI|Xiao BAI]],
 >
 > The L3 team have been able to reproduce the original issue and would like to carry out further analysis to prevent this from happening in the future.
 > Would it be possible for you to provide us with the customer's project file?
@@ -135,8 +135,8 @@ Is there any solution for this issue? Thank you very much for your support.
 
 -------
 
-> [!note]+ 2025-08-08 07:49 · Krishnaswamy Dharani Dharan
-> hello James Butterfield ,
+> [!note]+ 2025-08-08 07:49 · [[Krishnaswamy_Dharani_Dharan|Krishnaswamy Dharani Dharan]]
+> hello [[James_Butterfield|James Butterfield]] ,
 >
 > Reported issue reproducible, Can you share the project to analysis and feedback
 >
@@ -144,12 +144,12 @@ Is there any solution for this issue? Thank you very much for your support.
 
 -------
 
-> [!note]+ 2025-07-25 15:56 · James Butterfield
-> Hi Vamsi Kiran Koduri, thank you we will send this to the ISOLAR developers.
+> [!note]+ 2025-07-25 15:56 · [[James_Butterfield|James Butterfield]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]], thank you we will send this to the ISOLAR developers.
 >
 >
 >
-> Hi Ramakant Achari Raviraj, 
+> Hi [[Ramakant_Achari_Raviraj|Ramakant Achari Raviraj]], 
 >
 > We just wanted to check whether there should be a hard-coded & on line 30 of {_}WriteSection.xpt{_}.
 >
@@ -163,23 +163,23 @@ Is there any solution for this issue? Thank you very much for your support.
 
 -------
 
-> [!note]+ 2025-07-25 15:54 · JSM Service Bot
+> [!note]+ 2025-07-25 15:54 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi ISOLAR-A Support Owner. This ticket requires an assignee.
 
 -------
 
-> [!note]+ 2025-07-25 15:23 · Vamsi Kiran Koduri
-> James Butterfield I have no idea about file WriteSection.xpt. This seems internal to RTA-CAR and not related to RTE.
+> [!note]+ 2025-07-25 15:23 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> [[James_Butterfield|James Butterfield]] I have no idea about file WriteSection.xpt. This seems internal to RTA-CAR and not related to RTE.
 
 -------
 
-> [!note]+ 2025-07-25 12:49 · JSM Service Bot
+> [!note]+ 2025-07-25 12:49 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi RTA-RTE Support Owner. This ticket requires an assignee.
 
 -------
 
-> [!note]+ 2025-07-25 12:19 · James Butterfield
-> Hi Vamsi Kiran Koduri,
+> [!note]+ 2025-07-25 12:19 · [[James_Butterfield|James Butterfield]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]],
 >
 > The problem has been solved for the customer, however we just wanted to check whether there should be a hard-coded & on line 30 of {_}WriteSection.xpt{_}.
 >
@@ -187,13 +187,13 @@ Is there any solution for this issue? Thank you very much for your support.
 
 -------
 
-> [!note]+ 2025-07-25 12:03 · Vamsi Kiran Koduri
-> Sammy Burchmore Sorry, i didn't understand your question. Reading comments I assume the problem is resolved using new template.
+> [!note]+ 2025-07-25 12:03 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> [[Sammy_Burchmore|Sammy Burchmore]] Sorry, i didn't understand your question. Reading comments I assume the problem is resolved using new template.
 
 -------
 
-> [!note]+ 2025-07-25 11:58 · Sammy Burchmore
-> Hi Vamsi Kiran Koduri,
+> [!note]+ 2025-07-25 11:58 · [[Sammy_Burchmore|Sammy Burchmore]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]],
 >
 > ![[RH-13575-image-2025-07-25-10-56-43-594.png]]
 >
@@ -205,7 +205,7 @@ Is there any solution for this issue? Thank you very much for your support.
 
 -------
 
-> [!note]+ 2025-07-25 11:52 · JSM Service Bot
+> [!note]+ 2025-07-25 11:52 · [[JSM_Service_Bot|JSM Service Bot]]
 > Reminder for tickets requiring L3 RTE attention:
 >
 > - Have you attached the configuration?
@@ -220,25 +220,25 @@ Is there any solution for this issue? Thank you very much for your support.
 
 -------
 
-> [!note]+ 2025-07-25 11:51 · JSM Service Bot
+> [!note]+ 2025-07-25 11:51 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi RTA-RTE Support Owner. This ticket requires an assignee.
 
 -------
 
-> [!note]+ 2025-07-25 04:53 · JSM Service Bot
-> Xiao BAI, the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [!note]+ 2025-07-25 04:53 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[Xiao_BAI|Xiao BAI]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2025-07-25 04:53 · Xiao BAI
-> Hello James Butterfield and Sammy Burchmore ,
+> [!note]+ 2025-07-25 04:53 · [[Xiao_BAI|Xiao BAI]]
+> Hello [[James_Butterfield|James Butterfield]] and [[Sammy_Burchmore|Sammy Burchmore]] ,
 >
 > Thanks for your support. The error has been resolved with the new templates.
 
 -------
 
-> [!note]+ 2025-07-24 18:09 · James Butterfield
-> Hi Xiao BAI,
+> [!note]+ 2025-07-24 18:09 · [[James_Butterfield|James Butterfield]]
+> Hi [[Xiao_BAI|Xiao BAI]],
 >
 > There also could be an error with the Code Frame Generator templates.
 >
@@ -254,8 +254,8 @@ Is there any solution for this issue? Thank you very much for your support.
 
 -------
 
-> [!note]+ 2025-07-24 17:27 · Sammy Burchmore
-> Hi Xiao BAI,
+> [!note]+ 2025-07-24 17:27 · [[Sammy_Burchmore|Sammy Burchmore]]
+> Hi [[Xiao_BAI|Xiao BAI]],
 >
 > Does the data type change between the 2 projects? ![[RH-13575-image-2025-07-24-16-26-11-108.png]]
 >

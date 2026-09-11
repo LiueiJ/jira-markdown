@@ -7,15 +7,15 @@ type: Support
 status: Solution Proposed
 priority: Medium
 project: RH
-assignee: Dong LIU
-reporter: Dong LIU
+assignee: "[[Dong_LIU|Dong LIU]]"
+reporter: "[[Dong_LIU|Dong LIU]]"
 tags: [jira/comp/communication-eth]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-05-28T12:58:38.000+0200"
 updated: "2026-09-09T15:45:46.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -84,25 +84,25 @@ Best regards,
 
 ## 评论
 
-> [!note]+ 2026-09-03 11:37 · Cuong Phan Manh
+> [!note]+ 2026-09-03 11:37 · [[Cuong_Phan_Manh|Cuong Phan Manh]]
 > the review has been done
 
 -------
 
-> [!note]+ 2026-08-27 08:23 · Cuong Phan Manh
-> Hi Shweta Ganesh Dixit . the timeline is fine for our team, thank for your support
+> [!note]+ 2026-08-27 08:23 · [[Cuong_Phan_Manh|Cuong Phan Manh]]
+> Hi [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] . the timeline is fine for our team, thank for your support
 
 -------
 
-> [!note]+ 2026-08-26 12:00 · Shweta Ganesh Dixit
-> Cuong Phan Manh : We currently have several team members out on leave, so the earliest we can pick this unplanned activity would be on **September 2nd.** 
+> [!note]+ 2026-08-26 12:00 · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]
+> [[Cuong_Phan_Manh|Cuong Phan Manh]] : We currently have several team members out on leave, so the earliest we can pick this unplanned activity would be on **September 2nd.** 
 >
 > Let me know if this works for you!
 
 -------
 
-> [!note]+ 2026-08-26 10:08 · Cuong Phan Manh
-> Hi Shweta Ganesh Dixit ,
+> [!note]+ 2026-08-26 10:08 · [[Cuong_Phan_Manh|Cuong Phan Manh]]
+> Hi [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] ,
 >
 > Could you please review the ticket within this week's timeline?
 >
@@ -110,50 +110,50 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-26 07:46 · Shweta Ganesh Dixit
-> Cuong Phan Manh : What is the timeline for the review? 
+> [!note]+ 2026-08-26 07:46 · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]
+> [[Cuong_Phan_Manh|Cuong Phan Manh]] : What is the timeline for the review? 
 >
 > Since we are not aware if the base which is used for this porting has some additional changes other than what was officially delivered from product team, we can only ensure if all the **changes only for this ticket** are correctly ported in your PR. 
 
 -------
 
-> [!note]+ 2026-08-25 12:00 · Cuong Phan Manh
-> Hello Shweta Ganesh Dixit , To ensure that we deliver the correct and final version, I would like to ask the NETCOM team to review the source code and confirm that it is aligned with the latest version intended for delivery.
+> [!note]+ 2026-08-25 12:00 · [[Cuong_Phan_Manh|Cuong Phan Manh]]
+> Hello [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] , To ensure that we deliver the correct and final version, I would like to ask the NETCOM team to review the source code and confirm that it is aligned with the latest version intended for delivery.
 >
 > Could you request your team take a few time to review the source code again?
 > This is pull request: https://bitbucket.etas-dev.com/projects/RTABSW/repos/rta-bsw/pull-requests/7915/overview
 
 -------
 
-> [!note]+ 2026-07-27 14:24 · JSM Service Bot
+> [!note]+ 2026-07-27 14:24 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-06-24 08:32 · Dong LIU
+> [!note]+ 2026-06-24 08:32 · [[Dong_LIU|Dong LIU]]
 > Sorry, I closed it by mistake.
 
 -------
 
-> [!note]+ 2026-06-24 04:14 · Phuong Nguyen Le
-> Dong LIU , I see that you close this ticket, does it mean that the shared code drop can solve the issue?
+> [!note]+ 2026-06-24 04:14 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> [[Dong_LIU|Dong LIU]] , I see that you close this ticket, does it mean that the shared code drop can solve the issue?
 
 -------
 
-> [!note]+ 2026-06-18 18:50 · JSM Service Bot
+> [!note]+ 2026-06-18 18:50 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically moved to Solution Proposed.
 
 -------
 
-> [!note]+ 2026-06-04 07:04 · Shweta Ganesh Dixit
+> [!note]+ 2026-06-04 07:04 · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]
 > Code drop including reboot and stop offer use cases shared on RTA-CAR 12.9.0 base of Sd (See attached mail).  Please let us know when we can get a feedback of the testing.
 >
 > [^RE_ Cariad CEA2_0 SD Model Issue Support.msg]
 
 -------
 
-> [!note]+ 2026-06-02 13:21 · Shweta Ganesh Dixit
-> Jie LIU : 
+> [!note]+ 2026-06-02 13:21 · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]
+> [[Jie_LIU|Jie LIU]] : 
 >
 > Attached is the code drop for the server reboot case(Base of RTA-CAR 12.9.0) which is reported by Cariad.
 >
@@ -165,7 +165,7 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-06-02 07:04 · Shweta Ganesh Dixit
+> [!note]+ 2026-06-02 07:04 · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]
 > Technical root cause analysis is shared(Attached here)
 >
 >
@@ -173,7 +173,7 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-05-29 09:44 · Jie LIU
+> [!note]+ 2026-05-29 09:44 · [[Jie_LIU|Jie LIU]]
 > Hi Nandhini,
 >
 > Customer has confirmed they do not have logs for this issue due to the problem happens not often. But it really happens several times in DV car which causes the ECU in unpredictable stable. Actually, customer has analyzed our code for two weeks, and outcome this diagram for root cause, please provide our analysis report based on the evidence.
@@ -182,8 +182,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-05-28 15:04 · Phong Tang Dieu
-> Hi Shweta Ganesh Dixit
+> [!note]+ 2026-05-28 15:04 · [[Phong_Tang_Dieu|Phong Tang Dieu]]
+> Hi [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]
 > The analysis from the description looks clear enough.
 > Could you please confirm if this is an issue of Sd module?
 >
@@ -191,7 +191,7 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-05-28 15:02 · JSM Service Bot
-> Hi Shweta Ganesh Dixit, this Communication-Eth ticket requires an assignee. As the component lead for Communication-Eth, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+> [!note]+ 2026-05-28 15:02 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]], this Communication-Eth ticket requires an assignee. As the component lead for Communication-Eth, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------

@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Low
 project: RH
-assignee: Jiaqi JI
-reporter: Jiaqi JI
+assignee: "[[Jiaqi_JI|Jiaqi JI]]"
+reporter: "[[Jiaqi_JI|Jiaqi JI]]"
 tags: [jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-08-19T12:28:01.000+0200"
 updated: "2026-09-05T14:28:42.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -91,13 +91,13 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 
 ## 评论
 
-> [!note]+ 2026-09-05 14:28 · JSM Service Bot
+> [!note]+ 2026-09-05 14:28 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-08-21 15:05 · Khoa Phan Huynh Dang
-> Hi Jiaqi JI ,
+> [!note]+ 2026-08-21 15:05 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Jiaqi_JI|Jiaqi JI]] ,
 >
 > As I mentioned in [https://rtahotline.etas.com/jira/browse/RH-16780?focusedCommentId=711171&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-711171] of RH-16780, the DEM module does not provide a dedicated API to directly erase or reinitialize an NvM block.
 >
@@ -112,8 +112,8 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 
 -------
 
-> [!note]+ 2026-08-20 09:41 · Jiaqi JI
-> Hi Khoa Phan Huynh Dang ,
+> [!note]+ 2026-08-20 09:41 · [[Jiaqi_JI|Jiaqi JI]]
+> Hi [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] ,
 >
 > Thanks for your feedback. Please give them feedback by tomorrow as customer requirement.
 >
@@ -121,13 +121,13 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 
 -------
 
-> [!note]+ 2026-08-20 05:53 · Khoa Phan Huynh Dang
-> Hi Jiaqi JI ,
+> [!note]+ 2026-08-20 05:53 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Jiaqi_JI|Jiaqi JI]] ,
 > Let's we analyze the customer's concerns and get back to them with detailed feedback as soon as possible.
 
 -------
 
-> [!note]+ 2026-08-19 12:28 · JSM Service Bot
+> [!note]+ 2026-08-19 12:28 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Jiaqi JI, please note that this issue was made with VNCNMS in the summary and has been sent to the relevant queue by adding the VNCNMS label.
 
 -------

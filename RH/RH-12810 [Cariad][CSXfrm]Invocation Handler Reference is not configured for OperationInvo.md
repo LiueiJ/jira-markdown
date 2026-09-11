@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: High
 project: RH
-assignee: Yinchuan XU
-reporter: Yinchuan XU
+assignee: "[[Yinchuan_XU|Yinchuan XU]]"
+reporter: "[[Yinchuan_XU|Yinchuan XU]]"
 tags: []
 fix-versions: []
 epic: null
 parent: null
 created: "2025-04-15T10:56:01.000+0200"
 updated: "2026-03-12T07:39:53.000+0100"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -58,29 +58,29 @@ Hello Hotline & Marc:
 
 ## 评论
 
-> [!note]+ 2025-08-07 18:01 · JSM Service Bot
+> [!note]+ 2025-08-07 18:01 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2025-07-21 11:19 · Yinchuan XU
-> Hi Alex Fargus ,
+> [!note]+ 2025-07-21 11:19 · [[Yinchuan_XU|Yinchuan XU]]
+> Hi [[Alex_Fargus|Alex Fargus]] ,
 >
 > I just use RTA CAR generate it. Drop the OIE event runnable to task, then it generate automatically.
 
 -------
 
-> [!note]+ 2025-06-26 08:17 · Alex Fargus
-> Yinchuan XU you say below that the CSXfrm ecucvalues are automatically generated. Which tool is automatically generating these ecucvalues?
+> [!note]+ 2025-06-26 08:17 · [[Alex_Fargus|Alex Fargus]]
+> [[Yinchuan_XU|Yinchuan XU]] you say below that the CSXfrm ecucvalues are automatically generated. Which tool is automatically generating these ecucvalues?
 
 -------
 
-> [!note]+ 2025-06-25 09:30 · Mingye YUAN
+> [!note]+ 2025-06-25 09:30 · [[Mingye_YUAN|Mingye YUAN]]
 > Can anybody answer this question? Thanks.
 
 -------
 
-> [!note]+ 2025-04-18 09:01 · Yinchuan XU
+> [!note]+ 2025-04-18 09:01 · [[Yinchuan_XU|Yinchuan XU]]
 > Hello Marc: 
 >
 >
@@ -212,7 +212,7 @@ Hello Hotline & Marc:
 
 -------
 
-> [!note]+ 2025-04-17 10:23 · Marc Kaiser
+> [!note]+ 2025-04-17 10:23 · [[Marc_Kaiser|Marc Kaiser]]
 > Hello Yinchuan, 
 >
 >

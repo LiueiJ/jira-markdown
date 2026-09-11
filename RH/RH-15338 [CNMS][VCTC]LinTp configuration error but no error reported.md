@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Medium
 project: RH
-assignee: Junsheng ZHANG
-reporter: Junsheng ZHANG
+assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: [jira/comp/communication-can-lin-fr, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-03-03T08:50:23.000+0100"
 updated: "2026-04-21T11:37:33.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -64,37 +64,37 @@ Hi Hotline,
 
 ## 评论
 
-> [!note]+ 2026-04-21 11:37 · JSM Service Bot
+> [!note]+ 2026-04-21 11:37 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-04-06 18:48 · JSM Service Bot
+> [!note]+ 2026-04-06 18:48 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically moved to Solution Proposed.
 
 -------
 
-> [!note]+ 2026-03-23 07:42 · Muhammed Anas K K
-> Hello Junsheng ZHANG, The use case with LinTp is enabled, but LinTpRxNSdu and LinTpTxNSdu are not configured. This is a invalid configuration. .Currently, the validator reports an error if no LinTpChannelConfig is configured; But, not check for empty LinTpTxNSdu or LinTpRxNSdu configurations. The validation check will be updated as part of the task below
+> [!note]+ 2026-03-23 07:42 · [[Muhammed_Anas_K_K|Muhammed Anas K K]]
+> Hello [[Junsheng_ZHANG|Junsheng ZHANG]], The use case with LinTp is enabled, but LinTpRxNSdu and LinTpTxNSdu are not configured. This is a invalid configuration. .Currently, the validator reports an error if no LinTpChannelConfig is configured; But, not check for empty LinTpTxNSdu or LinTpRxNSdu configurations. The validation check will be updated as part of the task below
 >
 > [https://jira.etas-dev.com/browse/ARCCOM-10946]
 
 -------
 
-> [!note]+ 2026-03-20 10:38 · Jayashankar Amritha
+> [!note]+ 2026-03-20 10:38 · [[Jayashankar_Amritha|Jayashankar Amritha]]
 > Hi Khoa Phan Huynh Dang, The ticket is currently pending analysis. As the concerned colleagues are on leave, it will be reviewed on Monday (23/03).
 
 -------
 
-> [!note]+ 2026-03-18 09:22 · Khoa Phan Huynh Dang
-> Hello Haneef Nusrin, althought AUTOSAR **does not mention** this as a mandatory requirement, I think we should implement **a validation rule** in our tool to avoid this issue. Specifically:
+> [!note]+ 2026-03-18 09:22 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hello [[Haneef_Nusrin|Haneef Nusrin]], althought AUTOSAR **does not mention** this as a mandatory requirement, I think we should implement **a validation rule** in our tool to avoid this issue. Specifically:
 >
 > Could we implement **logic handling in code gen** to ensure that Rx/Tx configurations for LIN are configured?
 
 -------
 
-> [!note]+ 2026-03-18 09:14 · Khoa Phan Huynh Dang
-> Hi Junsheng ZHANG , sorry for keep you waiting, about your concern:
+> [!note]+ 2026-03-18 09:14 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] , sorry for keep you waiting, about your concern:
 >
 > + Firstly, the RTA-CAR version which you used follows the **AUTOSAR standard** for LIN module with version **AR 23-11.**
 >

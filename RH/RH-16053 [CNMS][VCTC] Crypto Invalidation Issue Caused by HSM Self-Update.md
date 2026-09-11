@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Critical
 project: RH
-assignee: Junsheng ZHANG
-reporter: Junsheng ZHANG
+assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: [jira/comp/cycurhsm3, jira/comp/sec-cryptoauhsm3, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-05-15T06:43:11.000+0200"
 updated: "2026-08-28T14:28:06.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -69,28 +69,28 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 
 ## 评论
 
-> [!note]+ 2026-08-28 14:28 · JSM Service Bot
+> [!note]+ 2026-08-28 14:28 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-07-27 08:12 · Steven TANG
+> [!note]+ 2026-07-27 08:12 · [[Steven_TANG|Steven TANG]]
 > Just checked with Junsheng, this work around solution will be checked in next week. then we will feedback whether Lukas proposed work around solution could work and accepted by VCTC. 
 
 -------
 
-> [!note]+ 2026-07-26 18:53 · JSM Service Bot
+> [!note]+ 2026-07-26 18:53 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically moved to Solution Proposed.
 
 -------
 
-> [!note]+ 2026-07-03 10:31 · Lan Tran
-> From Steven TANG : Currently the test work blocked by the RTA-SEC mismatch problem. so we can not try it and could not get the solution confirm from VCTC.
+> [!note]+ 2026-07-03 10:31 · [[Lan_Tran|Lan Tran]]
+> From [[Steven_TANG|Steven TANG]] : Currently the test work blocked by the RTA-SEC mismatch problem. so we can not try it and could not get the solution confirm from VCTC.
 
 -------
 
-> [!note]+ 2026-07-03 05:13 · Khoa Phan Huynh Dang
-> Hello Junsheng ZHANG , Steven TANG 
+> [!note]+ 2026-07-03 05:13 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hello [[Junsheng_ZHANG|Junsheng ZHANG]] , [[Steven_TANG|Steven TANG]] 
 >
 > Are there any new updates from the customer?
 >
@@ -99,8 +99,8 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 
 -------
 
-> [!note]+ 2026-07-01 15:09 · Volker Boehm
-> Steven TANG,
+> [!note]+ 2026-07-01 15:09 · [[Volker_Boehm|Volker Boehm]]
+> [[Steven_TANG|Steven TANG]],
 >
 > Please provide feedback if suggested workaround was accepted by customer.
 >
@@ -108,7 +108,7 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 
 -------
 
-> [!note]+ 2026-06-30 07:29 · Lukas Riemenschneider
+> [!note]+ 2026-06-30 07:29 · [[Lukas_Riemenschneider|Lukas Riemenschneider]]
 > Firstly, this is not a bug but a feature request.
 >
 > Besides, we communicated to the project that this can be mostly worked around by manually re-opening HSM sessions after reset. It remains the limitation that no new keys can be loaded into HwCsp after HSM update in the same reset cycle.
@@ -116,8 +116,8 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 
 -------
 
-> [!note]+ 2026-06-30 06:07 · Khoa Phan Huynh Dang
-> Hi Pedro Duarte ,
+> [!note]+ 2026-06-30 06:07 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Pedro_Duarte|Pedro Duarte]] ,
 >
 > Thanks for your information. Could you share your plan for this feature? Based on my check of the latest comment on the estimation ticket, the implementation is blocked on architecture concept clarification.
 >
@@ -125,12 +125,12 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 
 -------
 
-> [!note]+ 2026-06-22 14:45 · Pedro Duarte
+> [!note]+ 2026-06-22 14:45 · [[Pedro_Duarte|Pedro Duarte]]
 > The tickets for the requested feature have been created and linked, closing this ticket.
 
 -------
 
-> [!note]+ 2026-06-10 13:03 · Lukas Riemenschneider
+> [!note]+ 2026-06-10 13:03 · [[Lukas_Riemenschneider|Lukas Riemenschneider]]
 > # Summary of the discussions
 > ## Use-case
 >
@@ -155,39 +155,39 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 
 -------
 
-> [!note]+ 2026-06-08 10:34 · Lukas Riemenschneider
-> Volker Boehm  and me are discussing solutions, there is no quick fix available
+> [!note]+ 2026-06-08 10:34 · [[Lukas_Riemenschneider|Lukas Riemenschneider]]
+> [[Volker_Boehm|Volker Boehm]]  and me are discussing solutions, there is no quick fix available
 
 -------
 
-> [!note]+ 2026-06-08 08:46 · Phuong Nguyen Le
-> Steven TANG , Pedro Duarte : Do we have any update on this ticet?
+> [!note]+ 2026-06-08 08:46 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> [[Steven_TANG|Steven TANG]] , [[Pedro_Duarte|Pedro Duarte]] : Do we have any update on this ticet?
 
 -------
 
-> [!note]+ 2026-05-28 11:33 · Steven TANG
-> Volker Boehm is in vacation now,  Sandra Weigl Please help to arrange Volker's proxy to support on this topic. 
+> [!note]+ 2026-05-28 11:33 · [[Steven_TANG|Steven TANG]]
+> [[Volker_Boehm|Volker Boehm]] is in vacation now,  [[Sandra_Weigl|Sandra Weigl]] Please help to arrange Volker's proxy to support on this topic. 
 
 -------
 
-> [!note]+ 2026-05-26 12:43 · Pedro Duarte
-> Hello Junsheng ZHANG,
+> [!note]+ 2026-05-26 12:43 · [[Pedro_Duarte|Pedro Duarte]]
+> Hello [[Junsheng_ZHANG|Junsheng ZHANG]],
 >
 > The sequence described in my previous response is the currently supported behavior. The use case you are describing, maintaining Crypto availability across an HSM reset, is not supported by the current CryptoDriver implementation. Additionally, there is no guarantee from the CycurHSM3 side that HwCSP preserves its internal state across an HSM reset event.
 >
-> To move forward, you will need to request support for this feature to Volker Boehm, providing the exact use-case and expectations.
+> To move forward, you will need to request support for this feature to [[Volker_Boehm|Volker Boehm]], providing the exact use-case and expectations.
 
 -------
 
-> [!note]+ 2026-05-26 09:05 · Junsheng ZHANG
-> Hi Pedro Duarte ，
+> [!note]+ 2026-05-26 09:05 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Pedro_Duarte|Pedro Duarte]] ，
 >
 >     If I follow your process, I still have two issues: 1. When I call {{{}Crypto_Rb_Deinit{}}}, all CSM interfaces should become invalid, meaning I can no longer perform any CSM services, such as MacGen/Verify. If this is the case, the HwCsp functionality will be meaningless. 2. When I execute {{{}Crypto_Init{}}}, it calls {{{}ecy_hsm_Csai_HwCsp_Init{}}}, which releases all HwCspKeys. This will also cause the HwCsp functionality to become invalid.
 
 -------
 
-> [!note]+ 2026-05-25 11:24 · Pedro Duarte
-> Hello Junsheng ZHANG,
+> [!note]+ 2026-05-25 11:24 · [[Pedro_Duarte|Pedro Duarte]]
+> Hello [[Junsheng_ZHANG|Junsheng ZHANG]],
 >
 > Once Crypto_Rb_Deinit is called, Crypto services will no longer be available, so yes, this will affect Csm. However, since an HSM reset is being performed, no Crypto services can be expected to work during that window regardless.
 >
@@ -197,15 +197,15 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 
 -------
 
-> [!note]+ 2026-05-23 12:13 · Junsheng ZHANG
-> Hi Pedro Duarte ,
+> [!note]+ 2026-05-23 12:13 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Pedro_Duarte|Pedro Duarte]] ,
 >
 >     After I call Crypto_Rb_Deinit, can Csm still function normally? I think the status check of Crypto may result in errors;This will also result in SecOC being unavailable；
 
 -------
 
-> [!note]+ 2026-05-22 17:09 · Pedro Duarte
-> Hello Junsheng ZHANG,
+> [!note]+ 2026-05-22 17:09 · [[Pedro_Duarte|Pedro Duarte]]
+> Hello [[Junsheng_ZHANG|Junsheng ZHANG]],
 >
 > After clarification with the CycurHSM3 team: Host HwCSP operations can work during an HSM flash procedure, provided sessions are already open and keys are already loaded in the HwCSP keystore beforehand. However, operations that directly involve the HSM, such as ecy_hsm_Csai_HwCsp_LoadKey, cannot be performed during an HSM flash. Additionally, HwCSP behavior after an HSM reset is not currently guaranteed.
 >
@@ -213,26 +213,26 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 
 -------
 
-> [!note]+ 2026-05-22 04:59 · JSM Service Bot
-> Junsheng ZHANG, the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [!note]+ 2026-05-22 04:59 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-05-22 04:59 · Junsheng ZHANG
-> Hi Jozsef Fischer ,Pedro Duarte ,
+> [!note]+ 2026-05-22 04:59 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Jozsef_Fischer|Jozsef Fischer]] ,[[Pedro_Duarte|Pedro Duarte]] ,
 >
 >     If the execution of Crypto_Rb_Deinit causes the failure of SecOC or other functions related to Crypto services, which is not what customers expect; The purpose of customers using hwcsp is to ensure that Crypto services such as SecOC are still available during the hsm upgrade process, ensuring that the entire power on cycle (including OTA updates to HSM) can use Crypto;
 
 -------
 
-> [!note]+ 2026-05-21 14:12 · Pedro Duarte
-> Hello Junsheng ZHANG,
+> [!note]+ 2026-05-21 14:12 · [[Pedro_Duarte|Pedro Duarte]]
+> Hello [[Junsheng_ZHANG|Junsheng ZHANG]],
 >
 > Please have a look at the answer above from Jozsef.
 
 -------
 
-> [!note]+ 2026-05-21 13:32 · Jozsef Fischer
+> [!note]+ 2026-05-21 13:32 · [[Jozsef_Fischer|Jozsef Fischer]]
 > Hello Junsheng,
 >
 > A partial session re-open is not recommended, since all HSM-side sessions are invalidated and other internal Crypto / HwCSP state may no longer be consistent. This applies especially when HwCSP is enabled, where regular and HwCSP sessions must be reinitialized consistently.
@@ -255,42 +255,42 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 
 -------
 
-> [!note]+ 2026-05-21 10:38 · Phong Tang Dieu
-> Hi Pedro Duarte
+> [!note]+ 2026-05-21 10:38 · [[Phong_Tang_Dieu|Phong Tang Dieu]]
+> Hi [[Pedro_Duarte|Pedro Duarte]]
 > As Christoph is out of office, could you please help to answer this ticket?
 > Thank a lot,
 
 -------
 
-> [!note]+ 2026-05-18 05:31 · Junsheng ZHANG
-> Hi Phong Tang Dieu ,
+> [!note]+ 2026-05-18 05:31 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Phong_Tang_Dieu|Phong Tang Dieu]] ,
 >
 >     I believe this has nothing to do with the configuration of the RTA CAR, but rather with Crypto not considering the HSM Reset during the upgrade process；
 
 -------
 
-> [!note]+ 2026-05-18 03:59 · Junsheng ZHANG
+> [!note]+ 2026-05-18 03:59 · [[Junsheng_ZHANG|Junsheng ZHANG]]
 > [^Isolar(2).zip]
 
 -------
 
-> [!note]+ 2026-05-18 03:59 · Junsheng ZHANG
+> [!note]+ 2026-05-18 03:59 · [[Junsheng_ZHANG|Junsheng ZHANG]]
 > [^Isolar(2).zip]
 
 -------
 
-> [!note]+ 2026-05-15 11:48 · Phong Tang Dieu
-> Hi Christoph Buttler
+> [!note]+ 2026-05-15 11:48 · [[Phong_Tang_Dieu|Phong Tang Dieu]]
+> Hi [[Christoph_Buttler|Christoph Buttler]]
 > Could you please help to answer the questions?
 > Thanks,
 >
-> Hi Junsheng ZHANG
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]]
 > If possible, could you please share the configuration/project?
 > Thanks,
 
 -------
 
-> [!note]+ 2026-05-15 11:45 · JSM Service Bot
-> Hi Christoph Buttler, this SEC-Crypto ticket requires an assignee. As the component lead for SEC-Crypto, please ensure the 'Level 3 Assignee' field is set the appropriate person that an handle this issue.
+> [!note]+ 2026-05-15 11:45 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Christoph_Buttler|Christoph Buttler]], this SEC-Crypto ticket requires an assignee. As the component lead for SEC-Crypto, please ensure the 'Level 3 Assignee' field is set the appropriate person that an handle this issue.
 
 -------

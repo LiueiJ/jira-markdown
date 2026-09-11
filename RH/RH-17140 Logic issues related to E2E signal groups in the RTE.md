@@ -7,15 +7,15 @@ type: Support
 status: Solution Proposed
 priority: High
 project: RH
-assignee: "[[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]"
-reporter: "[[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]"
+assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: [jira/comp/rta-rte, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-09-07T15:16:48.000+0200"
 updated: "2026-09-10T16:08:09.000+0200"
-synced-at: "2026-09-11T00:31:48.001Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -60,7 +60,7 @@ Hi Hotline,
 -------
 
 > [!note]+ 2026-09-10 10:03 · [[Dang_Ho_Anh|Dang Ho Anh]]
-> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] ,
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 > Could you please check whether the customer can accept the current RTE behavior or use `HandleNeverReceived = false` instead?
 >
 > Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] ,
@@ -70,7 +70,7 @@ Hi Hotline,
 -------
 
 > [!note]+ 2026-09-10 09:44 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
-> Hello [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] ,[[Dang_Ho_Anh|Dang Ho Anh]] ,[[Phong_Tang_Dieu|Phong Tang Dieu]] I confirm the reported issue. RTE shall return RTE_E_NEVER_RECEIVED until first reception when handleneverreceived is set to TRUE.
+> Hello [[Junsheng_ZHANG|Junsheng ZHANG]] ,[[Dang_Ho_Anh|Dang Ho Anh]] ,[[Phong_Tang_Dieu|Phong Tang Dieu]] I confirm the reported issue. RTE shall return RTE_E_NEVER_RECEIVED until first reception when handleneverreceived is set to TRUE.
 
 -------
 
@@ -95,7 +95,7 @@ Hi Hotline,
 -------
 
 > [!note]+ 2026-09-09 15:31 · [[Dang_Ho_Anh|Dang Ho Anh]]
-> [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] , After giving it some careful thought, I realized that this could be an issue.
+> [[Junsheng_ZHANG|Junsheng ZHANG]] , After giving it some careful thought, I realized that this could be an issue.
 >
 > Hi [Koduri Vamsi Kiran (ETAS-ECM/XPC-Abt1)](https://confluence.etas-dev.com/display/~kod4abt),
 >
@@ -122,7 +122,7 @@ Hi Hotline,
 -------
 
 > [!note]+ 2026-09-09 10:58 · [[Dang_Ho_Anh|Dang Ho Anh]]
-> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]],
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]],
 > The initial value of the global buffer Rte_Rx_* is set to RTE_E_NEVER_RECEIVED because the attribute *HandleNeverReceived* is set to true
 > ![[RH-17140-image-2026-09-09-15-20-57-496.png]]
 >
@@ -137,11 +137,11 @@ Hi Hotline,
 -------
 
 > [!note]+ 2026-09-08 10:31 · [[JSM_Service_Bot|JSM Service Bot]]
-> [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [[Junsheng_ZHANG|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-09-08 10:31 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
+> [!note]+ 2026-09-08 10:31 · [[Junsheng_ZHANG|Junsheng ZHANG]]
 > password ： ETAS
 >
 >
@@ -150,7 +150,7 @@ Hi Hotline,
 -------
 
 > [!note]+ 2026-09-07 18:25 · [[Phong_Tang_Dieu|Phong Tang Dieu]]
-> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]]
 > Could you please describe more detailed about the use case? 
 > And could you share the project as well? It would be helpful to analyze the issue. From my side, I could find any similar generated code even for E2E and E2EXf.
 > Thanks,

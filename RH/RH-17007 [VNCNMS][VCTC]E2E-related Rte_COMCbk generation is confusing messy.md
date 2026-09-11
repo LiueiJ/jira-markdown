@@ -7,15 +7,15 @@ type: Support
 status: Waiting for Customer
 priority: Low
 project: RH
-assignee: Junsheng ZHANG
-reporter: Junsheng ZHANG
+assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: [jira/comp/rta-rte, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-08-24T05:38:46.000+0200"
 updated: "2026-09-09T16:17:08.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -171,54 +171,54 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
 
-> [!note]+ 2026-09-09 16:16 · Jie LIU
-> Junsheng ZHANG Could you please add the comment how custom solves this issue?
+> [!note]+ 2026-09-09 16:16 · [[Jie_LIU|Jie LIU]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]] Could you please add the comment how custom solves this issue?
 
 -------
 
-> [!note]+ 2026-09-04 11:40 · Dang Ho Anh
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-09-04 11:40 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 > Could you share the project with me so that I can check it offline? Please also provide the list of `Rte_COMCbk_*` functions that seem to be incorrect.
 > The test project I used is also RTA-CAR 12.11.0.
 
 -------
 
-> [!note]+ 2026-09-04 11:15 · Junsheng ZHANG
-> Hi Dang Ho Anh ,
+> [!note]+ 2026-09-04 11:15 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Dang_Ho_Anh|Dang Ho Anh]] ,
 >
 > The issue is not consistent because the content in the RTE_CBK of E2E is duplicated and not consistent with yours, and the customer is using RTA CAR 12.11
 
 -------
 
-> [!note]+ 2026-09-04 10:39 · Dang Ho Anh
-> Junsheng ZHANG ,
+> [!note]+ 2026-09-04 10:39 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 > Please check my comment at [https://rtahotline.etas.com/jira/browse/RH-17007?focusedCommentId=724246&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-724246]
 >
 > If the root cause I mentioned is correct, the fix is already available in RTE v12.11.2.pr2 and therefore should also be included in the final version v12.11.2.
 
 -------
 
-> [!note]+ 2026-09-04 10:19 · Vamsi Kiran Koduri
-> Dang Ho Anh Yes, i confirm the issue is fixed in RTE v12.11.2.pr2 and therefore in final version v12.11.2.
+> [!note]+ 2026-09-04 10:19 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> [[Dang_Ho_Anh|Dang Ho Anh]] Yes, i confirm the issue is fixed in RTE v12.11.2.pr2 and therefore in final version v12.11.2.
 
 -------
 
-> [!note]+ 2026-09-04 10:08 · Vamsi Kiran Koduri
-> Hi Dang Ho Anh , may i know RTE command line options used in this project?
+> [!note]+ 2026-09-04 10:08 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Hi [[Dang_Ho_Anh|Dang Ho Anh]] , may i know RTE command line options used in this project?
 
 -------
 
-> [!note]+ 2026-09-04 09:34 · Dang Ho Anh
-> Vamsi Kiran Koduri Sorry, that was my typo. It should be:  "I saw that those redundant calls of the transformer function are {color:#de350b}removed {color:#172b4d}in the code {color}{color}generated with {{{}RTA-RTE_12.11.2pr2{}}}."
+> [!note]+ 2026-09-04 09:34 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] Sorry, that was my typo. It should be:  "I saw that those redundant calls of the transformer function are {color:#de350b}removed {color:#172b4d}in the code {color}{color}generated with {{{}RTA-RTE_12.11.2pr2{}}}."
 
 -------
 
-> [!note]+ 2026-09-04 09:22 · Vamsi Kiran Koduri
-> HI Dang Ho Anh I can see the redundant transformer calls are already removed in {{{}RTA-RTE_12.11.2pr2 from your attached files.So i didn't get your statement in comment "I saw that those redundant calls of the transformer function **are generated with** }}{*}{{RTA-RTE_12.11.2pr2{*}{}}}{{{}."{}}}
+> [!note]+ 2026-09-04 09:22 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> HI [[Dang_Ho_Anh|Dang Ho Anh]] I can see the redundant transformer calls are already removed in {{{}RTA-RTE_12.11.2pr2 from your attached files.So i didn't get your statement in comment "I saw that those redundant calls of the transformer function **are generated with** }}{*}{{RTA-RTE_12.11.2pr2{*}{}}}{{{}."{}}}
 
 -------
 
-> [!note]+ 2026-09-04 03:31 · JSM Service Bot
+> [!note]+ 2026-09-04 03:31 · [[JSM_Service_Bot|JSM Service Bot]]
 > Reminder for tickets requiring L3 RTE attention:
 >
 > - Have you attached the configuration?
@@ -233,13 +233,13 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-09-04 03:31 · JSM Service Bot
-> Hi Vamsi Kiran Koduri, this RTA-RTE ticket requires an assignee. As the component lead for RTA-RTE, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+> [!note]+ 2026-09-04 03:31 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]], this RTA-RTE ticket requires an assignee. As the component lead for RTA-RTE, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------
 
-> [!note]+ 2026-09-04 03:30 · Dang Ho Anh
-> Hi Junsheng ZHANG , 
+> [!note]+ 2026-09-04 03:30 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] , 
 >
 > I changed the path, but I was not able to reproduce the issue.
 >
@@ -257,20 +257,20 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-09-03 14:26 · Junsheng ZHANG
-> Hi Dang Ho Anh ，
+> [!note]+ 2026-09-03 14:26 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Dang_Ho_Anh|Dang Ho Anh]] ，
 >
 > The wrong path is  RTA-CAR/1.0.0/dir_out=\{PROJECT_LOC}
 
 -------
 
-> [!note]+ 2026-08-30 07:56 · JSM Service Bot
-> Junsheng ZHANG, the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [!note]+ 2026-08-30 07:56 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-08-30 07:56 · Junsheng ZHANG
-> Hi Dang Ho Anh ,
+> [!note]+ 2026-08-30 07:56 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Dang_Ho_Anh|Dang Ho Anh]] ,
 >
 >    The customer reports that the issue is caused by an incorrect RTA-CAR/1.0.0/dir_out=\{OUTPUT_LOC} attribute in buildSettings.properties. This is strange: RTE does not report any error and still generates incorrect code. They want to know why this happens and would like us to fix it—at least to provide accurate error reporting.
 >
@@ -278,19 +278,19 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-08-24 12:14 · Dang Ho Anh
->  Hi Junsheng ZHANG ,
+> [!note]+ 2026-08-24 12:14 · [[Dang_Ho_Anh|Dang Ho Anh]]
+>  Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 > As communicated, the customer has resolved the issue by themselves. Please let us know if you need any further support regarding this issue.
 
 -------
 
-> [!note]+ 2026-08-24 09:56 · Vamsi Kiran Koduri
-> Dang Ho Anh From generated code it looks like there is port fan in i.e. more than one receiver in application reading the same signal, however calling same transformer function twice looks not correct. Need input configuration for further analysis.
+> [!note]+ 2026-08-24 09:56 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> [[Dang_Ho_Anh|Dang Ho Anh]] From generated code it looks like there is port fan in i.e. more than one receiver in application reading the same signal, however calling same transformer function twice looks not correct. Need input configuration for further analysis.
 
 -------
 
-> [!note]+ 2026-08-24 09:13 · Dang Ho Anh
-> Hi Vamsi Kiran Koduri ,
+> [!note]+ 2026-08-24 09:13 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] ,
 >
 > This is an urgent ticket related to RTE and needs your attention.
 >
@@ -300,14 +300,14 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-08-24 08:54 · Dang Ho Anh
-> Junsheng ZHANG ,
+> [!note]+ 2026-08-24 08:54 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 > Could you share the project to the ticket?
 
 -------
 
-> [!note]+ 2026-08-24 07:50 · Jiaqi JI
-> Hi  Phuong Nguyen Le Phuong,
+> [!note]+ 2026-08-24 07:50 · [[Jiaqi_JI|Jiaqi JI]]
+> Hi  [[Phuong_Nguyen_Le|Phuong Nguyen Le]] Phuong,
 >
 > We found one critical issue which is urgent for us because customer will come to production line tomorrow.
 >
@@ -319,17 +319,17 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-08-24 07:47 · JSM Service Bot
+> [!note]+ 2026-08-24 07:47 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Junsheng ZHANG, please note that this issue was made with VNCNMS in the summary and has been sent to the relevant queue by adding the VNCNMS label.
 
 -------
 
-> [!note]+ 2026-08-24 05:42 · Junsheng ZHANG
+> [!note]+ 2026-08-24 05:42 · [[Junsheng_ZHANG|Junsheng ZHANG]]
 > [^Rte(1).c]
 
 -------
 
-> [!note]+ 2026-08-24 05:41 · JSM Service Bot
+> [!note]+ 2026-08-24 05:41 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Junsheng ZHANG. Your issue is set to "Critical" priority.
 > Please ensure that there is a reasonable justification for this listed in the issue description, otherwise the priority may be reviewed and adjusted during triage.
 > Kind regards

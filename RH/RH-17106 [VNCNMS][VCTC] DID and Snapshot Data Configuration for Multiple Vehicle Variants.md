@@ -7,15 +7,15 @@ type: Support
 status: Solution Proposed
 priority: Low
 project: RH
-assignee: Jiaqi JI
-reporter: Jiaqi JI
+assignee: "[[Jiaqi_JI|Jiaqi JI]]"
+reporter: "[[Jiaqi_JI|Jiaqi JI]]"
 tags: [jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-09-02T10:21:32.000+0200"
 updated: "2026-09-07T14:49:27.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -78,31 +78,31 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 
 ## 评论
 
-> [!note]+ 2026-09-07 14:49 · Khoa Phan Huynh Dang
+> [!note]+ 2026-09-07 14:49 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > [^PBS for BIP.pdf]
 
 -------
 
-> [!note]+ 2026-09-04 09:35 · Khoa Phan Huynh Dang
+> [!note]+ 2026-09-04 09:35 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > After today's meeting, the customer confirmed that they would like to support multiple variants with a single software implementation. Post-Build Selectable (PBS) was identified as the most suitable approach for this use case, and it was introduced during the meeting.
 >
 > The customer has requested a sample configuration for this approach on RTA-CAR 12.11.0. I will prepare it and provide it to them.
 
 -------
 
-> [!note]+ 2026-09-03 12:05 · Khoa Phan Huynh Dang
+> [!note]+ 2026-09-03 12:05 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > [Variant Handling - Configure Post Build Selectable project](https://rtahotline.etas.com/jira/servicedesk/customer/kb/view/94699521?applicationId=863fe0e2-7493-3f1a-91dc-81934cdeb430&spaceKey=RH&portalId=1&title=Variant+Handling+-+Configure+Post+Build+Selectable+project&requestKey=RH-17106)
 >
 > Users can use MIC or PBS to handle variants on their side, and this approach shall support their use case. I will guide them through the process during tomorrow's meeting.
 
 -------
 
-> [!note]+ 2026-09-03 08:59 · Khoa Phan Huynh Dang
+> [!note]+ 2026-09-03 08:59 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > Start analyzing this ticket today.
 
 -------
 
-> [!note]+ 2026-09-02 10:21 · JSM Service Bot
+> [!note]+ 2026-09-02 10:21 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Jiaqi JI, please note that this issue was made with VNCNMS in the summary and has been sent to the relevant queue by adding the VNCNMS label.
 
 -------

@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Medium
 project: RH
-assignee: Marc Kaiser
-reporter: Sisi TAO
+assignee: "[[Marc_Kaiser|Marc Kaiser]]"
+reporter: "[[Sisi_TAO|Sisi TAO]]"
 tags: []
 fix-versions: []
 epic: null
 parent: null
 created: "2025-03-26T03:16:32.000+0100"
 updated: "2026-03-05T06:52:03.000+0100"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -60,17 +60,17 @@ Recently I’m using RTA-CAR 12.6.0pr1 ConfGen. The way how Java error reported 
 
 ## 评论
 
-> [!note]+ 2025-03-26 12:28 · Sisi TAO
-> Hi Marc Kaiser ,
+> [!note]+ 2025-03-26 12:28 · [[Sisi_TAO|Sisi TAO]]
+> Hi [[Marc_Kaiser|Marc Kaiser]] ,
 >
 > Good to hear that. Since now I don't have confgen issue and the installer will not be provided in customer as product, I don't need this installer for now. Will ping you if there's a must. Thank you very much for your help.
 
 -------
 
-> [!note]+ 2025-03-26 11:19 · Marc Kaiser
-> Hello Sisi TAO,
+> [!note]+ 2025-03-26 11:19 · [[Marc_Kaiser|Marc Kaiser]]
+> Hello [[Sisi_TAO|Sisi TAO]],
 >
-> I have good news. I have had a good discussion with Product Field (K Raj Kumar).
+> I have good news. I have had a good discussion with Product Field ([[K_Raj_Kumar|K Raj Kumar]]).
 >
 > In **RTA-CAR 12.7.0** it will work like this:
 >
@@ -82,8 +82,8 @@ Recently I’m using RTA-CAR 12.6.0pr1 ConfGen. The way how Java error reported 
 
 -------
 
-> [!note]+ 2025-03-26 09:06 · Marc Kaiser
-> Hello Sisi TAO, you are correct.
+> [!note]+ 2025-03-26 09:06 · [[Marc_Kaiser|Marc Kaiser]]
+> Hello [[Sisi_TAO|Sisi TAO]], you are correct.
 >
 > the decision by Product Field to hide "ununderstandable" error messages was made intentionally. The rationale provided for this decision is that, since the end user cannot access the ConfGen code (although ETAS Hubs can, OEMs will not be able to), they would lack the ability to interpret stack traces.
 >

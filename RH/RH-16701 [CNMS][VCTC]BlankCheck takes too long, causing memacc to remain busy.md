@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Critical
 project: RH
-assignee: Junsheng ZHANG
-reporter: Junsheng ZHANG
+assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: [jira/comp/memory-high-level, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-07-19T09:02:56.000+0200"
 updated: "2026-09-04T14:28:39.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -70,20 +70,20 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
 
-> [!note]+ 2026-09-04 14:28 · JSM Service Bot
+> [!note]+ 2026-09-04 14:28 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-08-21 09:40 · Dang Ho Anh
-> Thanks V Venkatachalam .
+> [!note]+ 2026-08-21 09:40 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Thanks [[V_Venkatachalam|V Venkatachalam]] .
 >
-> Hi Dong LIU , please check the answer from Venkatachalam.
+> Hi [[Dong_LIU|Dong LIU]] , please check the answer from Venkatachalam.
 
 -------
 
-> [!note]+ 2026-08-20 13:08 · V Venkatachalam
-> Hi Dang Ho Anh ,
+> [!note]+ 2026-08-20 13:08 · [[V_Venkatachalam|V Venkatachalam]]
+> Hi [[Dang_Ho_Anh|Dang Ho Anh]] ,
 >
 > Need to keep both MemIf_Rb_MainFunction() and NvM_MainFunction() in idle (common task) task to have synchronization which has dependency on placing the job and getting the job status.  
 >
@@ -95,15 +95,15 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-08-19 05:16 · Dang Ho Anh
-> Dong LIU , I just checked {{{}RTA-Mem_Stack_Reference_Guide_EN.pdf{}}}. It recommends that `MemIf_Rb_MainFunction()` and `NvM_MainFunction()` shall be mapped to the same task as below:
+> [!note]+ 2026-08-19 05:16 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [[Dong_LIU|Dong LIU]] , I just checked {{{}RTA-Mem_Stack_Reference_Guide_EN.pdf{}}}. It recommends that `MemIf_Rb_MainFunction()` and `NvM_MainFunction()` shall be mapped to the same task as below:
 > ![[RH-16701-image-2026-08-19-10-12-55-321.png]]
-> Hi Tobias Ernst , Could you please add your comments on these two questions?
+> Hi [[Tobias_Ernst|Tobias Ernst]] , Could you please add your comments on these two questions?
 
 -------
 
-> [!note]+ 2026-08-19 04:57 · Dong LIU
-> hello, Dang Ho Anh Tobias Ernst 
+> [!note]+ 2026-08-19 04:57 · [[Dong_LIU|Dong LIU]]
+> hello, [[Dang_Ho_Anh|Dang Ho Anh]] [[Tobias_Ernst|Tobias Ernst]] 
 >
 > The customer plans to place MemIf_Rb_MainFunction() in the IdleTask, but they have two questions:
 >
@@ -112,22 +112,22 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-08-12 08:40 · Dang Ho Anh
-> Hi Junsheng ZHANG and Jiaqi JI ,
+> [!note]+ 2026-08-12 08:40 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] and [[Jiaqi_JI|Jiaqi JI]] ,
 >
-> As Tobias Ernst 's comment, There will be no feature update related to this issue for Cariad, as described in the ticket [ARCMND-10987](https://jira.etas-dev.com/browse/ARCMND-10987) 
+> As [[Tobias_Ernst|Tobias Ernst]] 's comment, There will be no feature update related to this issue for Cariad, as described in the ticket [ARCMND-10987](https://jira.etas-dev.com/browse/ARCMND-10987) 
 > Have you aligned this point with the customer and [Jain Vihitha (MS/EMS-ETAS) ?](mailto:Vihitha.Jain@etas.com)
 > I'm not sure whether this has already been decided or concluded in another communication thread.
 
 -------
 
-> [!note]+ 2026-08-12 07:23 · Tobias Ernst
+> [!note]+ 2026-08-12 07:23 · [[Tobias_Ernst|Tobias Ernst]]
 > There is no functional problem reported and a suitable corrective action was proposed (suitable scheduling).
 > The priority was lowered from High to Low.
 
 -------
 
-> [!note]+ 2026-08-12 07:20 · Tobias Ernst
+> [!note]+ 2026-08-12 07:20 · [[Tobias_Ernst|Tobias Ernst]]
 > Hello all,
 > The statements related to NvM_WriteAll are right if there is no interrupt due to a reset.
 > Of course, if there is a reset/power-down etc., then of course the execution is interrupted - that is common sense.
@@ -142,19 +142,19 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-08-12 05:25 · Cuong Phan Manh
-> Hello V Venkatachalam , Adrian Funk 
+> [!note]+ 2026-08-12 05:25 · [[Cuong_Phan_Manh|Cuong Phan Manh]]
+> Hello [[V_Venkatachalam|V Venkatachalam]] , [[Adrian_Funk|Adrian Funk]] 
 >
-> cc: Junsheng ZHANG , Dang Ho Anh 
+> cc: [[Junsheng_ZHANG|Junsheng ZHANG]] , [[Dang_Ho_Anh|Dang Ho Anh]] 
 >
 > May I ask for an update on the status of this ticket? I noticed that ticket [ARCMND-10987](https://jira.etas-dev.com/browse/ARCMND-10987) has been canceled without a clear reason, and its current status is waiting for L3?
 
 -------
 
-> [!note]+ 2026-08-10 12:56 · Dang Ho Anh
-> Hi V Venkatachalam ,
+> [!note]+ 2026-08-10 12:56 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[V_Venkatachalam|V Venkatachalam]] ,
 >
-> Could you help check Junsheng ZHANG ’s concern?
+> Could you help check [[Junsheng_ZHANG|Junsheng ZHANG]] ’s concern?
 >
 > I also checked the AUTOSAR specification. When `NvM_WriteAll()` is being performed, no other job can interrupt it, except jobs for blocks configured with immediate priority ({{{}NvMBlockJobPriority = 0{}}}).
 >
@@ -162,13 +162,13 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-08-03 12:55 · JSM Service Bot
-> Junsheng ZHANG, the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [!note]+ 2026-08-03 12:55 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-08-03 12:55 · Junsheng ZHANG
-> Hi V Venkatachalam ,
+> [!note]+ 2026-08-03 12:55 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[V_Venkatachalam|V Venkatachalam]] ,
 >
 > Our current testing and code analysis results are inconsistent with what you previously said. Once WriteAll is triggered, it will not be interrupted by the WriteBlock.
 >
@@ -180,21 +180,21 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-07-30 09:41 · Dang Ho Anh
-> Dong LIU ,
+> [!note]+ 2026-07-30 09:41 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [[Dong_LIU|Dong LIU]] ,
 >
-> I saw V Venkatachalam has answered the question 4 and 5 in previous comment here, please check it:
+> I saw [[V_Venkatachalam|V Venkatachalam]] has answered the question 4 and 5 in previous comment here, please check it:
 > [https://rtahotline.etas.com/jira/browse/RH-16701?focusedCommentId=708716&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-708716] 
 
 -------
 
-> [!note]+ 2026-07-29 10:43 · JSM Service Bot
+> [!note]+ 2026-07-29 10:43 · [[JSM_Service_Bot|JSM Service Bot]]
 > Note: Dang Ho Anh, V Venkatachalam added as watcher to the issue. Internal support agents cannot be added as Request Participants, so they have been automatically joined as Watchers instead.
 
 -------
 
-> [!note]+ 2026-07-29 10:43 · Dong LIU
-> Dang Ho Anh V Venkatachalam The customer would like to confirm the following two questions:
+> [!note]+ 2026-07-29 10:43 · [[Dong_LIU|Dong LIU]]
+> [[Dang_Ho_Anh|Dang Ho Anh]] [[V_Venkatachalam|V Venkatachalam]] The customer would like to confirm the following two questions:
 >
 > Question 4: During the execution of NvM_WriteAll, if NvM_WriteAll is called again, will this cause any lower-layer errors and consequently trigger a Blank Check?
 >
@@ -202,8 +202,8 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-07-28 12:23 · Dang Ho Anh
-> Hi V Venkatachalam and Raghavan Shrivatsan
+> [!note]+ 2026-07-28 12:23 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[V_Venkatachalam|V Venkatachalam]] and [[Raghavan_Shrivatsan|Raghavan Shrivatsan]]
 >
 > As the customer has tested by moving `MemIf_Rb_MainFunction()` to a background task, the  execution time has been significantly reduced from 20 seconds to 500 ms.
 >
@@ -213,23 +213,23 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-07-28 11:37 · JSM Service Bot
+> [!note]+ 2026-07-28 11:37 · [[JSM_Service_Bot|JSM Service Bot]]
 > Note: Dang Ho Anh added as watcher to the issue. Internal support agents cannot be added as Request Participants, so they have been automatically joined as Watchers instead.
 
 -------
 
-> [!note]+ 2026-07-28 11:37 · Dong LIU
-> Dang Ho Anh I just finished the test. Using Option 2, the execution time was reduced from 20 seconds to 500 ms.
+> [!note]+ 2026-07-28 11:37 · [[Dong_LIU|Dong LIU]]
+> [[Dang_Ho_Anh|Dang Ho Anh]] I just finished the test. Using Option 2, the execution time was reduced from 20 seconds to 500 ms.
 
 -------
 
-> [!note]+ 2026-07-27 11:37 · Dong LIU
-> Dang Ho Anh The customer does not have the test environment available today. They will probably need to wait until tomorrow to set up the environment and start testing.
+> [!note]+ 2026-07-27 11:37 · [[Dong_LIU|Dong LIU]]
+> [[Dang_Ho_Anh|Dang Ho Anh]] The customer does not have the test environment available today. They will probably need to wait until tomorrow to set up the environment and start testing.
 
 -------
 
-> [!note]+ 2026-07-27 11:00 · Dang Ho Anh
-> Dong LIU
+> [!note]+ 2026-07-27 11:00 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [[Dong_LIU|Dong LIU]]
 >
 > As you mentioned in your previous comment, “while `MemIf_Rb_MainFunction()` runs in a 1 ms background task.”
 >
@@ -240,18 +240,18 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-07-27 10:47 · Dong LIU
-> Dang Ho Anh `MemIf_Rb_MainFunction()` has always been configured to run in the background task. In Junsheng's previous test, it took around 20 seconds.
+> [!note]+ 2026-07-27 10:47 · [[Dong_LIU|Dong LIU]]
+> [[Dang_Ho_Anh|Dang Ho Anh]] `MemIf_Rb_MainFunction()` has always been configured to run in the background task. In Junsheng's previous test, it took around 20 seconds.
 
 -------
 
-> [!note]+ 2026-07-27 08:55 · Dang Ho Anh
-> Dong LIU , Please start by testing it first with only `MemIf_Rb_MainFunction()` moved to the background task.
+> [!note]+ 2026-07-27 08:55 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [[Dong_LIU|Dong LIU]] , Please start by testing it first with only `MemIf_Rb_MainFunction()` moved to the background task.
 
 -------
 
-> [!note]+ 2026-07-27 08:22 · V Venkatachalam
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-07-27 08:22 · [[V_Venkatachalam|V Venkatachalam]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 >
 > BlankCheck will not cause any error or any impact on NvM block data.
 > `NvM_WriteAll` processes the selected NvM blocks sequentially. After each block is successfully written, it checks whether any single-block read or write request is pending.
@@ -268,35 +268,35 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-07-27 08:19 · Dang Ho Anh
-> Hi Dong LIU I also do not think `NvM_MainFunction()` affects the blank check time.
-> Hi Tobias Ernst , do you think so?
+> [!note]+ 2026-07-27 08:19 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[Dong_LIU|Dong LIU]] I also do not think `NvM_MainFunction()` affects the blank check time.
+> Hi [[Tobias_Ernst|Tobias Ernst]] , do you think so?
 
 -------
 
-> [!note]+ 2026-07-27 07:30 · Dong LIU
-> Dang Ho Anh As discussed, we can move these two main functions to a background task to reduce the blank-check duration.
+> [!note]+ 2026-07-27 07:30 · [[Dong_LIU|Dong LIU]]
+> [[Dang_Ho_Anh|Dang Ho Anh]] As discussed, we can move these two main functions to a background task to reduce the blank-check duration.
 >
 > I didn't fully understand the statement above. I don't think `NvM_MainFunction()` should affect the blank check time, should it?
 
 -------
 
-> [!note]+ 2026-07-27 07:28 · Dong LIU
-> Dang Ho Anh NvM_MainFunction() runs in a 10 ms periodic task, while MemIf_Rb_MainFunction() runs in a 1 ms background task.
+> [!note]+ 2026-07-27 07:28 · [[Dong_LIU|Dong LIU]]
+> [[Dang_Ho_Anh|Dang Ho Anh]] NvM_MainFunction() runs in a 10 ms periodic task, while MemIf_Rb_MainFunction() runs in a 1 ms background task.
 
 -------
 
-> [!note]+ 2026-07-27 07:18 · Jiaqi JI
-> Hi Dong LIU ,
+> [!note]+ 2026-07-27 07:18 · [[Jiaqi_JI|Jiaqi JI]]
+> Hi [[Dong_LIU|Dong LIU]] ,
 >
-> As Junsheng ZHANG  is not available this week, please have a check on this ticket.
+> As [[Junsheng_ZHANG|Junsheng ZHANG]]  is not available this week, please have a check on this ticket.
 >
 > Thanks a lot!
 
 -------
 
-> [!note]+ 2026-07-27 06:08 · Dang Ho Anh
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-07-27 06:08 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 >
 > What are the current task periods for `NvM_MainFunction()` and {{{}MemIf_Rb_MainFunction(){}}}?
 >
@@ -307,8 +307,8 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-07-26 05:41 · Junsheng ZHANG
-> Hi V Venkatachalam ,
+> [!note]+ 2026-07-26 05:41 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[V_Venkatachalam|V Venkatachalam]] ,
 >
 > I have some additional questions regarding your responses to the items above.；
 >
@@ -326,7 +326,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-07-25 15:28 · Tobias Ernst
+> [!note]+ 2026-07-25 15:28 · [[Tobias_Ernst|Tobias Ernst]]
 > Yes Option 2 - running in the background (low-priority, but frequently scheduled) if nothing else is running.
 > This of course only works if the system is not loaded by more than some 90%.
 >
@@ -337,8 +337,8 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-07-25 02:26 · Dang Ho Anh
-> Hi Tobias Ernst ,
+> [!note]+ 2026-07-25 02:26 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[Tobias_Ernst|Tobias Ernst]] ,
 >
 > When you mentioned the background task which will call {*}MemIf_Rb_MainFunction(){*}, I thought of two options to implement this type of task:
 >
@@ -360,15 +360,15 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-07-24 22:27 · Tobias Ernst
+> [!note]+ 2026-07-24 22:27 · [[Tobias_Ernst|Tobias Ernst]]
 > Please change to a scheduling in the background task.
 > The long latency always comes back to this issue.
 > Scheduling in 10ms is never suitable.
 
 -------
 
-> [!note]+ 2026-07-24 08:07 · Dang Ho Anh
-> Added comments from Raghavan Shrivatsan:
+> [!note]+ 2026-07-24 08:07 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Added comments from [[Raghavan_Shrivatsan|Raghavan Shrivatsan]]:
 >
 > "There is no cancel feature that stops ongoing operation abruptly. (also, it cannot be implemented as it would cause integrity failures)
 >
@@ -384,10 +384,10 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-07-23 15:47 · Dang Ho Anh
+> [!note]+ 2026-07-23 15:47 · [[Dang_Ho_Anh|Dang Ho Anh]]
 > Hi [Shrivatsan.Raghavan@in.bosch.com](mailto:Shrivatsan.Raghavan@in.bosch.com) ,
 >
-> I have just been informed that V Venkatachalam, will be on vacation until June 27.
+> I have just been informed that [[V_Venkatachalam|V Venkatachalam]], will be on vacation until June 27.
 >
 > Could you please help investigate this issue in his absence?
 >
@@ -397,24 +397,24 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-07-23 15:04 · Phuong Nguyen Le
-> V Venkatachalam , as Cariad's expecting our response today (23/7). Can you help to provide any solution to reduce time (20s)?
+> [!note]+ 2026-07-23 15:04 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> [[V_Venkatachalam|V Venkatachalam]] , as Cariad's expecting our response today (23/7). Can you help to provide any solution to reduce time (20s)?
 
 -------
 
-> [!note]+ 2026-07-23 13:24 · Dang Ho Anh
-> Junsheng ZHANG Please check the comment from V Venkatachalam,
+> [!note]+ 2026-07-23 13:24 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]] Please check the comment from [[V_Venkatachalam|V Venkatachalam]],
 >
-> Hi V Venkatachalam , It seems this issue is unavoidable. But it still blocking the customer’s development. 
+> Hi [[V_Venkatachalam|V Venkatachalam]] , It seems this issue is unavoidable. But it still blocking the customer’s development. 
 >
 > Can we plan a hotfix version for this issue and release it as an ESR version?
 >
-> CC: Jiaqi JI , Phuong Nguyen Le 
+> CC: [[Jiaqi_JI|Jiaqi JI]] , [[Phuong_Nguyen_Le|Phuong Nguyen Le]] 
 
 -------
 
-> [!note]+ 2026-07-23 12:10 · V Venkatachalam
-> Hi Dang Ho Anh 
+> [!note]+ 2026-07-23 12:10 · [[V_Venkatachalam|V Venkatachalam]]
+> Hi [[Dang_Ho_Anh|Dang Ho Anh]] 
 >
 > FeeFs2 uses two types of sectors:
 >  # FAT Sector – Contains the NvM block headers.
@@ -444,12 +444,12 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-07-22 13:46 · JSM Service Bot
-> Hi V Venkatachalam, this Memory High-Level ticket requires an assignee. As the component lead for Memory High-Level, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+> [!note]+ 2026-07-22 13:46 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[V_Venkatachalam|V Venkatachalam]], this Memory High-Level ticket requires an assignee. As the component lead for Memory High-Level, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------
 
-> [!note]+ 2026-07-22 13:46 · Dang Ho Anh
+> [!note]+ 2026-07-22 13:46 · [[Dang_Ho_Anh|Dang Ho Anh]]
 > Hi [Venkatachalam V (MS/EMT5-ETAS)](https://confluence.etas-dev.com/display/~ven6cob),
 >
 > Below is the summary of the ticket so far:
@@ -477,7 +477,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-07-22 10:38 · Dang Ho Anh
+> [!note]+ 2026-07-22 10:38 · [[Dang_Ho_Anh|Dang Ho Anh]]
 > Dear All,
 >
 > The issue has recently been under discussion with Junsheng.
@@ -488,15 +488,15 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-07-20 10:10 · Junsheng ZHANG
-> Hi Dang Ho Anh ,
+> [!note]+ 2026-07-20 10:10 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Dang_Ho_Anh|Dang Ho Anh]] ,
 >
 >     TC499,MemAcc provided by the BSW
 
 -------
 
-> [!note]+ 2026-07-20 10:01 · Dang Ho Anh
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-07-20 10:01 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 >
 > Which target are you working on? TC4xx, ...?
 >
@@ -504,27 +504,27 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-07-20 09:51 · Junsheng ZHANG
-> Hi Dang Ho Anh ,
+> [!note]+ 2026-07-20 09:51 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Dang_Ho_Anh|Dang Ho Anh]] ,
 >
 >     I can’t share the client’s engineering work with you, but FS2’s project should have this issue.
 
 -------
 
-> [!note]+ 2026-07-20 09:42 · Jiaqi JI
-> Hi Dang Ho Anh ,
+> [!note]+ 2026-07-20 09:42 · [[Jiaqi_JI|Jiaqi JI]]
+> Hi [[Dang_Ho_Anh|Dang Ho Anh]] ,
 >
-> After check with Junsheng ZHANG , we cannot share the project due to compliance reason~ Thanks!
+> After check with [[Junsheng_ZHANG|Junsheng ZHANG]] , we cannot share the project due to compliance reason~ Thanks!
 
 -------
 
-> [!note]+ 2026-07-20 07:36 · Dang Ho Anh
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-07-20 07:36 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 > Could you share the project with us for further investigation?
 
 -------
 
-> [!note]+ 2026-07-19 09:06 · JSM Service Bot
+> [!note]+ 2026-07-19 09:06 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Junsheng ZHANG. Your issue is set to "Critical" priority.
 > Please ensure that there is a reasonable justification for this listed in the issue description, otherwise the priority may be reviewed and adjusted during triage.
 > Kind regards

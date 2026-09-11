@@ -1,6 +1,6 @@
-filters:
+﻿filters:
   and:
-    - file.folder == "_jira/_contacts"
+    - 'file.folder == "_jira/_contacts"'
 views:
   - type: table
     name: Contacts

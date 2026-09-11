@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Critical
 project: RH
-assignee: Dong LIU
-reporter: Dong LIU
+assignee: "[[Dong_LIU|Dong LIU]]"
+reporter: "[[Dong_LIU|Dong LIU]]"
 tags: [jira/comp/communication-comservices]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-06-04T10:18:43.000+0200"
 updated: "2026-07-04T11:39:18.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -60,17 +60,17 @@ Best regards,
 
 ## 评论
 
-> [!note]+ 2026-07-04 11:39 · JSM Service Bot
+> [!note]+ 2026-07-04 11:39 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-06-19 18:50 · JSM Service Bot
+> [!note]+ 2026-06-19 18:50 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically moved to Solution Proposed.
 
 -------
 
-> [!note]+ 2026-06-05 13:05 · Rushali Parate
+> [!note]+ 2026-06-05 13:05 · [[Rushali_Parate|Rushali Parate]]
 > It seems there are two different routing paths where the source PDU reference differs. In this case, the PDU IDs will also be different.
 >
 > If the project is not using RTE-generated SchM locks, the ID can be passed as a parameter to the lock function, changing:
@@ -85,7 +85,7 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-06-05 11:05 · Dong LIU
+> [!note]+ 2026-06-05 11:05 · [[Dong_LIU|Dong LIU]]
 > Currently, we have two solutions in mind.
 >
 > solutions 1:
@@ -106,21 +106,21 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-06-05 06:34 · Dong LIU
-> Mohammed Sameer Gundloor Phong Tang Dieu just analyze it specifically for this use case. 
+> [!note]+ 2026-06-05 06:34 · [[Dong_LIU|Dong LIU]]
+> [[Mohammed_Sameer_Gundloor|Mohammed Sameer Gundloor]] [[Phong_Tang_Dieu|Phong Tang Dieu]] just analyze it specifically for this use case. 
 > Both the same-core routing path CanIf -> PduR -> CanIf and the cross-core routing path CanIf -> PduR -> LinIf exist simultaneously, and both of them use PduR_GF_DDIF_FIFO_Transmit_Func for routing. thank you!
 
 -------
 
-> [!note]+ 2026-06-04 15:55 · Phong Tang Dieu
-> Hi Dong LIU
+> [!note]+ 2026-06-04 15:55 · [[Phong_Tang_Dieu|Phong Tang Dieu]]
+> Hi [[Dong_LIU|Dong LIU]]
 > Could you please clarify more details of customer's requirements based on the questions from Sameer?
 >
 > Thanks,
 
 -------
 
-> [!note]+ 2026-06-04 15:55 · Oliver Taylor
+> [!note]+ 2026-06-04 15:55 · [[Oliver_Taylor|Oliver Taylor]]
 > note:
 >
 > {quote}
@@ -132,8 +132,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-06-04 15:44 · Mohammed Sameer Gundloor
-> Hello Phong Tang Dieu 
+> [!note]+ 2026-06-04 15:44 · [[Mohammed_Sameer_Gundloor|Mohammed Sameer Gundloor]]
+> Hello [[Phong_Tang_Dieu|Phong Tang Dieu]] 
 >
 > Just to clarify this particular function is called in the context of a Gateway and if the project is using a queue.
 >
@@ -143,8 +143,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-06-04 14:55 · Phong Tang Dieu
-> Hi Mohammed Sameer Gundloor
+> [!note]+ 2026-06-04 14:55 · [[Phong_Tang_Dieu|Phong Tang Dieu]]
+> Hi [[Mohammed_Sameer_Gundloor|Mohammed Sameer Gundloor]]
 >
 > Cariad want to apply multicores communication as in description but they don't want to use XcoreCdd. 
 > Is there any possible solution for this requirement?
@@ -153,7 +153,7 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-06-04 14:53 · JSM Service Bot
-> Hi Mohammed Sameer Gundloor, this Communication-ComServices ticket requires an assignee. As the component lead for Communication-ComServices, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+> [!note]+ 2026-06-04 14:53 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Mohammed_Sameer_Gundloor|Mohammed Sameer Gundloor]], this Communication-ComServices ticket requires an assignee. As the component lead for Communication-ComServices, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------

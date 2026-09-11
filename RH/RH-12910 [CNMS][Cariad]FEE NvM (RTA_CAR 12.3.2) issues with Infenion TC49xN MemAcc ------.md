@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Low
 project: RH
-assignee: Sammy Burchmore
-reporter: Cong ZHANG
+assignee: "[[Sammy_Burchmore|Sammy Burchmore]]"
+reporter: "[[Cong_ZHANG|Cong ZHANG]]"
 tags: [jira/comp/memory-high-level, jira/label/cariad]
 fix-versions: []
 epic: null
 parent: null
 created: "2025-04-28T07:30:07.000+0200"
 updated: "2026-03-08T08:36:35.000+0100"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -82,13 +82,13 @@ If you don’t have the environment from your side, I could set a remote one for
 
 ## 评论
 
-> [!note]+ 2025-09-10 18:03 · JSM Service Bot
+> [!note]+ 2025-09-10 18:03 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2025-07-16 15:26 · V Venkatachalam
-> Hello Alex Fargus ,
+> [!note]+ 2025-07-16 15:26 · [[V_Venkatachalam|V Venkatachalam]]
+> Hello [[Alex_Fargus|Alex Fargus]] ,
 >
 > [RTA-CAR 12.6.0](https://jira.etas-dev.com/issues/?jql=project+%3D+ARC+AND+fixVersion+%3D+%22RTA-CAR+12.6.0%22) is having the page alignment fix in Fee.
 >
@@ -102,13 +102,13 @@ If you don’t have the environment from your side, I could set a remote one for
 
 -------
 
-> [!note]+ 2025-06-27 04:28 · Alex Fargus
+> [!note]+ 2025-06-27 04:28 · [[Alex_Fargus|Alex Fargus]]
 > If these features are already supported in later versions, please let me know from which version the issues are fixed.
 
 -------
 
-> [!note]+ 2025-06-26 14:47 · Adrian Funk
-> Sammy Burchmore :
+> [!note]+ 2025-06-26 14:47 · [[Adrian_Funk|Adrian Funk]]
+> [[Sammy_Burchmore|Sammy Burchmore]] :
 >
 > - What is Mem_17_Nvm_MainFunction doing?
 > The intentended mechanism for scheduling something in the synchronnous init phase is to configure the parameter FeeRbSyncFlsMainLoopHook.
@@ -116,12 +116,12 @@ If you don’t have the environment from your side, I could set a remote one for
 > - Later Fee versions already align blank checks to 8 bytes sizes
 > - I understood the patch with calling the function rba_FeeFs1x_BC_initCopyDo_extractHdr is fixing an issue. But that modification should of course not be necessary and it should be understood why this patch is necessary. This might be fixed already be configuring FeeRbSyncFlsMainLoopHook to Mem_17_Nvm_MainFunction
 >
-> V Venkatachalam : Handing over this ticket to you as owner. Can you please further support if additional questions comes up?
+> [[V_Venkatachalam|V Venkatachalam]] : Handing over this ticket to you as owner. Can you please further support if additional questions comes up?
 
 -------
 
-> [!note]+ 2025-06-25 11:45 · Sammy Burchmore
-> Hi Adrian Funk,
+> [!note]+ 2025-06-25 11:45 · [[Sammy_Burchmore|Sammy Burchmore]]
+> Hi [[Adrian_Funk|Adrian Funk]],
 >
 > This issues been in limbo for a while now. Could we please make some ARC tickets to track the defects and changes?
 >
@@ -131,32 +131,32 @@ If you don’t have the environment from your side, I could set a remote one for
 
 -------
 
-> [!note]+ 2025-06-25 11:43 · JSM Service Bot
+> [!note]+ 2025-06-25 11:43 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Memory Support Owner. This ticket requires an assignee.
 
 -------
 
-> [!note]+ 2025-06-25 09:10 · Mingye YUAN
+> [!note]+ 2025-06-25 09:10 · [[Mingye_YUAN|Mingye YUAN]]
 > After confirmation with Taohao, this issue can be temporarily avoided by either configuration or changing the integrated codes. So I lower the priority of this ticket. But it still should be solved for the coming 2.0 project. Thanks
 
 -------
 
-> [!note]+ 2025-06-25 05:46 · Alex Fargus
-> Manuel Koehler Is there any update on this? From reading your comment below it suggests that we have 2 defects and 2 new features required. Ideally we should have tickets for this ready for the upcoming PI planning if there is work to be planned within MEM RT.
+> [!note]+ 2025-06-25 05:46 · [[Alex_Fargus|Alex Fargus]]
+> [[Manuel_Koehler|Manuel Koehler]] Is there any update on this? From reading your comment below it suggests that we have 2 defects and 2 new features required. Ideally we should have tickets for this ready for the upcoming PI planning if there is work to be planned within MEM RT.
 
 -------
 
-> [!note]+ 2025-04-29 12:33 · Manuel Koehler
+> [!note]+ 2025-04-29 12:33 · [[Manuel_Koehler|Manuel Koehler]]
 > [^CARRIAD_TC4_DEMO.7z]
 
 -------
 
-> [!note]+ 2025-04-29 12:21 · Manuel Koehler
+> [!note]+ 2025-04-29 12:21 · [[Manuel_Koehler|Manuel Koehler]]
 > [^src.7z]
 
 -------
 
-> [!note]+ 2025-04-29 12:14 · Manuel Koehler
+> [!note]+ 2025-04-29 12:14 · [[Manuel_Koehler|Manuel Koehler]]
 > Notes from call with TAO Hao
 >
 > First Issue (Mem_17_Nvm_MainFunction needs to be called in MemIf main function):

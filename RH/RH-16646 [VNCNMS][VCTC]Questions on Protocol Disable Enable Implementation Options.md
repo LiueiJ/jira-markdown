@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Critical
 project: RH
-assignee: Jiaqi JI
-reporter: Jiaqi JI
+assignee: "[[Jiaqi_JI|Jiaqi JI]]"
+reporter: "[[Jiaqi_JI|Jiaqi JI]]"
 tags: [jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-07-15T04:46:34.000+0200"
 updated: "2026-08-03T13:42:30.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -62,13 +62,13 @@ Please help give us feedback by today. Noted with thanks.
 
 ## 评论
 
-> [!note]+ 2026-07-29 14:24 · JSM Service Bot
+> [!note]+ 2026-07-29 14:24 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-07-15 11:04 · Dang Ho Anh
-> Hi Jiaqi JI ,
+> [!note]+ 2026-07-15 11:04 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[Jiaqi_JI|Jiaqi JI]] ,
 >
 > Please check the answer below.
 >
@@ -86,18 +86,18 @@ Please help give us feedback by today. Noted with thanks.
 
 -------
 
-> [!note]+ 2026-07-15 05:47 · Khoa Phan Huynh Dang
-> Hi Jiaqi JI ,
+> [!note]+ 2026-07-15 05:47 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Jiaqi_JI|Jiaqi JI]] ,
 > I have changed the priority of this topic to **_Critical_** because it is {+}currently blocking the customer's progress due to the error discussed in yesterday's meeting{+}. We will prioritize this topic and keep you informed of the solution as soon as possible.
 
 -------
 
-> [!note]+ 2026-07-15 04:50 · Jiaqi JI
+> [!note]+ 2026-07-15 04:50 · [[Jiaqi_JI|Jiaqi JI]]
 > The priority is high, as this issue will affect cariad overall strategy, so they request need to align on it before moving forward.
 
 -------
 
-> [!note]+ 2026-07-15 04:46 · JSM Service Bot
+> [!note]+ 2026-07-15 04:46 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Jiaqi.JI@bosch.com, please note that this issue was made with VNCNMS in the summary and has been sent to the relevant queue by adding the VNCNMS label.
 
 -------

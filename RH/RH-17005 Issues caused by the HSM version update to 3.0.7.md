@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Critical
 project: RH
-assignee: Junsheng ZHANG
-reporter: Junsheng ZHANG
+assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: []
 fix-versions: []
 epic: null
 parent: null
 created: "2026-08-23T14:02:22.000+0200"
 updated: "2026-09-10T01:51:03.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -56,18 +56,18 @@ Hi Hotline,
 
 ## 评论
 
-> [!note]+ 2026-09-10 01:50 · Steven TANG
+> [!note]+ 2026-09-10 01:50 · [[Steven_TANG|Steven TANG]]
 > this proposal already verified at CARIAD side. it works well, we can close this ticket.
 
 -------
 
-> [!note]+ 2026-09-09 18:57 · JSM Service Bot
+> [!note]+ 2026-09-09 18:57 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically moved to Solution Proposed.
 
 -------
 
-> [!note]+ 2026-08-26 13:31 · Sandra Weigl
-> Hi Christian Fuerst ,
+> [!note]+ 2026-08-26 13:31 · [[Sandra_Weigl|Sandra Weigl]]
+> Hi [[Christian_Fuerst|Christian Fuerst]] ,
 >
 > product team is already heavily involved and provided already a POC how to solve the situaiton on customer side.
 >
@@ -75,8 +75,8 @@ Hi Hotline,
 
 -------
 
-> [!note]+ 2026-08-24 15:39 · Christian Fuerst
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-08-24 15:39 · [[Christian_Fuerst|Christian Fuerst]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 >
 > normally it is not needed to change the UCB settings when you upgrade the CycurHSM to a newer version.
 >
@@ -104,8 +104,8 @@ Hi Hotline,
 
 -------
 
-> [!note]+ 2026-08-24 10:34 · Christian Fuerst
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-08-24 10:34 · [[Christian_Fuerst|Christian Fuerst]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 >
 > can you provide in which phase of development this issue shows up, please?
 >
@@ -118,7 +118,7 @@ Hi Hotline,
 
 -------
 
-> [!note]+ 2026-08-23 14:11 · JSM Service Bot
+> [!note]+ 2026-08-23 14:11 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Junsheng ZHANG. Your issue is set to "Critical" priority.
 > Please ensure that there is a reasonable justification for this listed in the issue description, otherwise the priority may be reviewed and adjusted during triage.
 > Kind regards

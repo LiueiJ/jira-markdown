@@ -1,9 +1,9 @@
 ﻿---
-jira_contact: vihitha.jain@bosch.com
-username: vihitha.jain@bosch.com
+jira_contact: vihitha.jain@etas.com
+username: vihitha.jain@etas.com
 usernames:
-  rtahotline: vihitha.jain@bosch.com
+  rtahotline: vihitha.jain@etas.com
 name: Vihitha Jain
-email: vihitha.jain@bosch.com
+email: vihitha.jain@etas.com
 servers: [rtahotline]
 ---

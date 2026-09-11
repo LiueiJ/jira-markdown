@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Critical
 project: RH
-assignee: Junsheng ZHANG
-reporter: Junsheng ZHANG
+assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: [jira/comp/cycurhsm3, jira/comp/sec-cryptoauhsm3, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-06-24T12:02:55.000+0200"
 updated: "2026-08-11T16:44:21.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -49,15 +49,15 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
 
-> [!note]+ 2026-07-29 13:50 · Junsheng ZHANG
-> Hi Khoa Phan Huynh Dang ,  
+> [!note]+ 2026-07-29 13:50 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] ,  
 >
 > The issue code has already been fixed in the pr4 version.We can close the ticket now;Thank you very much for your support;
 
 -------
 
-> [!note]+ 2026-07-29 05:37 · Khoa Phan Huynh Dang
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-07-29 05:37 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 >
 >
 > I would like to summarize this ticket. The issue **identified in RTA-CAR 12.11.0.VCTCESR1pr3** has been resolved in the subsequent release, {*}RTA-CAR 12.11.0.VCTCESR1pr4{*}.
@@ -68,18 +68,18 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-07-28 06:48 · Khoa Phan Huynh Dang
+> [!note]+ 2026-07-28 06:48 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > Hi all,
-> After reviewing version **12.11.0.VCTCESR1pr4** with Junsheng ZHANG, I confirmed that this issue is valid and requires support from the development team. The following errors were identified:
+> After reviewing version **12.11.0.VCTCESR1pr4** with [[Junsheng_ZHANG|Junsheng ZHANG]], I confirmed that this issue is valid and requires support from the development team. The following errors were identified:
 >  * An error related to {*}`CryptoPrimitiveConfiguration`{*}, which does not contain the member field (mentioned by the customer).
 >  * An error related to the AUTOSAR (AR) compatibility version.  ![[RH-16462-image-2026-07-28-11-14-47-414.png]]
 >  * Some updates have been released for other modules, but the plugin does not include the corresponding updated versions. For example, the HSM3 module was updated to version 6.2.0 in this release; however, after integrating the pr4 plugin, we are still unable to update it.  ![[RH-16462-image-2026-07-28-11-19-34-701.png]]   
 >
-> Please correct me if I missed any points, Junsheng ZHANG 
+> Please correct me if I missed any points, [[Junsheng_ZHANG|Junsheng ZHANG]] 
 >
 > -------------------------------------------------------------------
 >
-> Junsheng ZHANG , for the workaround solution to pass the error of BSW gen, you can refer:
+> [[Junsheng_ZHANG|Junsheng ZHANG]] , for the workaround solution to pass the error of BSW gen, you can refer:
 >  # After update Crypto to the upgraded version in pr4, choose "import source code" to generate this module in your project
 >  # Revert the change in "{*}Crypto_Cfg_h.ftl{*}" ![[RH-16462-image-2026-07-28-11-47-24-342.png]]
 >  # Rebuild BSW again and it will pass as below:
@@ -88,12 +88,12 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 >
 > ---------------------
 >
-> Junsheng ZHANG , I'm checking with dev team to analyze the plugin pr4 and will let you know details asap
+> [[Junsheng_ZHANG|Junsheng ZHANG]] , I'm checking with dev team to analyze the plugin pr4 and will let you know details asap
 
 -------
 
-> [!note]+ 2026-07-27 15:20 · Junsheng ZHANG
-> Hi Khoa Phan Huynh Dang ,
+> [!note]+ 2026-07-27 15:20 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] ,
 >
 > After I installed PR4, I regenerated the BSW code, but I got this error. It’s possible this is a tool issue.
 >
@@ -102,27 +102,27 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-07-24 10:41 · Khoa Phan Huynh Dang
+> [!note]+ 2026-07-24 10:41 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > Hi all,
 >
 > After checking with the customer, we confirmed that the fix for this issue has already been implemented in {*}RTA-CAR 12.11.0.VCTCESR1pr4{*}. I have provided the plugin for this version.
 >
-> Junsheng ZHANG , could you please verify the solution and close the ticket if the issue has been resolved? Otherwise, please let us know if you have any further concerns. Thank you!
+> [[Junsheng_ZHANG|Junsheng ZHANG]] , could you please verify the solution and close the ticket if the issue has been resolved? Otherwise, please let us know if you have any further concerns. Thank you!
 
 -------
 
-> [!note]+ 2026-07-24 09:50 · JSM Service Bot
+> [!note]+ 2026-07-24 09:50 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Junsheng ZHANG, please note that this issue was made with VNCNMS in the summary and has been sent to the relevant queue by adding the VNCNMS label.
 
 -------
 
-> [!note]+ 2026-07-24 09:21 · JSM Service Bot
-> Junsheng ZHANG, the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [!note]+ 2026-07-24 09:21 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-07-24 09:21 · Junsheng ZHANG
-> Hi Phong Tang Dieu ,Volker Boehm 
+> [!note]+ 2026-07-24 09:21 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Phong_Tang_Dieu|Phong Tang Dieu]] ,[[Volker_Boehm|Volker Boehm]] 
 >
 > I have check the code of RTA-CAR 12.11.0.VCTCESR1pr4,I also have the type(ecy_hsm_Csai_HwCsp_ReleaseKey_ParamSetAndVersionT),but 3.0.6 do not define it;
 >
@@ -130,12 +130,12 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-07-09 14:22 · JSM Service Bot
+> [!note]+ 2026-07-09 14:22 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-06-24 15:06 · Volker Boehm
+> [!note]+ 2026-06-24 15:06 · [[Volker_Boehm|Volker Boehm]]
 > Should be resolved by
 >
 > !https://jira.etas-dev.com/images/icons/issuetypes/epic.svg|width=16,height=16!  [ARCSEC-6975](https://jira.etas-dev.com/browse/ARCSEC-6975) [CryptoAuHSM3] Update to support HSM 3.0.6 instead of 3.0.5 beta (fwd path)
@@ -145,19 +145,19 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-06-24 12:45 · Phong Tang Dieu
-> Hi Alexander Wegmann
+> [!note]+ 2026-06-24 12:45 · [[Phong_Tang_Dieu|Phong Tang Dieu]]
+> Hi [[Alexander_Wegmann|Alexander Wegmann]]
 > Could you please take a look at this issue?
 > Thanks,
 
 -------
 
-> [!note]+ 2026-06-24 12:44 · JSM Service Bot
-> Hi Alexander Wegmann, this CycurHSM3 ticket requires an assignee. As the component lead for CycurHSM3, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+> [!note]+ 2026-06-24 12:44 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Alexander_Wegmann|Alexander Wegmann]], this CycurHSM3 ticket requires an assignee. As the component lead for CycurHSM3, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------
 
-> [!note]+ 2026-06-24 12:21 · FAE Technical
+> [!note]+ 2026-06-24 12:21 · [[FAE_Technical|FAE Technical]]
 > {panel:bgColor=#ffffce}
 > **AI-Generated Investigation**
 > *This is experimental. Do not treat the findings as certain. Please do not reply to this comment; your assigned FAE will follow up separately.*
@@ -170,7 +170,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-06-24 12:02 · FAE Technical
+> [!note]+ 2026-06-24 12:02 · [[FAE_Technical|FAE Technical]]
 > AI Investigation automatically started due to ticket creation by trusted agent Junsheng ZHANG.
 > Progress can be tracked on [Jenkins](https://rta-fae.jenkins.etas-dev.com/job/Hotline%20Automation%20-%20Agentic/job/main)
 >

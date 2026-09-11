@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Critical
 project: RH
-assignee: Jiaqi JI
-reporter: Jiaqi JI
+assignee: "[[Jiaqi_JI|Jiaqi JI]]"
+reporter: "[[Jiaqi_JI|Jiaqi JI]]"
 tags: [jira/comp/diagnostic-eventstatemgmt, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-07-15T07:27:35.000+0200"
 updated: "2026-08-03T13:42:30.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -52,17 +52,17 @@ Best Regards,
 
 ## 评论
 
-> [!note]+ 2026-07-31 14:24 · JSM Service Bot
+> [!note]+ 2026-07-31 14:24 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-07-17 06:38 · Khoa Phan Huynh Dang
-> Hi Sagar Subbaramaiah , anh Dang Ho Anh 
+> [!note]+ 2026-07-17 06:38 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Sagar_Subbaramaiah|Sagar Subbaramaiah]] , anh [[Dang_Ho_Anh|Dang Ho Anh]] 
 >
 > Thank you so much for your response.
 >
-> Hi Jiaqi JI ,
+> Hi [[Jiaqi_JI|Jiaqi JI]] ,
 > As confirmed by your side, the customer Cariad will use **RTA-CAR 12.11.0** as their latest version (not RTA-CAR 12.11.0VCTCESR). In this case, they can use PBS for **DemDTC.DemDtcOBDRelevance** to handle their feature. 
 > ![[RH-16647-image-2026-07-17-11-26-51-968.png]]
 > {+}Additionally{+}, you can also refer to PBS for switching between OBD and non-OBD protocols.
@@ -70,8 +70,8 @@ Best Regards,
 
 -------
 
-> [!note]+ 2026-07-16 08:48 · Sagar Subbaramaiah
-> Hi Khoa Phan Huynh Dang,
+> [!note]+ 2026-07-16 08:48 · [[Sagar_Subbaramaiah|Sagar Subbaramaiah]]
+> Hi [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]],
 >
 > you are absolutely right. There is no support for changing the OBD relevance of a monitor by calibration in our product. PostBuildSelectable is the right choice here, which is supported from RTA-CAR 12.10.0 onwards.
 >
@@ -81,13 +81,13 @@ Best Regards,
 
 -------
 
-> [!note]+ 2026-07-16 05:10 · JSM Service Bot
-> Hi Gunjan Pradip Mantala, this Diagnostic-EventStateMgmt ticket requires an assignee. As the component lead for Diagnostic-EventStateMgmt, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+> [!note]+ 2026-07-16 05:10 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Gunjan_Pradip_Mantala|Gunjan Pradip Mantala]], this Diagnostic-EventStateMgmt ticket requires an assignee. As the component lead for Diagnostic-EventStateMgmt, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------
 
-> [!note]+ 2026-07-16 05:10 · Khoa Phan Huynh Dang
-> Hello Gunjan Pradip Mantala ,
+> [!note]+ 2026-07-16 05:10 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hello [[Gunjan_Pradip_Mantala|Gunjan Pradip Mantala]] ,
 >
 > ![[RH-16647-image-2026-07-16-10-07-35-342.png]]
 > Regarding the customer's concerns, the background and feature are explained below:
@@ -100,7 +100,7 @@ Best Regards,
 
 -------
 
-> [!note]+ 2026-07-15 12:57 · Khoa Phan Huynh Dang
+> [!note]+ 2026-07-15 12:57 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > **1. Can the OBDDTC be linked or unlinked through a calibration variable?**
 >
 > No, {color:#de350b}`DemObdDTCRef` {color}(the reference linking {color:#de350b}`DemDTC`{color} to {color:#de350b}`DemObdDTC`{color}) is not a calibration parameter and c{*}annot be switched on or off{*} through calibration tools such as INCA or CANape at {*}runtime{*}. It is a statically configured structural reference that is resolved during {*}the build process{*}, not a runtime-tunable characteristic. In this case, you can refer the PostBuild Selectable to create variants for handling.
@@ -108,13 +108,13 @@ Best Regards,
 
 -------
 
-> [!note]+ 2026-07-15 09:24 · Khoa Phan Huynh Dang
-> Hi Jiaqi JI ,
+> [!note]+ 2026-07-15 09:24 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Jiaqi_JI|Jiaqi JI]] ,
 > I have changed the priority of this topic to **_Critical_** because it is {+}currently blocking the customer's progress due to the error discussed in yesterday's meeting{+}. We will prioritize this topic and keep you informed of the solution as soon as possible.
 
 -------
 
-> [!note]+ 2026-07-15 07:27 · JSM Service Bot
+> [!note]+ 2026-07-15 07:27 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Jiaqi.JI@bosch.com, please note that this issue was made with VNCNMS in the summary and has been sent to the relevant queue by adding the VNCNMS label.
 
 -------

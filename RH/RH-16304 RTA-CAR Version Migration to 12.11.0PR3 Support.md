@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: High
 project: RH
-assignee: Sisi TAO
-reporter: Sisi TAO
+assignee: "[[Sisi_TAO|Sisi TAO]]"
+reporter: "[[Sisi_TAO|Sisi TAO]]"
 tags: [jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-06-10T05:27:47.000+0200"
 updated: "2026-06-10T11:49:50.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -67,7 +67,7 @@ Currently I can’t generate BSW properly. I did the migration in two ways, now 
 
 ## 评论
 
-> [!note]+ 2026-06-10 11:49 · Sisi TAO
+> [!note]+ 2026-06-10 11:49 · [[Sisi_TAO|Sisi TAO]]
 > I tested [^CEA2_0_RDCU_converted.zip] and it can generate BSW Code. 
 >
 > But when I copied this project into my repository (exactly the same files), It will report error in  ![[RH-16304-image001.png]]
@@ -79,21 +79,21 @@ Currently I can’t generate BSW properly. I did the migration in two ways, now 
 
 -------
 
-> [!note]+ 2026-06-10 10:55 · Phuong Nguyen Le
-> As offline support, Sisi TAO can generated with attachment project.
+> [!note]+ 2026-06-10 10:55 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> As offline support, [[Sisi_TAO|Sisi TAO]] can generated with attachment project.
 > [^CEA2_0_RDCU_converted.zip]
 
 -------
 
-> [!note]+ 2026-06-10 08:22 · Phuong Nguyen Le
-> Hi Sisi TAO , I do a quick check. Can you try to add this line in buildSettings.properties then try it again
+> [!note]+ 2026-06-10 08:22 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> Hi [[Sisi_TAO|Sisi TAO]] , I do a quick check. Can you try to add this line in buildSettings.properties then try it again
 >
 > ![[RH-16304-image-2026-06-10-13-21-17-639.png]]
 
 -------
 
-> [!note]+ 2026-06-10 06:13 · Khoa Phan Huynh Dang
-> Hi Sisi TAO ,
+> [!note]+ 2026-06-10 06:13 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Sisi_TAO|Sisi TAO]] ,
 >
 > Could you attach the corresponding project for analyzing ☺️?
 

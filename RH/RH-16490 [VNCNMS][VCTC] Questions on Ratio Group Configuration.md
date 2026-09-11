@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: High
 project: RH
-assignee: Jiaqi JI
-reporter: Jiaqi JI
+assignee: "[[Jiaqi_JI|Jiaqi JI]]"
+reporter: "[[Jiaqi_JI|Jiaqi JI]]"
 tags: [jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-06-26T03:50:56.000+0200"
 updated: "2026-07-28T14:24:22.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -49,30 +49,30 @@ Noted with thanks!
 
 ## 评论
 
-> [!note]+ 2026-07-28 14:24 · JSM Service Bot
+> [!note]+ 2026-07-28 14:24 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-07-14 12:41 · Khoa Phan Huynh Dang
+> [!note]+ 2026-07-14 12:41 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > Hi all,
 >
-> Thank you, bro Dang Ho Anh, for your support. After the meeting, we found that all of the customer's new concerns are unrelated to the main topic of this ticket. Therefore, Jiaqi JI , could you please create a new ticket to track and address these additional questions? I will move this ticket to the 'Proposed Solution' state.
+> Thank you, bro [[Dang_Ho_Anh|Dang Ho Anh]], for your support. After the meeting, we found that all of the customer's new concerns are unrelated to the main topic of this ticket. Therefore, [[Jiaqi_JI|Jiaqi JI]] , could you please create a new ticket to track and address these additional questions? I will move this ticket to the 'Proposed Solution' state.
 >
 > Thank you! 
 
 -------
 
-> [!note]+ 2026-07-14 09:15 · Khoa Phan Huynh Dang
-> Hi Jiaqi JI ,
+> [!note]+ 2026-07-14 09:15 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Jiaqi_JI|Jiaqi JI]] ,
 >
 >
 > Have we received any feedback from the customer regarding their new issue 😅?
 
 -------
 
-> [!note]+ 2026-07-13 13:06 · Khoa Phan Huynh Dang
-> Hello Jiaqi JI ,
+> [!note]+ 2026-07-13 13:06 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hello [[Jiaqi_JI|Jiaqi JI]] ,
 >
 > 1. I don't know why the customer is encountering this error. Could we obtain the ECUC configuration from their project (at least for the DCM module) for further analysis?
 >
@@ -82,8 +82,8 @@ Noted with thanks!
 
 -------
 
-> [!note]+ 2026-07-13 07:10 · Jiaqi JI
-> Hello Khoa Phan Huynh Dang ,
+> [!note]+ 2026-07-13 07:10 · [[Jiaqi_JI|Jiaqi JI]]
+> Hello [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] ,
 >
 > Noted with thanks for your feedback.
 >
@@ -97,8 +97,8 @@ Noted with thanks!
 
 -------
 
-> [!note]+ 2026-07-13 06:07 · Khoa Phan Huynh Dang
-> Hi Jiaqi JI ,
+> [!note]+ 2026-07-13 06:07 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Jiaqi_JI|Jiaqi JI]] ,
 >
 > I think the customer has the solution for this case, the configuration **DEM_IUMPR_DEN_NONE** can be used as mentioned in the AUTOSAR
 >
@@ -108,8 +108,8 @@ Noted with thanks!
 
 -------
 
-> [!note]+ 2026-07-13 04:33 · Jiaqi JI
-> Hello Khoa Phan Huynh Dang ,
+> [!note]+ 2026-07-13 04:33 · [[Jiaqi_JI|Jiaqi JI]]
+> Hello [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] ,
 >
 > Customer added one question based on your reply: 
 >
@@ -119,20 +119,20 @@ Noted with thanks!
 
 -------
 
-> [!note]+ 2026-07-10 08:13 · JSM Service Bot
-> Jiaqi JI, the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [!note]+ 2026-07-10 08:13 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[Jiaqi_JI|Jiaqi JI]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-07-10 08:13 · Jiaqi JI
-> Hello Khoa Phan Huynh Dang ,
+> [!note]+ 2026-07-10 08:13 · [[Jiaqi_JI|Jiaqi JI]]
+> Hello [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] ,
 >
 > Got it. Thanks a lot for your kindly support.
 
 -------
 
-> [!note]+ 2026-07-09 16:00 · Khoa Phan Huynh Dang
-> Hello Jiaqi JI ,
+> [!note]+ 2026-07-09 16:00 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hello [[Jiaqi_JI|Jiaqi JI]] ,
 >
 >
 > Please help ensure that the customer has reviewed the information below and {color:#de350b}confirm whether the proposed solution addresses their concerns{color}.
@@ -143,7 +143,7 @@ Noted with thanks!
 
 -------
 
-> [!note]+ 2026-07-09 15:58 · Khoa Phan Huynh Dang
+> [!note]+ 2026-07-09 15:58 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > I would like to summarize the current information and my understanding of your use case:
 > ### Current Situation
 >
@@ -278,8 +278,8 @@ Noted with thanks!
 
 -------
 
-> [!note]+ 2026-07-08 07:35 · Jiaqi JI
-> Hello Khoa Phan Huynh Dang ,
+> [!note]+ 2026-07-08 07:35 · [[Jiaqi_JI|Jiaqi JI]]
+> Hello [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] ,
 >
 > Customer added one screen shot.
 >
@@ -287,7 +287,7 @@ Noted with thanks!
 
 -------
 
-> [!note]+ 2026-07-03 08:38 · Jiaqi JI
+> [!note]+ 2026-07-03 08:38 · [[Jiaqi_JI|Jiaqi JI]]
 > |  |
 > **
 > |  |
@@ -314,7 +314,7 @@ Noted with thanks!
 
 -------
 
-> [!note]+ 2026-07-03 07:19 · extern.ping.wang3@cariad-technology.cn
+> [!note]+ 2026-07-03 07:19 · [[extern.ping.wang3@cariad-technology.cn|extern.ping.wang3@cariad-technology.cn]]
 > {color:#000000}{color} 
 >
 > {color:#000000}hello Khoa Phan Huynh Dang{color}  
@@ -325,7 +325,7 @@ Noted with thanks!
 
 -------
 
-> [!note]+ 2026-07-01 13:50 · Khoa Phan Huynh Dang
+> [!note]+ 2026-07-01 13:50 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > Hello XiaoDong,
 >
 > Hello Ping,
@@ -350,7 +350,7 @@ Noted with thanks!
 
 -------
 
-> [!note]+ 2026-07-01 10:09 · extern.xiaodong.wang2@cariad-technology.cn
+> [!note]+ 2026-07-01 10:09 · [[extern.xiaodong.wang2@cariad-technology.cn|extern.xiaodong.wang2@cariad-technology.cn]]
 > {color:#000000}{color} 
 >
 > {color:#000000} Hi :{color} 
@@ -382,7 +382,7 @@ Noted with thanks!
 
 -------
 
-> [!note]+ 2026-06-30 10:10 · Khoa Phan Huynh Dang
+> [!note]+ 2026-06-30 10:10 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > {color:#de350b}there is "low temp" defined by us as denominator, however, it is also not defined in current ETAS stack, how to handle it?{color}
 >
 > ![[RH-16490-image-2026-06-30-15-03-00-018.png]]
@@ -391,7 +391,7 @@ Noted with thanks!
 
 -------
 
-> [!note]+ 2026-06-30 09:52 · Khoa Phan Huynh Dang
+> [!note]+ 2026-06-30 09:52 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > {color:#de350b}Currently, there is ratio group defined as "OTHER" which contains the DTC not in the other group. however, we don't find this group in ETAS stack, please help to figure out how to handle it{color}
 >
 > {color:#172b4d}When configuring a DemRatio (a specific IUMPR ratio) in the ARXML file, you must assign it to a DemIUMPRGroup. If the monitor is proprietary or custom—meaning it does not match any standard legislated groups (such as catalyst, O2 sensor, EGR, etc.)—you should select {*}DEM_IUMPR_PRIVATE{*}. This marks it as a private/manufacturer-specific monitoring group, separate from the public legislated IUMPR groups.{color}
@@ -402,21 +402,21 @@ Noted with thanks!
 
 -------
 
-> [!note]+ 2026-06-30 09:34 · Khoa Phan Huynh Dang
-> Hi Jiaqi JI ,
+> [!note]+ 2026-06-30 09:34 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Jiaqi_JI|Jiaqi JI]] ,
 >
 > Sorry for keeping you waiting. Just to let you know, we are currently analyzing the issue and will update you ASAP.
 
 -------
 
-> [!note]+ 2026-06-26 03:59 · Jiaqi JI
+> [!note]+ 2026-06-26 03:59 · [[Jiaqi_JI|Jiaqi JI]]
 > Hi Team, 
 >
 > RTA-CAR version: RTA-CAR 12.11.0VCTCESR1pr1.
 
 -------
 
-> [!note]+ 2026-06-26 03:50 · JSM Service Bot
+> [!note]+ 2026-06-26 03:50 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Jiaqi.JI@bosch.com, please note that this issue was made with VNCNMS in the summary and has been sent to the relevant queue by adding the VNCNMS label.
 
 -------

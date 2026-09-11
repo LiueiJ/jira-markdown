@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Medium
 project: RH
-assignee: Marc Kaiser
-reporter: Sisi TAO
+assignee: "[[Marc_Kaiser|Marc Kaiser]]"
+reporter: "[[Sisi_TAO|Sisi TAO]]"
 tags: [jira/comp/generic-importers]
 fix-versions: []
 epic: null
 parent: null
 created: "2025-02-27T04:33:27.000+0100"
 updated: "2026-03-08T08:36:38.000+0100"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -63,15 +63,15 @@ Could you help me? Thank you very much.
 
 ## 评论
 
-> [!note]+ 2025-03-06 08:07 · Marc Kaiser
-> User finding by Sisi TAO  is correct. GI is buggy by not importing PduLength for UserDefinedPdu.
+> [!note]+ 2025-03-06 08:07 · [[Marc_Kaiser|Marc Kaiser]]
+> User finding by [[Sisi_TAO|Sisi TAO]]  is correct. GI is buggy by not importing PduLength for UserDefinedPdu.
 >
 > Further handling is tracked by https://rtahotline.etas.com/jira/browse/RH-12489
 
 -------
 
-> [!note]+ 2025-02-27 10:08 · Huw Christianson
-> Hi Marc Kaiser,
+> [!note]+ 2025-02-27 10:08 · [[Huw_Christianson|Huw Christianson]]
+> Hi [[Marc_Kaiser|Marc Kaiser]],
 >
 > Thanks for looking into this. let me know if you need any support from L2 and I will be happy to help.
 >
@@ -79,7 +79,7 @@ Could you help me? Thank you very much.
 
 -------
 
-> [!note]+ 2025-02-27 09:40 · Marc Kaiser
+> [!note]+ 2025-02-27 09:40 · [[Marc_Kaiser|Marc Kaiser]]
 > Look what I found in the code:
 >
 > ![[RH-12443-image-2025-02-27-09-39-36-124.png]]
@@ -97,14 +97,14 @@ Could you help me? Thank you very much.
 
 -------
 
-> [!note]+ 2025-02-27 09:22 · Sisi TAO
+> [!note]+ 2025-02-27 09:22 · [[Sisi_TAO|Sisi TAO]]
 > Attached TWO arxmls are System Extract to reproduce the issue
 > [^SOMEIP_Config.arxml] [^DBC_SysDesc.arxml]
 
 -------
 
-> [!note]+ 2025-02-27 08:41 · Huw Christianson
-> hi Sisi TAO,
+> [!note]+ 2025-02-27 08:41 · [[Huw_Christianson|Huw Christianson]]
+> hi [[Sisi_TAO|Sisi TAO]],
 >
 > Could you attach the project so I can take a look?
 > Also, did this start when you changed to 12.6.0PR1 or have you noticed it previously?

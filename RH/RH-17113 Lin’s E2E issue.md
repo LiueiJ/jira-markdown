@@ -7,15 +7,15 @@ type: Support
 status: Waiting for Customer
 priority: Medium
 project: RH
-assignee: Junsheng ZHANG
-reporter: Junsheng ZHANG
+assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: [jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-09-03T06:11:36.000+0200"
 updated: "2026-09-09T16:28:53.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -72,20 +72,20 @@ May I ask why we have such restrictions? Is there a way to help the customer ach
 
 ## 评论
 
-> [!note]+ 2026-09-03 10:32 · JSM Service Bot
-> Junsheng ZHANG, the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [!note]+ 2026-09-03 10:32 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-09-03 10:32 · Junsheng ZHANG
-> Hi Dang Ho Anh ,
+> [!note]+ 2026-09-03 10:32 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Dang_Ho_Anh|Dang Ho Anh]] ,
 >
 > The customer hasn’t synced the project to us yet, but previously in the 9.1 version, the RTA CAR was configurable. After the customer synced to 12.11, it no longer works.
 
 -------
 
-> [!note]+ 2026-09-03 08:47 · Dang Ho Anh
-> Hi Junsheng ZHANG 
+> [!note]+ 2026-09-03 08:47 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] 
 >
 > Could you share the project in the ticket or directly with me?
 >
@@ -93,7 +93,7 @@ May I ask why we have such restrictions? Is there a way to help the customer ach
 
 -------
 
-> [!note]+ 2026-09-03 06:19 · JSM Service Bot
+> [!note]+ 2026-09-03 06:19 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Junsheng ZHANG. Your issue is set to "Critical" priority.
 > Please ensure that there is a reasonable justification for this listed in the issue description, otherwise the priority may be reviewed and adjusted during triage.
 > Kind regards

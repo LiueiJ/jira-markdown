@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Low
 project: RH
-assignee: Phong Tang Dieu
-reporter: Dong LIU
+assignee: "[[Phong_Tang_Dieu|Phong Tang Dieu]]"
+reporter: "[[Dong_LIU|Dong LIU]]"
 tags: []
 fix-versions: []
 epic: null
 parent: null
 created: "2025-06-11T09:01:52.000+0200"
 updated: "2026-03-05T06:52:05.000+0100"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -56,16 +56,16 @@ Best regards,
 
 ## 评论
 
-> [!note]+ 2025-06-24 12:38 · Phong Tang Dieu
-> Hi Dong LIU
+> [!note]+ 2025-06-24 12:38 · [[Phong_Tang_Dieu|Phong Tang Dieu]]
+> Hi [[Dong_LIU|Dong LIU]]
 > Yeah, I saw this fix in RTA-CAR 12.7.0 also.
 > As this problem was fixed. I'd like to close this ticket here.
 > Thanks,
 
 -------
 
-> [!note]+ 2025-06-20 11:17 · Dong LIU
-> Hi,Phong Tang Dieu 
+> [!note]+ 2025-06-20 11:17 · [[Dong_LIU|Dong LIU]]
+> Hi,[[Phong_Tang_Dieu|Phong Tang Dieu]] 
 >
 > In actual debugging, we found that line 538 returned False
 >
@@ -81,8 +81,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2025-06-12 18:37 · Phong Tang Dieu
-> Hi Dong LIU 
+> [!note]+ 2025-06-12 18:37 · [[Phong_Tang_Dieu|Phong Tang Dieu]]
+> Hi [[Dong_LIU|Dong LIU]] 
 >
 > Can you please debug and verify if the cyclic offer messages for other servers services are prepared by SD or not? Below breakpoint in Sd_ServerMainFunction should point out which service is prepared to send. Also, please check inside the Sd_SrvRegSendEntryMulticast to make sure the
 > Sd_AddRxdEntryInfoToList() is called. 
@@ -92,12 +92,12 @@ Best regards,
 
 -------
 
-> [!note]+ 2025-06-11 09:49 · Dong LIU
+> [!note]+ 2025-06-11 09:49 · [[Dong_LIU|Dong LIU]]
 > here is the project attachment[^20_Software.zip]
 
 -------
 
-> [!note]+ 2025-06-11 09:49 · Dong LIU
+> [!note]+ 2025-06-11 09:49 · [[Dong_LIU|Dong LIU]]
 > [^20_Software.zip]
 
 -------

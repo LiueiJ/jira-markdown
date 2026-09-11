@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: High
 project: RH
-assignee: Junsheng ZHANG
-reporter: Junsheng ZHANG
+assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: [jira/comp/rta-car, jira/comp/rta-rte, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-04-12T12:56:44.000+0200"
 updated: "2026-04-20T13:08:48.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -50,14 +50,14 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
 
-> [!note]+ 2026-04-17 16:30 · Liam Wellacott
+> [!note]+ 2026-04-17 16:30 · [[Liam_Wellacott|Liam Wellacott]]
 > This type of error is seen with the new architecture when output folders are modified. Have any files inside the src/bsw been manually moved/updated? If not, please clean the output folder and run again.
 >
 > I am unavailable for the next two weeks, subsequent issues should be forwarded to the tools team colleagues who will be best placed to help.
 
 -------
 
-> [!note]+ 2026-04-16 16:51 · Junsheng ZHANG
+> [!note]+ 2026-04-16 16:51 · [[Junsheng_ZHANG|Junsheng ZHANG]]
 > I have update the version by add plugin;[https://artifactory.etas-dev.com/artifactory/rtabsw-generic-main-local/Release/12.11.0.VCTCESR1pr3/…](https://artifactory.etas-dev.com/artifactory/rtabsw-generic-main-local/Release/12.11.0.VCTCESR1pr3/RC/Delivery/RTA-CAR-12.11.0.VCTCESR1pr3.zip)；
 >
 > There will still be errors with the rip, but the content looks different
@@ -87,8 +87,8 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-04-16 16:48 · Jacob Allen
-> Lan Tran this may be relevant for you to know.
+> [!note]+ 2026-04-16 16:48 · [[Jacob_Allen|Jacob Allen]]
+> [[Lan_Tran|Lan Tran]] this may be relevant for you to know.
 >
 > VCTCESR1pr2 looks to have non-matching BSW and BSW.OLDARCH which will lead to confusing customer behaviour. For all 12.10.0-based versions of RTA-CAR (and any based on the current 12.11.0 master branch) we will need ensure **2** different BSW artifacts are built with the same content and include both in the package delivered to the customer.
 >
@@ -96,7 +96,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-04-16 16:30 · Liam Wellacott
+> [!note]+ 2026-04-16 16:30 · [[Liam_Wellacott|Liam Wellacott]]
 > The project is using the old architecture, I do not think that this will use project based accessors, hence the workaround did not work. It also seems that this version of CAR has BSW versions from different branches so that might be a source of confusion.
 >
 > The root cause is the wrong paramdef is being used, we are deploying it from the RTE executable, it should come from the RteLibs package. This should be fixed in the integration repository (this also fixes an architectural misalignment).
@@ -105,20 +105,20 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-04-16 16:25 · Vamsi Kiran Koduri
-> Hi Liam Wellacott, can you please update ticket based on discussion during meeting.
+> [!note]+ 2026-04-16 16:25 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Hi [[Liam_Wellacott|Liam Wellacott]], can you please update ticket based on discussion during meeting.
 
 -------
 
-> [!note]+ 2026-04-16 06:08 · Khoa Phan Huynh Dang
-> Hello Vamsi Kiran Koduri ,
+> [!note]+ 2026-04-16 06:08 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hello [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] ,
 >
 > As discussed, please update your analysis on this ticket. Additionally, if you have a workaround for this case, please share it with the customer, as this error is currently blocking their progress on this version of RTA-CAR.
 
 -------
 
-> [!note]+ 2026-04-14 05:53 · Khoa Phan Huynh Dang
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-04-14 05:53 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 >
 > The workaround for this issue involves generating a new accessor. Please follow the steps below:
 >  * Ensure your project uses "{*}Rte_EcuParamDef.arxml{*}" version AR24-11 ({*}AUTOSAR_00053{*}).
@@ -137,7 +137,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-04-13 15:36 · JSM Service Bot
+> [!note]+ 2026-04-13 15:36 · [[JSM_Service_Bot|JSM Service Bot]]
 > Reminder for tickets requiring L3 RTE attention:
 >
 > - Have you attached the configuration?
@@ -152,25 +152,25 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-04-13 15:36 · JSM Service Bot
-> Hi Vamsi Kiran Koduri, this RTA-RTE ticket requires an assignee. As the component lead for RTA-RTE, please ensure the 'Level 3 Assignee' field is set the appropriate person that an handle this issue.
+> [!note]+ 2026-04-13 15:36 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]], this RTA-RTE ticket requires an assignee. As the component lead for RTA-RTE, please ensure the 'Level 3 Assignee' field is set the appropriate person that an handle this issue.
 
 -------
 
-> [!note]+ 2026-04-13 15:35 · Khoa Phan Huynh Dang
-> Hello Junsheng ZHANG ,
+> [!note]+ 2026-04-13 15:35 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hello [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 >
-> Thank you for your finding, I and Phong Thai Thanh have investigated the issue and confirmed that while the release note of **RTA-CAR_12.11.0VCTCESR1pr2** supports RTE version {*}AR24-11 (AUTOSAR_00053){*}, this specific pre-release version still utilizes **"Rte_EcuParamDef.arxml"** from version {*}AR22-11 (AUTOSAR_00051){*}.
+> Thank you for your finding, I and [[Phong_Thai_Thanh|Phong Thai Thanh]] have investigated the issue and confirmed that while the release note of **RTA-CAR_12.11.0VCTCESR1pr2** supports RTE version {*}AR24-11 (AUTOSAR_00053){*}, this specific pre-release version still utilizes **"Rte_EcuParamDef.arxml"** from version {*}AR22-11 (AUTOSAR_00051){*}.
 >
 > {color:#de350b}==> Because your project uses the **AR24-11** parameter definition file which introduces several new attributes, a **"ClassNotFoundException"** occurs during processing.{color}
 >
 > ------------
 >
-> Hello Vamsi Kiran Koduri , Could you please verify this point on your side ?
+> Hello [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] , Could you please verify this point on your side ?
 
 -------
 
-> [!note]+ 2026-04-12 13:01 · Junsheng ZHANG
+> [!note]+ 2026-04-12 13:01 · [[Junsheng_ZHANG|Junsheng ZHANG]]
 > [^Isolar.zip]
 
 -------

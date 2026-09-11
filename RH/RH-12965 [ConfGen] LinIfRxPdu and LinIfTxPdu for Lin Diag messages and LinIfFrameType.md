@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Low
 project: RH
-assignee: Sisi TAO
-reporter: Sisi TAO
+assignee: "[[Sisi_TAO|Sisi TAO]]"
+reporter: "[[Sisi_TAO|Sisi TAO]]"
 tags: [jira/comp/communication-can-lin-fr, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2025-05-07T10:05:15.000+0200"
 updated: "2026-07-03T10:28:49.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -70,18 +70,18 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
 
-> [!note]+ 2026-05-26 11:38 · JSM Service Bot
+> [!note]+ 2026-05-26 11:38 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2025-12-22 10:48 · Xiao BAI
-> Hello Marc Kaiser , I think it will be fixed in RTA-CAR 12.11.0 is acceptable.
+> [!note]+ 2025-12-22 10:48 · [[Xiao_BAI|Xiao BAI]]
+> Hello [[Marc_Kaiser|Marc Kaiser]] , I think it will be fixed in RTA-CAR 12.11.0 is acceptable.
 
 -------
 
-> [!note]+ 2025-12-22 10:18 · Marc Kaiser
-> Hello Xiao BAI, you are right. This is currently still not fixed in ConfGen 12.8.0. My previous comment from 18.08 was incorrect.
+> [!note]+ 2025-12-22 10:18 · [[Marc_Kaiser|Marc Kaiser]]
+> Hello [[Xiao_BAI|Xiao BAI]], you are right. This is currently still not fixed in ConfGen 12.8.0. My previous comment from 18.08 was incorrect.
 >
 > We will fix it now. This is the ticket for tracking: [https://jira.etas-dev.com/browse/ARCCFGEN-1998] 
 >
@@ -89,32 +89,32 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2025-12-22 07:51 · Marc Kaiser
-> Hello Xiao BAI, thank you for testing this. I will recheck why it is not fixed in 12.8.0.
+> [!note]+ 2025-12-22 07:51 · [[Marc_Kaiser|Marc Kaiser]]
+> Hello [[Xiao_BAI|Xiao BAI]], thank you for testing this. I will recheck why it is not fixed in 12.8.0.
 
 -------
 
-> [!note]+ 2025-12-22 06:42 · Xiao BAI
-> Hello Marc Kaiser ,
+> [!note]+ 2025-12-22 06:42 · [[Xiao_BAI|Xiao BAI]]
+> Hello [[Marc_Kaiser|Marc Kaiser]] ,
 >
 > I tested this feature, and found it has not been fixed in 12.8.0. Can you please confirm whether this feature has been fixed in 12.8.0?
 
 -------
 
-> [!note]+ 2025-12-17 06:19 · Sisi TAO
-> Hi, Xiao BAI 
+> [!note]+ 2025-12-17 06:19 · [[Sisi_TAO|Sisi TAO]]
+> Hi, [[Xiao_BAI|Xiao BAI]] 
 >
 > Can you try if this feature is fixed in RTA-CAR 12.11.0VCTCESR1pr1?
 
 -------
 
-> [!note]+ 2025-08-18 12:12 · Marc Kaiser
+> [!note]+ 2025-08-18 12:12 · [[Marc_Kaiser|Marc Kaiser]]
 > ![[RH-12965-screenshot-1.png]]
 
 -------
 
-> [!note]+ 2025-05-09 10:54 · Sisi TAO
-> Marc Kaiser Hi Marc, attached is the project
+> [!note]+ 2025-05-09 10:54 · [[Sisi_TAO|Sisi TAO]]
+> [[Marc_Kaiser|Marc Kaiser]] Hi Marc, attached is the project
 > [^Config.zip]
 
 -------

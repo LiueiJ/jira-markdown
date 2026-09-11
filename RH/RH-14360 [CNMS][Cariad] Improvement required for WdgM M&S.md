@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Low
 project: RH
-assignee: Cong ZHANG
-reporter: Cong ZHANG
+assignee: "[[Cong_ZHANG|Cong ZHANG]]"
+reporter: "[[Cong_ZHANG|Cong ZHANG]]"
 tags: [jira/comp/system-infralib-safety, jira/label/cariad, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2025-11-09T07:04:14.000+0100"
 updated: "2026-05-26T11:38:01.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -90,12 +90,12 @@ How can we make sure of it?
 
 ## 评论
 
-> [!note]+ 2026-05-26 11:38 · JSM Service Bot
+> [!note]+ 2026-05-26 11:38 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-05-11 05:21 · Mrinal Kanti Sirkar
+> [!note]+ 2026-05-11 05:21 · [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]]
 > Hi,
 >
 > According to the Multi-Partition WdgM design, the Master initialization should be called before the Satellite initialization, since the Master is responsible for taking action in case of a Supervision failure.
@@ -104,15 +104,15 @@ How can we make sure of it?
 
 -------
 
-> [!note]+ 2026-05-05 06:59 · S P Deepak
-> Hi Mrinal Kanti Sirkar ,
+> [!note]+ 2026-05-05 06:59 · [[S_P_Deepak|S P Deepak]]
+> Hi [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]] ,
 >
 > Could you please provide an update regarding this Topic?
 
 -------
 
-> [!note]+ 2026-04-01 12:07 · S P Deepak
-> Hi Mrinal Kanti Sirkar ,
+> [!note]+ 2026-04-01 12:07 · [[S_P_Deepak|S P Deepak]]
+> Hi [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]] ,
 >
 > Could you please check this and support?
 >
@@ -122,33 +122,33 @@ How can we make sure of it?
 
 -------
 
-> [!note]+ 2026-04-01 11:53 · Phuong Nguyen Le
+> [!note]+ 2026-04-01 11:53 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
 > #### [Deepak S P (MS/EBD3-ETAS)](https://confluence.etas-dev.com/display/~epa2kor): Can you help to give suggestion?
 
 -------
 
-> [!note]+ 2025-11-12 00:48 · Cong ZHANG
-> Hi Marc Kaiser , I agree with Phuong's comment. The chained(successor) task will always wait the predecessor task to activate it. We don't know what will happen from the predecessor task. So there is risk for chaintask solution. 
+> [!note]+ 2025-11-12 00:48 · [[Cong_ZHANG|Cong ZHANG]]
+> Hi [[Marc_Kaiser|Marc Kaiser]] , I agree with Phuong's comment. The chained(successor) task will always wait the predecessor task to activate it. We don't know what will happen from the predecessor task. So there is risk for chaintask solution. 
 >
 > So better solution is to make sure slave cores can run satellite init tasks in parallel. 
 
 -------
 
-> [!note]+ 2025-11-11 07:21 · Marc Kaiser
-> Hello Phuong Nguyen Le. Yes, you are right but it will only delay the initialisation of the WdgM_Satellite and no delay for ApplicationSWC on Core 3,4,5. This is because they are in different init task and are not waiting for ChainTask to happen.
+> [!note]+ 2025-11-11 07:21 · [[Marc_Kaiser|Marc Kaiser]]
+> Hello [[Phuong_Nguyen_Le|Phuong Nguyen Le]]. Yes, you are right but it will only delay the initialisation of the WdgM_Satellite and no delay for ApplicationSWC on Core 3,4,5. This is because they are in different init task and are not waiting for ChainTask to happen.
 >
 > We can mitigate the delay by making the priority of the WdgM_Satellite init tasks high. 
 
 -------
 
-> [!note]+ 2025-11-11 02:44 · Phuong Nguyen Le
-> hi Marc Kaiser ,
+> [!note]+ 2025-11-11 02:44 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> hi [[Marc_Kaiser|Marc Kaiser]] ,
 >
 > I see there is little difference between your idea and the second proposal when consider multicore system which has more than 2 cores. Your idea will bring unexpected delay for the 3rd, 4th, 5th ,... cores and the delay will be increased for the followings cores. 
 
 -------
 
-> [!note]+ 2025-11-10 08:00 · Marc Kaiser
+> [!note]+ 2025-11-10 08:00 · [[Marc_Kaiser|Marc Kaiser]]
 > ![[RH-14360-screenshot-1.png]]
 > This is my idea. It actually results in exact same behaviour as your second proposal but it does not require any change to wdgm and can be archived with Rte/OS Cfg only.
 >

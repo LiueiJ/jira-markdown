@@ -7,15 +7,15 @@ type: Support
 status: Waiting for Customer
 priority: Critical
 project: RH
-assignee: "[[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]"
-reporter: "[[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]"
+assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: [jira/comp/sec-cryptoauhsm3]
 fix-versions: []
 epic: null
 parent: null
-created: "2026-08-30T06:33:15.815+0200"
-updated: "2026-09-09T13:31:22.602+0200"
-synced-at: "2026-09-11T01:21:26.775Z"
+created: "2026-08-30T06:33:15.000+0200"
+updated: "2026-09-09T13:31:22.000+0200"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -69,12 +69,12 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 ## 评论
 
 > [!note]+ 2026-09-08 16:18 · [[Rohith_Gowdara_Prakash|Rohith Gowdara Prakash]]
-> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]],
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]],
 > The earliest date we can provide this fix is October 2. Please let us know if this works for you.
 
 -------
 
-> [!note]+ 2026-09-07 11:06 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
+> [!note]+ 2026-09-07 11:06 · [[Junsheng_ZHANG|Junsheng ZHANG]]
 > Hi [[Elvan_Caliskan|Elvan Caliskan]] ,
 >
 > We only need to modify one line of code in this way; I think this would be better；
@@ -86,7 +86,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 > [!note]+ 2026-09-03 14:52 · [[Christian_Fuerst|Christian Fuerst]]
 > Hi [[Elvan_Caliskan|Elvan Caliskan]] ,
 >
-> can you provide a answer for [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] for the timeline fix, please?
+> can you provide a answer for [[Junsheng_ZHANG|Junsheng ZHANG]] for the timeline fix, please?
 >
 > thx
 >
@@ -96,11 +96,11 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 -------
 
 > [!note]+ 2026-09-03 14:40 · [[JSM_Service_Bot|JSM Service Bot]]
-> [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [[Junsheng_ZHANG|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-09-03 14:40 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
+> [!note]+ 2026-09-03 14:40 · [[Junsheng_ZHANG|Junsheng ZHANG]]
 > Hi [[Elvan_Caliskan|Elvan Caliskan]] ,
 >
 > Thank you very much for your proposal and your replies. The customer’s project will go into mass production soon—when can we get the fixed code? Is there a plan/schedule?
@@ -108,7 +108,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 -------
 
 > [!note]+ 2026-09-03 13:27 · [[Christian_Fuerst|Christian Fuerst]]
-> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] ,
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 >
 > you can try out the preliminary fix which described by [[Elvan_Caliskan|Elvan Caliskan]] .
 >
@@ -142,7 +142,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 -------
 
 > [!note]+ 2026-09-03 12:30 · [[Elvan_Caliskan|Elvan Caliskan]]
-> Hi [[Christian_Fuerst|Christian Fuerst]] and [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] 
+> Hi [[Christian_Fuerst|Christian Fuerst]] and [[Junsheng_ZHANG|Junsheng ZHANG]] 
 >
 > I had a look at this, the bug is confirmed and you pointed at the right place in the code. While tracing it though, I found that the actual chain of events is a bit different from what it looks like at first.
 >
@@ -156,7 +156,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 >
 > **Other affected functions:**
 >
-> [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]  asked whether other functions have the same problem, so I went through the remaining primitives. There is one more: rba_CryptoAuHSM3_Prv_KeyElementSet_TriggerRelease() calls ecy_hsm_Csai_ReleaseCertificate(), which is also a job based API without a job handle return value, and it does not store the handle either. If the release runs on a session where no inject happened before, it works on a foreign handle in the same way. We are fixing that one together with the parse.
+> [[Junsheng_ZHANG|Junsheng ZHANG]]  asked whether other functions have the same problem, so I went through the remaining primitives. There is one more: rba_CryptoAuHSM3_Prv_KeyElementSet_TriggerRelease() calls ecy_hsm_Csai_ReleaseCertificate(), which is also a job based API without a job handle return value, and it does not store the handle either. If the release runs on a session where no inject happened before, it works on a foreign handle in the same way. We are fixing that one together with the parse.
 >
 > Everything else is fine. All other primitives receive their job handle through the phJob output parameter, and for the multi step ones (Cipher, Aead) the state machine makes sure the start call always comes first.
 >
@@ -171,7 +171,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-09-03 09:54 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
+> [!note]+ 2026-09-03 09:54 · [[Junsheng_ZHANG|Junsheng ZHANG]]
 > Is there any update?
 
 -------
@@ -198,7 +198,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 -------
 
 > [!note]+ 2026-08-31 08:49 · [[Christian_Fuerst|Christian Fuerst]]
-> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] 
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] 
 >
 > thx for pointing out this issue.
 >

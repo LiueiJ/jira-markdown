@@ -3,10 +3,24 @@ filters:
     - profile == "CNN"
 views:
   - type: table
-    name: Tickets
+    name: Tickets Not Closed
+    filters:
+      and:
+        - status != "Closed"
+    groupBy:
+      property: tags
+      direction: ASC
     order:
-      - jira_key
-      - summary
+      - file.name
+      - priority
       - status
+      - tags
       - assignee
-      - updated
+    sort:
+      - property: status
+        direction: DESC
+    rowHeight: medium
+    columnSize:
+      file.name: 384
+      note.tags: 237
+      note.assignee: 150

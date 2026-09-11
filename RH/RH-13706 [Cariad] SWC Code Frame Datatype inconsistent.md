@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Low
 project: RH
-assignee: Yuan ZHANG
-reporter: Yuan ZHANG
+assignee: "[[Yuan_ZHANG|Yuan ZHANG]]"
+reporter: "[[Yuan_ZHANG|Yuan ZHANG]]"
 tags: [jira/comp/rta-rte]
 fix-versions: []
 epic: null
 parent: null
 created: "2025-08-13T08:02:57.000+0200"
 updated: "2026-03-05T06:52:04.000+0100"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -42,13 +42,13 @@ Thanks!
 
 ## 评论
 
-> [!note]+ 2025-10-18 15:07 · JSM Service Bot
+> [!note]+ 2025-10-18 15:07 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2025-09-19 09:56 · James Butterfield
-> Hi Yuan ZHANG,
+> [!note]+ 2025-09-19 09:56 · [[James_Butterfield|James Butterfield]]
+> Hi [[Yuan_ZHANG|Yuan ZHANG]],
 >
 > Do you have any updates on this ticket?
 >
@@ -57,15 +57,15 @@ Thanks!
 
 -------
 
-> [!note]+ 2025-09-04 10:02 · Yuan ZHANG
-> hi James Butterfield 
+> [!note]+ 2025-09-04 10:02 · [[Yuan_ZHANG|Yuan ZHANG]]
+> hi [[James_Butterfield|James Butterfield]] 
 >
 > Thanks for your reply. Because of data confidentiality rule, customer can't not provide the whole project to me. I will try to regenerate the issue with available project in my hand then contact you. 
 
 -------
 
-> [!note]+ 2025-09-03 10:06 · James Butterfield
-> Hi Yuan ZHANG,
+> [!note]+ 2025-09-03 10:06 · [[James_Butterfield|James Butterfield]]
+> Hi [[Yuan_ZHANG|Yuan ZHANG]],
 >
 > Did you get this issue resolved in the end?
 >
@@ -74,13 +74,13 @@ Thanks!
 
 -------
 
-> [!note]+ 2025-09-02 18:27 · JSM Service Bot
+> [!note]+ 2025-09-02 18:27 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically moved to Solution Proposed.
 
 -------
 
-> [!note]+ 2025-08-19 12:24 · James Butterfield
-> Hi Yuan ZHANG,
+> [!note]+ 2025-08-19 12:24 · [[James_Butterfield|James Butterfield]]
+> Hi [[Yuan_ZHANG|Yuan ZHANG]],
 >
 > I believe this could be a bug with the Code Frame Generator however I would like to be able to recreate this issue on my end to confirm this suspicion.
 > Could you please ask the customer to provide the full project file?
@@ -90,17 +90,17 @@ Thanks!
 
 -------
 
-> [!note]+ 2025-08-19 11:30 · Yuan ZHANG
-> thanks for your explanation from RTE side Vamsi Kiran Koduri 
+> [!note]+ 2025-08-19 11:30 · [[Yuan_ZHANG|Yuan ZHANG]]
+> thanks for your explanation from RTE side [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] 
 >
-> is there any explanation from code frame template design side?James Butterfield 
+> is there any explanation from code frame template design side?[[James_Butterfield|James Butterfield]] 
 >
 > above situation is not take into consideration or there's some theory behind?
 
 -------
 
-> [!note]+ 2025-08-14 13:34 · Vamsi Kiran Koduri
-> Yuan ZHANG,James Butterfield RTE generating P2Const for input argument of array type is as per autosar.
+> [!note]+ 2025-08-14 13:34 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> [[Yuan_ZHANG|Yuan ZHANG]],[[James_Butterfield|James Butterfield]] RTE generating P2Const for input argument of array type is as per autosar.
 >  ![[RH-13706-screenshot-1.png]] 
 >
 > By setting <SERVER-ARGUMENT-IMPL-POLICY>USE-ARGUMENT-TYPE</SERVER-ARGUMENT-IMPL-POLICY> for the argument RTE will generate pointer to array type instead of pointer to array base type. But P2Const will always be generated for IN arguments of array type.
@@ -108,7 +108,7 @@ Thanks!
 
 -------
 
-> [!note]+ 2025-08-14 13:07 · JSM Service Bot
+> [!note]+ 2025-08-14 13:07 · [[JSM_Service_Bot|JSM Service Bot]]
 > Reminder for tickets requiring L3 RTE attention:
 >
 > - Have you attached the configuration?
@@ -123,21 +123,21 @@ Thanks!
 
 -------
 
-> [!note]+ 2025-08-14 13:07 · JSM Service Bot
+> [!note]+ 2025-08-14 13:07 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi RTA-RTE Support Owner. This ticket requires an assignee.
 
 -------
 
-> [!note]+ 2025-08-14 08:52 · Yuan ZHANG
-> hi James Butterfield 
+> [!note]+ 2025-08-14 08:52 · [[Yuan_ZHANG|Yuan ZHANG]]
+> hi [[James_Butterfield|James Butterfield]] 
 >
 > Related configuration is attached in the 'configuration.zip'.
 > [^configuration.zip]
 
 -------
 
-> [!note]+ 2025-08-13 13:06 · James Butterfield
-> Hi Yuan ZHANG,
+> [!note]+ 2025-08-13 13:06 · [[James_Butterfield|James Butterfield]]
+> Hi [[Yuan_ZHANG|Yuan ZHANG]],
 >
 > To investigate this issue I will need to see the configuration of the *DiagUT* and _Dcm_, as well as the *Dcm SWCD* file.
 >

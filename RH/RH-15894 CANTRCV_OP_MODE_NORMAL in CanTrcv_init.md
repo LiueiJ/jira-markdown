@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Critical
 project: RH
-assignee: Dong LIU
-reporter: Dong LIU
+assignee: "[[Dong_LIU|Dong LIU]]"
+reporter: "[[Dong_LIU|Dong LIU]]"
 tags: []
 fix-versions: []
 epic: null
 parent: null
 created: "2026-04-28T05:03:59.000+0200"
 updated: "2026-04-29T07:01:02.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -64,13 +64,13 @@ Best regards,
 
 ## 评论
 
-> [!note]+ 2026-04-29 07:00 · Dong LIU
-> Joshua Cantwell ok, thank you
+> [!note]+ 2026-04-29 07:00 · [[Dong_LIU|Dong LIU]]
+> [[Joshua_Cantwell|Joshua Cantwell]] ok, thank you
 
 -------
 
-> [!note]+ 2026-04-28 11:22 · Joshua Cantwell
-> Dong LIU 
+> [!note]+ 2026-04-28 11:22 · [[Joshua_Cantwell|Joshua Cantwell]]
+> [[Dong_LIU|Dong LIU]] 
 >
 > Oh and for the customer to change to a normal mode they must use the function CanTrcv_SetOpMode with the following parameters; CANTRCV_TRCVMODE_STANDBY, CANTRCV_TRCVMODE_NORMAL or CANTRCV_TRCVMODE_SLEEP. As shown in the state diagram 
 >
@@ -82,8 +82,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-04-28 11:09 · Joshua Cantwell
-> Hi Dong LIU,
+> [!note]+ 2026-04-28 11:09 · [[Joshua_Cantwell|Joshua Cantwell]]
+> Hi [[Dong_LIU|Dong LIU]],
 >
 > The reason for the change is that CANTRCV_OP_MODE_NORMAL was dropped from Autosar. The last version of AR that had the value was 4.4. The very next AR release (19-11) now only support SLEEP and STANDBY.
 >

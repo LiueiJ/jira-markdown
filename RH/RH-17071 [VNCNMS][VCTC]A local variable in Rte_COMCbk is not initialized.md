@@ -7,15 +7,15 @@ type: Support
 status: Solution Proposed
 priority: High
 project: RH
-assignee: Junsheng ZHANG
-reporter: Junsheng ZHANG
+assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: [jira/comp/rta-rte, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-08-30T08:52:16.000+0200"
 updated: "2026-09-10T05:35:48.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -57,12 +57,12 @@ Hi hotline,
 
 ## 评论
 
-> [!note]+ 2026-09-04 10:34 · Dang Ho Anh
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-09-04 10:34 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 >
 > I see two possible options here:
 >  # Use the proper RTE function to retrieve the data. This option does not require an RTE update.
->  # If the customer still wants to apply the fix from RTE v12.12.0 to the Cariad version of RTA-CAR 12.11.x, Jiaqi JI needs to raise a request to the RTE team for the upgrade.
+>  # If the customer still wants to apply the fix from RTE v12.12.0 to the Cariad version of RTA-CAR 12.11.x, [[Jiaqi_JI|Jiaqi JI]] needs to raise a request to the RTE team for the upgrade.
 >
 > Could you please check this?
 >
@@ -70,24 +70,24 @@ Hi hotline,
 
 -------
 
-> [!note]+ 2026-09-04 09:18 · Vamsi Kiran Koduri
-> Hi Dang Ho Anh , I am not in a position to answer this. This has to be discussed in Planning/Release meetings related to Cariad customer.
+> [!note]+ 2026-09-04 09:18 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Hi [[Dang_Ho_Anh|Dang Ho Anh]] , I am not in a position to answer this. This has to be discussed in Planning/Release meetings related to Cariad customer.
 
 -------
 
-> [!note]+ 2026-09-04 09:09 · Dang Ho Anh
-> Hi Vamsi Kiran Koduri,
+> [!note]+ 2026-09-04 09:09 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]],
 > Can the fix from RTE v12.12.0 be applied to the Cariad customer’s RTA-CAR 12.11.x version?
 
 -------
 
-> [!note]+ 2026-09-03 14:30 · JSM Service Bot
-> Junsheng ZHANG, the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [!note]+ 2026-09-03 14:30 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-09-03 14:30 · Junsheng ZHANG
-> Hi Dang Ho Anh ,
+> [!note]+ 2026-09-03 14:30 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Dang_Ho_Anh|Dang Ho Anh]] ,
 >
 > Yes,Rte_Rx_xxx;
 >
@@ -95,29 +95,29 @@ Hi hotline,
 
 -------
 
-> [!note]+ 2026-09-03 11:20 · Dang Ho Anh
-> Junsheng ZHANG , Which variable customer use to directly read the data? {_}Rte_Rx{_}_* ?
+> [!note]+ 2026-09-03 11:20 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]] , Which variable customer use to directly read the data? {_}Rte_Rx{_}_* ?
 
 -------
 
-> [!note]+ 2026-09-03 11:06 · Vamsi Kiran Koduri
+> [!note]+ 2026-09-03 11:06 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
 > Is fixed in RTE v12.12.0 using https://jira.etas-dev.com/browse/RTE-22065
 
 -------
 
-> [!note]+ 2026-09-03 10:54 · Vamsi Kiran Koduri
-> Hi Junsheng ZHANG  May i know RTE version used here?
+> [!note]+ 2026-09-03 10:54 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]]  May i know RTE version used here?
 
 -------
 
-> [!note]+ 2026-09-03 10:19 · Junsheng ZHANG
-> Hi Dang Ho Anh ,
+> [!note]+ 2026-09-03 10:19 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Dang_Ho_Anh|Dang Ho Anh]] ,
 >
 >     You’re right. However, some of the customer’s modules directly read the values without checking the status. Although this is not very reasonable, we should still not upload/propagate incorrect data.
 
 -------
 
-> [!note]+ 2026-09-03 10:16 · JSM Service Bot
+> [!note]+ 2026-09-03 10:16 · [[JSM_Service_Bot|JSM Service Bot]]
 > Reminder for tickets requiring L3 RTE attention:
 >
 > - Have you attached the configuration?
@@ -132,13 +132,13 @@ Hi hotline,
 
 -------
 
-> [!note]+ 2026-09-03 10:16 · JSM Service Bot
-> Hi Vamsi Kiran Koduri, this RTA-RTE ticket requires an assignee. As the component lead for RTA-RTE, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+> [!note]+ 2026-09-03 10:16 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]], this RTA-RTE ticket requires an assignee. As the component lead for RTA-RTE, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------
 
-> [!note]+ 2026-09-03 10:15 · Dang Ho Anh
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-09-03 10:15 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 > In the `Rte_COMCbk()` function, when `Com_ReceiveSignalGroupArray()` returns {{{}COM_SERVICE_NOT_AVAILABLE{}}}, this leads to {{{}composite.status = COM_SERVICE_NOT_AVAILABLE{}}}. In this case, `composite.transformerError` and `composite.data` have unspecified values, as you mentioned.
 >
 > When `Rte_Read()` is called to get the data, this function returns {{{}RTE_E_COM_STOPPED{}}}.
@@ -154,13 +154,13 @@ Hi hotline,
 
 -------
 
-> [!note]+ 2026-09-03 04:33 · Dang Ho Anh
-> Hi Jiaqi JI We have just returned from national holiday, and I will check this ticket.
+> [!note]+ 2026-09-03 04:33 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[Jiaqi_JI|Jiaqi JI]] We have just returned from national holiday, and I will check this ticket.
 
 -------
 
-> [!note]+ 2026-09-01 04:51 · Jiaqi JI
-> Hi Phuong Nguyen Le ,
+> [!note]+ 2026-09-01 04:51 · [[Jiaqi_JI|Jiaqi JI]]
+> Hi [[Phuong_Nguyen_Le|Phuong Nguyen Le]] ,
 >
 > Could you help assign one engineer for the issue investigation?
 >
@@ -168,7 +168,7 @@ Hi hotline,
 
 -------
 
-> [!note]+ 2026-09-01 04:51 · JSM Service Bot
+> [!note]+ 2026-09-01 04:51 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Junsheng ZHANG, please note that this issue was made with VNCNMS in the summary and has been sent to the relevant queue by adding the VNCNMS label.
 
 -------

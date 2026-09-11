@@ -7,15 +7,15 @@ type: Support
 status: Solution Proposed
 priority: Low
 project: RH
-assignee: Jiaqi JI
-reporter: Jiaqi JI
+assignee: "[[Jiaqi_JI|Jiaqi JI]]"
+reporter: "[[Jiaqi_JI|Jiaqi JI]]"
 tags: [jira/comp/diagnostic-communication, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-08-20T10:43:07.000+0200"
 updated: "2026-09-03T07:30:21.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -53,13 +53,13 @@ Please give us feedback ASAP as it’s important for their testing now. Thanks a
 
 ## 评论
 
-> [!note]+ 2026-09-03 07:30 · JSM Service Bot
-> Jiaqi JI, the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [!note]+ 2026-09-03 07:30 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[Jiaqi_JI|Jiaqi JI]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-09-03 07:30 · Jiaqi JI
-> Hi Khoa Phan Huynh Dang ,
+> [!note]+ 2026-09-03 07:30 · [[Jiaqi_JI|Jiaqi JI]]
+> Hi [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] ,
 >
 > Big thanks for your kindly support!
 >
@@ -69,12 +69,12 @@ Please give us feedback ASAP as it’s important for their testing now. Thanks a
 
 -------
 
-> [!note]+ 2026-09-03 06:15 · Khoa Phan Huynh Dang
-> Hi Raghuram Telagamsetti ,
+> [!note]+ 2026-09-03 06:15 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Raghuram_Telagamsetti|Raghuram Telagamsetti]] ,
 >
 > Thanks for your feedback 😊
 >
-> Hello Jiaqi JI ,
+> Hello [[Jiaqi_JI|Jiaqi JI]] ,
 >
 > As confirmation from dev team, our RTA-CAR implementation is designed to comply with ISO 15031-5 for classic OBD and ISO 14229-1 for OBD on UDS. As AUTOSAR does not define a mandatory approach for this test case, we have chosen to follow the ISO specifications in our implementation. This approach allows us to support a wider range of customers.
 >
@@ -82,8 +82,8 @@ Please give us feedback ASAP as it’s important for their testing now. Thanks a
 
 -------
 
-> [!note]+ 2026-09-02 16:38 · Raghuram Telagamsetti
-> Hello Khoa Phan Huynh Dang / Jiaqi JI 
+> [!note]+ 2026-09-02 16:38 · [[Raghuram_Telagamsetti|Raghuram Telagamsetti]]
+> Hello [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] / [[Jiaqi_JI|Jiaqi JI]] 
 >
 > Please refer to **Column P** in both the **"OBDClassic"** and **"OBDonUDS"** tabs of the attached **"OBDonUDS & OBDclassic Test_en_Feedback.xlsx"** file for my feedback.
 > Thanks, Raghu
@@ -91,8 +91,8 @@ Please give us feedback ASAP as it’s important for their testing now. Thanks a
 
 -------
 
-> [!note]+ 2026-08-28 09:46 · Khoa Phan Huynh Dang
-> Hello Raghuram Telagamsetti ,
+> [!note]+ 2026-08-28 09:46 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hello [[Raghuram_Telagamsetti|Raghuram Telagamsetti]] ,
 >
 > I used **SAE J1979** and **SAE J1979/2** to analyze this issue in the previous comment due to this information in our release note:
 >
@@ -106,17 +106,17 @@ Please give us feedback ASAP as it’s important for their testing now. Thanks a
 
 -------
 
-> [!note]+ 2026-08-27 11:21 · JSM Service Bot
-> Hi Raghuram Telagamsetti, this Diagnostic-Communication ticket requires an assignee. As the component lead for Diagnostic-Communication, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+> [!note]+ 2026-08-27 11:21 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Raghuram_Telagamsetti|Raghuram Telagamsetti]], this Diagnostic-Communication ticket requires an assignee. As the component lead for Diagnostic-Communication, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------
 
-> [!note]+ 2026-08-27 11:20 · Khoa Phan Huynh Dang
-> Hi Jiaqi JI ,
+> [!note]+ 2026-08-27 11:20 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Jiaqi_JI|Jiaqi JI]] ,
 >
 > Sorry to keep you waiting so long,
 >
-> Hello Raghuram Telagamsetti ,
+> Hello [[Raghuram_Telagamsetti|Raghuram Telagamsetti]] ,
 >
 > I see almost test case "Fail" of customer relate to "the ECU shall not respond" are following **ISO 15765-4** for CAN protocol and **SAE J1979** for OBD
 >
@@ -130,19 +130,19 @@ Please give us feedback ASAP as it’s important for their testing now. Thanks a
 
 -------
 
-> [!note]+ 2026-08-21 15:08 · Khoa Phan Huynh Dang
-> Hi Jiaqi JI ,
+> [!note]+ 2026-08-21 15:08 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Jiaqi_JI|Jiaqi JI]] ,
 >
 > We are analyzing, and will let you know asap
 
 -------
 
-> [!note]+ 2026-08-20 10:43 · JSM Service Bot
+> [!note]+ 2026-08-20 10:43 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Jiaqi JI, please note that this issue was made with VNCNMS in the summary and has been sent to the relevant queue by adding the VNCNMS label.
 
 -------
 
-> [!note]+ 2026-08-20 10:43 · Jiaqi JI
+> [!note]+ 2026-08-20 10:43 · [[Jiaqi_JI|Jiaqi JI]]
 > [^OBDonUDS & OBDclassic Test_en.xlsx] *(776 kB)*
 
 -------

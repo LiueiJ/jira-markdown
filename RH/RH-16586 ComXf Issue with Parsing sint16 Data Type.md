@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: High
 project: RH
-assignee: Dong LIU
-reporter: Dong LIU
+assignee: "[[Dong_LIU|Dong LIU]]"
+reporter: "[[Dong_LIU|Dong LIU]]"
 tags: []
 fix-versions: []
 epic: null
 parent: null
 created: "2026-07-08T12:13:03.000+0200"
 updated: "2026-07-13T14:33:54.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -74,7 +74,7 @@ Best regards,
 
 ## 评论
 
-> [!note]+ 2026-07-08 12:13 · FAE Technical
+> [!note]+ 2026-07-08 12:13 · [[FAE_Technical|FAE Technical]]
 > AI Investigation automatically started due to ticket creation by trusted agent Dong LIU.
 > Progress can be tracked on [Jenkins](https://rta-fae.jenkins.etas-dev.com/job/Hotline%20Automation%20-%20Agentic/job/main)
 >

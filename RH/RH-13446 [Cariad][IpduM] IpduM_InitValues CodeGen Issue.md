@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Critical
 project: RH
-assignee: Jie LIU
-reporter: Sisi TAO
+assignee: "[[Jie_LIU|Jie LIU]]"
+reporter: "[[Sisi_TAO|Sisi TAO]]"
 tags: [jira/comp/communication-comservices, jira/label/cariad, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2025-07-08T14:41:47.000+0200"
 updated: "2026-03-24T15:01:22.000+0100"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -68,47 +68,47 @@ Is there any solution for this issue? Thank you very much for your support.
 
 ## 评论
 
-> [!note]+ 2026-03-24 15:00 · Su Nguyen Quoc
+> [!note]+ 2026-03-24 15:00 · [[Su_Nguyen_Quoc|Su Nguyen Quoc]]
 > Closed the ticket. Defect fixed on 12.10.0 --> [https://jira.etas-dev.com/browse/ARCCOM-8476]
 > We need to validate: [RTAXIP-2658](https://jira.etas-dev.com/browse/RTAXIP-2658)
 >
-> Jie LIU , Phuong Nguyen Le: please review priority for CNN. 
+> [[Jie_LIU|Jie LIU]] , [[Phuong_Nguyen_Le|Phuong Nguyen Le]]: please review priority for CNN. 
 
 -------
 
-> [!note]+ 2025-08-05 14:33 · Mohammed Sameer Gundloor
+> [!note]+ 2025-08-05 14:33 · [[Mohammed_Sameer_Gundloor|Mohammed Sameer Gundloor]]
 > Corresponding Defect fix on 12.9.0 --> [https://jira.etas-dev.com/browse/ARCCOM-8476]
 
 -------
 
-> [!note]+ 2025-08-05 11:25 · Marc Kaiser
+> [!note]+ 2025-08-05 11:25 · [[Marc_Kaiser|Marc Kaiser]]
 > Fix is planned in RTA-BSW 12.9.0. Until that version we will bridge the gap in ConfGen and avoid the CFG that triggers the bug.
 
 -------
 
-> [!note]+ 2025-08-05 11:14 · Marc Kaiser
+> [!note]+ 2025-08-05 11:14 · [[Marc_Kaiser|Marc Kaiser]]
 > Ticket tracking the defect in RTA-BSW/IPDUM: https://jira.etas-dev.com/browse/ARCCOM-7682
 
 -------
 
-> [!note]+ 2025-08-05 10:35 · Marc Kaiser
+> [!note]+ 2025-08-05 10:35 · [[Marc_Kaiser|Marc Kaiser]]
 > Hello @L3,
 >
 > this is a bug in IPDUM, we think. We fixed it temporary by working arround the issue in ConfGen. But the root problem in IPDUM has to be analyzed and most likely fixed.
 
 -------
 
-> [!note]+ 2025-08-05 10:34 · JSM Service Bot
+> [!note]+ 2025-08-05 10:34 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Com/Time Services Support Owner. This ticket requires an assignee.
 
 -------
 
-> [!note]+ 2025-07-30 18:01 · JSM Service Bot
+> [!note]+ 2025-07-30 18:01 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2025-07-16 14:48 · Marc Kaiser
+> [!note]+ 2025-07-16 14:48 · [[Marc_Kaiser|Marc Kaiser]]
 > Hello Sisi,
 >
 > thank you for reporting this issue.
@@ -162,21 +162,21 @@ Is there any solution for this issue? Thank you very much for your support.
 
 -------
 
-> [!note]+ 2025-07-15 10:21 · Sisi TAO
-> Marc Kaiser 
+> [!note]+ 2025-07-15 10:21 · [[Sisi_TAO|Sisi TAO]]
+> [[Marc_Kaiser|Marc Kaiser]] 
 >
 > [^RTA_BIP_IpduM_EcucValues.arxml]attached is the IpduM we manually modified the shortname.
 
 -------
 
-> [!note]+ 2025-07-08 15:21 · Sisi TAO
+> [!note]+ 2025-07-08 15:21 · [[Sisi_TAO|Sisi TAO]]
 > By the way, if you look at the first IpduMTxPathway, the Pos_100 segment is number 44 segment, which apparently is selected as the first segment. So sorted by name is not a good idea. 
 >
 > ![[RH-13446-image-2025-07-08-21-18-41-382.png]]
 
 -------
 
-> [!note]+ 2025-07-08 14:50 · Sisi TAO
+> [!note]+ 2025-07-08 14:50 · [[Sisi_TAO|Sisi TAO]]
 > Project is attached
 > [^BasicSoftware.zip]
 

@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Critical
 project: RH
-assignee: Junsheng ZHANG
-reporter: Junsheng ZHANG
+assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: [jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-08-24T19:40:47.000+0200"
 updated: "2026-08-25T11:00:56.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -346,31 +346,31 @@ TASK(OsTask_BSW_Core0_100ms)
 
 ## 评论
 
-> [!note]+ 2026-08-25 10:37 · Khoa Phan Huynh Dang
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-08-25 10:37 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 >
 > After reviewing your project configuration, I noticed that this parameter is not configured correctly. You can remove it and use the timer scheduled in the Scheduling (Task Mapping) configuration instead (or change to 0.1: 100ms). This should resolve your current issue. Could you please try this approach and let me know the test results?
 >
 > ![[RH-17016-image-2026-08-25-15-12-45-667.png]]
-> Thank you for your support, bro Dang Ho Anh 😊
+> Thank you for your support, bro [[Dang_Ho_Anh|Dang Ho Anh]] 😊
 
 -------
 
-> [!note]+ 2026-08-25 07:53 · Jiaqi JI
-> Hi Phuong Nguyen Le ,
+> [!note]+ 2026-08-25 07:53 · [[Jiaqi_JI|Jiaqi JI]]
+> Hi [[Phuong_Nguyen_Le|Phuong Nguyen Le]] ,
 >
-> Could you give us one engineer ASAP now in 10mins to help investigate with Junsheng ZHANG  together as customer will upload the mainline code in one hour.
+> Could you give us one engineer ASAP now in 10mins to help investigate with [[Junsheng_ZHANG|Junsheng ZHANG]]  together as customer will upload the mainline code in one hour.
 >
 > Thanks a lot
 
 -------
 
-> [!note]+ 2026-08-25 07:51 · JSM Service Bot
+> [!note]+ 2026-08-25 07:51 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Junsheng ZHANG, please note that this issue was made with VNCNMS in the summary and has been sent to the relevant queue by adding the VNCNMS label.
 
 -------
 
-> [!note]+ 2026-08-24 19:50 · JSM Service Bot
+> [!note]+ 2026-08-24 19:50 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Junsheng ZHANG. Your issue is set to "Critical" priority.
 > Please ensure that there is a reasonable justification for this listed in the issue description, otherwise the priority may be reviewed and adjusted during triage.
 > Kind regards

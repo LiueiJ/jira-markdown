@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Low
 project: RH
-assignee: Sammy Burchmore
-reporter: Dong LIU
+assignee: "[[Sammy_Burchmore|Sammy Burchmore]]"
+reporter: "[[Dong_LIU|Dong LIU]]"
 tags: [jira/comp/communication-can-lin-fr]
 fix-versions: []
 epic: null
 parent: null
 created: "2025-05-15T04:42:23.000+0200"
 updated: "2026-03-05T06:52:03.000+0100"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -60,28 +60,28 @@ Best regards,
 
 ## 评论
 
-> [!note]+ 2025-07-09 04:54 · Mingye YUAN
-> Confirmed from Mr. Fargus Alex, this issue will be solved in CAR 12.8.0. Dong LIU :Please verify on 12.8.0 version, thanks.
+> [!note]+ 2025-07-09 04:54 · [[Mingye_YUAN|Mingye YUAN]]
+> Confirmed from Mr. Fargus Alex, this issue will be solved in CAR 12.8.0. [[Dong_LIU|Dong LIU]] :Please verify on 12.8.0 version, thanks.
 
 -------
 
-> [!note]+ 2025-06-25 18:00 · JSM Service Bot
+> [!note]+ 2025-06-25 18:00 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2025-06-02 11:45 · Muhammed Anas K K
-> Hello Sammy Burchmore , Hello, Jira ticket ID is [ARCCOM-7467](https://jira.etas-dev.com/browse/ARCCOM-7467)
+> [!note]+ 2025-06-02 11:45 · [[Muhammed_Anas_K_K|Muhammed Anas K K]]
+> Hello [[Sammy_Burchmore|Sammy Burchmore]] , Hello, Jira ticket ID is [ARCCOM-7467](https://jira.etas-dev.com/browse/ARCCOM-7467)
 
 -------
 
-> [!note]+ 2025-05-29 15:22 · JSM Service Bot
+> [!note]+ 2025-05-29 15:22 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Communication Can/Lin/Fr Support Owner. This ticket requires an assignee.
 
 -------
 
-> [!note]+ 2025-05-29 15:21 · Sammy Burchmore
-> Hi Muhammed Anas K K,
+> [!note]+ 2025-05-29 15:21 · [[Sammy_Burchmore|Sammy Burchmore]]
+> Hi [[Muhammed_Anas_K_K|Muhammed Anas K K]],
 >
 > Thanks a lot. In order to close this ticket I need an ARC ticket to attach here. Could you please create one?
 >
@@ -91,20 +91,20 @@ Best regards,
 
 -------
 
-> [!note]+ 2025-05-28 11:13 · Muhammed Anas K K
-> Hello Sammy Burchmore , Its a defect in CanIf. DWI details [707345: [CanStack][CanIf]: Wrong declaration of loop control variable pdu_uo leading to endless loop during initializing of Tx PDU|https://rb-alm-28-p.de.bosch.com/ccm/resource/itemName/com.ibm.team.workitem.WorkItem/707345]
+> [!note]+ 2025-05-28 11:13 · [[Muhammed_Anas_K_K|Muhammed Anas K K]]
+> Hello [[Sammy_Burchmore|Sammy Burchmore]] , Its a defect in CanIf. DWI details [707345: [CanStack][CanIf]: Wrong declaration of loop control variable pdu_uo leading to endless loop during initializing of Tx PDU|https://rb-alm-28-p.de.bosch.com/ccm/resource/itemName/com.ibm.team.workitem.WorkItem/707345]
 
 -------
 
-> [!note]+ 2025-05-19 08:28 · Haneef Nusrin
-> Hi Sammy Burchmore ,
+> [!note]+ 2025-05-19 08:28 · [[Haneef_Nusrin|Haneef Nusrin]]
+> Hi [[Sammy_Burchmore|Sammy Burchmore]] ,
 >
 > The team is looking into the above topic, we will analyse and give feedback shortly.
 
 -------
 
-> [!note]+ 2025-05-15 14:47 · Sammy Burchmore
-> Hi Haneef Nusrin,
+> [!note]+ 2025-05-15 14:47 · [[Sammy_Burchmore|Sammy Burchmore]]
+> Hi [[Haneef_Nusrin|Haneef Nusrin]],
 >
 > Could we please include a validation which prevents a value larger than 256 from being set here or support 16 bit integers?
 >
@@ -114,7 +114,7 @@ Best regards,
 
 -------
 
-> [!note]+ 2025-05-15 14:45 · JSM Service Bot
+> [!note]+ 2025-05-15 14:45 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Communication Can/Lin/Fr Support Owner. This ticket requires an assignee.
 
 -------

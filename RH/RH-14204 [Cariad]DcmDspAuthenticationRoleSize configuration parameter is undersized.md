@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Low
 project: RH
-assignee: Junsheng ZHANG
-reporter: Junsheng ZHANG
+assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: [jira/comp/diagnostic-communication]
 fix-versions: []
 epic: null
 parent: null
 created: "2025-10-23T11:10:04.000+0200"
 updated: "2026-03-23T10:35:37.000+0100"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -64,22 +64,22 @@ The screenshot below shows the certificate I'm using. By reading the  **CN**  fi
 
 ## 评论
 
-> [!note]+ 2026-03-03 07:49 · Sobin Peter
-> Junsheng ZHANG 
+> [!note]+ 2026-03-03 07:49 · [[Sobin_Peter|Sobin Peter]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]] 
 >
 > DcmAppl_GetCustomRole() cannot not extract roles from a stream of bytes(it basically don't have info to identify or locate it). The application software has to extract the roles and copy to the buffer when DcmAppl_GetCustomRole() is called.
 
 -------
 
-> [!note]+ 2026-03-02 08:31 · Junsheng ZHANG
-> Hi Sobin Peter ,
+> [!note]+ 2026-03-02 08:31 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Sobin_Peter|Sobin Peter]] ,
 >
 >     The customer used the Nth byte out of 20 bytes as the Role; At present, it seems that we can only perform a shift in the DcmAppl_GetCustomRole() function, discarding the previous redundant elements and selecting the role specified by the customer；
 
 -------
 
-> [!note]+ 2026-02-19 13:55 · Sobin Peter
-> Hi Junsheng ZHANG 
+> [!note]+ 2026-02-19 13:55 · [[Sobin_Peter|Sobin Peter]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] 
 >
 > Sorry for the confusion. Even if you enable DcmRbDspAauthenticationEnabledCustomRole, it can handle only up-to 4 bytes of role information.
 >
@@ -96,15 +96,15 @@ The screenshot below shows the certificate I'm using. By reading the  **CN**  fi
 
 -------
 
-> [!note]+ 2026-02-05 14:13 · Rohith Gowdara Prakash
+> [!note]+ 2026-02-05 14:13 · [[Rohith_Gowdara_Prakash|Rohith Gowdara Prakash]]
 > DCM should take care of this, not the responsibility of SEC-KEYM
 
 -------
 
-> [!note]+ 2026-02-04 18:05 · Hritik Mehta
-> Hi Raghuram Telagamsetti,
+> [!note]+ 2026-02-04 18:05 · [[Hritik_Mehta|Hritik Mehta]]
+> Hi [[Raghuram_Telagamsetti|Raghuram Telagamsetti]],
 >
-> Junsheng ZHANG has reopened this ticket and rightly points out the inflexibility of the current access rights verification mechanism. Please confirm if this warrants a change or if there is another reason why it's done this way.
+> [[Junsheng_ZHANG|Junsheng ZHANG]] has reopened this ticket and rightly points out the inflexibility of the current access rights verification mechanism. Please confirm if this warrants a change or if there is another reason why it's done this way.
 >
 > Thanks,
 >
@@ -112,8 +112,8 @@ The screenshot below shows the certificate I'm using. By reading the  **CN**  fi
 
 -------
 
-> [!note]+ 2026-01-30 03:43 · Junsheng ZHANG
-> Hi Raghuram Telagamsetti ,Hritik Mehta ,
+> [!note]+ 2026-01-30 03:43 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Raghuram_Telagamsetti|Raghuram Telagamsetti]] ,[[Hritik_Mehta|Hritik Mehta]] ,
 >
 >     During the functional verification process, I discovered another issue, so I had to reopen this problem；
 >
@@ -123,13 +123,13 @@ The screenshot below shows the certificate I'm using. By reading the  **CN**  fi
 
 -------
 
-> [!note]+ 2025-12-01 10:21 · JSM Service Bot
+> [!note]+ 2025-12-01 10:21 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2025-11-17 09:38 · Raghuram Telagamsetti
-> Hello Hritik Mehta 
+> [!note]+ 2025-11-17 09:38 · [[Raghuram_Telagamsetti|Raghuram Telagamsetti]]
+> Hello [[Hritik_Mehta|Hritik Mehta]] 
 >
 > I am not sure if the below suggestion will benefit or not. Please check if it helps. Other than this I could not see any other alternatives from DCM perspective.
 >
@@ -139,10 +139,10 @@ The screenshot below shows the certificate I'm using. By reading the  **CN**  fi
 
 -------
 
-> [!note]+ 2025-11-11 19:00 · Hritik Mehta
-> Hi Balan Arumugam / Raghuram Telagamsetti 
+> [!note]+ 2025-11-11 19:00 · [[Hritik_Mehta|Hritik Mehta]]
+> Hi [[Balan_Arumugam|Balan Arumugam]] / [[Raghuram_Telagamsetti|Raghuram Telagamsetti]] 
 >
-> Please have a look at the latest comment by Junsheng ZHANG. They've mentioned that the OID is mandated by Xiaomi.
+> Please have a look at the latest comment by [[Junsheng_ZHANG|Junsheng ZHANG]]. They've mentioned that the OID is mandated by Xiaomi.
 >
 > Do you have any suggestions on how to limit the value length within the certificate for that OID to be no more than 4 bytes or can they explore alternate mechanisms to transmit the role information? Perhaps using a different diagnostic service or encoding the necessary data in the payload?
 >
@@ -152,8 +152,8 @@ The screenshot below shows the certificate I'm using. By reading the  **CN**  fi
 
 -------
 
-> [!note]+ 2025-11-11 04:39 · Junsheng ZHANG
-> Hi Hritik Mehta ,
+> [!note]+ 2025-11-11 04:39 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Hritik_Mehta|Hritik Mehta]] ,
 >
 >     I'm sorry for replying to you so late；I have two more questions to ask you；
 >
@@ -165,8 +165,8 @@ The screenshot below shows the certificate I'm using. By reading the  **CN**  fi
 
 -------
 
-> [!note]+ 2025-11-04 18:22 · Hritik Mehta
-> Hi Junsheng ZHANG,
+> [!note]+ 2025-11-04 18:22 · [[Hritik_Mehta|Hritik Mehta]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]],
 >
 > In the X.520 directory attribute OID namespace, 2.5.4.3 is the standardised OID for CN. It seems “EcuDiagnosticsRoles” element is currently mapped to the certificate’s CN (OID 2.5.4.3), which is ~20 bytes:
 >
@@ -180,7 +180,7 @@ The screenshot below shows the certificate I'm using. By reading the  **CN**  fi
 
 -------
 
-> [!note]+ 2025-11-04 13:28 · Balan Arumugam
+> [!note]+ 2025-11-04 13:28 · [[Balan_Arumugam|Balan Arumugam]]
 > Hello Hritik Mehta,
 >
 > It seems like customer is referring a wrong certificate element in Dcm configuration or they would have configured certificate element Object Id wrongly. There is nothing to fix in the code. Configuration has to be fixed.
@@ -191,10 +191,10 @@ The screenshot below shows the certificate I'm using. By reading the  **CN**  fi
 
 -------
 
-> [!note]+ 2025-11-04 13:27 · Volker Boehm
-> Balan Arumugam,
+> [!note]+ 2025-11-04 13:27 · [[Volker_Boehm|Volker Boehm]]
+> [[Balan_Arumugam|Balan Arumugam]],
 >
-> Could you please check with the colleagues and provide an answer to the points from Hritik Mehta?
+> Could you please check with the colleagues and provide an answer to the points from [[Hritik_Mehta|Hritik Mehta]]?
 >
 >
 >
@@ -204,22 +204,22 @@ The screenshot below shows the certificate I'm using. By reading the  **CN**  fi
 
 -------
 
-> [!note]+ 2025-11-04 13:16 · JSM Service Bot
+> [!note]+ 2025-11-04 13:16 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi KeyM Support Owner. This ticket requires an assignee.
 
 -------
 
-> [!note]+ 2025-11-04 13:16 · JSM Service Bot
+> [!note]+ 2025-11-04 13:16 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Diagnostic Communication Support Owner. This ticket requires an assignee.
 
 -------
 
-> [!note]+ 2025-11-04 13:14 · Hritik Mehta
+> [!note]+ 2025-11-04 13:14 · [[Hritik_Mehta|Hritik Mehta]]
 > ```
 > RTA-CAR 12.7.0{noformat}
-> Hi Volker Boehm,
+> Hi [[Volker_Boehm|Volker Boehm]],
 >
-> Please have a look at this ticket and the latest comment by Raghuram Telagamsetti.
+> Please have a look at this ticket and the latest comment by [[Raghuram_Telagamsetti|Raghuram Telagamsetti]].
 >  * *AUTOSAR 7.4.2.10.5* constrains role/whitelist element sizes and DCM enforces this by hard-coding {*}DCM_CERT_ELEMENT_CHILD_MAX_LENGTH = 4{*}.
 >  * Debugging indicates *Dcm_Cfg_AuthConnection_acst[...].roleCertElementId_u16* is mapped to the certificate’s CN (“{_}XCD@2023010100000001{_}”, ~20 bytes) instead of the role element, causing KeyM to return {*}KEYM_E_KEY_CERT_SIZE_MISMATCH{*}, which DCM translates to {*}DCM_E_CERTIFICATEVERIFICATIONFAILEDINVALIDCONTENT{*}.
 >  * Proposed fix: correct the certificate element ID mapping for role/whitelist to the appropriate KeyM-supported elements.
@@ -232,15 +232,15 @@ The screenshot below shows the certificate I'm using. By reading the  **CN**  fi
 
 -------
 
-> [!note]+ 2025-11-04 04:01 · Junsheng ZHANG
-> Hi Hritik Mehta 
+> [!note]+ 2025-11-04 04:01 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Hritik_Mehta|Hritik Mehta]] 
 >
 >     Is there an expert from KeyM who can answer this question？
 
 -------
 
-> [!note]+ 2025-11-03 07:02 · Raghuram Telagamsetti
-> Hello Junsheng ZHANG
+> [!note]+ 2025-11-03 07:02 · [[Raghuram_Telagamsetti|Raghuram Telagamsetti]]
+> Hello [[Junsheng_ZHANG|Junsheng ZHANG]]
 >
 > According to AUTOSAR specification 7.4.2.10.5 (as shown in the below image), authentication white lists/roles are constructed from elements with specific size constraints.
 >
@@ -262,18 +262,18 @@ The screenshot below shows the certificate I'm using. By reading the  **CN**  fi
 
 -------
 
-> [!note]+ 2025-10-31 09:02 · Junsheng ZHANG
+> [!note]+ 2025-10-31 09:02 · [[Junsheng_ZHANG|Junsheng ZHANG]]
 > At present, I do not have the actual certificate used by Cariad, but if the CN value in the customer's certificate exceeds 4 bytes, this problem may also occur; We cannot demand that customers' certificates must comply with specification; So, please help evaluate the solution;
 
 -------
 
-> [!note]+ 2025-10-31 08:58 · JSM Service Bot
-> Junsheng ZHANG, the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [!note]+ 2025-10-31 08:58 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2025-10-31 08:58 · Junsheng ZHANG
-> Hi Raghuram Telagamsetti ,
+> [!note]+ 2025-10-31 08:58 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Raghuram_Telagamsetti|Raghuram Telagamsetti]] ,
 >
 >     I would like to explain my debugging results to you again；
 >
@@ -299,8 +299,8 @@ The screenshot below shows the certificate I'm using. By reading the  **CN**  fi
 
 -------
 
-> [!note]+ 2025-10-30 05:46 · Raghuram Telagamsetti
-> Hello Junsheng ZHANG 
+> [!note]+ 2025-10-30 05:46 · [[Raghuram_Telagamsetti|Raghuram Telagamsetti]]
+> Hello [[Junsheng_ZHANG|Junsheng ZHANG]] 
 >
 > **DcmDspAuthenticationRoleSize** cannot be modified as the role size is limited to maximum of 4 bytes as per Autosar Requirement. So I want to understand the error being reported by KeyM is at which stage.
 >
@@ -310,15 +310,15 @@ The screenshot below shows the certificate I'm using. By reading the  **CN**  fi
 
 -------
 
-> [!note]+ 2025-10-29 07:50 · Junsheng ZHANG
-> Hi Raghuram Telagamsetti ,
+> [!note]+ 2025-10-29 07:50 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Raghuram_Telagamsetti|Raghuram Telagamsetti]] ,
 >
 >     There was no report of **KEYM_E_KEY_CERT_SIZE_MISMATCH** error. However, without modifying DCM_CERT_ELEMENT_CHILD_MAX_LENGTH, it will report a KEYM_SERVICE_ID_CERT_ELEMENT_GET error;
 
 -------
 
-> [!note]+ 2025-10-29 06:56 · Raghuram Telagamsetti
-> Hello Junsheng ZHANG 
+> [!note]+ 2025-10-29 06:56 · [[Raghuram_Telagamsetti|Raghuram Telagamsetti]]
+> Hello [[Junsheng_ZHANG|Junsheng ZHANG]] 
 >
 > May I know at which stage KeyM reported **KEYM_E_KEY_CERT_SIZE_MISMATCH** error. Is it while reading the role information or whitelist information from certificate ?
 >
@@ -326,14 +326,14 @@ The screenshot below shows the certificate I'm using. By reading the  **CN**  fi
 
 -------
 
-> [!note]+ 2025-10-27 02:52 · Junsheng ZHANG
-> Hi Balan Arumugam ,
+> [!note]+ 2025-10-27 02:52 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Balan_Arumugam|Balan Arumugam]] ,
 >
 >      I think KeyM is fine, the problem lies in the Dcm module; As I previously described, modifying DcmDspAauthenticationRoleSize and DCM_CERT_ELEMENT_CHILD_MAX_LENGTH can solve the problem; So it may be due to the interface provided by Dcm being too small,And these values cannot be modified normally, I need to modify the code or paramdef file;
 
 -------
 
-> [!note]+ 2025-10-26 18:43 · Balan Arumugam
+> [!note]+ 2025-10-26 18:43 · [[Balan_Arumugam|Balan Arumugam]]
 > Hello Mehta,
 >
 > There is no problem in the KeyM, User provide certificate element data length is less than the configured size hence KeyM is reporting **KEYM_E_KEY_CERT_SIZE_MISMATCH** error as per the requirement id SWS_KeyM_00063 and SWS_KeyM_00127.
@@ -349,15 +349,15 @@ The screenshot below shows the certificate I'm using. By reading the  **CN**  fi
 
 -------
 
-> [!note]+ 2025-10-24 18:22 · JSM Service Bot
+> [!note]+ 2025-10-24 18:22 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Diagnostic Communication Support Owner. This ticket requires an assignee.
 
 -------
 
-> [!note]+ 2025-10-24 18:20 · Hritik Mehta
+> [!note]+ 2025-10-24 18:20 · [[Hritik_Mehta|Hritik Mehta]]
 > ```
 > RTA-CAR 12.7.0{noformat}
-> Hi Raghuram Telagamsetti / Volker Boehm,
+> Hi [[Raghuram_Telagamsetti|Raghuram Telagamsetti]] / [[Volker_Boehm|Volker Boehm]],
 >
 > The customer is facing a buffer size issue in Dcm/KeyM integration during *0x29* authentication.
 >
@@ -375,14 +375,14 @@ The screenshot below shows the certificate I'm using. By reading the  **CN**  fi
 
 -------
 
-> [!note]+ 2025-10-24 12:00 · Junsheng ZHANG
+> [!note]+ 2025-10-24 12:00 · [[Junsheng_ZHANG|Junsheng ZHANG]]
 > I found that during debugging, it is necessary to manually change DCMcERT-ELEMENT_CILD_SAX_LENGTH to 20 in order to complete the entire process correctly；This can make RequiredBuffer_u32 less than * CertElementDataLength；
 >
 > ![[RH-14204-image-2025-10-24-18-00-31-054.png]]
 
 -------
 
-> [!note]+ 2025-10-23 12:19 · Junsheng ZHANG
+> [!note]+ 2025-10-23 12:19 · [[Junsheng_ZHANG|Junsheng ZHANG]]
 > Current project details for reference
 >
 >

@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Critical
 project: RH
-assignee: Junsheng ZHANG
-reporter: Junsheng ZHANG
+assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: [jira/comp/sec-cryptoauhsm3, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-05-13T08:41:10.000+0200"
 updated: "2026-07-29T13:52:56.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -74,44 +74,44 @@ Blow picture is OK;
 
 ## 评论
 
-> [!note]+ 2026-07-29 13:52 · Junsheng ZHANG
+> [!note]+ 2026-07-29 13:52 · [[Junsheng_ZHANG|Junsheng ZHANG]]
 > The issue code has already been fixed in the pr4 version.We can close the ticket now;Thank you very much for your support;
 
 -------
 
-> [!note]+ 2026-07-24 10:40 · Khoa Phan Huynh Dang
+> [!note]+ 2026-07-24 10:40 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
 > Hello all,
 > After checking with the customer, we confirmed that the fix for this issue has already been implemented in {*}RTA-CAR 12.11.0.VCTCESR1pr4{*}. I have provided the plugin for this version.
 >
-> Junsheng ZHANG , could you please verify the solution and close the ticket if the issue has been resolved? Otherwise, please let us know if you have any further concerns. Thank you!
+> [[Junsheng_ZHANG|Junsheng ZHANG]] , could you please verify the solution and close the ticket if the issue has been resolved? Otherwise, please let us know if you have any further concerns. Thank you!
 
 -------
 
-> [!note]+ 2026-07-24 09:45 · Junsheng ZHANG
-> Hi Khoa Phan Huynh Dang ,
+> [!note]+ 2026-07-24 09:45 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] ,
 >
 > I just uploaded the code generated from my PR4, and it didn’t modify this issue. How can I be sure that PR4 has already fixed it?
 
 -------
 
-> [!note]+ 2026-07-24 09:30 · Khoa Phan Huynh Dang
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-07-24 09:30 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 >
 > I checked the src code from **RTA-CAR 12.11.0.VCTCESR1pr4,** the solution for this issue has been {*}updated{*}. Kindly help me recheck it, if you have any concerns, you can contact me to analyze. Thank you!
 >
-> cc: anh Phuong Nguyen Le , anh Cuong Phan Manh 
+> cc: anh [[Phuong_Nguyen_Le|Phuong Nguyen Le]] , anh [[Cuong_Phan_Manh|Cuong Phan Manh]] 
 >
 > ![[RH-16029-image-2026-07-24-14-29-25-242.png]]
 
 -------
 
-> [!note]+ 2026-07-24 09:12 · Junsheng ZHANG
+> [!note]+ 2026-07-24 09:12 · [[Junsheng_ZHANG|Junsheng ZHANG]]
 > [^rba_CryptoAuHSM3_Prv_KeyPersist-1.c]
 
 -------
 
-> [!note]+ 2026-07-24 09:12 · Junsheng ZHANG
-> Hi Khoa Phan Huynh Dang ,
+> [!note]+ 2026-07-24 09:12 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] ,
 >
 > I have check the code of  RTA-CAR 12.11.0.VCTCESR1pr4;It is not same as the code you support before; 
 >
@@ -119,8 +119,8 @@ Blow picture is OK;
 
 -------
 
-> [!note]+ 2026-06-30 06:28 · Khoa Phan Huynh Dang
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-06-30 06:28 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 >
 > The bugfix is planned for inclusion in {*}AR45.14.2.0 GA (Jul 24){*}. If you have any concerns, please let us know and reopen this ticket. Thank you.
 >
@@ -128,19 +128,19 @@ Blow picture is OK;
 
 -------
 
-> [!note]+ 2026-06-17 11:39 · JSM Service Bot
+> [!note]+ 2026-06-17 11:39 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-05-28 10:39 · Pedro Duarte
-> Hello Steven TANG,
+> [!note]+ 2026-05-28 10:39 · [[Pedro_Duarte|Pedro Duarte]]
+> Hello [[Steven_TANG|Steven TANG]],
 >
 > Thank you for the feedback, a defect [ARCSEC-6944](https://jira.etas-dev.com/browse/ARCSEC-6944) has been created and linked to this ticket where this will be implemented.
 
 -------
 
-> [!note]+ 2026-05-28 08:54 · Steven TANG
+> [!note]+ 2026-05-28 08:54 · [[Steven_TANG|Steven TANG]]
 > Hello  Pedro Duarte:
 >
 > Just check with Junsheng Zhang, the walk around solution you provide is workable.
@@ -149,8 +149,8 @@ Blow picture is OK;
 
 -------
 
-> [!note]+ 2026-05-25 11:04 · Pedro Duarte
-> Hello Junsheng ZHANG,
+> [!note]+ 2026-05-25 11:04 · [[Pedro_Duarte|Pedro Duarte]]
+> Hello [[Junsheng_ZHANG|Junsheng ZHANG]],
 >
 > This looks like a bug on rba_CryptoAuHSM3 where **ecy_hsm_Csai_WriteKeyToNvmKeyStore** is triggered in a situation where it shouldn't because the actual key is not available in HSM RAM (Csm_KeyElementSet was not called).
 >
@@ -160,8 +160,8 @@ Blow picture is OK;
 
 -------
 
-> [!note]+ 2026-05-25 05:31 · Junsheng ZHANG
-> Hi Hritik Mehta ，
+> [!note]+ 2026-05-25 05:31 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Hritik_Mehta|Hritik Mehta]] ，
 >
 > Here is my fix for the issue. Is this acceptable?
 >
@@ -169,13 +169,13 @@ Blow picture is OK;
 
 -------
 
-> [!note]+ 2026-05-23 11:51 · JSM Service Bot
-> Junsheng ZHANG, the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [!note]+ 2026-05-23 11:51 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-05-23 11:51 · Junsheng ZHANG
-> Hi Hritik Mehta ,
+> [!note]+ 2026-05-23 11:51 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Hritik_Mehta|Hritik Mehta]] ,
 >
 >     The errorCode is 0x80001201ecy_hsm_CSAI_ERR_INVALID_HANDLE;
 >
@@ -183,8 +183,8 @@ Blow picture is OK;
 
 -------
 
-> [!note]+ 2026-05-22 15:17 · Hritik Mehta
-> Hi Junsheng ZHANG,
+> [!note]+ 2026-05-22 15:17 · [[Hritik_Mehta|Hritik Mehta]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]],
 >
 > Thank you for your patience, and apologies for the delay. 
 >
@@ -195,20 +195,20 @@ Blow picture is OK;
 
 -------
 
-> [!note]+ 2026-05-22 05:18 · Junsheng ZHANG
-> Hi Hritik Mehta ,
+> [!note]+ 2026-05-22 05:18 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Hritik_Mehta|Hritik Mehta]] ,
 >
 >     This issue has gone unanswered for too long; can anyone else help resolve it?!!!
 
 -------
 
-> [!note]+ 2026-05-13 16:41 · JSM Service Bot
-> Hi Christoph Buttler, this SEC-Crypto ticket requires an assignee. As the component lead for SEC-Crypto, please ensure the 'Level 3 Assignee' field is set the appropriate person that an handle this issue.
+> [!note]+ 2026-05-13 16:41 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Christoph_Buttler|Christoph Buttler]], this SEC-Crypto ticket requires an assignee. As the component lead for SEC-Crypto, please ensure the 'Level 3 Assignee' field is set the appropriate person that an handle this issue.
 
 -------
 
-> [!note]+ 2026-05-13 16:39 · Hritik Mehta
-> Hi Christoph Buttler, Elvan Caliskan,
+> [!note]+ 2026-05-13 16:39 · [[Hritik_Mehta|Hritik Mehta]]
+> Hi [[Christoph_Buttler|Christoph Buttler]], [[Elvan_Caliskan|Elvan Caliskan]],
 >
 > Customer (CNMS/VCTC, RTA-CAR {*}12.11.0.VCTCESR1{*}) reports that the HSM returns an error on every **Csm_KeySetValid** call. The root cause appears to be that **KeyM** background certificate parsing ({*}KeyM_Prv_AsyncParseCertificates{*}) calls **Crypto_Prv_KeyStorage_MarkKeyChanged** for the certificate key, setting the changed flag. On the next persist cycle, **Crypto_Prv_KeyStorage_StoreKeysInBlock** tries to persist the certificate key via {*}ecy_hsm_Csai_WriteKeyToNvmKeyStore{*}, which fails because certificate keys are not supported by this API. The block state becomes ERROR and the flag is never cleared, causing a permanent retry loop.
 >

@@ -4,9 +4,15 @@ filters:
 views:
   - type: table
     name: Tickets
+    groupBy:
+      property: status
+      direction: ASC
     order:
-      - jira_key
-      - summary
+      - file.name
       - status
       - assignee
-      - updated
+    columnSize:
+      file.name: 359
+      note.status: 83
+      note.assignee: 384
+    rowHeight: medium

@@ -3,10 +3,16 @@ filters:
     - profile == "Medusa"
 views:
   - type: table
-    name: Tickets
+    name: Tickets Not Done
+    filters:
+      and:
+        - status != "Done"
     order:
-      - jira_key
-      - summary
+      - file.name
       - status
       - assignee
-      - updated
+      - epic
+    rowHeight: medium
+    columnSize:
+      file.name: 394
+      note.epic: 164

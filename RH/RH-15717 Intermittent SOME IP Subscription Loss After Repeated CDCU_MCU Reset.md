@@ -7,15 +7,15 @@ type: Analysis Request
 status: Waiting for Level 3
 priority: Medium
 project: RH
-assignee: "[[Chandran_Girish_(ETAS-ECMXPC-Yok1)|Girish Chandran]]"
-reporter: "[[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]"
+assignee: "[[Girish_Chandran|Girish Chandran]]"
+reporter: "[[Jie_LIU|Jie LIU]]"
 tags: [jira/comp/communication-eth]
 fix-versions: [RTA-CAR 12.13.0]
 epic: null
 parent: null
 created: "2026-04-09T16:08:43.000+0200"
 updated: "2026-09-10T10:36:49.000+0200"
-synced-at: "2026-09-11T01:13:17.157Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -182,45 +182,45 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 ## 评论
 
 > [!note]+ 2026-09-10 10:35 · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]
-> [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]: You are partly correct, SD code generation generates duplicate macros with different values without any warning or error.
+> [[Phuong_Nguyen_Le|Phuong Nguyen Le]]: You are partly correct, SD code generation generates duplicate macros with different values without any warning or error.
 >
-> To add this error/warning to inform the user, we need to make sure that the parameters which have *Symbolic Name = TRUE* are checked for uniqueness and this needs to be handled in the code generation tool. Let us wait for [[Chandran_Girish_(ETAS-ECMXPC-Yok1)|Girish Chandran]] to comment on this ticket. 
+> To add this error/warning to inform the user, we need to make sure that the parameters which have *Symbolic Name = TRUE* are checked for uniqueness and this needs to be handled in the code generation tool. Let us wait for [[Girish_Chandran|Girish Chandran]] to comment on this ticket. 
 
 -------
 
-> [!note]+ 2026-09-10 08:42 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
-> [[Nandita_Prasad_(MSEMS-ETAS)|Prasad Nandita]]: I believe the root issue is not duplicated short names themselves, as this does not violate any AUTOSAR requirement. The problem is that the SD code generation tool generates duplicate macros with different values without any warning or error. 
+> [!note]+ 2026-09-10 08:42 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> [[Prasad_Nandita|Prasad Nandita]]: I believe the root issue is not duplicated short names themselves, as this does not violate any AUTOSAR requirement. The problem is that the SD code generation tool generates duplicate macros with different values without any warning or error. 
 >
 > The VCTC configuration fix only resolves the issue for that specific project. Since the tool behavior remains unchanged, the same issue can still occur in other VCTC projects and may remain hidden until later integration or runtime stage.
 >
 > Then from my view, we should have a patch for VCTC.
 >
-> [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]] : can you share your view?
+> [[Jie_LIU|Jie LIU]] : can you share your view?
 
 -------
 
-> [!note]+ 2026-09-10 07:03 · [[Nandita_Prasad_(MSEMS-ETAS)|Prasad Nandita]]
+> [!note]+ 2026-09-10 07:03 · [[Prasad_Nandita|Prasad Nandita]]
 > To have a more centralized robust approach, we are looking at options to handle this check in the tooling, instead at individual component level.
 >
 > It shall be considered for the forward path.
 >
-> [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]  For VCTC since the config is already modified and fixed for the target project, doesn't this suffice? do you need the fix on 12.11.0? 
+> [[Phuong_Nguyen_Le|Phuong Nguyen Le]]  For VCTC since the config is already modified and fixed for the target project, doesn't this suffice? do you need the fix on 12.11.0? 
 >
-> [[Chandran_Girish_(ETAS-ECMXPC-Yok1)|Girish Chandran]] [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]  FYI
+> [[Girish_Chandran|Girish Chandran]] [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]  FYI
 
 -------
 
 > [!note]+ 2026-09-10 05:58 · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]
-> [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]] : Thanks for the feedback!
+> [[Jie_LIU|Jie LIU]] : Thanks for the feedback!
 >
-> Currently we are discussing this with [[Chandran_Girish_(ETAS-ECMXPC-Yok1)|Girish Chandran]] if this validation can be inbuilt in the code generation tool instead of every module implementing a validation error for the parameters which will make the code bulky and unmaintainable. 
+> Currently we are discussing this with [[Girish_Chandran|Girish Chandran]] if this validation can be inbuilt in the code generation tool instead of every module implementing a validation error for the parameters which will make the code bulky and unmaintainable. 
 >
-> I have assigned this ticket to [[Chandran_Girish_(ETAS-ECMXPC-Yok1)|Girish Chandran]] to take this forward. 
+> I have assigned this ticket to [[Girish_Chandran|Girish Chandran]] to take this forward. 
 
 -------
 
-> [!note]+ 2026-09-09 15:40 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
-> [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]] [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] I've changed the priority of this issue to Medium.
+> [!note]+ 2026-09-09 15:40 · [[Jie_LIU|Jie LIU]]
+> [[Phuong_Nguyen_Le|Phuong Nguyen Le]] [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] I've changed the priority of this issue to Medium.
 >
 > Although it can be regarded as misconfiguration issue, the result is no warning no error, and duplicate MACROs are generated in code with different values. If customer does not notify it, it could be a hidden issue only found during runtime.
 >
@@ -232,33 +232,33 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-09-09 05:07 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
-> [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]] : It's seem that this is improvement request and Project team has solution now so that I think it's not urgent topic? Do you really need this improvement now? Please share your need!
+> [!note]+ 2026-09-09 05:07 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> [[Jie_LIU|Jie LIU]] : It's seem that this is improvement request and Project team has solution now so that I think it's not urgent topic? Do you really need this improvement now? Please share your need!
 
 -------
 
 > [!note]+ 2026-09-08 12:58 · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]
-> [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]: We are currently discussing on the strategy to solve such kinds of misconfigurations. The configuration in the project is corrected by [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]] and this issue would not occur with the correct configuration. 
+> [[Phuong_Nguyen_Le|Phuong Nguyen Le]]: We are currently discussing on the strategy to solve such kinds of misconfigurations. The configuration in the project is corrected by [[Jie_LIU|Jie LIU]] and this issue would not occur with the correct configuration. 
 >
 > What we are missing here is to catch the wrong configuration by the customer and this can be taken up as an improvement in the forward path of the product. I would want to understand the need for an urgent patch request here, since the customer already has a solution by changing his configuration. 
 >
-> [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]] : Can you please give a background of this request now?
+> [[Jie_LIU|Jie LIU]] : Can you please give a background of this request now?
 >
-> [[Nandita_Prasad_(MSEMS-ETAS)|Prasad Nandita]] : FYI
+> [[Prasad_Nandita|Prasad Nandita]] : FYI
 
 -------
 
-> [!note]+ 2026-09-08 12:50 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
-> [[Chandran_Girish_(ETAS-ECMXPC-Yok1)|Girish Chandran]] , [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] : is it possible to provide code drop in CW37-38 then our team can integrate to provide the preview plugin to customer on 25/Sep
+> [!note]+ 2026-09-08 12:50 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> [[Girish_Chandran|Girish Chandran]] , [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] : is it possible to provide code drop in CW37-38 then our team can integrate to provide the preview plugin to customer on 25/Sep
 
 -------
 
 > [!note]+ 2026-09-08 11:39 · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]
-> [[James_Butterfield|James Butterfield]] , [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]] : The timeline for this topic was mentioned **tentative** as RTA-CAR 12.13.0 in [https://rtahotline.etas.com/jira/browse/RH-15717?focusedCommentId=688303&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-688303] and no patch on RTA-CAR 12.11 was discussed. 
+> [[James_Butterfield|James Butterfield]] , [[Phuong_Nguyen_Le|Phuong Nguyen Le]] : The timeline for this topic was mentioned **tentative** as RTA-CAR 12.13.0 in [https://rtahotline.etas.com/jira/browse/RH-15717?focusedCommentId=688303&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-688303] and no patch on RTA-CAR 12.11 was discussed. 
 >
-> Adding [[Chandran_Girish_(ETAS-ECMXPC-Yok1)|Girish Chandran]] here since, it was discussed that the the code generation tool shall check all parameters with *Symbolic Name = TRUE* for uniqueness instead of every module implementing a validation check for multiple parameters which makes the code bulky and unmaintainable. 
+> Adding [[Girish_Chandran|Girish Chandran]] here since, it was discussed that the the code generation tool shall check all parameters with *Symbolic Name = TRUE* for uniqueness instead of every module implementing a validation check for multiple parameters which makes the code bulky and unmaintainable. 
 >
-> [[Chandran_Girish_(ETAS-ECMXPC-Yok1)|Girish Chandran]] : Was there any progress in this topic?
+> [[Girish_Chandran|Girish Chandran]] : Was there any progress in this topic?
 
 -------
 
@@ -272,7 +272,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-09-08 10:10 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
+> [!note]+ 2026-09-08 10:10 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
 > [[James_Butterfield|James Butterfield]] , Customer expect to provide fix on RTA-CAR 12.11 and provide patch plugin for them on 25-Sep. 
 >
 > Can you share your plan?
@@ -280,7 +280,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 -------
 
 > [!note]+ 2026-09-07 10:39 · [[James_Butterfield|James Butterfield]]
-> Hi [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]],
+> Hi [[Jiaqi_JI|Jiaqi JI]],
 >
 > I see you have reopened this ticket, could you please clarify whether this was a mistake?
 > If not, please outline any outstanding points you feel are preventing this ticket from being closed.
@@ -296,13 +296,13 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 -------
 
 > [!note]+ 2026-05-29 08:34 · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]
-> [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]] : I have linked the story where this improvement for the macro for SdConsumedEventGroup will be updated in our forward path.
+> [[Jie_LIU|Jie LIU]] : I have linked the story where this improvement for the macro for SdConsumedEventGroup will be updated in our forward path.
 >
 > Tentative timeline: RTA-CAR 12.13.0
 
 -------
 
-> [!note]+ 2026-05-15 10:09 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
+> [!note]+ 2026-05-15 10:09 · [[Jie_LIU|Jie LIU]]
 > I don't see linked fix issue created for the macro issue. Please create.
 
 -------
@@ -313,7 +313,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 -------
 
 > [!note]+ 2026-04-30 07:32 · [[Rajendran_Jothivel|Rajendran Jothivel]]
-> Hello [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]] ,
+> Hello [[Jie_LIU|Jie LIU]] ,
 >
 > Typically, with a UDP communication path, it is not feasible to reliably report certain errors in SoAd. A packet that may not be relevant from an SD perspective could still be required by other upper layers interacting with SoAd.
 >
@@ -321,19 +321,19 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-04-30 03:19 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
+> [!note]+ 2026-04-30 03:19 · [[Jie_LIU|Jie LIU]]
 > [[Rajendran_Jothivel|Rajendran Jothivel]] It's feasible to disable the UDP supervision timeout. But if the scenario is fake, could our tool to add some error or warning for this cross-model integration use case even it is not AUTOSAR specification? 
 
 -------
 
 > [!note]+ 2026-04-29 16:01 · [[Rajendran_Jothivel|Rajendran Jothivel]]
-> Hello [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]],
+> Hello [[Jie_LIU|Jie LIU]],
 >
 > One option I see is to disable the UDP supervision timeout. Do you see any scenarios where this should be enabled in the project? If not, I would prefer to disable this feature. Thanks!
 
 -------
 
-> [!note]+ 2026-04-29 02:53 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
+> [!note]+ 2026-04-29 02:53 · [[Jie_LIU|Jie LIU]]
 > Hi, [[Rajendran_Jothivel|Rajendran Jothivel]] 
 >
 > I agree on the first point, we can plan to fix it;
@@ -343,7 +343,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 -------
 
 > [!note]+ 2026-04-28 13:19 · [[Rajendran_Jothivel|Rajendran Jothivel]]
-> Hello [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]] ,
+> Hello [[Jie_LIU|Jie LIU]] ,
 >
 > Do you agree with previous comments? If so, we can plan the fix for the below point alone in our delivery. Thanks!
 > {quote}I rechecked the RTA-CAR 12.11.0 release and observed that duplicate macros are generated when the same short name is configured across two different consumed groups. This issue needs to be addressed.
@@ -352,7 +352,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 -------
 
 > [!note]+ 2026-04-16 12:49 · [[Rajendran_Jothivel|Rajendran Jothivel]]
-> Hello [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]],
+> Hello [[Jie_LIU|Jie LIU]],
 >
 > Please find my analysis results below:
 >
@@ -364,12 +364,12 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-04-16 12:07 · [[Nandita_Prasad_(MSEMS-ETAS)|Prasad Nandita]]
+> [!note]+ 2026-04-16 12:07 · [[Prasad_Nandita|Prasad Nandita]]
 > [[Rajendran_Jothivel|Rajendran Jothivel]]  could you confirm if the fix is available in RTA-CAR 12.11.0?
 
 -------
 
-> [!note]+ 2026-04-16 09:43 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
+> [!note]+ 2026-04-16 09:43 · [[Jie_LIU|Jie LIU]]
 > Status update on customer side for issue2:
 >
 > By changing the **SdConsumedEventGroupUdpActivationRef** to the correct one, customer now is not able to reproduce this issue both on bench and vehicle under pressure test. They agree that the root cause is found.
@@ -380,7 +380,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-04-16 09:04 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
+> [!note]+ 2026-04-16 09:04 · [[Jie_LIU|Jie LIU]]
 > [[Rajendran_Jothivel|Rajendran Jothivel]] Yes, you are right. The macro comes from the short name across two different consumed groups
 >
 > ![[RH-15717-image-2026-04-16-15-06-07-841.png]]
@@ -389,7 +389,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 -------
 
 > [!note]+ 2026-04-16 06:52 · [[Rajendran_Jothivel|Rajendran Jothivel]]
-> Hello [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]],
+> Hello [[Jie_LIU|Jie LIU]],
 >
 > Yes, I agree that this needs to be fixed.
 >
@@ -399,8 +399,8 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-04-16 02:35 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
-> [[Rajendran_Jothivel|Rajendran Jothivel]] [[Nandita_Prasad_(MSEMS-ETAS)|Prasad Nandita]] Even so, our tool has the responsibility to avoid the same macro with different value, it's a bug no matter what wrong configuration customer has. Our tool does not give warning or error on it and generate a wrong code !
+> [!note]+ 2026-04-16 02:35 · [[Jie_LIU|Jie LIU]]
+> [[Rajendran_Jothivel|Rajendran Jothivel]] [[Prasad_Nandita|Prasad Nandita]] Even so, our tool has the responsibility to avoid the same macro with different value, it's a bug no matter what wrong configuration customer has. Our tool does not give warning or error on it and generate a wrong code !
 >
 > Customer does not request us to fix it on 9.1.0.
 >
@@ -411,7 +411,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 -------
 
 > [!note]+ 2026-04-15 11:44 · [[Rajendran_Jothivel|Rajendran Jothivel]]
-> Hello [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]],
+> Hello [[Jie_LIU|Jie LIU]],
 >
 > The duplicate macro was generated because the same short name was configured across two different consumed groups, not due to the same routing group configuration.
 >
@@ -421,7 +421,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-04-15 11:09 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
+> [!note]+ 2026-04-15 11:09 · [[Jie_LIU|Jie LIU]]
 > [[Rajendran_Jothivel|Rajendran Jothivel]] As you see, SoAdRoutingGroup referenced by 2 SdClientService which leads to the issue.
 >
 > ![[RH-15717-image-2026-04-15-17-08-32-854.png]]
@@ -429,7 +429,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 -------
 
 > [!note]+ 2026-04-15 06:24 · [[Rajendran_Jothivel|Rajendran Jothivel]]
-> Hello [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]],
+> Hello [[Jie_LIU|Jie LIU]],
 >
 > The highlighted duplicate entry is possible only if the same consumed event group or identical short name is configured for different consumed groups across multiple client services and instances.
 >
@@ -437,7 +437,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-04-15 05:49 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
+> [!note]+ 2026-04-15 05:49 · [[Jie_LIU|Jie LIU]]
 > Hello, [[Rajendran_Jothivel|Rajendran Jothivel]] , 
 >
 > The routing group is mapped by mistake on customer side, but customer complains our tool does not give warning or error on this for RTA-CAR 9.1.0, and even generate the same macro with different value as below.
@@ -449,7 +449,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 -------
 
 > [!note]+ 2026-04-14 17:18 · [[Rajendran_Jothivel|Rajendran Jothivel]]
-> Hello [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]] ,
+> Hello [[Jie_LIU|Jie LIU]] ,
 >
 > Thanks for your test result.
 > {quote}Could you please help confirm whether the conclusion in my previous comment is correct?
@@ -467,7 +467,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-04-14 14:02 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
+> [!note]+ 2026-04-14 14:02 · [[Jie_LIU|Jie LIU]]
 > Hello [[Rajendran_Jothivel|Rajendran Jothivel]],
 >
 > Could you please help confirm whether the conclusion in my previous comment is correct?
@@ -476,7 +476,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-04-14 13:53 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
+> [!note]+ 2026-04-14 13:53 · [[Jie_LIU|Jie LIU]]
 > # Issue1 Troubleshooting Conclusion
 >
 > When **CDCU** is reset independently and then receives a **specific sequence of SOME/IP messages** from *LDCU, RDCU, and NGX*, the subsequent SOME/IP message sent by **CDCU** may use the *wrong IP address*.
@@ -514,7 +514,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-04-13 13:01 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
+> [!note]+ 2026-04-13 13:01 · [[Jie_LIU|Jie LIU]]
 > 1. this is the observation from dlt log, maybe 33 is best match result;
 >  # 
 > SoAd_Config_UdpSupervisionTimeout_cau32 :UDP Alive Supervision Timeout array in milliseconds for Socket Connection Group and It is multiples of SoAd Main periods
@@ -522,7 +522,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 -------
 
 > [!note]+ 2026-04-13 12:50 · [[Rajendran_Jothivel|Rajendran Jothivel]]
-> Hello [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]] ,
+> Hello [[Jie_LIU|Jie LIU]] ,
 >
 > Could you please clarify the below points. 
 >  # When Event packet from RDCU (172.20.1.32) is received how socket 33 is reserved? why not 31 or 32 socket in this case?
@@ -530,7 +530,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-04-13 12:38 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
+> [!note]+ 2026-04-13 12:38 · [[Jie_LIU|Jie LIU]]
 > [[Rajendran_Jothivel|Rajendran Jothivel]]  One observation from customer side, please help to analyze the possiblity:
 >
 > After CDCU_MCU (172.20.1.33) reset, it receives Event packet from RDCU (172.20.1.32) before Offer packet because RDCU is not reset, this will also occupy socket 33 with remote address 172.20.1.32 as online. The UDP has timeout configuration as 50ms, even within 50ms Offer packet is received from 172.20.1.32, when reaching 50ms the socket will release remote address and be in reconnect state. When Offer of  LDCU (172.20.1.232) comes, socket 33 will be assigned. Sd do not notice this, it will subscribe to the wrong addr in socket 33.
@@ -538,7 +538,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 -------
 
 > [!note]+ 2026-04-13 08:58 · [[Rajendran_Jothivel|Rajendran Jothivel]]
-> Hello [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]],
+> Hello [[Jie_LIU|Jie LIU]],
 >
 > Thanks for your call and your explanation.
 >
@@ -551,7 +551,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-04-13 08:08 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
+> [!note]+ 2026-04-13 08:08 · [[Jie_LIU|Jie LIU]]
 > New information comes from customer: 
 >
 > When calling {*}Sd_ClntSetRemoteAddr -> SoAd_SetUniqueRemoteAddr -> SoAd_BestMatchAlgorithm{*}, the expected socket assignment for remote addr is
@@ -585,7 +585,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-04-12 10:27 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
+> [!note]+ 2026-04-12 10:27 · [[Jie_LIU|Jie LIU]]
 > Customer decided to change the configuration of SoAd to avoid the socket shifting issue, they raised following two questions which needs Eth Expert from PF to clarify:
 > Question 1:
 >
@@ -605,12 +605,12 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-04-11 09:52 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
+> [!note]+ 2026-04-11 09:52 · [[Jie_LIU|Jie LIU]]
 > issue2 related log, code, config added
 
 -------
 
-> [!note]+ 2026-04-11 03:53 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
+> [!note]+ 2026-04-11 03:53 · [[Jie_LIU|Jie LIU]]
 > **Issue2 raised by customer may related to issue1:**
 >
 > **Hello ETAS,**
@@ -647,7 +647,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 -------
 
 > [!note]+ 2026-04-10 10:28 · [[Rajendran_Jothivel|Rajendran Jothivel]]
-> Hello [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]],
+> Hello [[Jie_LIU|Jie LIU]],
 >
 > Please see my comments below,
 > {quote} # Whether applying the same retry-condition change to `RTA-CAR 9.1.0` is technically valid and safe.{quote}

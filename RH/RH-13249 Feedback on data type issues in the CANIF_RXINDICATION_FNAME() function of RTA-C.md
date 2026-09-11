@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Low
 project: RH
-assignee: Dong LIU
-reporter: Dong LIU
+assignee: "[[Dong_LIU|Dong LIU]]"
+reporter: "[[Dong_LIU|Dong LIU]]"
 tags: []
 fix-versions: []
 epic: null
 parent: null
 created: "2025-06-11T09:29:52.000+0200"
 updated: "2026-03-05T06:52:02.000+0100"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -56,18 +56,18 @@ Best regards,
 
 ## 评论
 
-> [!note]+ 2025-07-24 18:01 · JSM Service Bot
+> [!note]+ 2025-07-24 18:01 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2025-07-09 18:25 · JSM Service Bot
+> [!note]+ 2025-07-09 18:25 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically moved to Solution Proposed.
 
 -------
 
-> [!note]+ 2025-06-25 12:09 · Phong Tang Dieu
-> Hi Dong LIU 
+> [!note]+ 2025-06-25 12:09 · [[Phong_Tang_Dieu|Phong Tang Dieu]]
+> Hi [[Dong_LIU|Dong LIU]] 
 >
 > Yes, the uint32_least can be defined as same as uint8_least or you can define it even more.
 >
@@ -79,8 +79,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2025-06-25 11:46 · Dong LIU
-> Hi, Phong Tang Dieu 
+> [!note]+ 2025-06-25 11:46 · [[Dong_LIU|Dong LIU]]
+> Hi, [[Phong_Tang_Dieu|Phong Tang Dieu]] 
 >
 > In our project, uint32_least has already been defined as an unsigned long, and uint8_least is also defined as  unsigned long. So why are uint32_least and uint8_least defined separately in the project, thank you!!!
 >
@@ -88,8 +88,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2025-06-24 10:05 · Phong Tang Dieu
-> Hi Dong LIU 
+> [!note]+ 2025-06-24 10:05 · [[Phong_Tang_Dieu|Phong Tang Dieu]]
+> Hi [[Dong_LIU|Dong LIU]] 
 >
 > This is an Autosar approach to define data type depend on CPU type. So, it would not have any bad impact to your project. In fact, in order projects, the uint8_least type is defined as unsigned long when the PlatformRbCpuType is CPU_TYPE_32. And it works well,
 >
@@ -97,8 +97,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2025-06-23 09:11 · Dong LIU
-> Hi,Phong Tang Dieu 
+> [!note]+ 2025-06-23 09:11 · [[Dong_LIU|Dong LIU]]
+> Hi,[[Phong_Tang_Dieu|Phong Tang Dieu]] 
 >
 > In our project, there are over 100 places that use the uint8_least type. If we change the definition of uint8_least, will there be an evaluation of its impact on other places? What if it affects the address alignment in other places
 >
@@ -106,8 +106,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2025-06-20 17:28 · Phong Tang Dieu
-> Hi Dong LIU 
+> [!note]+ 2025-06-20 17:28 · [[Phong_Tang_Dieu|Phong Tang Dieu]]
+> Hi [[Dong_LIU|Dong LIU]] 
 >
 > actually the uint8_least type should be defined depend on your CPU type. You can see below configuration in the Platform module. The PlatformRbCpuType was configured to CPU_TYPE_32, then the PlatformRbNativeUint8Least should be unsigned long.
 >
@@ -117,8 +117,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2025-06-20 11:03 · Dong LIU
-> Hi, Phong Tang Dieu 
+> [!note]+ 2025-06-20 11:03 · [[Dong_LIU|Dong LIU]]
+> Hi, [[Phong_Tang_Dieu|Phong Tang Dieu]] 
 >
 > In actual debugging, at line 433 of the code, RngLstPduId_qu8 is assigned a value of 240. At line 460 of the while () loop, RngLstPduId_qu8 accumulates continuously and eventually exceeds 255, causing data overflow.
 >
@@ -130,13 +130,13 @@ Best regards,
 
 -------
 
-> [!note]+ 2025-06-20 11:03 · Dong LIU
+> [!note]+ 2025-06-20 11:03 · [[Dong_LIU|Dong LIU]]
 > [^20_Software.zip]
 
 -------
 
-> [!note]+ 2025-06-11 17:38 · Phong Tang Dieu
-> Hi Dong LIU 
+> [!note]+ 2025-06-11 17:38 · [[Phong_Tang_Dieu|Phong Tang Dieu]]
+> Hi [[Dong_LIU|Dong LIU]] 
 >
 > Actually, the value of HrhCfg_pcst->pduIdx_t is NOT the PduIdx as in your showing figure.
 >

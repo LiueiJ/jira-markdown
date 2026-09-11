@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Medium
 project: RH
-assignee: Sisi TAO
-reporter: Sisi TAO
+assignee: "[[Sisi_TAO|Sisi TAO]]"
+reporter: "[[Sisi_TAO|Sisi TAO]]"
 tags: [jira/label/cariad, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2025-04-27T11:31:06.000+0200"
 updated: "2026-05-18T07:08:15.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -52,42 +52,42 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
 
-> [!note]+ 2026-05-18 07:07 · Khoa Phan Huynh Dang
-> As confirmation from Xiao BAI , this issue has been fixed in RTA-CAR 12.11.0VCTCESR1pr1, ticket can be closed now
+> [!note]+ 2026-05-18 07:07 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> As confirmation from [[Xiao_BAI|Xiao BAI]] , this issue has been fixed in RTA-CAR 12.11.0VCTCESR1pr1, ticket can be closed now
 
 -------
 
-> [!note]+ 2026-04-30 11:37 · JSM Service Bot
+> [!note]+ 2026-04-30 11:37 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-04-15 18:48 · JSM Service Bot
+> [!note]+ 2026-04-15 18:48 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically moved to Solution Proposed.
 
 -------
 
-> [!note]+ 2026-04-01 11:38 · Phuong Nguyen Le
-> Hi Xiao BAI , Did you check this issue in RTA-CAR 12.11.0VCTCESR1pr1?
+> [!note]+ 2026-04-01 11:38 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> Hi [[Xiao_BAI|Xiao BAI]] , Did you check this issue in RTA-CAR 12.11.0VCTCESR1pr1?
 >
 > Can you share some update?
 
 -------
 
-> [!note]+ 2025-12-18 13:49 · Marc Kaiser
-> Hello Xiao BAI,
+> [!note]+ 2025-12-18 13:49 · [[Marc_Kaiser|Marc Kaiser]]
+> Hello [[Xiao_BAI|Xiao BAI]],
 >
 > yes. I am certain that this issue was fixed in RTA-CAR 12.8.0 and newer.
 
 -------
 
-> [!note]+ 2025-12-18 11:32 · Xiao BAI
-> Hello Marc Kaiser , is this issue fixed in RTA-CAR 12.11?
+> [!note]+ 2025-12-18 11:32 · [[Xiao_BAI|Xiao BAI]]
+> Hello [[Marc_Kaiser|Marc Kaiser]] , is this issue fixed in RTA-CAR 12.11?
 
 -------
 
-> [!note]+ 2025-12-17 07:20 · Sisi TAO
-> Hi Xiao BAI ,
+> [!note]+ 2025-12-17 07:20 · [[Sisi_TAO|Sisi TAO]]
+> Hi [[Xiao_BAI|Xiao BAI]] ,
 >
 > Could you please check if this issue is fixed in RTA-CAR 12.11.0VCTCESR1pr1
 >
@@ -97,13 +97,13 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2025-07-09 04:58 · Mingye YUAN
+> [!note]+ 2025-07-09 04:58 · [[Mingye_YUAN|Mingye YUAN]]
 > Confirmed from Mr. Fargus Alex, this issue will be solved in CAR 12.8.0.
 
 -------
 
-> [!note]+ 2025-06-25 10:53 · Marc Kaiser
-> Hello Alex Fargus. We fixed this issue with this ticket: [https://jira.etas-dev.com/browse/ARCCFGEN-1484]
+> [!note]+ 2025-06-25 10:53 · [[Marc_Kaiser|Marc Kaiser]]
+> Hello [[Alex_Fargus|Alex Fargus]]. We fixed this issue with this ticket: [https://jira.etas-dev.com/browse/ARCCFGEN-1484]
 >
 >
 >
@@ -111,18 +111,18 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2025-06-25 05:49 · Alex Fargus
-> Marc Kaiser Is there a ticket so that we can track this issue is resolved in CAR 12.8.0 (as you state in the comment below).
+> [!note]+ 2025-06-25 05:49 · [[Alex_Fargus|Alex Fargus]]
+> [[Marc_Kaiser|Marc Kaiser]] Is there a ticket so that we can track this issue is resolved in CAR 12.8.0 (as you state in the comment below).
 
 -------
 
-> [!note]+ 2025-05-09 09:15 · Marc Kaiser
+> [!note]+ 2025-05-09 09:15 · [[Marc_Kaiser|Marc Kaiser]]
 > You are right. My explanation with PduPort is not correct. Because if that explanation where true, actually we would have to take your Pdu to Com, since it does have IN PduPort.
 > I made a mistake when explaining. It is not the PduPort that matters. It is the SignalPort that decides if it should go to Com/LdCom or not. Your ISignalIPdu must have a PduPort on this EcuInstance. It can also have ISignalToIPduMappings inside. You do not have to remove them! But the ISignals mapped to the ISignalIPduMappings can not have ISignalPorts on your EcuInstance. The ISignalPorts would mean that the Signal has to be consumed in this EcuInstance. Not having them means the Pdu must be consumed but the Signals must not be consumed. If the Signals must not be consumed it doesnt have to go to Com/LdCom. This is your use case.
 
 -------
 
-> [!note]+ 2025-05-08 13:15 · Marc Kaiser
+> [!note]+ 2025-05-08 13:15 · [[Marc_Kaiser|Marc Kaiser]]
 > Hello Sisi,
 >
 > Thank you for reporting this to us. We have analyzed this topic. We found that the root cause was a bug in Generic Importer. The Pdu Gateway FanOut case was not properly handled in the PduR Importer code. The CFG you have provided was fine even before you deleted the ISignalToIPduMappings.
@@ -135,19 +135,19 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2025-05-08 13:15 · Marc Kaiser
+> [!note]+ 2025-05-08 13:15 · [[Marc_Kaiser|Marc Kaiser]]
 > [^RTA_CONF_GEN_Installer_12.6.0_CN_Hotfix_pr.zip]
 
 -------
 
-> [!note]+ 2025-04-28 07:57 · Marc Kaiser
-> Hello Sisi TAO,
+> [!note]+ 2025-04-28 07:57 · [[Marc_Kaiser|Marc Kaiser]]
+> Hello [[Sisi_TAO|Sisi TAO]],
 >
 > I will immediatly start working on this and get back to you once I have an update. We should be able to get this to work in ConfGen, as it is a well known UseCase.
 
 -------
 
-> [!note]+ 2025-04-27 11:52 · Sisi TAO
+> [!note]+ 2025-04-27 11:52 · [[Sisi_TAO|Sisi TAO]]
 > Attached is the project for you to reproduce the issue. Tool version: RTA-CAR 12.6.0
 > [^Config.zip]
 

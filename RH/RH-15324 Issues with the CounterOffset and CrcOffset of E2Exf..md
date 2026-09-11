@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Critical
 project: RH
-assignee: Dong LIU
-reporter: Dong LIU
+assignee: "[[Dong_LIU|Dong LIU]]"
+reporter: "[[Dong_LIU|Dong LIU]]"
 tags: [jira/comp/system-infralib-safety]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-03-02T06:16:22.000+0100"
 updated: "2026-05-12T11:37:45.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -70,12 +70,12 @@ Best regards,
 
 ## 评论
 
-> [!note]+ 2026-05-12 11:37 · JSM Service Bot
+> [!note]+ 2026-05-12 11:37 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-04-28 06:39 · Mrinal Kanti Sirkar
+> [!note]+ 2026-04-28 06:39 · [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]]
 > Hi,
 >
 >     Yes this fix available in the RTA-CAR 12.11.0 also. We done this fixed under below version:
@@ -94,19 +94,19 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-04-23 12:09 · Vihitha Jain
-> Dong LIU : Which is the current version used by you?Have you upgraded to an RTA-CAR 12.11.0 preview version?
+> [!note]+ 2026-04-23 12:09 · [[Vihitha_Jain|Vihitha Jain]]
+> [[Dong_LIU|Dong LIU]] : Which is the current version used by you?Have you upgraded to an RTA-CAR 12.11.0 preview version?
 >
-> Mrinal Kanti Sirkar : Is this fix available in the RTA-CAR 12.11.0? The link shared by you is for the older release right?
+> [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]] : Is this fix available in the RTA-CAR 12.11.0? The link shared by you is for the older release right?
 
 -------
 
-> [!note]+ 2026-04-14 14:10 · Dong LIU
-> Hi, Mrinal Kanti Sirkar I can’t access this link: [https://rb-alm-28-p.de.bosch.com/ccm/resource/itemName/com.ibm.team.workitem.WorkItem/648334]. The current Cariad project is blocked at this point. Do you have any suggestions or solutions?
+> [!note]+ 2026-04-14 14:10 · [[Dong_LIU|Dong LIU]]
+> Hi, [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]] I can’t access this link: [https://rb-alm-28-p.de.bosch.com/ccm/resource/itemName/com.ibm.team.workitem.WorkItem/648334]. The current Cariad project is blocked at this point. Do you have any suggestions or solutions?
 
 -------
 
-> [!note]+ 2026-04-03 12:58 · Mrinal Kanti Sirkar
+> [!note]+ 2026-04-03 12:58 · [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]]
 > Hi ,
 >
 > This E2EXF validation issue resolved under the below mentioned CR-648334 in software version AR45_6_2_0.
@@ -119,8 +119,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-04-01 08:35 · S P Deepak
-> Hi Mrinal Kanti Sirkar ,
+> [!note]+ 2026-04-01 08:35 · [[S_P_Deepak|S P Deepak]]
+> Hi [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]] ,
 >
 > Could you please check this?
 >
@@ -130,8 +130,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-03-30 17:18 · Hritik Mehta
-> Hi S P Deepak,
+> [!note]+ 2026-03-30 17:18 · [[Hritik_Mehta|Hritik Mehta]]
+> Hi [[S_P_Deepak|S P Deepak]],
 >
 > We have a customer upgrading from RTA-CAR **9.1** to {*}12.11.0VCTCESR1pr1{*}. Their **E2EXf** transformer ({*}Profile 1{*}) has the counter at bit 48 and CRC at bit 56 in their DBC -counter comes before CRC. This worked in 9.1 but fails the 12.11 validator.
 >
@@ -146,15 +146,15 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-03-30 07:26 · Dong LIU
-> hi Shaker Abdolrahman Saleh 
+> [!note]+ 2026-03-30 07:26 · [[Dong_LIU|Dong LIU]]
+> hi [[Shaker_Abdolrahman_Saleh|Shaker Abdolrahman Saleh]] 
 >
 > The core issue is that the customer is upgrading from RTACAR 9.1 to RTACAR 12.11 and does not accept modification to this input requirement. thank you!
 
 -------
 
-> [!note]+ 2026-03-30 07:23 · Dong LIU
-> Hi Shaker Abdolrahman Saleh 
+> [!note]+ 2026-03-30 07:23 · [[Dong_LIU|Dong LIU]]
+> Hi [[Shaker_Abdolrahman_Saleh|Shaker Abdolrahman Saleh]] 
 >
 > When I used Expected case 1, the following error occurred while generating the code.
 >
@@ -164,13 +164,13 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-03-23 17:46 · JSM Service Bot
+> [!note]+ 2026-03-23 17:46 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically moved to Solution Proposed.
 
 -------
 
-> [!note]+ 2026-03-02 15:27 · Shaker Abdolrahman Saleh
-> Hi Dong LIU,
+> [!note]+ 2026-03-02 15:27 · [[Shaker_Abdolrahman_Saleh|Shaker Abdolrahman Saleh]]
+> Hi [[Dong_LIU|Dong LIU]],
 >
 > error is returned bc BSW/E2EXF does not expect this configuration for type E2EXF_PROFILE11.
 > Expected case: 1
@@ -195,7 +195,7 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-03-02 07:35 · Dong LIU
+> [!note]+ 2026-03-02 07:35 · [[Dong_LIU|Dong LIU]]
 > the RTACAR 12.11pre config project is attached
 > [^Config.zip]
 

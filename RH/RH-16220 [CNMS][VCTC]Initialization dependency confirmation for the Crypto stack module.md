@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Medium
 project: RH
-assignee: Junsheng ZHANG
-reporter: Junsheng ZHANG
+assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: []
 fix-versions: []
 epic: null
 parent: null
 created: "2026-06-02T04:09:41.000+0200"
 updated: "2026-06-12T09:51:24.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -74,8 +74,8 @@ INTERNAL
 
 ## 评论
 
-> [!note]+ 2026-06-04 12:28 · Max Sinclair
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-06-04 12:28 · [[Max_Sinclair|Max Sinclair]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 > {quote}Why the ideal order of the crypto stack is from top to bottom?
 > {quote}
 > To make it clear this is for the mainfunction background tasks not the init
@@ -94,20 +94,20 @@ INTERNAL
 
 -------
 
-> [!note]+ 2026-06-04 03:37 · JSM Service Bot
-> Junsheng ZHANG, the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [!note]+ 2026-06-04 03:37 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[Junsheng_ZHANG|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-06-04 03:37 · Junsheng ZHANG
-> Hi Max Sinclair ,
+> [!note]+ 2026-06-04 03:37 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[Max_Sinclair|Max Sinclair]] ,
 >
 >     Why the ideal order of the crypto stack is from top to bottom?Do we have any documentation to explain these？For Crypto and HSM, it is necessary to initialize HSM before initializing Crypto, which is obviously a bottom-up approach；
 
 -------
 
-> [!note]+ 2026-06-03 13:27 · Max Sinclair
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-06-03 13:27 · [[Max_Sinclair|Max Sinclair]]
+> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 > {quote}Please confirm whether CryIf_Init, Csm_Init, KeyM_Init, and SecOC_Init depend on the initialization of HSM and Crypto_Init.
 > {quote}
 > You can init the cryptostack in any order, as long as no requests go to SecOC or CSM e.g. crypto tasks, as that will cause errors until the full stack is init'd.

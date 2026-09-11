@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Critical
 project: RH
-assignee: Dong LIU
-reporter: Dong LIU
+assignee: "[[Dong_LIU|Dong LIU]]"
+reporter: "[[Dong_LIU|Dong LIU]]"
 tags: [jira/comp/communication-eth]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-05-13T11:37:10.000+0200"
 updated: "2026-05-26T08:17:01.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -56,12 +56,12 @@ Best regards,
 
 ## 评论
 
-> [!note]+ 2026-05-26 08:06 · Dong LIU
-> Sri Viswatej Raja Venkatesh ok, thank you
+> [!note]+ 2026-05-26 08:06 · [[Dong_LIU|Dong LIU]]
+> [[Sri_Viswatej_Raja_Venkatesh|Sri Viswatej Raja Venkatesh]] ok, thank you
 
 -------
 
-> [!note]+ 2026-05-21 14:20 · Sri Viswatej Raja Venkatesh
+> [!note]+ 2026-05-21 14:20 · [[Sri_Viswatej_Raja_Venkatesh|Sri Viswatej Raja Venkatesh]]
 > Hello Dong LIU,
 > We have investigated the behavior observed in RTA-CAR 12.11.0VCTCESR1pr1. Please find our feedback as follows.
 > The current behavior is fully compliant with the following AUTOSAR specification requirement:
@@ -78,22 +78,22 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-05-18 07:53 · Sobin Peter
-> Joshua Cantwell could you please update the L3 assignee as well. the Automatic assignment isn't working somehow
+> [!note]+ 2026-05-18 07:53 · [[Sobin_Peter|Sobin Peter]]
+> [[Joshua_Cantwell|Joshua Cantwell]] could you please update the L3 assignee as well. the Automatic assignment isn't working somehow
 
 -------
 
-> [!note]+ 2026-05-13 18:08 · Sobin Peter
-> Joshua Cantwell Dcm cannot check the validity of the DOIP message. This needs to be performed by DoIP module itself i believe. We need a DoIp team member to explain us what data will be reaching to Dcm (if it is supposed to be reaching Dcm). 
+> [!note]+ 2026-05-13 18:08 · [[Sobin_Peter|Sobin Peter]]
+> [[Joshua_Cantwell|Joshua Cantwell]] Dcm cannot check the validity of the DOIP message. This needs to be performed by DoIP module itself i believe. We need a DoIp team member to explain us what data will be reaching to Dcm (if it is supposed to be reaching Dcm). 
 
 -------
 
-> [!note]+ 2026-05-13 17:09 · JSM Service Bot
-> Hi Raghuram Telagamsetti, this Diagnostic-Communication ticket requires an assignee. As the component lead for Diagnostic-Communication, please ensure the 'Level 3 Assignee' field is set the appropriate person that an handle this issue.
+> [!note]+ 2026-05-13 17:09 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Raghuram_Telagamsetti|Raghuram Telagamsetti]], this Diagnostic-Communication ticket requires an assignee. As the component lead for Diagnostic-Communication, please ensure the 'Level 3 Assignee' field is set the appropriate person that an handle this issue.
 
 -------
 
-> [!note]+ 2026-05-13 17:08 · Joshua Cantwell
+> [!note]+ 2026-05-13 17:08 · [[Joshua_Cantwell|Joshua Cantwell]]
 > Good analysis by the customer, im moving to L3 to investigate and confirm the issue.
 
 -------

@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Low
 project: RH
-assignee: Junsheng ZHANG
-reporter: Junsheng ZHANG
+assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: [jira/comp/rta-swcl]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-03-25T04:48:28.000+0100"
 updated: "2026-04-29T07:44:22.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -63,7 +63,7 @@ International Standard
 
 ## 评论
 
-> [!note]+ 2026-04-21 09:43 · Alexander Wegmann
+> [!note]+ 2026-04-21 09:43 · [[Alexander_Wegmann|Alexander Wegmann]]
 > as per L3-issue LIB-121:
 >
 > We have a NIST CAVP evaluated CycurLIB version (CAVP is validating the implementation of the algorithms), which is one part of FIPS 140-3. 
@@ -80,8 +80,8 @@ International Standard
 
 -------
 
-> [!note]+ 2026-03-26 15:25 · Volker Boehm
-> Hello Alexander Wegmann,
+> [!note]+ 2026-03-26 15:25 · [[Volker_Boehm|Volker Boehm]]
+> Hello [[Alexander_Wegmann|Alexander Wegmann]],
 >
 > Could you please check the question related to CycruLIB certifcation and provide feedback?
 >
@@ -91,8 +91,8 @@ International Standard
 
 -------
 
-> [!note]+ 2026-03-26 15:05 · Phong Tang Dieu
-> Hi Volker Boehm 
+> [!note]+ 2026-03-26 15:05 · [[Phong_Tang_Dieu|Phong Tang Dieu]]
+> Hi [[Volker_Boehm|Volker Boehm]] 
 >
 > Could you please answer the question?
 >

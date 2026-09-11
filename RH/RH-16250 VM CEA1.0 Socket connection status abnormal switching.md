@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Critical
 project: RH
-assignee: Zhou ZHOU
-reporter: Zhou ZHOU
+assignee: "[[Zhou_ZHOU|Zhou ZHOU]]"
+reporter: "[[Zhou_ZHOU|Zhou ZHOU]]"
 tags: [jira/comp/communication-eth]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-06-03T13:21:42.000+0200"
 updated: "2026-07-28T14:24:22.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -58,23 +58,23 @@ Figure 3:
 
 ## 评论
 
-> [!note]+ 2026-07-28 14:24 · JSM Service Bot
+> [!note]+ 2026-07-28 14:24 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-07-03 18:50 · JSM Service Bot
+> [!note]+ 2026-07-03 18:50 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically moved to Solution Proposed.
 
 -------
 
-> [!note]+ 2026-06-19 10:43 · Melanie Hartlieb
+> [!note]+ 2026-06-19 10:43 · [[Melanie_Hartlieb|Melanie Hartlieb]]
 > Status update: Confirmation received that the fix is working. Now alignment about Delivery ongoing. 
 
 -------
 
-> [!note]+ 2026-06-16 14:14 · Clement Fokam
-> Hello Zhou ZHOU ,
+> [!note]+ 2026-06-16 14:14 · [[Clement_Fokam|Clement Fokam]]
+> Hello [[Zhou_ZHOU|Zhou ZHOU]] ,
 >
 > Please find attached the code drop for SoAd.
 >
@@ -84,8 +84,8 @@ Figure 3:
 
 -------
 
-> [!note]+ 2026-06-16 12:51 · Shweta Ganesh Dixit
-> Zhou ZHOU : The issue of TTL expiry in Sd is a known issue and a Defect was already published from product team in 2022. Details in [509491: [EthStack][Sd] OfferService TTL expires earlier than expected for Client Services|[https://rb-alm-28-p.de.bosch.com/ccm/resource/itemName/com.ibm.team.workitem.WorkItem/509491] ]
+> [!note]+ 2026-06-16 12:51 · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]
+> [[Zhou_ZHOU|Zhou ZHOU]] : The issue of TTL expiry in Sd is a known issue and a Defect was already published from product team in 2022. Details in [509491: [EthStack][Sd] OfferService TTL expires earlier than expected for Client Services|[https://rb-alm-28-p.de.bosch.com/ccm/resource/itemName/com.ibm.team.workitem.WorkItem/509491] ]
 >
 > We have now ported the code changes on the Sd version in the attached project to unblock you. 
 >
@@ -95,7 +95,7 @@ Figure 3:
 
 -------
 
-> [!note]+ 2026-06-16 06:34 · Zhou ZHOU
+> [!note]+ 2026-06-16 06:34 · [[Zhou_ZHOU|Zhou ZHOU]]
 > Hello，
 >
 > The customer analyzed the three scenarios in which `lClntSrvInstAdm_pst->cntrTTLMainFutCyc_u16` is set to `SD_MAIN_FUNCTION_CYCLE`:
@@ -123,8 +123,8 @@ Figure 3:
 
 -------
 
-> [!note]+ 2026-06-15 18:03 · Clement Fokam
-> Hello Zhou ZHOU ,
+> [!note]+ 2026-06-15 18:03 · [[Clement_Fokam|Clement Fokam]]
+> Hello [[Zhou_ZHOU|Zhou ZHOU]] ,
 >
 > Regarding the second issue, it is still not clear.
 > I have analyzed possible scenarios where **lClntSrvInstAdm_pst->cntrTTLMainFutCyc_u16** is not reset for some received Offer messages. but I could not find any reason for this behavior.
@@ -133,7 +133,7 @@ Figure 3:
 
 -------
 
-> [!note]+ 2026-06-15 14:04 · Zhou ZHOU
+> [!note]+ 2026-06-15 14:04 · [[Zhou_ZHOU|Zhou ZHOU]]
 > Hello，
 >
 > Customer Feedback:
@@ -145,7 +145,7 @@ Figure 3:
 
 -------
 
-> [!note]+ 2026-06-15 12:04 · Clement Fokam
+> [!note]+ 2026-06-15 12:04 · [[Clement_Fokam|Clement Fokam]]
 > Hello Zhou,
 >
 > Regarding the 2nd Issue
@@ -157,7 +157,7 @@ Figure 3:
 
 -------
 
-> [!note]+ 2026-06-15 10:29 · Zhou ZHOU
+> [!note]+ 2026-06-15 10:29 · [[Zhou_ZHOU|Zhou ZHOU]]
 > Hello Clement Fokam，
 >
 > Okay, I will confirm whether the customer has such a use case or scenario.
@@ -166,7 +166,7 @@ Figure 3:
 
 -------
 
-> [!note]+ 2026-06-15 08:53 · Clement Fokam
+> [!note]+ 2026-06-15 08:53 · [[Clement_Fokam|Clement Fokam]]
 > Hello Zhou,
 >
 > Does the customer have a use case or scenario where the number of close requests ({*}socConCloseReqCnt_u16{*}) becomes greater than the number of open requests ({*}socConOpenReqCnt_u16{*})?
@@ -176,7 +176,7 @@ Figure 3:
 
 -------
 
-> [!note]+ 2026-06-15 06:15 · Zhou ZHOU
+> [!note]+ 2026-06-15 06:15 · [[Zhou_ZHOU|Zhou ZHOU]]
 > Hello Clement Fokam，
 >
 > The customer believes that `socConCloseReqCnt_u16` will overflow within `SoAd_CloseSoCon`, so overflow protection is required.
@@ -194,14 +194,14 @@ Figure 3:
 
 -------
 
-> [!note]+ 2026-06-14 19:49 · Clement Fokam
-> Hello Zhou ZHOU,
+> [!note]+ 2026-06-14 19:49 · [[Clement_Fokam|Clement Fokam]]
+> Hello [[Zhou_ZHOU|Zhou ZHOU]],
 >
 > The updated code will prevent counter overflows for both **socConCloseReqCnt_u16** and {*}socConOpenReqCnt_u16{*}. 
 
 -------
 
-> [!note]+ 2026-06-13 09:03 · Zhou ZHOU
+> [!note]+ 2026-06-13 09:03 · [[Zhou_ZHOU|Zhou ZHOU]]
 > Hello Clement Fokam，
 >
 > This issue has just been reproduced on the test bench, and they have confirmed that the "socConOpenReqCnt_u16" counter overflowed.
@@ -209,7 +209,7 @@ Figure 3:
 
 -------
 
-> [!note]+ 2026-06-13 08:17 · Zhou ZHOU
+> [!note]+ 2026-06-13 08:17 · [[Zhou_ZHOU|Zhou ZHOU]]
 > Hello Clement Fokam，
 >
 > Okay, I have forwarded the updated code to cariad.
@@ -217,8 +217,8 @@ Figure 3:
 
 -------
 
-> [!note]+ 2026-06-12 14:41 · Clement Fokam
-> Hi Zhou ZHOU 
+> [!note]+ 2026-06-12 14:41 · [[Clement_Fokam|Clement Fokam]]
+> Hi [[Zhou_ZHOU|Zhou ZHOU]] 
 > Regarding the first issue, I analyzed it and made an update in SoAd_OpenSoCon() to avoid an overflow of socConOpenReqCnt_u16 and to allow the opening of a new SoAd socket connection.
 >
 > Please test the updated SoAd_OpenSoCon() and provide me your feedback.
@@ -228,7 +228,7 @@ Figure 3:
 
 -------
 
-> [!note]+ 2026-06-12 11:21 · Jie LIU
+> [!note]+ 2026-06-12 11:21 · [[Jie_LIU|Jie LIU]]
 > # CEA1.0 Socket Link Status Abnormality Analysis Result
 >
 > Sender: ZHOU Zhou (ETAS-ECM/XSF-CN) `<Zhou.ZHOU2@etas.com>`
@@ -359,21 +359,21 @@ Figure 3:
 
 -------
 
-> [!note]+ 2026-06-10 09:54 · Clement Fokam
-> Hi Zhou ZHOU 
+> [!note]+ 2026-06-10 09:54 · [[Clement_Fokam|Clement Fokam]]
+> Hi [[Zhou_ZHOU|Zhou ZHOU]] 
 > The behavior of the required APIs are not visible in this log file.
 > Please add the following API: SoAd_EnableSpecificRouting, SoAd_DisableSpecificRouting, SoAd_DisableRouting, SoAd_EnableRouting, SoAd_SetUniqueRemoteAddr, SoAd_SetRemoteAddr. 
 
 -------
 
-> [!note]+ 2026-06-09 11:59 · Clement Fokam
-> Hi Zhou ZHOU,
+> [!note]+ 2026-06-09 11:59 · [[Clement_Fokam|Clement Fokam]]
+> Hi [[Zhou_ZHOU|Zhou ZHOU]],
 > add DLT logging for the following APIs:
 > SoAd_EnableSpecificRouting, SoAd_DisableSpecificRouting, SoAd_DisableRouting, SoAd_EnableRouting, SoAd_SetUniqueRemoteAddr, SoAd_SetRemoteAddr
 
 -------
 
-> [!note]+ 2026-06-09 10:52 · Zhou ZHOU
+> [!note]+ 2026-06-09 10:52 · [[Zhou_ZHOU|Zhou ZHOU]]
 > Hello Clement Fokam，
 >
 > The customer observed a specific scenario: prior to the issue occurring (as shown in the figure below), the socket states of the NGX, LDCU, and RDCU were all set to "offline" within a short period.
@@ -389,7 +389,7 @@ Figure 3:
 
 -------
 
-> [!note]+ 2026-06-09 09:38 · Zhou ZHOU
+> [!note]+ 2026-06-09 09:38 · [[Zhou_ZHOU|Zhou ZHOU]]
 > Hello Clement Fokam，
 >
 > I want to be sure if the issue always happens whenever the ECU goes to sleep/ wakes up?
@@ -399,14 +399,14 @@ Figure 3:
 
 -------
 
-> [!note]+ 2026-06-09 09:28 · Clement Fokam
-> Hello Zhou ZHOU,
+> [!note]+ 2026-06-09 09:28 · [[Clement_Fokam|Clement Fokam]]
+> Hello [[Zhou_ZHOU|Zhou ZHOU]],
 > I want to be sure if the issue always happens whenever the ECU goes to sleep/ wakes up?
 > Are there scenarios where the ECU goes through a sleep/wake cycle and the issue doesn't occur? 
 
 -------
 
-> [!note]+ 2026-06-09 05:54 · Zhou ZHOU
+> [!note]+ 2026-06-09 05:54 · [[Zhou_ZHOU|Zhou ZHOU]]
 > Hello Clement Fokam，
 >
 > The uploaded code is for testing purposes, so it contains extensive logging; the uploaded DLT log file comes from a mass-production vehicle, meaning the logs related to `SoAd_SetUniqueRemoteAddr` had been removed by the customer.
@@ -415,8 +415,8 @@ Figure 3:
 
 -------
 
-> [!note]+ 2026-06-08 18:54 · Clement Fokam
-> Hello Zhou ZHOU ,
+> [!note]+ 2026-06-08 18:54 · [[Clement_Fokam|Clement Fokam]]
+> Hello [[Zhou_ZHOU|Zhou ZHOU]] ,
 >
 > I cannot find any DLT log entries for **SoAd_SetUniqueRemoteAddr** in this log file.
 >
@@ -424,8 +424,8 @@ Figure 3:
 
 -------
 
-> [!note]+ 2026-06-05 13:12 · Zhou ZHOU
-> Hello Shweta Ganesh Dixit ，
+> [!note]+ 2026-06-05 13:12 · [[Zhou_ZHOU|Zhou ZHOU]]
+> Hello [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] ，
 >
 > The DLT-format log file and the XML-format log parsing file have both been uploaded.
 >
@@ -433,18 +433,18 @@ Figure 3:
 
 -------
 
-> [!note]+ 2026-06-05 12:32 · Shweta Ganesh Dixit
-> Zhou ZHOU : Thanks! Please also share the logs so that we can analyze
+> [!note]+ 2026-06-05 12:32 · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]
+> [[Zhou_ZHOU|Zhou ZHOU]] : Thanks! Please also share the logs so that we can analyze
 
 -------
 
-> [!note]+ 2026-06-05 09:30 · Zhou ZHOU
+> [!note]+ 2026-06-05 09:30 · [[Zhou_ZHOU|Zhou ZHOU]]
 > [^issue2_stack_code-1.zip]
 
 -------
 
-> [!note]+ 2026-06-05 09:30 · Zhou ZHOU
-> Hello Shweta Ganesh Dixit ，
+> [!note]+ 2026-06-05 09:30 · [[Zhou_ZHOU|Zhou ZHOU]]
+> Hello [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] ，
 >
 > 1，From where is this SocketId fetched(Dynamic)?
 >
@@ -473,7 +473,7 @@ Figure 3:
 
 -------
 
-> [!note]+ 2026-06-05 07:07 · Shweta Ganesh Dixit
+> [!note]+ 2026-06-05 07:07 · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]
 > +Problem:+
 >  * NGX and LDCU socket Ids are getting swapped after wakeup.
 >  ** Before sleep
@@ -483,7 +483,7 @@ Figure 3:
 >  *** NGX- 33
 >  *** LDCU-34
 >
-> Jie LIU , Zhou ZHOU : Since this issue is very rare and is sporadic, we need the below information as discussed in our meeting to analyze this further.
+> [[Jie_LIU|Jie LIU]] , [[Zhou_ZHOU|Zhou ZHOU]] : Since this issue is very rare and is sporadic, we need the below information as discussed in our meeting to analyze this further.
 >
 >
 >  * +Information needed:+ 
@@ -499,8 +499,8 @@ Figure 3:
 
 -------
 
-> [!note]+ 2026-06-04 15:56 · Zhou ZHOU
-> Hello Shweta Ganesh Dixit，
+> [!note]+ 2026-06-04 15:56 · [[Zhou_ZHOU|Zhou ZHOU]]
+> Hello [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]，
 >
 > 1.Is some API called from application for switching the socket states?
 >
@@ -517,7 +517,7 @@ Figure 3:
 
 -------
 
-> [!note]+ 2026-06-04 12:55 · Shweta Ganesh Dixit
+> [!note]+ 2026-06-04 12:55 · [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]
 > We are not very clear with the test scenario and the problem which is reported.
 >  # Is some API called from application for switching the socket states?
 >  # Is there any details on the test steps?
@@ -527,7 +527,7 @@ Figure 3:
 
 -------
 
-> [!note]+ 2026-06-03 14:02 · Zhou ZHOU
+> [!note]+ 2026-06-03 14:02 · [[Zhou_ZHOU|Zhou ZHOU]]
 > The RTA-CAR version is 9.1.0, and the configuration files for SD and SoAd have been uploaded.
 >
 > [^Sd_SOA_Config.arxml] *(578 kB)*

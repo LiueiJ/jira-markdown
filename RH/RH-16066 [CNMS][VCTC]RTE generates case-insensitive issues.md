@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Low
 project: RH
-assignee: Junsheng ZHANG
-reporter: Junsheng ZHANG
+assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
 tags: []
 fix-versions: []
 epic: null
 parent: null
 created: "2026-05-18T09:06:30.000+0200"
 updated: "2026-06-08T11:38:08.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -46,20 +46,20 @@ I suspect this is due to RTE not being case-sensitive. Is this a bug?
 
 ## 评论
 
-> [!note]+ 2026-06-08 11:38 · JSM Service Bot
+> [!note]+ 2026-06-08 11:38 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-05-25 06:01 · Khoa Phan Huynh Dang
-> Hello Junsheng ZHANG ,
+> [!note]+ 2026-05-25 06:01 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hello [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 >
 > Do you have any remaining concerns regarding this ticket?
 
 -------
 
-> [!note]+ 2026-05-19 09:58 · Khoa Phan Huynh Dang
-> Hello Junsheng ZHANG ,
+> [!note]+ 2026-05-19 09:58 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> Hello [[Junsheng_ZHANG|Junsheng ZHANG]] ,
 >
 > I don't think this is a good idea when get the same name "KEYM" and "KeyM" in this case. Because you will have 2 file "{*}Rte_KeyM.h{*}" and "{*}Rte_KEYM.h{*}", you will see these lines in 2 files
 >

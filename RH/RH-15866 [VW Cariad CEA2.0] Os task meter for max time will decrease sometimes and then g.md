@@ -7,15 +7,15 @@ type: Support
 status: Closed
 priority: Medium
 project: RH
-assignee: Jie LIU
-reporter: Jie LIU
+assignee: "[[Jie_LIU|Jie LIU]]"
+reporter: "[[Jie_LIU|Jie LIU]]"
 tags: []
 fix-versions: []
 epic: null
 parent: null
 created: "2026-04-24T06:05:57.000+0200"
 updated: "2026-05-26T11:37:59.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+synced-at: "2026-09-11T01:36:25.139Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -48,18 +48,18 @@ Background: During the testing of Os feature in VW Caraid CEA2.0 project, the me
 
 ## 评论
 
-> [!note]+ 2026-05-26 11:37 · JSM Service Bot
+> [!note]+ 2026-05-26 11:37 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-05-11 18:48 · JSM Service Bot
+> [!note]+ 2026-05-11 18:48 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically moved to Solution Proposed.
 
 -------
 
-> [!note]+ 2026-04-27 14:11 · Shaker Abdolrahman Saleh
-> Hi Jie LIU,
+> [!note]+ 2026-04-27 14:11 · [[Shaker_Abdolrahman_Saleh|Shaker Abdolrahman Saleh]]
+> Hi [[Jie_LIU|Jie LIU]],
 >
 > the current understanding is that the "max" variable should stay constant or increases continuously.
 > Having a look at the address where the variable "max" is stored is not a reliable way to measure it,
