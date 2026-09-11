@@ -7,15 +7,15 @@ type: Support
 status: Waiting for Level 3
 priority: High
 project: RH
-assignee: "[[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]]"
-reporter: "[[Sisi_TAO|Sisi TAO]]"
+assignee: "[[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]]"
+reporter: "[[TAO_Sisi_(ETAS-ECMXSF-CN)|Sisi TAO]]"
 tags: [jira/comp/system-infralib-infrastructure]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-02-04T04:40:35.000+0100"
-updated: "2026-09-10T10:34:28.000+0200"
-synced-at: "2026-09-11T01:36:25.139Z"
+updated: "2026-09-11T04:10:49.000+0200"
+synced-at: "2026-09-11T02:40:30.154Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -52,7 +52,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
 
-> [!note]+ 2026-09-10 10:32 · [[Darren_Buttle|Darren Buttle]]
+> [!note]+ 2026-09-10 10:32 · [[Buttle_Darren_(ETAS-ECMPRM1-EMW)|Darren Buttle]]
 > If you're going to keep the sort and do some form of patching then there is a much more efficient way to implement the sort by:
 >  * realizing that after each outer loop pass the biggest value is at the end of the array -> so by induction you can shorted the search space in the inner loop each time
 >  ** Pass 0 - end element =  biggest --> ignore next time
@@ -88,8 +88,8 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-09-10 06:31 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
-> [[Sathish_Kumar_Madanmohan|Sathish Kumar Madanmohan]] : May I understand your that: We don't need to integrate their suggestion for the PR7 but we need to share to customer these messages:
+> [!note]+ 2026-09-10 06:31 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
+> [[Madanmohan_Sathish_Kumar_(ETAS-ECMXSF-CN)|Sathish Kumar Madanmohan]] : May I understand your that: We don't need to integrate their suggestion for the PR7 but we need to share to customer these messages:
 >
 > 1) We can confirm their code change can work well with their use case is "allZero priority Action Lists" --> They can change the code manually by themself as workaround now.
 >
@@ -99,8 +99,8 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-09-10 06:16 · [[Sathish_Kumar_Madanmohan|Sathish Kumar Madanmohan]]
-> I agree to [[Darren_Buttle|Darren Buttle]] 's inputs. Hence I pinned it. 
+> [!note]+ 2026-09-10 06:16 · [[Madanmohan_Sathish_Kumar_(ETAS-ECMXSF-CN)|Sathish Kumar Madanmohan]]
+> I agree to [[Buttle_Darren_(ETAS-ECMPRM1-EMW)|Darren Buttle]] 's inputs. Hence I pinned it. 
 >  # We need to apply the right solution in the next release- to ensure we covered CARIAD
 >  # We need to evaluate >> Ordering the list during code generation phase<< asap and document that. 
 >  ## It will be very helpful if we can share the proper solution proposal with the customer - just to show we can do better & build the proper solution than what they had suggested - It will highlight that we are competent and professional org. and we take customer feedback very seriously and build a 'Proper' solution. 
@@ -109,19 +109,19 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-09-10 05:54 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
-> Thank for [[Darren_Buttle|Darren Buttle]] 's sharing! It's a great idea to order the list of rule in code generation phase as we can order the list base on the referred Actionlist's priority.
+> [!note]+ 2026-09-10 05:54 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
+> Thank for [[Buttle_Darren_(ETAS-ECMPRM1-EMW)|Darren Buttle]] 's sharing! It's a great idea to order the list of rule in code generation phase as we can order the list base on the referred Actionlist's priority.
 >
-> [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]] : How do you think?
+> [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]] : How do you think?
 >
 > Additionally for planning:
->  * {*}For Long-term solution{*}: We can keepto apply customer's solution for the PR7 version firstly to satisfy the Cariad's usecases (as all priority is 0). How do you think [[Jie_LIU|Jie LIU]] , [[Sathish_Kumar_Madanmohan|Sathish Kumar Madanmohan]]
+>  * {*}For Long-term solution{*}: We can keepto apply customer's solution for the PR7 version firstly to satisfy the Cariad's usecases (as all priority is 0). How do you think [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]] , [[Madanmohan_Sathish_Kumar_(ETAS-ECMXSF-CN)|Sathish Kumar Madanmohan]]
 >  * {*}For Long-term solution{*}: We need to analyze and apply Darren's idea.
->  ** [[Vihitha_Jain|Vihitha Jain]]: Can you team plan to check and apply this idea in short time?
+>  ** [[Jain_Vihitha_(MSEMS-ETAS)|Vihitha Jain]]: Can you team plan to check and apply this idea in short time?
 
 -------
 
-> [!note]+ 2026-09-09 14:57 · [[Darren_Buttle|Darren Buttle]]
+> [!note]+ 2026-09-09 14:57 · [[Buttle_Darren_(ETAS-ECMPRM1-EMW)|Darren Buttle]]
 > So a few observations from my side:
 >  * Our code
 >  ** Calling a function in a loop is usually a bad code smell. Doing it twice just stinks
@@ -137,8 +137,8 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-09-09 14:21 · [[Vihitha_Jain|Vihitha Jain]]
-> [[Phuong_Nguyen_Le|Phuong Nguyen Le]] : Thanks for the proposals!
+> [!note]+ 2026-09-09 14:21 · [[Jain_Vihitha_(MSEMS-ETAS)|Vihitha Jain]]
+> [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]] : Thanks for the proposals!
 >
 > **1) Short-term for VCTC Pr7 plugin:**
 > COEM team will fix it as suggestion in this hotline,
@@ -150,14 +150,14 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 >
 > 2) If BswM RT can't provide the official solution, we need you to review the code changes.
 >
-> The code shared was actually reviewed and adapted by [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]] . {color:#172b4d}BswM RT shall plan the official solution in the forward path(12.14.0) which would be same or close to the already shared patch. Hence, a review of the code changes can be done for the VCTC specific delivery.{color}
+> The code shared was actually reviewed and adapted by [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]] . {color:#172b4d}BswM RT shall plan the official solution in the forward path(12.14.0) which would be same or close to the already shared patch. Hence, a review of the code changes can be done for the VCTC specific delivery.{color}
 >
 > {color:#172b4d}Additionally, do you have some measurements to verify the improvements in runtime after the update? {color}
 
 -------
 
-> [!note]+ 2026-09-09 11:59 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
-> [[Vihitha_Jain|Vihitha Jain]] , We are planning to deliver a ESR for CARIAD on Sep/25th as the preview plugin on RTA-CAR 12.11. This is my plan
+> [!note]+ 2026-09-09 11:59 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
+> [[Jain_Vihitha_(MSEMS-ETAS)|Vihitha Jain]] , We are planning to deliver a ESR for CARIAD on Sep/25th as the preview plugin on RTA-CAR 12.11. This is my plan
 >
 > **1) Short-term for VCTC Pr7 plugin:**
 > COEM team will fix it as suggestion in this hotline,
@@ -166,25 +166,25 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 > 1) the BswM RT need to provide the official solution (conan package)
 > 2) If BswM RT can't provide the official solution, we need you to review the code changes.
 >
-> [[Vihitha_Jain|Vihitha Jain]] : Please share your suggestion for official delivery to Cariad
+> [[Jain_Vihitha_(MSEMS-ETAS)|Vihitha Jain]] : Please share your suggestion for official delivery to Cariad
 
 -------
 
-> [!note]+ 2026-09-09 11:42 · [[Sathish_Kumar_Madanmohan|Sathish Kumar Madanmohan]]
-> [[Vihitha_Jain|Vihitha Jain]] appreciate your support. But I think you misunderstand the situation. it is not the patch ETAS shared with customer. It is the code correction customer applied, and Customer shared it with ETAS. it is other way around. 
+> [!note]+ 2026-09-09 11:42 · [[Madanmohan_Sathish_Kumar_(ETAS-ECMXSF-CN)|Sathish Kumar Madanmohan]]
+> [[Jain_Vihitha_(MSEMS-ETAS)|Vihitha Jain]] appreciate your support. But I think you misunderstand the situation. it is not the patch ETAS shared with customer. It is the code correction customer applied, and Customer shared it with ETAS. it is other way around. 
 >
 > so, Customer is the one asking us - How long will it take for ETAS to accept that simple change and include it in the BSW.  That is the point of contention.  
 >
 > also, in broader terms - planning is always done by PF . agreeing on feature implementation / roadmap is all great but backlogging defect fixes / quality issues for future roadmap - customer may not accept that all the time.  This issue - according to customer is not improvement - but a quality issue as it was affecting the ECU performance. 
 >
-> [[Phuong_Nguyen_Le|Phuong Nguyen Le]] [[Jie_LIU|Jie LIU]] [[Jiaqi_JI|Jiaqi JI]]  please align with [[Vihitha_Jain|Vihitha Jain]] on the timeline of 12.11. PR7 . 
+> [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]] [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]] [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]]  please align with [[Jain_Vihitha_(MSEMS-ETAS)|Vihitha Jain]] on the timeline of 12.11. PR7 . 
 >
 > [[Lan_Tran|Lan Tran]] fyi
 
 -------
 
-> [!note]+ 2026-09-09 10:58 · [[Vihitha_Jain|Vihitha Jain]]
-> [[Sathish_Kumar_Madanmohan|Sathish Kumar Madanmohan]] : Just looking at the comments, the request was to plan the topic in forward path! I hope you agree that this is not a defect and was not automatically planned for a specific branch. I would request that {+}before sharing any patch directly to the customer{+}, kindly ensure that the proper planning is done together with the PF team.
+> [!note]+ 2026-09-09 10:58 · [[Jain_Vihitha_(MSEMS-ETAS)|Vihitha Jain]]
+> [[Madanmohan_Sathish_Kumar_(ETAS-ECMXSF-CN)|Sathish Kumar Madanmohan]] : Just looking at the comments, the request was to plan the topic in forward path! I hope you agree that this is not a defect and was not automatically planned for a specific branch. I would request that {+}before sharing any patch directly to the customer{+}, kindly ensure that the proper planning is done together with the PF team.
 >
 > In this case, PF is not denying to take over the change but it was never planned for RTA-CAR 12.11.0 specific release.
 >
@@ -192,26 +192,26 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-09-09 09:42 · [[Sathish_Kumar_Madanmohan|Sathish Kumar Madanmohan]]
-> [[Vihitha_Jain|Vihitha Jain]]  - Customer has already shared the code change required. They are already using the change and using in their ECU testing.  It will be very hard to convince customer why the change cannot be applied.
+> [!note]+ 2026-09-09 09:42 · [[Madanmohan_Sathish_Kumar_(ETAS-ECMXSF-CN)|Sathish Kumar Madanmohan]]
+> [[Jain_Vihitha_(MSEMS-ETAS)|Vihitha Jain]]  - Customer has already shared the code change required. They are already using the change and using in their ECU testing.  It will be very hard to convince customer why the change cannot be applied.
 >
 > Can you please provide a clear response like as to why the customer shared code section cannot be applied ? Any risk we see in their proposal? if so, what is that? we need to feedback customer with clear response and why it will take 12.14.0 . Customer is expecting in 12.11. itself
 >
 > simply citing this change as 'improvement' will not acceptable. This code has big impact on the performance as whole. So this will be challenged by CARIAD for sure.
 >
-> [[Darren_Buttle|Darren Buttle]] fyi.
+> [[Buttle_Darren_(ETAS-ECMPRM1-EMW)|Darren Buttle]] fyi.
 
 -------
 
-> [!note]+ 2026-09-09 09:30 · [[Vihitha_Jain|Vihitha Jain]]
-> [[Sathish_Kumar_Madanmohan|Sathish Kumar Madanmohan]] : The improvement will be planned for the forward path 12.14.0, linked the ticket [ARCSMIL-1956.](https://jira.etas-dev.com/browse/ARCSMIL-1956) 
+> [!note]+ 2026-09-09 09:30 · [[Jain_Vihitha_(MSEMS-ETAS)|Vihitha Jain]]
+> [[Madanmohan_Sathish_Kumar_(ETAS-ECMXSF-CN)|Sathish Kumar Madanmohan]] : The improvement will be planned for the forward path 12.14.0, linked the ticket [ARCSMIL-1956.](https://jira.etas-dev.com/browse/ARCSMIL-1956) 
 >
 > FYI [[Thomas_Chippy|Thomas Chippy]] for consideration in PI26.4
 
 -------
 
-> [!note]+ 2026-09-07 06:44 · [[Sathish_Kumar_Madanmohan|Sathish Kumar Madanmohan]]
-> [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]] [[Thomas_Chippy|Thomas Chippy]]  
+> [!note]+ 2026-09-07 06:44 · [[Madanmohan_Sathish_Kumar_(ETAS-ECMXSF-CN)|Sathish Kumar Madanmohan]]
+> [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]] [[Thomas_Chippy|Thomas Chippy]]  
 >
 > dear both, I trust you are aware of the problem . Customer has proposed a solution for performance improvement which you can find it in [^RH-15049_Runtime_Optimized_Code.c] . customer is wondering if there is any reason why ETAS cannot implement the change in the product ? 
 >
@@ -221,7 +221,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-08-26 06:53 · [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]]
+> [!note]+ 2026-08-26 06:53 · [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]]
 > Hi [[Max_Sinclair|Max Sinclair]] ,
 >
 > I updated your requirement on [ARCSMIL-1956. ](https://jira.etas-dev.com/browse/ARCSMIL-1956)
@@ -231,7 +231,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 -------
 
 > [!note]+ 2026-08-25 17:18 · [[Max_Sinclair|Max Sinclair]]
-> Hi [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]] ,
+> Hi [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]] ,
 >
 > The customer is looking for a new version of the BswM to be provided here.
 >
@@ -242,19 +242,19 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-08-25 12:37 · [[Jiaqi_JI|Jiaqi JI]]
+> [!note]+ 2026-08-25 12:37 · [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]]
 > Hi [[Max_Sinclair|Max Sinclair]] ,
 >
 > We need the plugin on RTA-CAR 12.11.0.
 >
-> [[Phuong_Nguyen_Le|Phuong Nguyen Le]] Could your team take this ticket into investigation on RTA-CAR 12.11.0VCTCPR7.
+> [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]] Could your team take this ticket into investigation on RTA-CAR 12.11.0VCTCPR7.
 >
 > Thanks a lot!
 
 -------
 
 > [!note]+ 2026-08-25 12:33 · [[Max_Sinclair|Max Sinclair]]
-> Hi [[Jiaqi_JI|Jiaqi JI]] [[Sisi_TAO|Sisi TAO]] ,
+> Hi [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]] [[TAO_Sisi_(ETAS-ECMXSF-CN)|Sisi TAO]] ,
 >
 > I can see this ticket was reopened, is there any further help you need here etc?
 >
@@ -263,7 +263,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-05-28 09:37 · [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]]
+> [!note]+ 2026-05-28 09:37 · [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]]
 > Hi [[Max_Sinclair|Max Sinclair]] ,
 >
 > Can you closed this ticket ?
@@ -275,7 +275,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-03-13 12:54 · [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]]
+> [!note]+ 2026-03-13 12:54 · [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]]
 > Hi [[Max_Sinclair|Max Sinclair]] ,
 >
 > We created the Problem WI [ARCSMIL-1943](https://jira.etas-dev.com/browse/ARCSMIL-1943) on this.
@@ -287,7 +287,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 -------
 
 > [!note]+ 2026-03-13 09:03 · [[Max_Sinclair|Max Sinclair]]
-> Hi [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]] ,
+> Hi [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]] ,
 >
 > Could you please add the ARC ticket for this feature improvement and confirm if this improvement will be put into the main bsw branch?
 >
@@ -296,22 +296,22 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-03-09 03:42 · [[Sisi_TAO|Sisi TAO]]
-> Hi [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]] 
+> [!note]+ 2026-03-09 03:42 · [[TAO_Sisi_(ETAS-ECMXSF-CN)|Sisi TAO]]
+> Hi [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]] 
 >
 > I'd like to know in which RTA-CAR release version will this code fixed? Is there any ARC ticket to follow?
 
 -------
 
-> [!note]+ 2026-03-05 07:34 · [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]]
+> [!note]+ 2026-03-05 07:34 · [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]]
 > Hi,
 >
 > Do you have any further point to discusstion?
 
 -------
 
-> [!note]+ 2026-02-26 08:38 · [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]]
-> Hi [[Sisi_TAO|Sisi TAO]] ,
+> [!note]+ 2026-02-26 08:38 · [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]]
+> Hi [[TAO_Sisi_(ETAS-ECMXSF-CN)|Sisi TAO]] ,
 >
 > Please find the attached runtime-optimized code, which corresponds to the existing code from lines 230 to 244 (as illustrated in the attached image). We have also incorporated your suggestion to skip processing if all ActionLists are zero. Kindly review the runtime improvements in this code and provide your feedback.
 >
@@ -325,13 +325,13 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-02-26 08:37 · [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]]
+> [!note]+ 2026-02-26 08:37 · [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]]
 > [^RH-15049_Runtime_Optimized_Code.c]
 
 -------
 
 > [!note]+ 2026-02-24 10:28 · [[Max_Sinclair|Max Sinclair]]
-> Hi [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]] & [[S_P_Deepak|S P Deepak]] ,
+> Hi [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]] & [[Deepak_S_P_(MSEMT4-ETAS)|S P Deepak]] ,
 >
 > Any updates on this?
 >
@@ -340,8 +340,8 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-02-10 14:26 · [[S_P_Deepak|S P Deepak]]
-> Hello [[Mrinal_Kanti_Sirkar|Mrinal Kanti Sirkar]] ,
+> [!note]+ 2026-02-10 14:26 · [[Deepak_S_P_(MSEMT4-ETAS)|S P Deepak]]
+> Hello [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]] ,
 >
 > Could you please check this at the earliest?
 >
@@ -351,7 +351,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-02-10 12:34 · [[Sisi_TAO|Sisi TAO]]
+> [!note]+ 2026-02-10 12:34 · [[TAO_Sisi_(ETAS-ECMXSF-CN)|Sisi TAO]]
 > Hi [[Max_Sinclair|Max Sinclair]]
 >
 > Is there any updates for this issue?
@@ -359,7 +359,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 -------
 
 > [!note]+ 2026-02-05 17:30 · [[Max_Sinclair|Max Sinclair]]
-> Hi [[S_P_Deepak|S P Deepak]] ,
+> Hi [[Deepak_S_P_(MSEMT4-ETAS)|S P Deepak]] ,
 >
 > Would you be able to take a look at this?
 >
@@ -372,7 +372,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-02-05 13:39 · [[Sisi_TAO|Sisi TAO]]
+> [!note]+ 2026-02-05 13:39 · [[TAO_Sisi_(ETAS-ECMXSF-CN)|Sisi TAO]]
 > We made code change as workaround for now. Need expert support and confirm. 
 > [^BswM_Prv_ProcessDeferredRequest - Copy.c]
 >
