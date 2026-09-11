@@ -4,7 +4,7 @@ username: kki1cob
 usernames:
   etas: kki1cob
   rtahotline: karthi.krishna@etas.com
-name: "Karthi Krishna Shekaar (MS/EMT-ETAS)"
-email: Karthi.Krishna@etas.com
+name: Shekaar Karthi Krishna
+email: karthi.krishna@etas.com
 servers: [etas, rtahotline]
 ---

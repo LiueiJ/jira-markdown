@@ -1,0 +1,43 @@
+﻿---
+jira_key: ARC-16884
+jira_url: "https://jira.etas-dev.com/browse/ARC-16884"
+server: etas
+kind: motivation
+type: Motivation
+status: New
+priority: ""
+project: ARC
+assignee: ""
+reporter: "[[TANG_Steven_(ETAS-ECMXSF-CN)|TANG Steven (ETAS-ECM/XSF-CN)]]"
+tags: [jira/label/cea20, jira/label/vctc]
+fix-versions: []
+epic: null
+parent: null
+created: "2026-07-07T03:27:07.000+0000"
+updated: "2026-08-11T14:23:11.000+0000"
+synced-at: "2026-09-11T01:13:09.700Z"
+jira-orphaned: false
+profile: CN Motivation
+---
+
+## 描述
+
+**Project Scope:**
+
+1,CycurHSM 2.X for RH850/U2A8 Double map mode package support SecOC during ECU A/B bank FOTA application.
+
+2, Engineer service for the following use case:
+
+- Secure Boot
+- Secure flash(A/B bank FOTA)
+- SecOC
+- Secure Access(0x27)
+- Secure Key Storage/Management
+
+**Project Milestone:**
+
+- Project Kickoff:  7/13/2026
+- First delivery, CycurHSM Double map mode package :  7/13/2026
+- Second delivery, CycurHSM Double map mode support SecOC durring A/B bank FOTA function package: 8/3/2026
+- Third Delivery: CycurHSM U2A8 QA package: 9/7/2026
+- Project SOP: 12/15/2026

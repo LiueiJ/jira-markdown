@@ -7,15 +7,15 @@ type: Support
 status: Waiting for Level 3
 priority: High
 project: RH
-assignee: Haneef Nusrin
-reporter: Cuong Phan Manh
+assignee: "[[Haneef_Nusrin|Haneef Nusrin]]"
+reporter: "[[Phan_Manh_Cuong_(MSETA-Hub-CN)|Cuong Phan Manh]]"
 tags: [jira/comp/communication-can-lin-fr, jira/label/makw, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-09-07T12:32:01.000+0200"
-updated: "2026-09-10T09:59:31.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+updated: "2026-09-10T11:12:08.000+0200"
+synced-at: "2026-09-11T01:13:17.157Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -82,44 +82,44 @@ Managing Directors: Sawaiker Girish Vinayak (BGSV/GM)
 
 ## 评论
 
-> [!note]+ 2026-09-10 09:47 · Prasad Nandita
-> Muhammed Anas K K  can you please also review if there are similar missing sections across the complete LinStack.
+> [!note]+ 2026-09-10 09:47 · [[Nandita_Prasad_(MSEMS-ETAS)|Prasad Nandita]]
+> [[Muhammed_Anas_K_K|Muhammed Anas K K]]  can you please also review if there are similar missing sections across the complete LinStack.
 >
-> Haneef Nusrin  based the gaps, please create a defect and defect fix for forward path and link the resolution tickets accordingly.
+> [[Haneef_Nusrin|Haneef Nusrin]]  based the gaps, please create a defect and defect fix for forward path and link the resolution tickets accordingly.
 
 -------
 
-> [!note]+ 2026-09-10 08:57 · Muhammed Anas K K
-> Hello Cuong Phan Manh Junsheng ZHANG , MemMap CODE section is missing in LinIf_Tp_Slave.c file. This needs to be corrected in LinStack 
+> [!note]+ 2026-09-10 08:57 · [[Muhammed_Anas_K_K|Muhammed Anas K K]]
+> Hello [[Phan_Manh_Cuong_(MSETA-Hub-CN)|Cuong Phan Manh]] [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] , MemMap CODE section is missing in LinIf_Tp_Slave.c file. This needs to be corrected in LinStack 
 
 -------
 
-> [!note]+ 2026-09-10 06:56 · Muhammed Anas K K
+> [!note]+ 2026-09-10 06:56 · [[Muhammed_Anas_K_K|Muhammed Anas K K]]
 > Discussion ongoing via Teams 
 
 -------
 
-> [!note]+ 2026-09-08 09:40 · Cuong Phan Manh
-> Hello Muhammed Anas K K , I updated the Description for more detail, could you analyze the issue again? If you still not clear the information, you can contact me via MS Team or check the ticket **RH-16705** for more information, Thanks
+> [!note]+ 2026-09-08 09:40 · [[Phan_Manh_Cuong_(MSETA-Hub-CN)|Cuong Phan Manh]]
+> Hello [[Muhammed_Anas_K_K|Muhammed Anas K K]] , I updated the Description for more detail, could you analyze the issue again? If you still not clear the information, you can contact me via MS Team or check the ticket **RH-16705** for more information, Thanks
 
 -------
 
-> [!note]+ 2026-09-07 13:35 · Muhammed Anas K K
-> Hello Junsheng ZHANG , The hotline ticket content is not clear. Could you please provide more details on the issue, expected behavior, and the specific analysis/action required?
+> [!note]+ 2026-09-07 13:35 · [[Muhammed_Anas_K_K|Muhammed Anas K K]]
+> Hello [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] , The hotline ticket content is not clear. Could you please provide more details on the issue, expected behavior, and the specific analysis/action required?
 
 -------
 
-> [!note]+ 2026-09-07 12:56 · Cuong Phan Manh
-> Hello Junsheng ZHANG, I created this ticket to discuss and analyze your question in here. Thank you so much
+> [!note]+ 2026-09-07 12:56 · [[Phan_Manh_Cuong_(MSETA-Hub-CN)|Cuong Phan Manh]]
+> Hello [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]], I created this ticket to discuss and analyze your question in here. Thank you so much
 
 -------
 
-> [!note]+ 2026-09-07 12:38 · JSM Service Bot
-> Hi Haneef Nusrin, this Communication-Can-Lin-Fr ticket requires an assignee. As the component lead for Communication-Can-Lin-Fr, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+> [!note]+ 2026-09-07 12:38 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Haneef_Nusrin|Haneef Nusrin]], this Communication-Can-Lin-Fr ticket requires an assignee. As the component lead for Communication-Can-Lin-Fr, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------
 
-> [!note]+ 2026-09-07 12:32 · JSM Service Bot
+> [!note]+ 2026-09-07 12:32 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Cuong Phan Manh, please note that this issue was made with VNCNMS in the summary and has been sent to the relevant queue by adding the VNCNMS label.
 
 -------

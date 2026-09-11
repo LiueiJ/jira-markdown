@@ -4,7 +4,7 @@ username: bua1yok
 usernames:
   etas: bua1yok
   rtahotline: alexander.burn@etas.com
-name: "Burn Alexander (ETAS-ECM/XPC-Yok1)"
-email: Alexander.Burn@etas.com
+name: Alexander Burn
+email: alexander.burn@etas.com
 servers: [etas, rtahotline]
 ---
