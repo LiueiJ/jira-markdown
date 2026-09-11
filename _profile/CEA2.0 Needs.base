@@ -3,7 +3,10 @@ filters:
     - profile == "CEA2.0 Needs"
 views:
   - type: table
-    name: Tickets
+    name: Tickets Not Closed
+    filters:
+      and:
+        - status != "Closed"
     groupBy:
       property: status
       direction: ASC
@@ -15,6 +18,8 @@ views:
       - jira_url
       - tags
     sort:
+      - property: file.basename
+        direction: DESC
       - property: priority
         direction: ASC
     columnSize:

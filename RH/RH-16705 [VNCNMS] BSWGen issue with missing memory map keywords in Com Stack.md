@@ -7,15 +7,15 @@ type: Support
 status: Solution Proposed
 priority: High
 project: RH
-assignee: Xiao BAI
-reporter: Xiao BAI
+assignee: "[[BAI_Xiao_(ETAS-ECMXSF-CN)|Xiao BAI]]"
+reporter: "[[BAI_Xiao_(ETAS-ECMXSF-CN)|Xiao BAI]]"
 tags: [jira/comp/drivers/transceivers-for-can-lin-fr, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-07-20T10:28:37.000+0200"
-updated: "2026-09-10T05:30:08.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+updated: "2026-09-10T10:56:46.000+0200"
+synced-at: "2026-09-11T01:13:17.157Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -58,13 +58,13 @@ Attached is the reference file.
 
 ## 评论
 
-> [!note]+ 2026-09-07 12:35 · Cuong Phan Manh
-> Hello Junsheng ZHANG , It seems that this issue is related to the Lin Stack. Therefore, I would like to create a new ticket RH-17137 for this issue and close the current one, which will make it easier for us to provide support and track the issue in the future.
+> [!note]+ 2026-09-07 12:35 · [[Phan_Manh_Cuong_(MSETA-Hub-CN)|Cuong Phan Manh]]
+> Hello [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] , It seems that this issue is related to the Lin Stack. Therefore, I would like to create a new ticket RH-17137 for this issue and close the current one, which will make it easier for us to provide support and track the issue in the future.
 
 -------
 
-> [!note]+ 2026-09-06 15:05 · Junsheng ZHANG
-> Hi Cuong Phan Manh ,
+> [!note]+ 2026-09-06 15:05 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
+> Hi [[Phan_Manh_Cuong_(MSETA-Hub-CN)|Cuong Phan Manh]] ,
 >
 > I have checked these codes based on RTA CAR 12.11, but there are still issues that have not been fixed. Could you please provide the specific fix version and the plan/timeline?
 >
@@ -74,18 +74,18 @@ Attached is the reference file.
 
 -------
 
-> [!note]+ 2026-08-18 14:27 · JSM Service Bot
+> [!note]+ 2026-08-18 14:27 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-07-30 09:26 · Shekar H S Vijay
-> Hello Cuong Phan Manh, Team has reviewed the changes and there are no findings/review points, request you to go ahead with the delivery
+> [!note]+ 2026-07-30 09:26 · [[Vijay_Shekar_H_S_(MSEMS2-ETAS)|Shekar H S Vijay]]
+> Hello [[Phan_Manh_Cuong_(MSETA-Hub-CN)|Cuong Phan Manh]], Team has reviewed the changes and there are no findings/review points, request you to go ahead with the delivery
 
 -------
 
-> [!note]+ 2026-07-29 17:10 · Shekar H S Vijay
-> Hello Cuong Phan Manh, 
+> [!note]+ 2026-07-29 17:10 · [[Vijay_Shekar_H_S_(MSEMS2-ETAS)|Shekar H S Vijay]]
+> Hello [[Phan_Manh_Cuong_(MSETA-Hub-CN)|Cuong Phan Manh]], 
 >
 > I have shared the files with development team for review; I will update the feedback once team completes the review and share the review point with me.
 >
@@ -93,16 +93,16 @@ Attached is the reference file.
 
 -------
 
-> [!note]+ 2026-07-29 11:10 · Cuong Phan Manh
-> Hello Shekar H S Vijay , 
+> [!note]+ 2026-07-29 11:10 · [[Phan_Manh_Cuong_(MSETA-Hub-CN)|Cuong Phan Manh]]
+> Hello [[Vijay_Shekar_H_S_(MSEMS2-ETAS)|Shekar H S Vijay]] , 
 >
 > Due to the urgency of this issue, we had to implement the fix ourselves and complete an internal review. However, to ensure the quality goal standards, we would appreciate it if the L3 development team could review the changes. Would you please review the updated source code?
 > [^LinTrcv_beforefixed.zip]
 
 -------
 
-> [!note]+ 2026-07-24 12:41 · Phuong Nguyen Le
-> Shekar H S Vijay , Do you confirm that this is the bug? If yes, do you agree to update in product and share your plan?
+> [!note]+ 2026-07-24 12:41 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
+> [[Vijay_Shekar_H_S_(MSEMS2-ETAS)|Shekar H S Vijay]] , Do you confirm that this is the bug? If yes, do you agree to update in product and share your plan?
 >
 > In parallel, as customer's asking the fix on 31st/July, our team will add memmap for these and provide the preview RTA_CAR plugin for customer. 
 > | const LinTrcv_DioArray_tst LinTrcv_DioArrayWup_ast[LINTRCV_CFG_NUMBER_OF_LINTRCV] = |
@@ -113,52 +113,52 @@ Attached is the reference file.
 
 -------
 
-> [!note]+ 2026-07-24 06:54 · Shekar H S Vijay
-> Phuong Nguyen Le, Request you to find the response from development team in the attached mail
+> [!note]+ 2026-07-24 06:54 · [[Vijay_Shekar_H_S_(MSEMS2-ETAS)|Shekar H S Vijay]]
+> [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]], Request you to find the response from development team in the attached mail
 > [^RE_ _RH-16705__ *VNCNMS* BSWGen issue with missing memory map keyword in LinTrcv.msg]
 
 -------
 
-> [!note]+ 2026-07-24 04:35 · Phuong Nguyen Le
-> Shekar H S Vijay , Joao Goncalves : Can you speed up and share feedback today? 
+> [!note]+ 2026-07-24 04:35 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
+> [[Vijay_Shekar_H_S_(MSEMS2-ETAS)|Shekar H S Vijay]] , [[Joao_Goncalves|Joao Goncalves]] : Can you speed up and share feedback today? 
 >
 > To catch up with customer timeline (31/7), our team (responsible for provide the RTA-CAR ESR which fixes the issue for COEM) will do the fix ourselves and provide the preview RTA-CAR plugin for customer firstly.
 >
-> After we will need your support to review (Joao Goncalves ) our changes as your code review is required for official the RTA-CAR ESR. Can you help to reserve your time to help us to do this?
+> After we will need your support to review ([[Joao_Goncalves|Joao Goncalves]] ) our changes as your code review is required for official the RTA-CAR ESR. Can you help to reserve your time to help us to do this?
 
 -------
 
-> [!note]+ 2026-07-23 11:05 · Phuong Nguyen Le
-> Joao Goncalves : Please help to confirm this issue soon and share fix plan for this. We need to provide the fix for customer next week (31/7)
+> [!note]+ 2026-07-23 11:05 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
+> [[Joao_Goncalves|Joao Goncalves]] : Please help to confirm this issue soon and share fix plan for this. We need to provide the fix for customer next week (31/7)
 
 -------
 
-> [!note]+ 2026-07-21 05:36 · JSM Service Bot
-> Hi Shekar H S Vijay, this Drivers/Transceivers for Can-Lin-Fr ticket requires an assignee. As the component lead for Drivers/Transceivers for Can-Lin-Fr, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+> [!note]+ 2026-07-21 05:36 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Vijay_Shekar_H_S_(MSEMS2-ETAS)|Shekar H S Vijay]], this Drivers/Transceivers for Can-Lin-Fr ticket requires an assignee. As the component lead for Drivers/Transceivers for Can-Lin-Fr, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------
 
-> [!note]+ 2026-07-21 05:35 · Phuong Nguyen Le
-> Xiao BAI , after checking, I have some findnig:
+> [!note]+ 2026-07-21 05:35 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
+> [[BAI_Xiao_(ETAS-ECMXSF-CN)|Xiao BAI]] , after checking, I have some findnig:
 >
-> 1) These below functions are INLINE function whih isn't required MAKW for them. Xiao BAI  Please check with customer again: How are they define LOCAL_INLINE and ensure that compiler understand "inline" function.
+> 1) These below functions are INLINE function whih isn't required MAKW for them. [[BAI_Xiao_(ETAS-ECMXSF-CN)|Xiao BAI]]  Please check with customer again: How are they define LOCAL_INLINE and ensure that compiler understand "inline" function.
 > | CanTp_Prv_CanIfTransmit | LOCAL_INLINE void CanTp_Prv_CanIfTransmit(const CanTp_TxContextType *Context, const PduInfoType *CanIfTxInfoPtr) |
 > | LinIf_NoNewScheduleRequestScheduleProc_Inline | LOCAL_INLINE void LinIf_NoNewScheduleRequestScheduleProc_Inline(...) |
 > | LinTp_MRF_ProcessContinuousFrame | LOCAL_INLINE void LinTp_MRF_ProcessContinuousFrame(...); |
 > | LinTp_SRF_UnexpectedSequenceHandling | LOCAL_INLINE void LinTp_SRF_UnexpectedSequenceHandling(...); |
 > | LinTp_SRF_ProcessReceivedContinuousFrame | LOCAL_INLINE void LinTp_SRF_ProcessReceivedContinuousFrame(...); |
 >
-> 2) **LinTrcv_WakeupByBusUsed_au8:** I think that this is issue of RTA-CAR. Shekar H S Vijay : Please help to check this and confirm this issue! I think that we need to fix this issue. Do you agree? Can you share plan to fix it?
+> 2) **LinTrcv_WakeupByBusUsed_au8:** I think that this is issue of RTA-CAR. [[Vijay_Shekar_H_S_(MSEMS2-ETAS)|Shekar H S Vijay]] : Please help to check this and confirm this issue! I think that we need to fix this issue. Do you agree? Can you share plan to fix it?
 
 -------
 
-> [!note]+ 2026-07-21 04:10 · Phuong Nguyen Le
-> Xiao BAI : Thanks for your quick response. Can you share more detail about error? What is error description?
+> [!note]+ 2026-07-21 04:10 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
+> [[BAI_Xiao_(ETAS-ECMXSF-CN)|Xiao BAI]] : Thanks for your quick response. Can you share more detail about error? What is error description?
 
 -------
 
-> [!note]+ 2026-07-21 04:07 · Xiao BAI
-> Hello Phuong Nguyen Le :
+> [!note]+ 2026-07-21 04:07 · [[BAI_Xiao_(ETAS-ECMXSF-CN)|Xiao BAI]]
+> Hello [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]] :
 >
 > 1) The compiler is Hightec 9.1.1
 >
@@ -170,8 +170,8 @@ Attached is the reference file.
 
 -------
 
-> [!note]+ 2026-07-21 03:33 · Phuong Nguyen Le
-> Xiao BAI , Jiaqi JI , Jie LIU : Please share some info for better analysis:
+> [!note]+ 2026-07-21 03:33 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
+> [[BAI_Xiao_(ETAS-ECMXSF-CN)|Xiao BAI]] , [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]] , [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]] : Please share some info for better analysis:
 >
 > 1) Which compiler version?
 >
@@ -181,17 +181,17 @@ Attached is the reference file.
 
 -------
 
-> [!note]+ 2026-07-21 03:25 · Phuong Nguyen Le
-> Xiao BAI , Can you share Error log with compilation
+> [!note]+ 2026-07-21 03:25 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
+> [[BAI_Xiao_(ETAS-ECMXSF-CN)|Xiao BAI]] , Can you share Error log with compilation
 
 -------
 
-> [!note]+ 2026-07-20 10:28 · JSM Service Bot
+> [!note]+ 2026-07-20 10:28 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Xiao BAI, please note that this issue was made with VNCNMS in the summary and has been sent to the relevant queue by adding the VNCNMS label.
 
 -------
 
-> [!note]+ 2026-07-20 10:28 · Xiao BAI
+> [!note]+ 2026-07-20 10:28 · [[BAI_Xiao_(ETAS-ECMXSF-CN)|Xiao BAI]]
 > [^Com stack.zip] *(168 kB)*
 
 -------

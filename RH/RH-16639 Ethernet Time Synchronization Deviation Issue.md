@@ -7,15 +7,15 @@ type: Support
 status: Waiting for Level 3
 priority: Medium
 project: RH
-assignee: Jens Jung
-reporter: Dong LIU
+assignee: "[[Jens_Jung|Jens Jung]]"
+reporter: "[[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]"
 tags: [jira/comp/communication-timeservices]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-07-14T12:47:31.000+0200"
-updated: "2026-09-10T05:34:42.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+updated: "2026-09-10T10:37:38.000+0200"
+synced-at: "2026-09-11T01:13:17.157Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -68,8 +68,8 @@ Best regards,
 
 ## 评论
 
-> [!note]+ 2026-08-27 12:03 · Dong LIU
-> hi, Joao Pereira Khoa Phan Huynh Dang 
+> [!note]+ 2026-08-27 12:03 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
+> hi, [[Pereira_Joao_(XCEVO-XPC-Brg1)|Joao Pereira]] [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]] 
 >
 > Since Eth_SetPhcTime is not supported in StbM_SetGlobalTime, the customer is currently calling Eth_SetPhcTime manually. The call is shown in the screenshot below. When the Switch receives the Ethernet time synchronization message, it synchronizes the global clock. Based on the current PPS test results, the customer found that there is still a 2 μs time difference between the MCU and the Switch. The customer would like to reduce this time difference to less than 1 μs. Do you have any recommendations on how to reduce this time difference?
 >
@@ -77,18 +77,18 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-17 15:07 · Joao Pereira
+> [!note]+ 2026-08-17 15:07 · [[Pereira_Joao_(XCEVO-XPC-Brg1)|Joao Pereira]]
 > Also, since we are not setting the time directly on PHC with current implementation, the global time is store in StbM global variables.  If the measurement is done with PPS counter of the corresponding phc, your measuring the difference of the free running counters not the global time.
 
 -------
 
-> [!note]+ 2026-08-11 11:18 · Khoa Phan Huynh Dang
-> Hi Dong LIU , do we have any new information from the customer 😅 ?
+> [!note]+ 2026-08-11 11:18 · [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]]
+> Hi [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]] , do we have any new information from the customer 😅 ?
 
 -------
 
-> [!note]+ 2026-07-31 15:52 · Joao Pereira
-> Hello Khoa Phan Huynh Dang ,
+> [!note]+ 2026-07-31 15:52 · [[Pereira_Joao_(XCEVO-XPC-Brg1)|Joao Pereira]]
+> Hello [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]] ,
 >
 > Regarding the question:
 >
@@ -100,40 +100,40 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-07-31 09:45 · JSM Service Bot
+> [!note]+ 2026-07-31 09:45 · [[JSM_Service_Bot|JSM Service Bot]]
 > Note: Khoa Phan Huynh Dang added as watcher to the issue. Internal support agents cannot be added as Request Participants, so they have been automatically joined as Watchers instead.
 
 -------
 
-> [!note]+ 2026-07-31 09:45 · Dong LIU
-> Khoa Phan Huynh Dang I'll need to check this with the customer.
+> [!note]+ 2026-07-31 09:45 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
+> [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]] I'll need to check this with the customer.
 
 -------
 
-> [!note]+ 2026-07-31 06:36 · JSM Service Bot
+> [!note]+ 2026-07-31 06:36 · [[JSM_Service_Bot|JSM Service Bot]]
 > Note: Joao Pereira added as watcher to the issue. Internal support agents cannot be added as Request Participants, so they have been automatically joined as Watchers instead.
 
 -------
 
-> [!note]+ 2026-07-31 06:36 · Khoa Phan Huynh Dang
-> Hi Dong LIU ,
+> [!note]+ 2026-07-31 06:36 · [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]]
+> Hi [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]] ,
 >
 >
-> After discussing this with Joao Pereira, we have one concern and would like the customer to provide additional information:
+> After discussing this with [[Pereira_Joao_(XCEVO-XPC-Brg1)|Joao Pereira]], we have one concern and would like the customer to provide additional information:
 >
 > Why is PPS being used for this measurement? In this scenario, the PPS-based measurement method may not be suitable and could introduce an offset in the observed value.
 >
-> Regarding the customer's concern, "Why is the Global Time not compensated for elapsed time in the same way as the Virtual Local Time?", Joao Pereira , could you please help provide a more detailed explanation to the customer?
+> Regarding the customer's concern, "Why is the Global Time not compensated for elapsed time in the same way as the Virtual Local Time?", [[Pereira_Joao_(XCEVO-XPC-Brg1)|Joao Pereira]] , could you please help provide a more detailed explanation to the customer?
 
 -------
 
-> [!note]+ 2026-07-29 03:43 · Phuong Nguyen Le
-> Joao Pereira , Dong LIU : Can you collaborate to understand the issue and provide solution as this is critical issue?
+> [!note]+ 2026-07-29 03:43 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
+> [[Pereira_Joao_(XCEVO-XPC-Brg1)|Joao Pereira]] , [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]] : Can you collaborate to understand the issue and provide solution as this is critical issue?
 
 -------
 
-> [!note]+ 2026-07-28 13:17 · Joao Pereira
-> Hello Phuong Nguyen Le,
+> [!note]+ 2026-07-28 13:17 · [[Pereira_Joao_(XCEVO-XPC-Brg1)|Joao Pereira]]
+> Hello [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]],
 >
 > I'm still unsure about what is the setup of the project and the measurements.
 > What is the PPS pulse that we are measuring? What is feading the PPS EthHw?
@@ -141,28 +141,28 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-07-28 12:57 · Phuong Nguyen Le
-> Joao Pereira , Do we have any update for this issue? 
+> [!note]+ 2026-07-28 12:57 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
+> [[Pereira_Joao_(XCEVO-XPC-Brg1)|Joao Pereira]] , Do we have any update for this issue? 
 
 -------
 
-> [!note]+ 2026-07-21 15:59 · JSM Service Bot
-> Hi Fadia Nefati, this Communication-TimeServices ticket requires an assignee. As the component lead for Communication-TimeServices, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+> [!note]+ 2026-07-21 15:59 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Fadia_Nefati|Fadia Nefati]], this Communication-TimeServices ticket requires an assignee. As the component lead for Communication-TimeServices, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------
 
-> [!note]+ 2026-07-21 12:04 · Dong LIU
-> Shaker Abdolrahman Saleh 
+> [!note]+ 2026-07-21 12:04 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
+> [[Shaker_Abdolrahman_Saleh|Shaker Abdolrahman Saleh]] 
 
 -------
 
-> [!note]+ 2026-07-21 12:03 · Dong LIU
+> [!note]+ 2026-07-21 12:03 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
 > [^Isolar.zip]
 
 -------
 
-> [!note]+ 2026-07-15 16:11 · Shaker Abdolrahman Saleh
-> Hi Dong LIU,
+> [!note]+ 2026-07-15 16:11 · [[Shaker_Abdolrahman_Saleh|Shaker Abdolrahman Saleh]]
+> Hi [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]],
 >
 > can you provide please the RTA-CAR Project
 > with generated code so that we can analyze the observed issue with the customers project.
@@ -174,8 +174,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-07-15 16:06 · Shaker Abdolrahman Saleh
-> Hi Jens Jung and Fadia Nefati,
+> [!note]+ 2026-07-15 16:06 · [[Shaker_Abdolrahman_Saleh|Shaker Abdolrahman Saleh]]
+> Hi [[Jens_Jung|Jens Jung]] and [[Fadia_Nefati|Fadia Nefati]],
 >
 > as described above the customer observes ~2.5 us time offset between their Ethernet master node's PPS pulse and the switch's PPS pulse.
 >

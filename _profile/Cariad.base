@@ -3,13 +3,10 @@ filters:
     - profile == "Cariad"
 views:
   - type: table
-    name: Tickets
+    name: Tickets Not Closed
     order:
       - jira_key
       - summary
       - status
       - assignee
       - updated
-  - type: cards
-    name: 视图
-    cardSize: 400

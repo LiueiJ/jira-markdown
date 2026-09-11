@@ -7,15 +7,15 @@ type: Support
 status: Waiting for Level 3
 priority: High
 project: RH
-assignee: Alexander Wegmann
-reporter: Junsheng ZHANG
+assignee: "[[Wegmann_Alexander_(ETAS-ECMXPC-Bo)|Alexander Wegmann]]"
+reporter: "[[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]"
 tags: [jira/comp/cycurhsm3, jira/label/makw]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-07-16T09:55:40.000+0200"
-updated: "2026-09-10T05:32:07.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+updated: "2026-09-10T10:56:45.000+0200"
+synced-at: "2026-09-11T01:13:17.157Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -54,8 +54,8 @@ For example, for the functions below, I summarized a table. All the functions of
 
 ## 评论
 
-> [!note]+ 2026-08-10 06:44 · Christian Fuerst
-> Hi Alexander Wegmann / Lukas Riemenschneider ,
+> [!note]+ 2026-08-10 06:44 · [[Christian_Fuerst|Christian Fuerst]]
+> Hi [[Wegmann_Alexander_(ETAS-ECMXPC-Bo)|Alexander Wegmann]] / [[Lukas_Riemenschneider|Lukas Riemenschneider]] ,
 >
 > can you help out here, please?
 >
@@ -66,8 +66,8 @@ For example, for the functions below, I summarized a table. All the functions of
 
 -------
 
-> [!note]+ 2026-08-08 11:39 · Junsheng ZHANG
-> Hi Lukas Riemenschneider ,
+> [!note]+ 2026-08-08 11:39 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
+> Hi [[Lukas_Riemenschneider|Lukas Riemenschneider]] ,
 >
 > The customer does not agree with changing the method in the link file, and this issue may potentially affect the customer’s MPU functionality.
 >
@@ -75,12 +75,12 @@ For example, for the functions below, I summarized a table. All the functions of
 
 -------
 
-> [!note]+ 2026-08-04 09:04 · Alexander Wegmann
+> [!note]+ 2026-08-04 09:04 · [[Wegmann_Alexander_(ETAS-ECMXPC-Bo)|Alexander Wegmann]]
 > As per Lukas' comment, we consider this to be a future product improvement. This is not considered a bug. A customer workaround is available to the respective people.
 
 -------
 
-> [!note]+ 2026-07-27 15:00 · Lukas Riemenschneider
+> [!note]+ 2026-07-27 15:00 · [[Lukas_Riemenschneider|Lukas Riemenschneider]]
 > We already communicated to the project that there are trivial workarounds (e.g. can be solved by 1 line of code on customer side) to achieve this and asked the project to solve it on their side.
 > Also, there are no product requirements for the expected behavior
 > => this is not an issue and especially not a bug, but something nice to have, please be sensible about the communication
@@ -89,13 +89,13 @@ For example, for the functions below, I summarized a table. All the functions of
 
 -------
 
-> [!note]+ 2026-07-20 08:01 · JSM Service Bot
-> Hi Alexander Wegmann, this CycurHSM3 ticket requires an assignee. As the component lead for CycurHSM3, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+> [!note]+ 2026-07-20 08:01 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Wegmann_Alexander_(ETAS-ECMXPC-Bo)|Alexander Wegmann]], this CycurHSM3 ticket requires an assignee. As the component lead for CycurHSM3, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------
 
-> [!note]+ 2026-07-20 08:00 · Christian Fuerst
-> Hi Alexander Wegmann ,
+> [!note]+ 2026-07-20 08:00 · [[Christian_Fuerst|Christian Fuerst]]
+> Hi [[Wegmann_Alexander_(ETAS-ECMXPC-Bo)|Alexander Wegmann]] ,
 >
 > it seems that the "CycurHSM_CariadCN_CEA2_configuration_TC4HFx_GHS_V3.0.5.b1_288KB" have a issue with the memory section.
 >
@@ -135,8 +135,8 @@ For example, for the functions below, I summarized a table. All the functions of
 
 -------
 
-> [!note]+ 2026-07-20 07:54 · Christian Fuerst
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-07-20 07:54 · [[Christian_Fuerst|Christian Fuerst]]
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] ,
 >
 > it seems that I have understood your topic little wrong and checked again.
 >
@@ -149,13 +149,13 @@ For example, for the functions below, I summarized a table. All the functions of
 
 -------
 
-> [!note]+ 2026-07-19 12:56 · JSM Service Bot
-> Junsheng ZHANG, the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [!note]+ 2026-07-19 12:56 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-07-19 12:56 · Junsheng ZHANG
-> Hi Christian Fuerst ,
+> [!note]+ 2026-07-19 12:56 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
+> Hi [[Christian_Fuerst|Christian Fuerst]] ,
 >
 >     You may not have understood my question. In the HSM host code, there are many functions that are not placed in the sections defined in the `ecy_hsm_MemMap` file. This is a missing definition—so the issue needs to be completed and fixed.
 >
@@ -163,8 +163,8 @@ For example, for the functions below, I summarized a table. All the functions of
 
 -------
 
-> [!note]+ 2026-07-17 08:10 · Christian Fuerst
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-07-17 08:10 · [[Christian_Fuerst|Christian Fuerst]]
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] ,
 >
 > found in the Section "4.10.2 Shared Memory Areas" of "UserGuide-CycurHSM_V3.0.5.b1.pdf" (can be found in the doc-folder of your delivery) (page 60) this part:
 >
@@ -203,7 +203,7 @@ For example, for the functions below, I summarized a table. All the functions of
 
 -------
 
-> [!note]+ 2026-07-16 09:55 · Junsheng ZHANG
+> [!note]+ 2026-07-16 09:55 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
 > [^ecy_hsm_sections.xlsx] *(12 kB)*
 
 -------

@@ -4,18 +4,18 @@ jira_url: "https://rtahotline.etas.com/jira/browse/RH-16581"
 server: rtahotline
 kind: hotline
 type: Support
-status: Waiting for Level 3
+status: Solution Proposed
 priority: Medium
 project: RH
-assignee: Vamsi Kiran Koduri
-reporter: Dong LIU
+assignee: "[[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]"
+reporter: "[[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]"
 tags: [jira/comp/generic-importers, jira/comp/rta-rte-plugins-transformers, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-07-08T11:25:03.000+0200"
-updated: "2026-09-10T09:15:50.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+updated: "2026-09-11T01:15:26.000+0200"
+synced-at: "2026-09-11T01:13:17.157Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -116,11 +116,33 @@ Bosch (China) Investment Ltd. | 333 Fuquan (N.) Road | Shanghai 200335 | P.R. CH
 
 ## 评论
 
-> [!note]+ 2026-09-08 09:22 · Dang Ho Anh
-> HI Vamsi Kiran Koduri,
+> [!note]+ 2026-09-11 01:15 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi A. [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]] ,
+> Could you please check Vamsi’s latest comment and align on the plan for the upcoming Cariad release?
+
+-------
+
+> [!note]+ 2026-09-10 20:31 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Will be addressed using [RTE-23093](https://jira.etas-dev.com/browse/RTE-23093)
+
+-------
+
+> [!note]+ 2026-09-10 20:30 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Hi [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] ,
+>
+> Yes, DataTypePolicy should not matter for conversion and RTE fulfills that since RTE v12.11.1 and so `TRANSFORMING-I-SIGNAL` is required only on 12.11.0.
+>
+> Manually updating `XfrmIsDataConversion` in `ComXf` is still required for RTA-RTE 12.11.0 or `RTA-RTE_12.11.2pr2 (/)`
+>
+> With [RTE-23093](https://jira.etas-dev.com/browse/RTE-23093) completion, it is not necessary to manually update `XfrmIsDataConversion and there will be no dependency on ConfGen.`
+
+-------
+
+> [!note]+ 2026-09-08 09:22 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> HI [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]],
 >
 > My understanding so far.
->  * Updating the data type policy of all `ISignals` in the `ISignalGroup` to `TRANSFORMING-I-SIGNAL` is only a workaround for RTA-RTE 12.11.0, and it is not the correct solution. Our use case of data transformation for ISignal Group does not require changing the data type policy of these ISignals. Junsheng ZHANG noticed that in {{{}RTA-RTE_12.11.2pr2{}}}, data conversion can be generated in RTE without updating the data type policy of the {{{}ISignals{}}}. 
+>  * Updating the data type policy of all `ISignals` in the `ISignalGroup` to `TRANSFORMING-I-SIGNAL` is only a workaround for RTA-RTE 12.11.0, and it is not the correct solution. Our use case of data transformation for ISignal Group does not require changing the data type policy of these ISignals. [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] noticed that in {{{}RTA-RTE_12.11.2pr2{}}}, data conversion can be generated in RTE without updating the data type policy of the {{{}ISignals{}}}. 
 > Could you please help confirm this point?
 > If this understanding is correct, then when using `RTA-RTE_12.11.2pr2` or the upcoming official release, we will no longer need to update the data type policy for {{{}ISignals{}}}.
 >  * Manually updating `XfrmIsDataConversion` in `ComXf` is still required for RTA-RTE 12.11.0 or `RTA-RTE_12.11.2pr2`
@@ -134,8 +156,8 @@ Bosch (China) Investment Ltd. | 333 Fuquan (N.) Road | Shanghai 200335 | P.R. CH
 
 -------
 
-> [!note]+ 2026-09-04 01:02 · Dang Ho Anh
-> Hi Duy Pham 
+> [!note]+ 2026-09-04 01:02 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[Duy_Pham|Duy Pham]] 
 > My initial observation regarding the overlapping signal error is that `ComSignalType` has been updated to {{{}UINT8_N{}}}. Therefore, the BSW generator calculates the signal length after rounding it to 8 bits or 16 bits.
 > For example, the CAN frame `B2_LBMS_SysSt` has the following layout:
 > ![[RH-16581-image-2026-09-04-05-51-34-834.png]]
@@ -153,20 +175,20 @@ Bosch (China) Investment Ltd. | 333 Fuquan (N.) Road | Shanghai 200335 | P.R. CH
 
 -------
 
-> [!note]+ 2026-09-03 14:41 · Duy Pham
+> [!note]+ 2026-09-03 14:41 · [[Duy_Pham|Duy Pham]]
 > Hi all, ticket https://jira.etas-dev.com/browse/ARCCFGEN-2715 created to analysis for Confgen issue
 
 -------
 
-> [!note]+ 2026-09-03 10:45 · Vamsi Kiran Koduri
-> Hi K Raj Kumar , can you please look at comment from Dang Ho Anh  above [https://rtahotline.etas.com/jira/browse/RH-16581?focusedCommentId=723716&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-723716]
+> [!note]+ 2026-09-03 10:45 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Hi [[K_Raj_Kumar|K Raj Kumar]] , can you please look at comment from [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]  above [https://rtahotline.etas.com/jira/browse/RH-16581?focusedCommentId=723716&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-723716]
 >
 > BSW code gen was resulting in error [https://rtahotline.etas.com/jira/browse/RH-16581?focusedCommentId=723859&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-723859] based on files generated from ConfGen.
 
 -------
 
-> [!note]+ 2026-09-03 10:38 · Junsheng ZHANG
-> Hi Vamsi Kiran Koduri ,Dang Ho Anh 
+> [!note]+ 2026-09-03 10:38 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] ,[[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] 
 >
 > After running Confgen, the error form BSW Code Gen is as follows:
 >
@@ -174,26 +196,26 @@ Bosch (China) Investment Ltd. | 333 Fuquan (N.) Road | Shanghai 200335 | P.R. CH
 
 -------
 
-> [!note]+ 2026-09-03 07:49 · Vamsi Kiran Koduri
-> Hi Ngoc Duong Thi ,Auges Tchouante ,Simon Wadsworth , Can you please check and respond to above comment.
+> [!note]+ 2026-09-03 07:49 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Hi [[Duong_Thi_Ngoc_(ETAS-ECMXPC-Yok1)|Ngoc Duong Thi]] ,[[Tchouante_Auges_(ETAS-ECMXPC-Abt1)|Auges Tchouante]] ,[[Simon_Wadsworth|Simon Wadsworth]] , Can you please check and respond to above comment.
 
 -------
 
-> [!note]+ 2026-09-03 06:11 · Dang Ho Anh
-> Hi Vamsi Kiran Koduri ,
+> [!note]+ 2026-09-03 06:11 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] ,
 >
 > I noticed that [RTE-23093 ](https://jira.etas-dev.com/browse/RTE-23093)is planned to be implemented in RTA-CAR 12.14.0, while the Cariad customer is only using RTA-CAR 12.11.x version.
 >
-> Could we align with Jiaqi JI (PM) and Phuong Nguyen Le (COEM team) regarding a possible version to RTA-CAR 12.11.x as a permanent solution?
+> Could we align with [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]] (PM) and [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]] (COEM team) regarding a possible version to RTA-CAR 12.11.x as a permanent solution?
 >
 > **Temporary solution:** 
 > Manually update `XfrmIsDataConversion` in `ComXf` for the signal group/signal where data conversion is required.
 
 -------
 
-> [!note]+ 2026-09-03 05:54 · Dang Ho Anh
-> Hi K Raj Kumar ,
-> Regarding to the Xiao BAI 's question, as I checked in the System Template, when {{{}ISignal.dataTypePolicy = transformingISignal{}}}, `ComSignalType` will be generated as `UINT8_N` according to the following rule:
+> [!note]+ 2026-09-03 05:54 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[K_Raj_Kumar|K Raj Kumar]] ,
+> Regarding to the [[BAI_Xiao_(ETAS-ECMXSF-CN)|Xiao BAI]] 's question, as I checked in the System Template, when {{{}ISignal.dataTypePolicy = transformingISignal{}}}, `ComSignalType` will be generated as `UINT8_N` according to the following rule:
 > ![[RH-16581-image-2026-09-03-10-48-55-633.png]]
 >
 > And when the type is {{{}UINT8_N{}}}, the generated `ComSignalInitValue` will be interpreted according to the description below:
@@ -205,8 +227,8 @@ Bosch (China) Investment Ltd. | 333 Fuquan (N.) Road | Shanghai 200335 | P.R. CH
 
 -------
 
-> [!note]+ 2026-09-01 11:29 · Xiao BAI
-> Hello Dang Ho Anh ,
+> [!note]+ 2026-09-01 11:29 · [[BAI_Xiao_(ETAS-ECMXSF-CN)|Xiao BAI]]
+> Hello [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] ,
 >
 > I have changed DataTypePolicy to TRANSFORMING-I-SIGNAL.
 >
@@ -222,7 +244,7 @@ Bosch (China) Investment Ltd. | 333 Fuquan (N.) Road | Shanghai 200335 | P.R. CH
 
 -------
 
-> [!note]+ 2026-09-01 10:46 · Vamsi Kiran Koduri
+> [!note]+ 2026-09-01 10:46 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
 > This will be fixed with
 >  * [RTE-23093](https://jira.etas-dev.com/browse/RTE-23093)
 >
@@ -230,8 +252,8 @@ Bosch (China) Investment Ltd. | 333 Fuquan (N.) Road | Shanghai 200335 | P.R. CH
 
 -------
 
-> [!note]+ 2026-08-31 09:34 · K Raj Kumar
-> hi Vamsi Kiran Koduri 
+> [!note]+ 2026-08-31 09:34 · [[K_Raj_Kumar|K Raj Kumar]]
+> hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] 
 >
 >
 > Based on our analysis, the ACF [*ARC-17060*](https://jira.etas-dev.com/browse/ARC-17060) is currently not planned for implementation in ConfGen, as this functionality will be handled by the {*}RTA-RTE tool{*}.  Please refer to the comments in [*ARC-17060*](https://jira.etas-dev.com/browse/ARC-17060) for further details. "{_}The data conversion will be fully handled by RTE and the Transformers.  Even if this functionality can only be supported starting with the **12.14.0** release, we currently see no need to implement it in ConfGen, as the existing approach has some limitations.{_}"
@@ -242,33 +264,33 @@ Bosch (China) Investment Ltd. | 333 Fuquan (N.) Road | Shanghai 200335 | P.R. CH
 
 -------
 
-> [!note]+ 2026-08-27 14:03 · K Raj Kumar
-> Phuong Nguyen Le we analysing this issue as high priority.
+> [!note]+ 2026-08-27 14:03 · [[K_Raj_Kumar|K Raj Kumar]]
+> [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]] we analysing this issue as high priority.
 
 -------
 
-> [!note]+ 2026-08-27 12:21 · Vamsi Kiran Koduri
+> [!note]+ 2026-08-27 12:21 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
 > [PC.Harikarthik@in.bosch.com](mailto:PC.Harikarthik@in.bosch.com) Can you also check this.
 
 -------
 
-> [!note]+ 2026-08-27 07:18 · Phuong Nguyen Le
-> K Raj Kumar : can you help to check this conf-gen issue. This is urgent issue for Cariad/VCTC customer
+> [!note]+ 2026-08-27 07:18 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
+> [[K_Raj_Kumar|K Raj Kumar]] : can you help to check this conf-gen issue. This is urgent issue for Cariad/VCTC customer
 
 -------
 
-> [!note]+ 2026-08-27 07:09 · Dang Ho Anh
-> Hi Vamsi Kiran Koduri ,
+> [!note]+ 2026-08-27 07:09 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] ,
 > I have attached the project. The password has been sent to you separately.
 >
 > I am concerned about how we can specify which signal group/signal should have XfrmIsDataConversion set to true. This parameter exists in ComXf, E2EXf, and SomeIpXf. Currently, our issue is only related to ComXf, and as you said, we should not enable this parameter for all signal groups/signals.
 > Assuming `ConfigGen` supports generating this parameter automatically, could you please clarify which parameter in the system description should be used to specify it?
 >
-> Junsheng ZHANG , currently, can you specify which signal group/signal we need to manually set this parameter to true for?
+> [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] , currently, can you specify which signal group/signal we need to manually set this parameter to true for?
 >
 >
 >
-> Hi a. Phuong Nguyen Le and Jiaqi JI ,
+> Hi a. [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]] and [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]] ,
 >
 > It seems that one required feature in ConfigGen is not supported in the current RTA-CAR version used by Cariad.
 >
@@ -277,32 +299,32 @@ Bosch (China) Investment Ltd. | 333 Fuquan (N.) Road | Shanghai 200335 | P.R. CH
 
 -------
 
-> [!note]+ 2026-08-26 16:12 · Vamsi Kiran Koduri
-> Dang Ho Anh If possible can you attach latest project to the ticket?
+> [!note]+ 2026-08-26 16:12 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] If possible can you attach latest project to the ticket?
 
 -------
 
-> [!note]+ 2026-08-26 16:10 · Vamsi Kiran Koduri
-> Hi Dang Ho Anh ,Junsheng ZHANG As i said in previous comment, the difference in ComXf and RTE generated code is due to ConfGen not setting the parameter "XfrmIsDataConversion " to true.
+> [!note]+ 2026-08-26 16:10 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Hi [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] ,[[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] As i said in previous comment, the difference in ComXf and RTE generated code is due to ConfGen not setting the parameter "XfrmIsDataConversion " to true.
 >
 > But unfortunately the feature to handle parameter XfrmIsDataConversion based on basetype and compumethod is not yet available in ConfGen, look [ARC-17060](https://jira.etas-dev.com/browse/ARC-17060) which is planned for RTA-CAR 12.13.0.
 
 -------
 
-> [!note]+ 2026-08-26 12:02 · Vamsi Kiran Koduri
-> Dang Ho Anh ,Junsheng ZHANG The difference in ComXf and RTE generated code is due to ConfGen not setting the parameter "XfrmIsDataConversion " to true. The XfrmIsDataConversion parameter informs ComXf to use either actual implementation type or temporary type which is used by RTE.
+> [!note]+ 2026-08-26 12:02 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] ,[[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] The difference in ComXf and RTE generated code is due to ConfGen not setting the parameter "XfrmIsDataConversion " to true. The XfrmIsDataConversion parameter informs ComXf to use either actual implementation type or temporary type which is used by RTE.
 
 -------
 
-> [!note]+ 2026-08-26 11:27 · Dang Ho Anh
-> Hi Vamsi Kiran Koduri ,
+> [!note]+ 2026-08-26 11:27 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] ,
 >
 > As discussed via MS Teams, please help analyze and confirm whether this is a bug or misuse of the tool.
 
 -------
 
-> [!note]+ 2026-08-26 10:45 · Junsheng ZHANG
-> Hi Dang Ho Anh ,
+> [!note]+ 2026-08-26 10:45 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
+> Hi [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] ,
 >
 >     I have check the code,but the problem has not been completely resolved;
 >
@@ -320,16 +342,16 @@ Bosch (China) Investment Ltd. | 333 Fuquan (N.) Road | Shanghai 200335 | P.R. CH
 
 -------
 
-> [!note]+ 2026-08-26 00:35 · Dang Ho Anh
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-08-26 00:35 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] ,
 > As commented in ticket [RH-16478] [VNCNMS][VCTC] E2E Signalgroup Issue - RTA Hotline ,  please also update the data type policy of the corresponding {{{}ISignal{}}}. I have pinned the solution in this ticket.
 > I will send my updated project to you for verification.
-> CC: Sathish Kumar Madanmohan Phuong Nguyen Le Jiaqi JI 
+> CC: [[Madanmohan_Sathish_Kumar_(ETAS-ECMXSF-CN)|Sathish Kumar Madanmohan]] [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]] [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]] 
 
 -------
 
-> [!note]+ 2026-08-25 09:02 · Dang Ho Anh
-> Hi Jiaqi JI and Junsheng ZHANG
+> [!note]+ 2026-08-25 09:02 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]] and [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
 >
 > Could you please provide a snapshot of the issue and a reference project that can reproduce it?
 >
@@ -337,33 +359,33 @@ Bosch (China) Investment Ltd. | 333 Fuquan (N.) Road | Shanghai 200335 | P.R. CH
 
 -------
 
-> [!note]+ 2026-08-25 03:16 · Jiaqi JI
+> [!note]+ 2026-08-25 03:16 · [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]]
 > After checked with customer, this issue has not been fixed, need PF Team re-investigate it. Thanks!
 
 -------
 
-> [!note]+ 2026-08-24 10:07 · Dang Ho Anh
-> Junsheng ZHANG ,
+> [!note]+ 2026-08-24 10:07 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] ,
 > Could you list the issues and share the project to reproduce them?
 
 -------
 
-> [!note]+ 2026-08-24 05:07 · Jiaqi JI
-> After Junsheng ZHANG checked with customer, not been solved on RTA-CAR 12.11.0.
+> [!note]+ 2026-08-24 05:07 · [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]]
+> After [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] checked with customer, not been solved on RTA-CAR 12.11.0.
 >
 > Please re-investigate it. Thanks
 
 -------
 
-> [!note]+ 2026-08-03 14:25 · JSM Service Bot
+> [!note]+ 2026-08-03 14:25 · [[JSM_Service_Bot|JSM Service Bot]]
 > This issue has not received any response for 2 weeks and will now be automatically Closed.
 
 -------
 
-> [!note]+ 2026-07-15 13:21 · Dang Ho Anh
-> Thanks Vamsi Kiran Koduri , I got it now.
+> [!note]+ 2026-07-15 13:21 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Thanks [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] , I got it now.
 >
-> Hi Dong LIU ,
+> Hi [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]] ,
 >
 > According to the analysis so far, data conversion for ComXf signals is supported in RTA-CAR 12.11.0 offcial release.
 >
@@ -375,8 +397,8 @@ Bosch (China) Investment Ltd. | 333 Fuquan (N.) Road | Shanghai 200335 | P.R. CH
 
 -------
 
-> [!note]+ 2026-07-15 12:48 · Vamsi Kiran Koduri
-> Hi Dang Ho Anh I checked for signal "_P_ECM_LZCU_EngAbgasT_P_ECM_LZCU_100_2" and confirm RTE generated code is as per input configuration.
+> [!note]+ 2026-07-15 12:48 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Hi [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] I checked for signal "_P_ECM_LZCU_EngAbgasT_P_ECM_LZCU_100_2" and confirm RTE generated code is as per input configuration.
 > Compuscale :
 >
 > ```
@@ -433,8 +455,8 @@ Bosch (China) Investment Ltd. | 333 Fuquan (N.) Road | Shanghai 200335 | P.R. CH
 
 -------
 
-> [!note]+ 2026-07-15 01:31 · Dang Ho Anh
-> Hi Vamsi Kiran Koduri ,
+> [!note]+ 2026-07-15 01:31 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] ,
 >
 > I have tested the following signals:
 >  * Case 1: float32 data conversion for the Rx signa _P_ECM_LZCU_EngAbgasT_P_ECM_LZCU_100_2,_ which belongs to _SysSigGrp_P_ECM_LZCU_100_2_E2E_ -> The conversion seems to be incorrect.
@@ -453,13 +475,13 @@ Bosch (China) Investment Ltd. | 333 Fuquan (N.) Road | Shanghai 200335 | P.R. CH
 
 -------
 
-> [!note]+ 2026-07-14 14:11 · Vamsi Kiran Koduri
->  Dang Ho Anh changes in input configuration [^DBC_SysDesc.zip]
+> [!note]+ 2026-07-14 14:11 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+>  [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] changes in input configuration [^DBC_SysDesc.zip]
 
 -------
 
-> [!note]+ 2026-07-14 12:38 · Vamsi Kiran Koduri
-> Hi Dang Ho Anh,Dong LIU,Phong Tang Dieu
+> [!note]+ 2026-07-14 12:38 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Hi [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]],[[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]],[[Phong_Tang_Dieu|Phong Tang Dieu]]
 > Data conversion works with RTE v12.11.0. The issue in existing configuration is wrong data type policy set for relevant ISignals. Since these ISignals are received with data transformation the right one to use is 
 > <DATA-TYPE-POLICY>TRANSFORMING-I-SIGNAL</DATA-TYPE-POLICY> instead LEGACY.
 >
@@ -471,8 +493,8 @@ Bosch (China) Investment Ltd. | 333 Fuquan (N.) Road | Shanghai 200335 | P.R. CH
 
 -------
 
-> [!note]+ 2026-07-13 16:12 · Dang Ho Anh
-> Hi Vamsi Kiran Koduri, 
+> [!note]+ 2026-07-13 16:12 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]], 
 >
 > The attached project has been migrated to the official RTA-CAR 12.11.0 release.
 >
@@ -484,47 +506,47 @@ Bosch (China) Investment Ltd. | 333 Fuquan (N.) Road | Shanghai 200335 | P.R. CH
 >
 > If not, we should provide a bug-fix plan for these features, as the customer is migrating their project to RTA-CAR 12.11.0.
 >
-> Hi a. Phong Tang Dieu 
+> Hi a. [[Phong_Tang_Dieu|Phong Tang Dieu]] 
 > I found a relevant ticket RH-14599 Rte didn't generate Compu Method scale for float IDT - RTA Hotline which seems related to this issue. 
 > Do you have any clue how this feature is supported in {*}RTA-CAR 12.6.0{*}, as mentioned in the ticket?
 >
-> CC:  Dong LIU , Sisi TAO 
+> CC:  [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]] , [[TAO_Sisi_(ETAS-ECMXSF-CN)|Sisi TAO]] 
 > [^Isolar_RH-16581_1211_Migrated.zip]  
 
 -------
 
-> [!note]+ 2026-07-13 08:17 · Dong LIU
-> Vamsi Kiran Koduri I was able to generate the RTE successfully using RTA-CAR 12.11.0VCTCESR1pr1. Could you please check whether the issue is related to the RTA-CAR version?
+> [!note]+ 2026-07-13 08:17 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
+> [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] I was able to generate the RTE successfully using RTA-CAR 12.11.0VCTCESR1pr1. Could you please check whether the issue is related to the RTA-CAR version?
 
 -------
 
-> [!note]+ 2026-07-10 07:26 · Dang Ho Anh
-> Hi Sisi TAO Dong LIU ,
+> [!note]+ 2026-07-10 07:26 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[TAO_Sisi_(ETAS-ECMXSF-CN)|Sisi TAO]] [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]] ,
 > I think I can quickly migrate the project attached to this ticket to RTA-CAR 12.11.0 today to check whether the issue has been resolved in this version. As the previous test project does not contain the failed signal.
 >
-> Hi Vamsi Kiran Koduri,
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]],
 >
 > I can generate RTE successfully with Liu Dong's attached project using RTA-CAR_12.11.0VCTCESR1pr1.
 
 -------
 
-> [!note]+ 2026-07-09 15:56 · Vamsi Kiran Koduri
-> Hi Dong LIU,Phong Tang Dieu, I cannot execute RTEGen v12.9.0 successfully on attached project.https://rtahotline.etas.com/jira/secure/attachment/338927/Isolar.zip. Are you able to do?
+> [!note]+ 2026-07-09 15:56 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Hi [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]],[[Phong_Tang_Dieu|Phong Tang Dieu]], I cannot execute RTEGen v12.9.0 successfully on attached project.https://rtahotline.etas.com/jira/secure/attachment/338927/Isolar.zip. Are you able to do?
 
 -------
 
-> [!note]+ 2026-07-09 10:30 · Dang Ho Anh
-> Sisi TAO , It seems that in our test project, we don’t have a signal of implementation data type {{{}float32{}}}.
+> [!note]+ 2026-07-09 10:30 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> [[TAO_Sisi_(ETAS-ECMXSF-CN)|Sisi TAO]] , It seems that in our test project, we don’t have a signal of implementation data type {{{}float32{}}}.
 
 -------
 
-> [!note]+ 2026-07-09 10:15 · Dong LIU
+> [!note]+ 2026-07-09 10:15 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
 > We encountered a similar issue with the `sint16` conversion as well. I've updated the description accordingly.
 
 -------
 
-> [!note]+ 2026-07-09 10:00 · Phong Tang Dieu
-> Hi Vamsi Kiran Koduri 
+> [!note]+ 2026-07-09 10:00 · [[Phong_Tang_Dieu|Phong Tang Dieu]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] 
 >
 > Customer has a case that mapping a float32 data to an uint16 ConXf Group Signal with a compuMethod, Then the signal data shall be copied directly from uint8 type array to a float32 variable on RTE and causing incorrect data conversion.
 >
@@ -534,26 +556,26 @@ Bosch (China) Investment Ltd. | 333 Fuquan (N.) Road | Shanghai 200335 | P.R. CH
 
 -------
 
-> [!note]+ 2026-07-09 09:55 · JSM Service Bot
-> Hi Vamsi Kiran Koduri, this RTA-RTE-Plugins-Transformers ticket requires an assignee. As the component lead for RTA-RTE-Plugins-Transformers, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+> [!note]+ 2026-07-09 09:55 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]], this RTA-RTE-Plugins-Transformers ticket requires an assignee. As the component lead for RTA-RTE-Plugins-Transformers, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------
 
-> [!note]+ 2026-07-09 04:12 · Dong LIU
-> Phong Tang Dieu I think this is more than just a missing data conversion issue. It's a C language type compatibility issue. A `uint16` value cannot be assigned to a `float32` variable by directly copying the buffer, because the two types have different memory representations.
+> [!note]+ 2026-07-09 04:12 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
+> [[Phong_Tang_Dieu|Phong Tang Dieu]] I think this is more than just a missing data conversion issue. It's a C language type compatibility issue. A `uint16` value cannot be assigned to a `float32` variable by directly copying the buffer, because the two types have different memory representations.
 
 -------
 
-> [!note]+ 2026-07-09 04:10 · Sisi TAO
-> Hi Phong Tang Dieu , Dong LIU 
+> [!note]+ 2026-07-09 04:10 · [[TAO_Sisi_(ETAS-ECMXSF-CN)|Sisi TAO]]
+> Hi [[Phong_Tang_Dieu|Phong Tang Dieu]] , [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]] 
 >
-> Support of generating data conversion for ComXf group signals has been verified by Dang Ho Anh . Dang created a project on RTA-CAR 12.10.0, feature (Data Conversion) can work well. 
-> But for current issue, 12.10.0 may still have problem. Dang Ho Anh can you double check is this issue happens on your 12.10.0 project. Thank you very much.
+> Support of generating data conversion for ComXf group signals has been verified by [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] . Dang created a project on RTA-CAR 12.10.0, feature (Data Conversion) can work well. 
+> But for current issue, 12.10.0 may still have problem. [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] can you double check is this issue happens on your 12.10.0 project. Thank you very much.
 
 -------
 
-> [!note]+ 2026-07-08 17:35 · Phong Tang Dieu
-> Hi Dong LIU
+> [!note]+ 2026-07-08 17:35 · [[Phong_Tang_Dieu|Phong Tang Dieu]]
+> Hi [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
 > This seems to be a known issue of RTE in this version (12.9.0) which does not support generating data conversion for ComXf group signals. Comment from L3 team: [comment](https://rtahotline.etas.com/jira/browse/RH-16478?focusedCommentId=698420&page=com.atlassian.jira.plugin.system.issuetabpanels%3Acomment-tabpanel#comment-698420)
 >
 > Please try to migrate to RTA-CAR 12.10.0 to see if it solves the issue or not. As far as I know, RTA-CAR 12.11.0.VCTCESR1pr3 is based on RTA-CAR 12.10.0 (release candidate version), please try it.
@@ -562,13 +584,13 @@ Bosch (China) Investment Ltd. | 333 Fuquan (N.) Road | Shanghai 200335 | P.R. CH
 
 -------
 
-> [!note]+ 2026-07-08 11:33 · Dong LIU
+> [!note]+ 2026-07-08 11:33 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
 > the related project is attached
 > [^Isolar.zip]
 
 -------
 
-> [!note]+ 2026-07-08 11:25 · FAE Technical
+> [!note]+ 2026-07-08 11:25 · [[FAE_Technical|FAE Technical]]
 > AI Investigation automatically started due to ticket creation by trusted agent Dong LIU.
 > Progress can be tracked on [Jenkins](https://rta-fae.jenkins.etas-dev.com/job/Hotline%20Automation%20-%20Agentic/job/main)
 >

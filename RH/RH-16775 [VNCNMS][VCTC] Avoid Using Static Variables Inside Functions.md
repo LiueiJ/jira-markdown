@@ -7,15 +7,15 @@ type: Support
 status: Waiting for Level 3
 priority: High
 project: RH
-assignee: Vinh Vo Quang Gia
-reporter: Phuong Nguyen Le
+assignee: "[[Vo_Quang_Gia_Vinh_(MSETA-ARC-PF2)|Vinh Vo Quang Gia]]"
+reporter: "[[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]"
 tags: [jira/comp/aaa-analysis, jira/comp/fsqp, jira/label/makw, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-07-28T05:30:12.000+0200"
-updated: "2026-09-10T05:32:31.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+updated: "2026-09-10T10:57:39.000+0200"
+synced-at: "2026-09-11T01:13:17.157Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -104,44 +104,44 @@ Trân trọng / Best regards,
 
 ## 评论
 
-> [!note]+ 2026-08-13 10:08 · Alex Fargus
-> Vinh Vo Quang Gia please move this to "Solution Proposed" once that analysis ticket is complete.
+> [!note]+ 2026-08-13 10:08 · [[Fargus_Alex_(MSETA)|Alex Fargus]]
+> [[Vo_Quang_Gia_Vinh_(MSETA-ARC-PF2)|Vinh Vo Quang Gia]] please move this to "Solution Proposed" once that analysis ticket is complete.
 
 -------
 
-> [!note]+ 2026-08-13 07:53 · Oliver Kust
-> This ticket should be assigned to somebody driving the implementation. Is it you, Alex Fargus ,Vinh Vo Quang Gia ?
+> [!note]+ 2026-08-13 07:53 · [[Oliver_Kust|Oliver Kust]]
+> This ticket should be assigned to somebody driving the implementation. Is it you, [[Fargus_Alex_(MSETA)|Alex Fargus]] ,[[Vo_Quang_Gia_Vinh_(MSETA-ARC-PF2)|Vinh Vo Quang Gia]] ?
 
 -------
 
-> [!note]+ 2026-08-03 09:32 · Phuong Nguyen Le
-> Jiaqi JI , Jie LIU : This is planned in 26.4 so that we can't provide comprehensive solution for Cariad in Aug. Is it OK for you?
+> [!note]+ 2026-08-03 09:32 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
+> [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]] , [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]] : This is planned in 26.4 so that we can't provide comprehensive solution for Cariad in Aug. Is it OK for you?
 
 -------
 
-> [!note]+ 2026-07-30 09:36 · Vinh Vo Quang Gia
+> [!note]+ 2026-07-30 09:36 · [[Vo_Quang_Gia_Vinh_(MSETA-ARC-PF2)|Vinh Vo Quang Gia]]
 > linked the Analysis ticket and plan accordingly
 
 -------
 
-> [!note]+ 2026-07-30 07:51 · Alex Fargus
-> Girish Chandran Nicola Pianta Vinh Vo Quang Gia  Per Alex's comment below, please can you analyse the issue and prepare a Capability for planning in PI 26.4. Please link the analysis ticket when it is available.
+> [!note]+ 2026-07-30 07:51 · [[Fargus_Alex_(MSETA)|Alex Fargus]]
+> [[Chandran_Girish_(ETAS-ECMXPC-Yok1)|Girish Chandran]] [[Pianta_Nicola_(ETAS-ECMXPC-Yok2)|Nicola Pianta]] [[Vo_Quang_Gia_Vinh_(MSETA-ARC-PF2)|Vinh Vo Quang Gia]]  Per Alex's comment below, please can you analyse the issue and prepare a Capability for planning in PI 26.4. Please link the analysis ticket when it is available.
 
 -------
 
-> [!note]+ 2026-07-29 15:52 · Alexander Burn
-> Alex Fargus I would like to see this planned in 26.4.
+> [!note]+ 2026-07-29 15:52 · [[Burn_Alexander_(ETAS-ECMXPC-Yok1)|Alexander Burn]]
+> [[Fargus_Alex_(MSETA)|Alex Fargus]] I would like to see this planned in 26.4.
 
 -------
 
-> [!note]+ 2026-07-29 13:39 · Alex Fargus
-> Nick Lay Alexander Burn Can you take a look and comment about the priority of this topic? We need a decision about whether to analyse and derive a Capability to address this issue.
+> [!note]+ 2026-07-29 13:39 · [[Fargus_Alex_(MSETA)|Alex Fargus]]
+> [[Lay_Nick_(ETAS-ECMXPC-Yok1)|Nick Lay]] [[Burn_Alexander_(ETAS-ECMXPC-Yok1)|Alexander Burn]] Can you take a look and comment about the priority of this topic? We need a decision about whether to analyse and derive a Capability to address this issue.
 >
-> Nicola Pianta FYI.
+> [[Pianta_Nicola_(ETAS-ECMXPC-Yok2)|Nicola Pianta]] FYI.
 
 -------
 
-> [!note]+ 2026-07-29 08:21 · Oliver Kust
+> [!note]+ 2026-07-29 08:21 · [[Oliver_Kust|Oliver Kust]]
 > On behalf of Volker Kairies:
 >
 > I agree that function-static elements cannot be covered by the memory mapping concept. It is not possible to use the Memory Allocation Keywords (START/STOP-#defines) inside a function or to include the MemMap header inside a function. However, static elements get into memory areas that would have to be protected by the memory mapping concept. To make this possible, global or file-static elements shall be used instead of function-static elements. The memory mapping concept can then be applied to those global or file-static elements.
@@ -160,10 +160,10 @@ Trân trọng / Best regards,
 
 -------
 
-> [!note]+ 2026-07-29 04:28 · Phuong Nguyen Le
-> I received response from Volker Kairies as [^WG VNCNMS Avoid Using Static Variables Inside Functions.msg]
+> [!note]+ 2026-07-29 04:28 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
+> I received response from [[Volker_Kairies|Volker Kairies]] as [^WG VNCNMS Avoid Using Static Variables Inside Functions.msg]
 >
-> ^Volker Kairies , Oliver Kust : May I understand that we have rule for "static variables shall be defined with a **file static** scope" but this rule isn't followed strictly?^
+> ^[[Volker_Kairies|Volker Kairies]] , [[Oliver_Kust|Oliver Kust]] : May I understand that we have rule for "static variables shall be defined with a **file static** scope" but this rule isn't followed strictly?^
 >
 > ^Do you agree that this "local static variables shall be defined with a **file static** scope" rule is MUST? If not, can you share why?^
 >
@@ -171,45 +171,45 @@ Trân trọng / Best regards,
 
 -------
 
-> [!note]+ 2026-07-28 10:22 · Phuong Nguyen Le
-> Oliver Kust , Erich Merz : Can you not only check static variable issue, but also check all memmap implementation and provide solution for them?
+> [!note]+ 2026-07-28 10:22 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
+> [[Oliver_Kust|Oliver Kust]] , [[Erich_Merz|Erich Merz]] : Can you not only check static variable issue, but also check all memmap implementation and provide solution for them?
 
 -------
 
-> [!note]+ 2026-07-28 05:55 · JSM Service Bot
+> [!note]+ 2026-07-28 05:55 · [[JSM_Service_Bot|JSM Service Bot]]
 > Note: Oliver Kust, Erich Merz added as watcher to the issue. Internal support agents cannot be added as Request Participants, so they have been automatically joined as Watchers instead.
 
 -------
 
-> [!note]+ 2026-07-28 05:55 · Khoa Phan Huynh Dang
-> Hello Oliver Kust , Erich Merz ,
+> [!note]+ 2026-07-28 05:55 · [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]]
+> Hello [[Oliver_Kust|Oliver Kust]] , [[Erich_Merz|Erich Merz]] ,
 > There are several limitations when using local static variables in our software. The customer has identified these limitations and requested improvements. Could you please review and evaluate the solution proposed by the customer?
 
 -------
 
-> [!note]+ 2026-07-28 05:39 · JSM Service Bot
-> Hi Phuong Nguyen Le, this issue does not have a component set and cannot be transistioned to 'Waiting for Level 3'
+> [!note]+ 2026-07-28 05:39 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]], this issue does not have a component set and cannot be transistioned to 'Waiting for Level 3'
 
 -------
 
-> [!note]+ 2026-07-28 05:39 · JSM Service Bot
-> Erich Merz, Oliver Kust, this issue requires your attention.
+> [!note]+ 2026-07-28 05:39 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[Erich_Merz|Erich Merz]], [[Oliver_Kust|Oliver Kust]], this issue requires your attention.
 
 -------
 
-> [!note]+ 2026-07-28 05:37 · Phuong Nguyen Le
+> [!note]+ 2026-07-28 05:37 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
 > Set to High Priority as this is big issue and impact to functional safety. 
 >
 > The memmap issues are reporting by Cariad/VCTC in RH-16706, RH-16705, RH-16708
 
 -------
 
-> [!note]+ 2026-07-28 05:30 · JSM Service Bot
+> [!note]+ 2026-07-28 05:30 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Phuong Nguyen Le, please note that this issue was made with VNCNMS in the summary and has been sent to the relevant queue by adding the VNCNMS label.
 
 -------
 
-> [!note]+ 2026-07-28 05:30 · JSM Service Bot
+> [!note]+ 2026-07-28 05:30 · [[JSM_Service_Bot|JSM Service Bot]]
 > Note: Cong ZHANG, Truong Huynh Quang, Oliver Kust, Jie LIU, Yang TAN, Tien Vo Quoc added as watcher to the issue. Internal support agents cannot be added as Request Participants, so they have been automatically joined as Watchers instead.
 
 -------
