@@ -8,14 +8,14 @@ status: Waiting for Level 3
 priority: Medium
 project: RH
 assignee: "[[Jens_Jung|Jens Jung]]"
-reporter: "[[Dong_LIU|Dong LIU]]"
+reporter: "[[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]"
 tags: [jira/comp/communication-timeservices]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-07-14T12:47:31.000+0200"
-updated: "2026-09-10T10:37:38.000+0200"
-synced-at: "2026-09-11T01:36:25.139Z"
+updated: "2026-09-11T09:30:14.000+0200"
+synced-at: "2026-09-11T07:48:00.574Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -68,8 +68,13 @@ Best regards,
 
 ## 评论
 
-> [!note]+ 2026-08-27 12:03 · [[Dong_LIU|Dong LIU]]
-> hi, [[Joao_Pereira|Joao Pereira]] [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] 
+> [!note]+ 2026-09-11 09:30 · [[Sara_Pereira|Sara Pereira]]
+> [[Pereira_Joao_(XCEVO-XPC-Brg1)|Joao Pereira]] is on leave. Team is analyzing and will get back to you as soon as possible. Sorry for the delayed response.
+
+-------
+
+> [!note]+ 2026-08-27 12:03 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
+> hi, [[Pereira_Joao_(XCEVO-XPC-Brg1)|Joao Pereira]] [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]] 
 >
 > Since Eth_SetPhcTime is not supported in StbM_SetGlobalTime, the customer is currently calling Eth_SetPhcTime manually. The call is shown in the screenshot below. When the Switch receives the Ethernet time synchronization message, it synchronizes the global clock. Based on the current PPS test results, the customer found that there is still a 2 μs time difference between the MCU and the Switch. The customer would like to reduce this time difference to less than 1 μs. Do you have any recommendations on how to reduce this time difference?
 >
@@ -77,18 +82,18 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-08-17 15:07 · [[Joao_Pereira|Joao Pereira]]
+> [!note]+ 2026-08-17 15:07 · [[Pereira_Joao_(XCEVO-XPC-Brg1)|Joao Pereira]]
 > Also, since we are not setting the time directly on PHC with current implementation, the global time is store in StbM global variables.  If the measurement is done with PPS counter of the corresponding phc, your measuring the difference of the free running counters not the global time.
 
 -------
 
-> [!note]+ 2026-08-11 11:18 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
-> Hi [[Dong_LIU|Dong LIU]] , do we have any new information from the customer 😅 ?
+> [!note]+ 2026-08-11 11:18 · [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]]
+> Hi [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]] , do we have any new information from the customer 😅 ?
 
 -------
 
-> [!note]+ 2026-07-31 15:52 · [[Joao_Pereira|Joao Pereira]]
-> Hello [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] ,
+> [!note]+ 2026-07-31 15:52 · [[Pereira_Joao_(XCEVO-XPC-Brg1)|Joao Pereira]]
+> Hello [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]] ,
 >
 > Regarding the question:
 >
@@ -105,8 +110,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-07-31 09:45 · [[Dong_LIU|Dong LIU]]
-> [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]] I'll need to check this with the customer.
+> [!note]+ 2026-07-31 09:45 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
+> [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]] I'll need to check this with the customer.
 
 -------
 
@@ -115,25 +120,25 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-07-31 06:36 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
-> Hi [[Dong_LIU|Dong LIU]] ,
+> [!note]+ 2026-07-31 06:36 · [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]]
+> Hi [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]] ,
 >
 >
-> After discussing this with [[Joao_Pereira|Joao Pereira]], we have one concern and would like the customer to provide additional information:
+> After discussing this with [[Pereira_Joao_(XCEVO-XPC-Brg1)|Joao Pereira]], we have one concern and would like the customer to provide additional information:
 >
 > Why is PPS being used for this measurement? In this scenario, the PPS-based measurement method may not be suitable and could introduce an offset in the observed value.
 >
-> Regarding the customer's concern, "Why is the Global Time not compensated for elapsed time in the same way as the Virtual Local Time?", [[Joao_Pereira|Joao Pereira]] , could you please help provide a more detailed explanation to the customer?
+> Regarding the customer's concern, "Why is the Global Time not compensated for elapsed time in the same way as the Virtual Local Time?", [[Pereira_Joao_(XCEVO-XPC-Brg1)|Joao Pereira]] , could you please help provide a more detailed explanation to the customer?
 
 -------
 
-> [!note]+ 2026-07-29 03:43 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
-> [[Joao_Pereira|Joao Pereira]] , [[Dong_LIU|Dong LIU]] : Can you collaborate to understand the issue and provide solution as this is critical issue?
+> [!note]+ 2026-07-29 03:43 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
+> [[Pereira_Joao_(XCEVO-XPC-Brg1)|Joao Pereira]] , [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]] : Can you collaborate to understand the issue and provide solution as this is critical issue?
 
 -------
 
-> [!note]+ 2026-07-28 13:17 · [[Joao_Pereira|Joao Pereira]]
-> Hello [[Phuong_Nguyen_Le|Phuong Nguyen Le]],
+> [!note]+ 2026-07-28 13:17 · [[Pereira_Joao_(XCEVO-XPC-Brg1)|Joao Pereira]]
+> Hello [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]],
 >
 > I'm still unsure about what is the setup of the project and the measurements.
 > What is the PPS pulse that we are measuring? What is feading the PPS EthHw?
@@ -141,8 +146,8 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-07-28 12:57 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
-> [[Joao_Pereira|Joao Pereira]] , Do we have any update for this issue? 
+> [!note]+ 2026-07-28 12:57 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
+> [[Pereira_Joao_(XCEVO-XPC-Brg1)|Joao Pereira]] , Do we have any update for this issue? 
 
 -------
 
@@ -151,18 +156,18 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-07-21 12:04 · [[Dong_LIU|Dong LIU]]
+> [!note]+ 2026-07-21 12:04 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
 > [[Shaker_Abdolrahman_Saleh|Shaker Abdolrahman Saleh]] 
 
 -------
 
-> [!note]+ 2026-07-21 12:03 · [[Dong_LIU|Dong LIU]]
+> [!note]+ 2026-07-21 12:03 · [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]
 > [^Isolar.zip]
 
 -------
 
 > [!note]+ 2026-07-15 16:11 · [[Shaker_Abdolrahman_Saleh|Shaker Abdolrahman Saleh]]
-> Hi [[Dong_LIU|Dong LIU]],
+> Hi [[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]],
 >
 > can you provide please the RTA-CAR Project
 > with generated code so that we can analyze the observed issue with the customers project.

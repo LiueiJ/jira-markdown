@@ -13,9 +13,9 @@ tags: [jira/label/rta-bip-uc]
 fix-versions: []
 epic: null
 parent: null
-created: "2026-08-09T08:16:31.000+0000"
-updated: "2026-08-24T01:42:03.000+0000"
-synced-at: "2026-09-11T02:40:28.533Z"
+created: "2026-08-09T08:16:31.788+0000"
+updated: "2026-09-11T03:00:28.795+0000"
+synced-at: "2026-09-11T03:26:22.710Z"
 jira-orphaned: false
 profile: CNN
 ---

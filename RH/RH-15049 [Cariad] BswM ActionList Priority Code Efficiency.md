@@ -14,8 +14,8 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-02-04T04:40:35.000+0100"
-updated: "2026-09-11T04:10:49.000+0200"
-synced-at: "2026-09-11T02:40:30.154Z"
+updated: "2026-09-11T05:52:46.000+0200"
+synced-at: "2026-09-11T07:48:00.574Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -51,6 +51,96 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
+
+> [!note]+ 2026-09-11 05:52 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
+> [[Kanti_Sirkar_Mrinal_(MSEMT4-ETAS)|Mrinal Kanti Sirkar]] : this is the code change after I apply "{*}Cache Priority + Bubble Sort + Early Exit"{*} algo as [[Buttle_Darren_(ETAS-ECMPRM1-EMW)|Darren Buttle]] 's suggestion.
+> ```
+> void BswM_Prv_ProcessDeferredReqst( void )
+> {
+> #if (defined(BSWM_NO_OF_MRP_DEFERREDREQ) && (BSWM_NO_OF_MRP_DEFERREDREQ > 0))
+> #if (defined(BSWM_MAX_NO_OF_RULES) && (BSWM_MAX_NO_OF_RULES > 0))
+>     const BswM_Cfg_RuleType_tst * dataRule_pst = BswM_Prv_adrSelectedConfig_pcst->dataModeArbitration_st.adrArbitrationRule_pst;
+>     uint16 noOfRuleAvailable_u16 = 0;
+>     uint16 cntrRuleIndex_u16 = 0;
+>     uint16 idxDeferredRules_au16[BSWM_MAX_NO_OF_RULES] = {0};
+>     uint8 priority_au8[BSWM_MAX_NO_OF_RULES] = {0};
+>     uint16 idx_u16 = 0;
+>     uint16 idx1_u16 = 0;
+>     uint16 temp_u16;
+>     uint8 priority1_u8;
+>     uint8 priority2_u8;
+>     boolean isSwapPerformed_b;
+>     /* Process requests that interrupted the processing of the previous mode request */
+>     if (FALSE != BswM_Prv_isReqstDelayed_b)
+>     {
+>         BswM_Prv_ProcessDelayedReqst();
+>     }
+>
+>     noOfRuleAvailable_u16 = BswM_Prv_PopulateDeferredRules(&idxDeferredRules_au16[0]);
+>     /*Check if Associated Rule are present*/
+>     if(noOfRuleAvailable_u16 > 0)
+>     {
+>         /* Cache the priority of each rule before sorting. */
+>         for (idx_u16 = 0U; idx_u16 < noOfRuleAvailable_u16; idx_u16++)
+>         {
+>             priority_au8[idx_u16] = BswM_Prv_GetActionListPriority(
+>                 &dataRule_pst[idxDeferredRules_au16[idx_u16]],
+>                 idxDeferredRules_au16[idx_u16]);
+>         }
+>
+>         /* Sort the rule indexes by priority in descending order. */
+>         for (idx_u16 = noOfRuleAvailable_u16; idx_u16 > 1U; idx_u16--)
+>         {
+>             isSwapPerformed_b = FALSE;
+>
+>             for (idx1_u16 = 1U; idx1_u16 < idx_u16; idx1_u16++)
+>             {
+>                 priority1_u8 = priority_au8[idx1_u16 - 1U];
+>                 priority2_u8 = priority_au8[idx1_u16];
+>
+>                 if (priority1_u8 < priority2_u8)
+>                 {
+>                     temp_u16 = idxDeferredRules_au16[idx1_u16 - 1U];
+>                     idxDeferredRules_au16[idx1_u16 - 1U] = idxDeferredRules_au16[idx1_u16];
+>                     idxDeferredRules_au16[idx1_u16] = temp_u16;
+>
+>                     priority_au8[idx1_u16 - 1U] = priority2_u8;
+>                     priority_au8[idx1_u16] = priority1_u8;
+>                     isSwapPerformed_b = TRUE;
+>                 }
+>             }
+>
+>             if (FALSE == isSwapPerformed_b)
+>             {
+>                 break;
+>             }
+>         }
+>         for (cntrRuleIndex_u16 = 0; cntrRuleIndex_u16 < noOfRuleAvailable_u16; cntrRuleIndex_u16++)
+>         {
+>             /*Check if Respective Rule's isNestedRuleExecution_b is False*/
+>             if (dataRule_pst[idxDeferredRules_au16[cntrRuleIndex_u16]].isNestedRuleExecution_b != TRUE)
+>             {
+>             BswM_Prv_Evaluate_Rule( &dataRule_pst[idxDeferredRules_au16[cntrRuleIndex_u16]], idxDeferredRules_au16[cntrRuleIndex_u16]);
+>
+>             BswM_Prv_DeferredRuleEvaluation_b[idxDeferredRules_au16[cntrRuleIndex_u16]]= FALSE;
+>             }
+>         }
+>     }
+>     else
+>     {
+>         /* Do-nothing */
+>     }
+> #endif /* BSWM_MAX_NO_OF_RULES */
+> #endif /* BSWM_NO_OF_MRP_DEFERREDREQ */
+>
+>     return;
+> }
+> ```
+> Can you help to review it in advance? 
+>
+> In the meantime, I will performed regression test with this code too
+
+-------
 
 > [!note]+ 2026-09-10 10:32 · [[Buttle_Darren_(ETAS-ECMPRM1-EMW)|Darren Buttle]]
 > If you're going to keep the sort and do some form of patching then there is a much more efficient way to implement the sort by:

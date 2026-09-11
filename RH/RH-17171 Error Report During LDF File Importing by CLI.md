@@ -7,15 +7,15 @@ type: Support
 status: Solution Proposed
 priority: Medium
 project: RH
-assignee: "[[Jie_LIU|Jie LIU]]"
-reporter: "[[Jie_LIU|Jie LIU]]"
+assignee: "[[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]"
+reporter: "[[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]"
 tags: []
 fix-versions: []
 epic: null
 parent: null
-created: "2026-09-10T02:49:34.000+0200"
-updated: "2026-09-10T11:44:39.000+0200"
-synced-at: "2026-09-11T01:36:25.139Z"
+created: "2026-09-10T02:49:34.507+0200"
+updated: "2026-09-10T11:44:39.563+0200"
+synced-at: "2026-09-11T07:25:29.224Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -36,7 +36,7 @@ LDF Import by CLI. If LDF is upper case (xxxx.LDF), report error:
 ## 评论
 
 > [!note]+ 2026-09-10 11:44 · [[James_Butterfield|James Butterfield]]
-> Hi [[Jie_LIU|Jie LIU]],
+> Hi [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]],
 >
 > This issue will be fixed in RTA-CAR 12.12.0 (and also back-ported to 12.11.0) and can be tracked from [ARCTOOLS-23474](https://jira.etas-dev.com/browse/ARCTOOLS-23474).
 >
