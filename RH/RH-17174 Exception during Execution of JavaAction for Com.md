@@ -4,18 +4,18 @@ jira_url: "https://rtahotline.etas.com/jira/browse/RH-17174"
 server: rtahotline
 kind: hotline
 type: Support
-status: Investigation Required
+status: Waiting for Level 3
 priority: High
 project: RH
-assignee: ""
-reporter: Jie LIU
-tags: []
+assignee: "[[Krishnaswamy_Dharani_Dharan|Krishnaswamy Dharani Dharan]]"
+reporter: "[[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]"
+tags: [jira/comp/isolar-b]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-09-10T04:31:50.000+0200"
-updated: "2026-09-10T05:27:26.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+updated: "2026-09-10T12:58:13.000+0200"
+synced-at: "2026-09-11T00:31:48.001Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -31,3 +31,15 @@ Com Error -> Clear output files and reopen workspace can solve this issue
 ## 关联
 
 - split from: [[RH-17023 [VCTC] RTA-CAR 12.11 Migration RTA-CAR Toolchain Issues]]
+
+## 评论
+
+> [!note]+ 2026-09-10 11:41 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Sunith_Jayakumar_Rohith|Sunith Jayakumar Rohith]], this ISOLAR-B ticket requires an assignee. As the component lead for ISOLAR-B, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+
+-------
+
+> [!note]+ 2026-09-10 11:41 · [[James_Butterfield|James Butterfield]]
+> Ongoing analysis in [ARCTOOLS-23630](https://jira.etas-dev.com/browse/ARCTOOLS-23630).
+
+-------

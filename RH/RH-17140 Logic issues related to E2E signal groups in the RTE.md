@@ -4,18 +4,18 @@ jira_url: "https://rtahotline.etas.com/jira/browse/RH-17140"
 server: rtahotline
 kind: hotline
 type: Support
-status: Waiting for Level 3
+status: Solution Proposed
 priority: High
 project: RH
-assignee: Vamsi Kiran Koduri
-reporter: Junsheng ZHANG
+assignee: "[[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]"
+reporter: "[[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]"
 tags: [jira/comp/rta-rte, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-09-07T15:16:48.000+0200"
-updated: "2026-09-10T10:03:04.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+updated: "2026-09-10T16:08:09.000+0200"
+synced-at: "2026-09-11T00:31:48.001Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -54,22 +54,27 @@ Hi Hotline,
 
 ## 评论
 
-> [!note]+ 2026-09-10 10:03 · Dang Ho Anh
-> Hi Junsheng ZHANG ,
+> [!note]+ 2026-09-10 16:08 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Hi [[Dang_Ho_Anh|Dang Ho Anh]] , There is unfortunately no workaround for this. Please set  {{{}HandleNeverReceived{}}}= false. The issue will be fixed with linked ticket in upcoming version.
+
+-------
+
+> [!note]+ 2026-09-10 10:03 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] ,
 > Could you please check whether the customer can accept the current RTE behavior or use `HandleNeverReceived = false` instead?
 >
-> Hi Vamsi Kiran Koduri ,
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] ,
 >
 > Do we have a workaround solution for this case?
 
 -------
 
-> [!note]+ 2026-09-10 09:44 · Vamsi Kiran Koduri
-> Hello Junsheng ZHANG ,Dang Ho Anh ,Phong Tang Dieu I confirm the reported issue. RTE shall return RTE_E_NEVER_RECEIVED until first reception when handleneverreceived is set to TRUE.
+> [!note]+ 2026-09-10 09:44 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Hello [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] ,[[Dang_Ho_Anh|Dang Ho Anh]] ,[[Phong_Tang_Dieu|Phong Tang Dieu]] I confirm the reported issue. RTE shall return RTE_E_NEVER_RECEIVED until first reception when handleneverreceived is set to TRUE.
 
 -------
 
-> [!note]+ 2026-09-09 15:33 · JSM Service Bot
+> [!note]+ 2026-09-09 15:33 · [[JSM_Service_Bot|JSM Service Bot]]
 > Reminder for tickets requiring L3 RTE attention:
 >
 > - Have you attached the configuration?
@@ -84,13 +89,13 @@ Hi Hotline,
 
 -------
 
-> [!note]+ 2026-09-09 15:33 · JSM Service Bot
-> Hi Vamsi Kiran Koduri, this RTA-RTE ticket requires an assignee. As the component lead for RTA-RTE, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
+> [!note]+ 2026-09-09 15:33 · [[JSM_Service_Bot|JSM Service Bot]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]], this RTA-RTE ticket requires an assignee. As the component lead for RTA-RTE, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------
 
-> [!note]+ 2026-09-09 15:31 · Dang Ho Anh
-> Junsheng ZHANG , After giving it some careful thought, I realized that this could be an issue.
+> [!note]+ 2026-09-09 15:31 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] , After giving it some careful thought, I realized that this could be an issue.
 >
 > Hi [Koduri Vamsi Kiran (ETAS-ECM/XPC-Abt1)](https://confluence.etas-dev.com/display/~kod4abt),
 >
@@ -116,8 +121,8 @@ Hi Hotline,
 
 -------
 
-> [!note]+ 2026-09-09 10:58 · Dang Ho Anh
-> Hi Junsheng ZHANG,
+> [!note]+ 2026-09-09 10:58 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]],
 > The initial value of the global buffer Rte_Rx_* is set to RTE_E_NEVER_RECEIVED because the attribute *HandleNeverReceived* is set to true
 > ![[RH-17140-image-2026-09-09-15-20-57-496.png]]
 >
@@ -131,12 +136,12 @@ Hi Hotline,
 
 -------
 
-> [!note]+ 2026-09-08 10:31 · JSM Service Bot
-> Junsheng ZHANG, the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [!note]+ 2026-09-08 10:31 · [[JSM_Service_Bot|JSM Service Bot]]
+> [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-09-08 10:31 · Junsheng ZHANG
+> [!note]+ 2026-09-08 10:31 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
 > password ： ETAS
 >
 >
@@ -144,15 +149,15 @@ Hi Hotline,
 
 -------
 
-> [!note]+ 2026-09-07 18:25 · Phong Tang Dieu
-> Hi Junsheng ZHANG
+> [!note]+ 2026-09-07 18:25 · [[Phong_Tang_Dieu|Phong Tang Dieu]]
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
 > Could you please describe more detailed about the use case? 
 > And could you share the project as well? It would be helpful to analyze the issue. From my side, I could find any similar generated code even for E2E and E2EXf.
 > Thanks,
 
 -------
 
-> [!note]+ 2026-09-07 15:21 · JSM Service Bot
+> [!note]+ 2026-09-07 15:21 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi Junsheng ZHANG. Your issue is set to "Critical" priority.
 > Please ensure that there is a reasonable justification for this listed in the issue description, otherwise the priority may be reviewed and adjusted during triage.
 > Kind regards

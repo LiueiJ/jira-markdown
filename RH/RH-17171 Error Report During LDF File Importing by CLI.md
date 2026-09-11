@@ -4,18 +4,18 @@ jira_url: "https://rtahotline.etas.com/jira/browse/RH-17171"
 server: rtahotline
 kind: hotline
 type: Support
-status: Investigation Required
+status: Solution Proposed
 priority: Medium
 project: RH
-assignee: ""
-reporter: Jie LIU
+assignee: "[[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]"
+reporter: "[[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]"
 tags: []
 fix-versions: []
 epic: null
 parent: null
 created: "2026-09-10T02:49:34.000+0200"
-updated: "2026-09-10T05:25:15.000+0200"
-synced-at: "2026-09-10T08:07:25.599Z"
+updated: "2026-09-10T11:44:39.000+0200"
+synced-at: "2026-09-11T00:31:48.001Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -32,3 +32,17 @@ LDF Import by CLI. If LDF is upper case (xxxx.LDF), report error:
 ## 关联
 
 - split from: [[RH-17023 [VCTC] RTA-CAR 12.11 Migration RTA-CAR Toolchain Issues]]
+
+## 评论
+
+> [!note]+ 2026-09-10 11:44 · [[James_Butterfield|James Butterfield]]
+> Hi [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]],
+>
+> This issue will be fixed in RTA-CAR 12.12.0 (and also back-ported to 12.11.0) and can be tracked from [ARCTOOLS-23474](https://jira.etas-dev.com/browse/ARCTOOLS-23474).
+>
+> Please let me know if there is anything further you require from this ticket.
+>
+> Best Regards,
+> James
+
+-------
