@@ -1,6 +1,6 @@
-﻿filters:
+filters:
   and:
-    - 'profile == "Cariad"'
+    - profile == "Cariad"
 views:
   - type: table
     name: Tickets
@@ -10,3 +10,6 @@ views:
       - status
       - assignee
       - updated
+  - type: cards
+    name: 视图
+    cardSize: 400

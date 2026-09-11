@@ -1,12 +1,25 @@
-﻿filters:
+filters:
   and:
-    - 'profile == "CEA2.0 Needs"'
+    - profile == "CEA2.0 Needs"
 views:
   - type: table
     name: Tickets
+    groupBy:
+      property: status
+      direction: ASC
     order:
-      - jira_key
-      - summary
+      - file.basename
+      - priority
       - status
       - assignee
-      - updated
+      - jira_url
+      - tags
+    sort:
+      - property: priority
+        direction: ASC
+    columnSize:
+      file.basename: 383
+      note.assignee: 114
+      note.jira_url: 54
+      note.tags: 466
+    rowHeight: medium
