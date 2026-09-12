@@ -4,18 +4,18 @@ jira_url: "https://rtahotline.etas.com/jira/browse/RH-17140"
 server: rtahotline
 kind: hotline
 type: Support
-status: Solution Proposed
+status: Waiting for Level 2
 priority: High
 project: RH
-assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
-reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+assignee: "[[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]"
+reporter: "[[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]"
 tags: [jira/comp/rta-rte, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-09-07T15:16:48.000+0200"
-updated: "2026-09-10T16:08:09.000+0200"
-synced-at: "2026-09-11T01:36:25.139Z"
+updated: "2026-09-11T15:24:33.000+0200"
+synced-at: "2026-09-12T07:38:52.171Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -52,15 +52,44 @@ Hi Hotline,
 
  ETAS – Empowering Tomorrow’s Automotive Software**
 
+## 关联
+
+- mentions: [[RH-17085 The RTE generated section name is incorrect.]]
+
 ## 评论
 
-> [!note]+ 2026-09-10 16:08 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
-> Hi [[Dang_Ho_Anh|Dang Ho Anh]] , There is unfortunately no workaround for this. Please set  {{{}HandleNeverReceived{}}}= false. The issue will be fixed with linked ticket in upcoming version.
+> [!note]+ 2026-09-11 15:24 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] No, sorry there was a misunderstanding. Please see [https://rtahotline.etas.com/jira/browse/RH-17085?focusedCommentId=727369&page=com.atlassian.jira.plugin.system.issuetabpanels:comment-tabpanel#comment-727369]
+>
+> RTA-RTE_12.13.0pr2 doesn't fix the issue in this ticket.
 
 -------
 
-> [!note]+ 2026-09-10 10:03 · [[Dang_Ho_Anh|Dang Ho Anh]]
-> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
+> [!note]+ 2026-09-11 14:25 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] , "Internal Error 904481,..." is reported when I configure the invalid value for data elements with a structure type, which is an implementation data type.
+
+-------
+
+> [!note]+ 2026-09-11 14:05 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] ,
+>
+> As informed by chi [[Duong_Thi_Ngoc_(ETAS-ECMXPC-Yok1)|Ngoc Duong Thi]] , the issue in this ticket has been resolved in RTA-RTE_12.13.0pr2. I am currently verifying it with my test project on RTA-CAR 12.11.0.
+>
+> For the case where HandleNeverReceived = true, the handling logic for this use case does not seem to be different from RTA-RTE 12.11.0.
+>
+> Do we need to configure the `initValue` of the unqueued data element, {{{}invalidValue{}}}, and `handleInvalid` to make RTE work as expected?
+>
+> CC: [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]  [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]] 
+
+-------
+
+> [!note]+ 2026-09-10 16:08 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Hi [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] , There is unfortunately no workaround for this. Please set  {{{}HandleNeverReceived{}}}= false. The issue will be fixed with linked ticket in upcoming version.
+
+-------
+
+> [!note]+ 2026-09-10 10:03 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] ,
 > Could you please check whether the customer can accept the current RTE behavior or use `HandleNeverReceived = false` instead?
 >
 > Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] ,
@@ -70,7 +99,7 @@ Hi Hotline,
 -------
 
 > [!note]+ 2026-09-10 09:44 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
-> Hello [[Junsheng_ZHANG|Junsheng ZHANG]] ,[[Dang_Ho_Anh|Dang Ho Anh]] ,[[Phong_Tang_Dieu|Phong Tang Dieu]] I confirm the reported issue. RTE shall return RTE_E_NEVER_RECEIVED until first reception when handleneverreceived is set to TRUE.
+> Hello [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] ,[[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] ,[[Phong_Tang_Dieu|Phong Tang Dieu]] I confirm the reported issue. RTE shall return RTE_E_NEVER_RECEIVED until first reception when handleneverreceived is set to TRUE.
 
 -------
 
@@ -94,8 +123,8 @@ Hi Hotline,
 
 -------
 
-> [!note]+ 2026-09-09 15:31 · [[Dang_Ho_Anh|Dang Ho Anh]]
-> [[Junsheng_ZHANG|Junsheng ZHANG]] , After giving it some careful thought, I realized that this could be an issue.
+> [!note]+ 2026-09-09 15:31 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] , After giving it some careful thought, I realized that this could be an issue.
 >
 > Hi [Koduri Vamsi Kiran (ETAS-ECM/XPC-Abt1)](https://confluence.etas-dev.com/display/~kod4abt),
 >
@@ -121,8 +150,8 @@ Hi Hotline,
 
 -------
 
-> [!note]+ 2026-09-09 10:58 · [[Dang_Ho_Anh|Dang Ho Anh]]
-> Hi [[Junsheng_ZHANG|Junsheng ZHANG]],
+> [!note]+ 2026-09-09 10:58 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]],
 > The initial value of the global buffer Rte_Rx_* is set to RTE_E_NEVER_RECEIVED because the attribute *HandleNeverReceived* is set to true
 > ![[RH-17140-image-2026-09-09-15-20-57-496.png]]
 >
@@ -137,11 +166,11 @@ Hi Hotline,
 -------
 
 > [!note]+ 2026-09-08 10:31 · [[JSM_Service_Bot|JSM Service Bot]]
-> [[Junsheng_ZHANG|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-09-08 10:31 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> [!note]+ 2026-09-08 10:31 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
 > password ： ETAS
 >
 >
@@ -150,7 +179,7 @@ Hi Hotline,
 -------
 
 > [!note]+ 2026-09-07 18:25 · [[Phong_Tang_Dieu|Phong Tang Dieu]]
-> Hi [[Junsheng_ZHANG|Junsheng ZHANG]]
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
 > Could you please describe more detailed about the use case? 
 > And could you share the project as well? It would be helpful to analyze the issue. From my side, I could find any similar generated code even for E2E and E2EXf.
 > Thanks,

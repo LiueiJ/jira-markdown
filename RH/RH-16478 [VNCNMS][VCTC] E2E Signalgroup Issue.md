@@ -14,8 +14,8 @@ fix-versions: []
 epic: null
 parent: null
 created: "2026-06-25T11:56:56.000+0200"
-updated: "2026-09-10T05:26:23.000+0200"
-synced-at: "2026-09-11T01:36:25.139Z"
+updated: "2026-09-11T15:13:49.000+0200"
+synced-at: "2026-09-12T07:38:52.171Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -55,12 +55,13 @@ Noted with thanks for you all kindly support!
 - mentions: [[RH-16581 ComXf Issue with Parsing float32 Data Type]]
 - mentions: [[RH-16347 RTE code gen Error parsing input file ]]
 - is mentioned in: [[RH-16581 ComXf Issue with Parsing float32 Data Type]]
+- is mentioned in: [[RH-17085 The RTE generated section name is incorrect.]]
 
 ## 评论
 
-> [!note]+ 2026-08-27 09:48 · [[Su_Nguyen_Quoc|Su Nguyen Quoc]]
+> [!note]+ 2026-08-27 09:48 · [[Nguyen_Quoc_Su_(MSETA-Hub-CN)|Su Nguyen Quoc]]
 > Meeting Minutes **Date:** 27-Aug-2026
-> ### **Participants:**  [[Jie_LIU|Jie LIU]] , [[Phuong_Nguyen_Le|Phuong Nguyen Le]] , Nguyen Quoc Su.
+> ### **Participants:**  [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]] , [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]] , Nguyen Quoc Su.
 > #### Discussion
 >  * **RH-16478** was classified as a **feature misuse** rather than a product issue. The issue should not be claimed as a product defect requiring a fix.
 >  * Guidance on the correct usage has been provided in the RH ticket.
@@ -77,8 +78,8 @@ Noted with thanks for you all kindly support!
 
 -------
 
-> [!note]+ 2026-08-26 00:31 · [[Dang_Ho_Anh|Dang Ho Anh]]
-> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
+> [!note]+ 2026-08-26 00:31 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] ,
 >
 > For the two projects you sent, I was able to generate BSW and RTE for the LZCU project.
 >
@@ -91,19 +92,19 @@ Noted with thanks for you all kindly support!
 > ![[RH-16478-image-2026-08-26-05-29-33-379.png]]
 > Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] , Please add your points if I am missing anything in this case.
 >
-> CC: [[Sathish_Kumar_Madanmohan|Sathish Kumar Madanmohan]] [[Phuong_Nguyen_Le|Phuong Nguyen Le]] [[Jiaqi_JI|Jiaqi JI]] 
+> CC: [[Madanmohan_Sathish_Kumar_(ETAS-ECMXSF-CN)|Sathish Kumar Madanmohan]] [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]] [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]] 
 
 -------
 
-> [!note]+ 2026-08-25 20:11 · [[Junsheng_ZHANG|Junsheng ZHANG]]
-> Hi [[Dang_Ho_Anh|Dang Ho Anh]] ,
+> [!note]+ 2026-08-25 20:11 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
+> Hi [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] ,
 >
 >    I have send you the project yesterday; The RTA-RTE did not generate the data conversion  of E2E SignalGroup;
 
 -------
 
-> [!note]+ 2026-08-25 09:04 · [[Dang_Ho_Anh|Dang Ho Anh]]
-> Hi [[Jiaqi_JI|Jiaqi JI]] and [[Junsheng_ZHANG|Junsheng ZHANG]]
+> [!note]+ 2026-08-25 09:04 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]] and [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
 >
 > Could you please provide a snapshot of the issue and a reference project that can reproduce it?
 >
@@ -131,12 +132,12 @@ Noted with thanks for you all kindly support!
 
 -------
 
-> [!note]+ 2026-08-25 03:19 · [[Jiaqi_JI|Jiaqi JI]]
+> [!note]+ 2026-08-25 03:19 · [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]]
 > After checked with customer, this issue has not been fixed, need PF Team re-investigate it. Thanks
 
 -------
 
-> [!note]+ 2026-08-24 14:10 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [!note]+ 2026-08-24 14:10 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
 > Hi [[Jiaqi.JI@bosch.com|Jiaqi.JI@bosch.com]] ,
 >
 > Do we have any feedback or reports related to this issue after the customer migrated their project to RTA-CAR 12.11.0?
@@ -144,7 +145,7 @@ Noted with thanks for you all kindly support!
 -------
 
 > [!note]+ 2026-08-24 14:03 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
-> Hi [[Dang_Ho_Anh|Dang Ho Anh]]  Do we have feedback from customer after porting project to RTA-CAR 12.11.0?
+> Hi [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]  Do we have feedback from customer after porting project to RTA-CAR 12.11.0?
 
 -------
 
@@ -158,22 +159,22 @@ Noted with thanks for you all kindly support!
 
 -------
 
-> [!note]+ 2026-06-30 11:49 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [!note]+ 2026-06-30 11:49 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
 > As noted, this use case has been supported since RTA-CAR 12.10.0.
 > The customer will verify it after porting the project to RTA-CAR 12.11.0.
 
 -------
 
-> [!note]+ 2026-06-30 08:58 · [[Sisi_TAO|Sisi TAO]]
-> Hi [[Dang_Ho_Anh|Dang Ho Anh]] 
+> [!note]+ 2026-06-30 08:58 · [[TAO_Sisi_(ETAS-ECMXSF-CN)|Sisi TAO]]
+> Hi [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] 
 >
 > Great to see this result. Then you verify that this issue has been resolved in the later RTA-CAR project. It give us much confidence to promise customer coming RTA-CAR doesn't have this issue.
 > Next month we will start migrating customer projects (they have 4 zone controllers) to official 12.11.0, till then we will check again the result. Thank you again for your dedicated support !
 
 -------
 
-> [!note]+ 2026-06-30 08:50 · [[Dang_Ho_Anh|Dang Ho Anh]]
-> Hi [[Sisi_TAO|Sisi TAO]] ,
+> [!note]+ 2026-06-30 08:50 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[TAO_Sisi_(ETAS-ECMXSF-CN)|Sisi TAO]] ,
 >
 > I just verified support for this feature in RTA-CAR 12.10.0 by migrating the project you sent to this version.
 >
@@ -184,8 +185,8 @@ Noted with thanks for you all kindly support!
 
 -------
 
-> [!note]+ 2026-06-29 09:27 · [[Sisi_TAO|Sisi TAO]]
-> Hi [[Ryan_Dixon|Ryan Dixon]] and [[Dang_Ho_Anh|Dang Ho Anh]] ,
+> [!note]+ 2026-06-29 09:27 · [[TAO_Sisi_(ETAS-ECMXSF-CN)|Sisi TAO]]
+> Hi [[Ryan_Dixon|Ryan Dixon]] and [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] ,
 >
 > Thank you very much for your information and support.
 >
@@ -210,7 +211,7 @@ Noted with thanks for you all kindly support!
 > I believe that an RTA-CAR based on version 12.10.0 should be okay because the plugin was removed.
 >
 > [[Oliver_Taylor|Oliver Taylor]]
-> [[Ngoc_Duong_Thi|Ngoc Duong Thi]]
+> [[Duong_Thi_Ngoc_(ETAS-ECMXPC-Yok1)|Ngoc Duong Thi]]
 >
 > If there is no way to not apply the plugin, we may need to look into the logic of the plugin, make a change so that the plugin does not molest the *signal group* and perhaps fix anything up *just before* feeding it through to RTEGen.
 >
@@ -220,8 +221,8 @@ Noted with thanks for you all kindly support!
 
 -------
 
-> [!note]+ 2026-06-25 14:58 · [[Jiaqi_JI|Jiaqi JI]]
-> Hi [[Dang_Ho_Anh|Dang Ho Anh]] ,
+> [!note]+ 2026-06-25 14:58 · [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]]
+> Hi [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] ,
 >
 > Noted with thanks for your confirmation. I will check and asked for the issue screenshots~ :)
 
@@ -232,7 +233,7 @@ Noted with thanks for you all kindly support!
 
 -------
 
-> [!note]+ 2026-06-25 13:21 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [!note]+ 2026-06-25 13:21 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
 > Hi [[Jiaqi.JI@bosch.com|Jiaqi.JI@bosch.com]] ,
 >
 > After checking with the team, we confirmed that this use case is supported in the RTA-CAR 12.9.0 official release, which RTA-CAR 12.11.0VCTCESR1pr1 is based on.

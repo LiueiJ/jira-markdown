@@ -13,9 +13,9 @@ tags: [jira/comp/rta-rte, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
-created: "2026-07-28T12:13:13.867+0200"
-updated: "2026-09-11T00:51:45.447+0200"
-synced-at: "2026-09-11T03:01:38.981Z"
+created: "2026-07-28T12:13:13.000+0200"
+updated: "2026-09-11T10:55:35.000+0200"
+synced-at: "2026-09-12T07:38:52.171Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -90,6 +90,16 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
  **ETAS – Empowering Tomorrow’s Automotive Software**
 
 ## 评论
+
+> [!note]+ 2026-09-11 10:55 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
+> Hi [[Tchouante_Auges_(ETAS-ECMXPC-Abt1)|Auges Tchouante]] ,[[Duong_Thi_Ngoc_(ETAS-ECMXPC-Yok1)|Ngoc Duong Thi]] please check previous comment.
+
+-------
+
+> [!note]+ 2026-09-11 10:35 · [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]]
+> After checking with customer about the workaround (to map OIE event to task) for [RH-16784] [VNCNMS][VCTC]Missing critical section protection for IRV array access in generated RTE code - RTA Hotline, customer is not willing to accept this solution because every such kind of Use Case from APP will increase the complexity of scheduling. If it is not able to be fixed by 25.Sep.2026, when do you think is the feasible time?
+
+-------
 
 > [!note]+ 2026-09-10 13:13 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
 > [[LIU_Jie_(ETAS-ECMXSF-CN)|Jie LIU]] : please check feedback from Vamsi!

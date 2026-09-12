@@ -4,18 +4,18 @@ jira_url: "https://rtahotline.etas.com/jira/browse/RH-17116"
 server: rtahotline
 kind: hotline
 type: Support
-status: Waiting for Level 3
+status: Waiting for Level 2
 priority: Medium
 project: RH
-assignee: "[[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]]"
-reporter: "[[Dong_LIU|Dong LIU]]"
+assignee: "[[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]]"
+reporter: "[[LIU_Dong_(ETAS-ECMXSF-CN)|Dong LIU]]"
 tags: [jira/comp/communication-eth, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-09-03T08:18:36.000+0200"
-updated: "2026-09-07T07:19:30.000+0200"
-synced-at: "2026-09-11T01:36:25.139Z"
+updated: "2026-09-11T12:19:20.000+0200"
+synced-at: "2026-09-12T07:38:52.171Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -62,12 +62,23 @@ Best regards,
 
 ## 评论
 
+> [!note]+ 2026-09-11 11:59 · [[Rajendran_Jothivel|Rajendran Jothivel]]
+> Hello [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]],
+>
+> I have mentioned that both UDP and TCP has been supported in the project for **RTA-CAR 9.1** because previous ticket RH-16737 was related to very generic. So, I was mainly concentrated on the feature perspective whether it has been supported or not.
+>
+> This ticket is mainly focused on the initial events for TCP path which is something we have not supported in **RTA-CAR 9.1.** However, we have supported this use case after **RTA-CAR 9.1** release based on the new released PRS document.
+>
+> I hope it clarifies your doubt. If you have any further query, please feel free to let me know. Thanks!
+
+-------
+
 > [!note]+ 2026-09-07 06:14 · [[JSM_Service_Bot|JSM Service Bot]]
 > Hi [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]], this Communication-Eth ticket requires an assignee. As the component lead for Communication-Eth, please ensure that the 'Level 3 Assignee' field is set to the appropriate person that can handle this issue.
 
 -------
 
-> [!note]+ 2026-09-07 06:13 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
+> [!note]+ 2026-09-07 06:13 · [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]]
 > Hi [[Shweta_Ganesh_Dixit|Shweta Ganesh Dixit]] ,
 >
 > I got the confirmation in RH-16737 that **UDP and TCP has been supported** and it can be configured together {*}in the project for RTA-CAR 9.1{*}.
@@ -95,14 +106,14 @@ Best regards,
 
 -------
 
-> [!note]+ 2026-09-03 13:16 · [[Khoa_Phan_Huynh_Dang|Khoa Phan Huynh Dang]]
-> Hi [[Jiaqi_JI|Jiaqi JI]] ,
+> [!note]+ 2026-09-03 13:16 · [[Phan_Huynh_Dang_Khoa_(MSETA-Hub-CN)|Khoa Phan Huynh Dang]]
+> Hi [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]] ,
 > We will begin analyzing this ticket tomorrow and will share further details asap.
 
 -------
 
-> [!note]+ 2026-09-03 10:38 · [[Jiaqi_JI|Jiaqi JI]]
-> Hi [[Phuong_Nguyen_Le|Phuong Nguyen Le]] Phuong,
+> [!note]+ 2026-09-03 10:38 · [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]]
+> Hi [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]] Phuong,
 >
 > Could you support arrange one of your colleague to help take a look into this issue?
 >

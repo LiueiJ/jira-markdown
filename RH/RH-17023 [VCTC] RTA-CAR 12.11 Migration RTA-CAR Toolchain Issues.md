@@ -13,9 +13,9 @@ tags: [jira/comp/generic-importers, jira/comp/isolar-a/b, jira/label/isolar-ab, 
 fix-versions: []
 epic: null
 parent: null
-created: "2026-08-25T11:22:50.256+0200"
-updated: "2026-09-10T12:42:36.462+0200"
-synced-at: "2026-09-11T03:45:00.031Z"
+created: "2026-08-25T11:22:50.000+0200"
+updated: "2026-09-11T19:14:30.000+0200"
+synced-at: "2026-09-12T07:38:52.171Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -61,6 +61,7 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 ## 关联
 
 - relates to: [[RH-16963 [VNCNMS][BIP] Tool Issue when using RTA-CAR 12.11.0]]
+- relates to: [[RH-17193 Resources Could Not Be Found Exception during Code Gen]]
 - split to: [[RH-17181 [VCTC] RTA-CAR 12.11 Migration RTA-CAR Toolchain Issues - ConfGen]]
 - split to: [[RH-17070 RTA CAR file parsing error]]
 - split to: [[RH-17173 Whole BSW becomes invalid in Code Gen UI]]
@@ -73,6 +74,7 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 - is mentioned in: [[RH-17181 [VCTC] RTA-CAR 12.11 Migration RTA-CAR Toolchain Issues - ConfGen]]
 - is mentioned in: [[RH-17175 0_CheckLiceses Error during Code Gen]]
 - is mentioned in: [[RH-17176 Resources Could Not Be Found Exception during Code Gen]]
+- is mentioned in: [[RH-17193 Resources Could Not Be Found Exception during Code Gen]]
 
 ## 评论
 

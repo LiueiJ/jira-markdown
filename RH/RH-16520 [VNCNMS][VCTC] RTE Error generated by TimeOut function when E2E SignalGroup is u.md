@@ -7,15 +7,15 @@ type: Support
 status: Waiting for Customer
 priority: Medium
 project: RH
-assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
-reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+assignee: "[[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]"
+reporter: "[[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]"
 tags: [jira/comp/rta-rte, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-06-29T17:18:58.000+0200"
-updated: "2026-09-10T05:23:05.000+0200"
-synced-at: "2026-09-11T01:36:25.139Z"
+updated: "2026-09-11T15:13:49.000+0200"
+synced-at: "2026-09-12T07:38:52.171Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -60,16 +60,20 @@ ETAS Automotive Technology (Shanghai) Co., Ltd., ETAS-ECM/XSF-CN
 
 ETAS – Empowering Tomorrow’s Automotive Software**
 
+## 关联
+
+- is mentioned in: [[RH-17085 The RTE generated section name is incorrect.]]
+
 ## 评论
 
-> [!note]+ 2026-09-08 10:37 · [[Dang_Ho_Anh|Dang Ho Anh]]
-> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
+> [!note]+ 2026-09-08 10:37 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] ,
 > Could you share the result after verification?
 
 -------
 
-> [!note]+ 2026-09-07 12:09 · [[Dang_Ho_Anh|Dang Ho Anh]]
-> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
+> [!note]+ 2026-09-07 12:09 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] ,
 > I have checked the project you sent. 
 > {*}Regarding point 1{*}: The `DataElement` mapping of the testing port in `CCAN_Rx` is incorrect. Could you update it and check the result?
 >
@@ -81,12 +85,12 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 -------
 
 > [!note]+ 2026-09-05 18:18 · [[JSM_Service_Bot|JSM Service Bot]]
-> [[Junsheng_ZHANG|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-09-05 18:18 · [[Junsheng_ZHANG|Junsheng ZHANG]]
-> Hi [[Dang_Ho_Anh|Dang Ho Anh]] ,
+> [!note]+ 2026-09-05 18:18 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
+> Hi [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] ,
 >
 > Following your guidance, I re-validated this issue on RTA-RTE_12.11.2pr2. I think the missing fix has been addressed partially, but there are still some problems.
 >
@@ -116,14 +120,14 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-09-04 03:37 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [!note]+ 2026-09-04 03:37 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
 > Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] ,
 >
 > Could you help answer my previous question?
 >
 >
 >
-> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] ,
 >
 > I understand that you are busy with another customer issue, but could you please spare some time to test the RTE pre-release package {{{}RTA-RTE_12.11.2pr2{}}}? I do not have the required environment on my side.
 >
@@ -131,7 +135,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-08-26 15:04 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [!note]+ 2026-08-26 15:04 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
 > [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] ,
 >
 > The feature of this RTE pre-release package, such as whether we need to add the RTE option --deviate-event-based-com-mapping, --no-optimized-ioc-channels, or other options.
@@ -139,13 +143,13 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 -------
 
 > [!note]+ 2026-08-26 15:00 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
-> Hi [[Dang_Ho_Anh|Dang Ho Anh]] ,
+> Hi [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] ,
 >  # Yes that is expected, RTE uses IOC for all channels when there is 1:N connection and at least one of the receiver is using IOC.
 >  # Question is not clear , to enable which feature?
 
 -------
 
-> [!note]+ 2026-08-26 14:53 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [!note]+ 2026-08-26 14:53 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
 > Thanks [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] ,
 > I have double-checked and have the following questions:
 >  # By default, when the RTE option `--no-optimized-ioc-channels` is not used, an IoC channel is used to communicate the timeout status between `Com` and the SWC, even though they are on the same partition. Is this the expected behavior?
@@ -154,13 +158,13 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 >
 >
 > Regarding the IoC generation by RTA-OS, I do not have the compiler on my side, so I am not able to verify it.
-> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] , could you help generate the OS and compile the software to ensure that the pre-release package works? Testing it on a real board would be great.
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] , could you help generate the OS and compile the software to ensure that the pre-release package works? Testing it on a real board would be great.
 > I will prepare the project based on the LZCU project you sent me and share it with you later today.
 
 -------
 
 > [!note]+ 2026-08-25 18:28 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
-> Hello  [[Dang_Ho_Anh|Dang Ho Anh]] ,
+> Hello  [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] ,
 >
 > We analyzed reported observations in generated code and confirm there are no major findings apart from "composite.status getting updated two times in Rte_COMCbk function" which can be minor fix and not blocking.
 >
@@ -175,14 +179,14 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 -------
 
 > [!note]+ 2026-08-25 11:42 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
-> Hi [[Dang_Ho_Anh|Dang Ho Anh]] , able to generate using this project. Thank you.
+> Hi [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] , able to generate using this project. Thank you.
 >
 > FYI [[Matthew_Greenfield|Matthew Greenfield]] ,[[Jack_Whitham|Jack Whitham]] 
 > [^RH_16520_Test_Project_12110 1.zip]
 
 -------
 
-> [!note]+ 2026-08-25 10:59 · [[Junsheng_ZHANG|Junsheng ZHANG]]
+> [!note]+ 2026-08-25 10:59 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
 > Gen BSW First
 >
 > ![[RH-16520-image-2026-08-25-16-59-53-309.png]]
@@ -190,12 +194,12 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 -------
 
 > [!note]+ 2026-08-25 10:52 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
-> Hi [[Dang_Ho_Anh|Dang Ho Anh]] as discussed on call,  with given project RTE generation is failing with errors, see attached file.
+> Hi [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] as discussed on call,  with given project RTE generation is failing with errors, see attached file.
 > [^RteErr.xml]
 
 -------
 
-> [!note]+ 2026-08-25 02:24 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [!note]+ 2026-08-25 02:24 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
 > Hi [[Simon_Wadsworth|Simon Wadsworth]] and [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]] 
 >
 > I have verified `RTA-RTE_12.11.2pr2` with my test project. The attached file includes my test project and some concern points regarding this pre-release version.
@@ -203,13 +207,13 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 > Could you please check these points and fix them if they are valid?
 >
 >
-> CC: [[Jiaqi_JI|Jiaqi JI]] [[Junsheng_ZHANG|Junsheng ZHANG]] [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
+> CC: [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]] [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
 > [^RH-16520_VerificationResult.zip]
 
 -------
 
-> [!note]+ 2026-08-24 07:01 · [[Dang_Ho_Anh|Dang Ho Anh]]
-> Hi [[Jiaqi_JI|Jiaqi JI]] ,
+> [!note]+ 2026-08-24 07:01 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]] ,
 >
 > As communicated, I will verify this issue using {{{}RTA-RTE_12.12.1pr1.zip{}}}, which has been released by the product team to address this issue.
 >
@@ -226,8 +230,8 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-07-21 11:42 · [[Phuong_Nguyen_Le|Phuong Nguyen Le]]
-> [[Jiaqi_JI|Jiaqi JI]] ,Can you share some info about your discussion with Alex? 
+> [!note]+ 2026-07-21 11:42 · [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]]
+> [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]] ,Can you share some info about your discussion with Alex? 
 >
 > Our sharing will be valuable for another user having similar isssue.
 >
@@ -235,28 +239,28 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-07-17 03:25 · [[Jiaqi_JI|Jiaqi JI]]
-> Hi [[Dang_Ho_Anh|Dang Ho Anh]] ,
+> [!note]+ 2026-07-17 03:25 · [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]]
+> Hi [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] ,
 >
 > This ticket has been discussed with Alex by separate email. Thanks a lot for your support!
 
 -------
 
-> [!note]+ 2026-07-16 06:15 · [[Dang_Ho_Anh|Dang Ho Anh]]
-> Hi [[Jiaqi_JI|Jiaqi JI]] ,
+> [!note]+ 2026-07-16 06:15 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]] ,
 >
 > Could you please align with the PF team on the expected timeline and release type (ESR or official release) for this issue?
 
 -------
 
-> [!note]+ 2026-07-10 15:09 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [!note]+ 2026-07-10 15:09 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
 > [[Jack_Whitham|Jack Whitham]] Please check this project:
 > [^Isolar_RH-16520.zip]
 
 -------
 
 > [!note]+ 2026-07-10 14:54 · [[Jack_Whitham|Jack Whitham]]
-> [[Dang_Ho_Anh|Dang Ho Anh]] please could you attach the project that was used to generate the "case 1" Rte.c file in the RH-16520_RteGeneration.zip file, to help me to understand and reproduce the issue?
+> [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] please could you attach the project that was used to generate the "case 1" Rte.c file in the RH-16520_RteGeneration.zip file, to help me to understand and reproduce the issue?
 
 -------
 
@@ -266,7 +270,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 -------
 
 > [!note]+ 2026-07-02 09:48 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
-> Hi [[Dang_Ho_Anh|Dang Ho Anh]] I confirm the reported issues. Unfortunately, there are issues in RTE handling Com callback timeout  notification with the combination of Port FAN IN and data transformation.  Internal ticket to handle these fixes will be linked soon.
+> Hi [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] I confirm the reported issues. Unfortunately, there are issues in RTE handling Com callback timeout  notification with the combination of Port FAN IN and data transformation.  Internal ticket to handle these fixes will be linked soon.
 
 -------
 
@@ -290,7 +294,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 
 -------
 
-> [!note]+ 2026-07-01 12:15 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [!note]+ 2026-07-01 12:15 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
 > Dear [Koduri Vamsi Kiran (ETAS-ECM/XPC-Abt1)](https://confluence.etas-dev.com/display/~kod4abt)
 >
 > Please find my analysis for the ticket below:
@@ -326,32 +330,32 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 >
 > [^RH-16520_RteGeneration.zip]
 >
-> CC: [[Junsheng_ZHANG|Junsheng ZHANG]] [[Sisi_TAO|Sisi TAO]] [[Xiao_BAI|Xiao BAI]] [[Jiaqi_JI|Jiaqi JI]] 
+> CC: [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] [[TAO_Sisi_(ETAS-ECMXSF-CN)|Sisi TAO]] [[BAI_Xiao_(ETAS-ECMXSF-CN)|Xiao BAI]] [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]] 
 
 -------
 
-> [!note]+ 2026-07-01 12:15 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [!note]+ 2026-07-01 12:15 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
 > [^RH-16520_RteGeneration.zip]
 
 -------
 
-> [!note]+ 2026-07-01 04:16 · [[Sisi_TAO|Sisi TAO]]
-> Hi [[Dang_Ho_Anh|Dang Ho Anh]]  [[Su_Nguyen_Quoc|Su Nguyen Quoc]] 
+> [!note]+ 2026-07-01 04:16 · [[TAO_Sisi_(ETAS-ECMXSF-CN)|Sisi TAO]]
+> Hi [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]  [[Nguyen_Quoc_Su_(MSETA-Hub-CN)|Su Nguyen Quoc]] 
 >
-> [[Xiao_BAI|Xiao BAI]] is trying to reproduce this issue on our project, because customer project is not allow to share.
+> [[BAI_Xiao_(ETAS-ECMXSF-CN)|Xiao BAI]] is trying to reproduce this issue on our project, because customer project is not allow to share.
 >
-> I didn't send [[Dang_Ho_Anh|Dang Ho Anh]] any project this week. But last week I did share one. That one was to reproduce another issue, so that one is not able to produce this issue.
+> I didn't send [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] any project this week. But last week I did share one. That one was to reproduce another issue, so that one is not able to produce this issue.
 
 -------
 
-> [!note]+ 2026-06-30 17:41 · [[Dang_Ho_Anh|Dang Ho Anh]]
-> [[Su_Nguyen_Quoc|Su Nguyen Quoc]] [[Junsheng_ZHANG|Junsheng ZHANG]] ,
-> I’m now able to reproduce the issue after updating the project that [[Sisi_TAO|Sisi TAO]] sent me yesterday.
+> [!note]+ 2026-06-30 17:41 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> [[Nguyen_Quoc_Su_(MSETA-Hub-CN)|Su Nguyen Quoc]] [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] ,
+> I’m now able to reproduce the issue after updating the project that [[TAO_Sisi_(ETAS-ECMXSF-CN)|Sisi TAO]] sent me yesterday.
 
 -------
 
-> [!note]+ 2026-06-30 13:02 · [[Su_Nguyen_Quoc|Su Nguyen Quoc]]
-> Hi [[Junsheng_ZHANG|Junsheng ZHANG]],
+> [!note]+ 2026-06-30 13:02 · [[Nguyen_Quoc_Su_(MSETA-Hub-CN)|Su Nguyen Quoc]]
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]],
 > As discussed, could you pls share 
 > #### 1-5. Mandatory Evidence Package
 >
@@ -368,7 +372,7 @@ ETAS – Empowering Tomorrow’s Automotive Software**
 >  # No project → Cannot reproduce
 >  # No reproducer → Cannot verify|
 >
-> Then [[Dang_Ho_Anh|Dang Ho Anh]]  could start to support, thanks!
+> Then [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]  could start to support, thanks!
 
 -------
 

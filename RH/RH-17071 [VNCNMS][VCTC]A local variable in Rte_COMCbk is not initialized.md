@@ -7,15 +7,15 @@ type: Support
 status: Solution Proposed
 priority: High
 project: RH
-assignee: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
-reporter: "[[Junsheng_ZHANG|Junsheng ZHANG]]"
+assignee: "[[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]"
+reporter: "[[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]"
 tags: [jira/comp/rta-rte, jira/label/vncnms]
 fix-versions: []
 epic: null
 parent: null
 created: "2026-08-30T08:52:16.000+0200"
-updated: "2026-09-10T05:35:48.000+0200"
-synced-at: "2026-09-11T01:36:25.139Z"
+updated: "2026-09-11T15:13:49.000+0200"
+synced-at: "2026-09-12T07:38:52.171Z"
 jira-orphaned: false
 profile: Cariad
 ---
@@ -55,14 +55,18 @@ Hi hotline,
 
  ETAS – Empowering Tomorrow’s Automotive Software**
 
+## 关联
+
+- is mentioned in: [[RH-17085 The RTE generated section name is incorrect.]]
+
 ## 评论
 
-> [!note]+ 2026-09-04 10:34 · [[Dang_Ho_Anh|Dang Ho Anh]]
-> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
+> [!note]+ 2026-09-04 10:34 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] ,
 >
 > I see two possible options here:
 >  # Use the proper RTE function to retrieve the data. This option does not require an RTE update.
->  # If the customer still wants to apply the fix from RTE v12.12.0 to the Cariad version of RTA-CAR 12.11.x, [[Jiaqi_JI|Jiaqi JI]] needs to raise a request to the RTE team for the upgrade.
+>  # If the customer still wants to apply the fix from RTE v12.12.0 to the Cariad version of RTA-CAR 12.11.x, [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]] needs to raise a request to the RTE team for the upgrade.
 >
 > Could you please check this?
 >
@@ -71,23 +75,23 @@ Hi hotline,
 -------
 
 > [!note]+ 2026-09-04 09:18 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
-> Hi [[Dang_Ho_Anh|Dang Ho Anh]] , I am not in a position to answer this. This has to be discussed in Planning/Release meetings related to Cariad customer.
+> Hi [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] , I am not in a position to answer this. This has to be discussed in Planning/Release meetings related to Cariad customer.
 
 -------
 
-> [!note]+ 2026-09-04 09:09 · [[Dang_Ho_Anh|Dang Ho Anh]]
+> [!note]+ 2026-09-04 09:09 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
 > Hi [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]],
 > Can the fix from RTE v12.12.0 be applied to the Cariad customer’s RTA-CAR 12.11.x version?
 
 -------
 
 > [!note]+ 2026-09-03 14:30 · [[JSM_Service_Bot|JSM Service Bot]]
-> [[Junsheng_ZHANG|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
+> [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]], the comment you've just made is internal. Please note that internal comments do not transition an issue to 'Waiting for Level 2'.
 
 -------
 
-> [!note]+ 2026-09-03 14:30 · [[Junsheng_ZHANG|Junsheng ZHANG]]
-> Hi [[Dang_Ho_Anh|Dang Ho Anh]] ,
+> [!note]+ 2026-09-03 14:30 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
+> Hi [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] ,
 >
 > Yes,Rte_Rx_xxx;
 >
@@ -95,8 +99,8 @@ Hi hotline,
 
 -------
 
-> [!note]+ 2026-09-03 11:20 · [[Dang_Ho_Anh|Dang Ho Anh]]
-> [[Junsheng_ZHANG|Junsheng ZHANG]] , Which variable customer use to directly read the data? {_}Rte_Rx{_}_* ?
+> [!note]+ 2026-09-03 11:20 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] , Which variable customer use to directly read the data? {_}Rte_Rx{_}_* ?
 
 -------
 
@@ -106,12 +110,12 @@ Hi hotline,
 -------
 
 > [!note]+ 2026-09-03 10:54 · [[Vamsi_Kiran_Koduri|Vamsi Kiran Koduri]]
-> Hi [[Junsheng_ZHANG|Junsheng ZHANG]]  May i know RTE version used here?
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]  May i know RTE version used here?
 
 -------
 
-> [!note]+ 2026-09-03 10:19 · [[Junsheng_ZHANG|Junsheng ZHANG]]
-> Hi [[Dang_Ho_Anh|Dang Ho Anh]] ,
+> [!note]+ 2026-09-03 10:19 · [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]]
+> Hi [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]] ,
 >
 >     You’re right. However, some of the customer’s modules directly read the values without checking the status. Although this is not very reasonable, we should still not upload/propagate incorrect data.
 
@@ -137,8 +141,8 @@ Hi hotline,
 
 -------
 
-> [!note]+ 2026-09-03 10:15 · [[Dang_Ho_Anh|Dang Ho Anh]]
-> Hi [[Junsheng_ZHANG|Junsheng ZHANG]] ,
+> [!note]+ 2026-09-03 10:15 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[ZHANG_Junsheng_(ETAS-ECMXSF-CN)|Junsheng ZHANG]] ,
 > In the `Rte_COMCbk()` function, when `Com_ReceiveSignalGroupArray()` returns {{{}COM_SERVICE_NOT_AVAILABLE{}}}, this leads to {{{}composite.status = COM_SERVICE_NOT_AVAILABLE{}}}. In this case, `composite.transformerError` and `composite.data` have unspecified values, as you mentioned.
 >
 > When `Rte_Read()` is called to get the data, this function returns {{{}RTE_E_COM_STOPPED{}}}.
@@ -154,13 +158,13 @@ Hi hotline,
 
 -------
 
-> [!note]+ 2026-09-03 04:33 · [[Dang_Ho_Anh|Dang Ho Anh]]
-> Hi [[Jiaqi_JI|Jiaqi JI]] We have just returned from national holiday, and I will check this ticket.
+> [!note]+ 2026-09-03 04:33 · [[Ho_Anh_Dang_(MSETA-Hub-CN)|Dang Ho Anh]]
+> Hi [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]] We have just returned from national holiday, and I will check this ticket.
 
 -------
 
-> [!note]+ 2026-09-01 04:51 · [[Jiaqi_JI|Jiaqi JI]]
-> Hi [[Phuong_Nguyen_Le|Phuong Nguyen Le]] ,
+> [!note]+ 2026-09-01 04:51 · [[JI_Jiaqi_(ETAS-ECMXSF-CN)|Jiaqi JI]]
+> Hi [[Nguyen_Le_Phuong_(MSETA-Hub-CN)|Phuong Nguyen Le]] ,
 >
 > Could you help assign one engineer for the issue investigation?
 >
